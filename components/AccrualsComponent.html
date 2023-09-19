@@ -1,0 +1,2617 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>site-centric documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
+            <a href="../" class="navbar-brand">site-centric documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Components</li>
+  <li class="breadcrumb-item"
+  >
+  AccrualsComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#info" class="nav-link active"
+                role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li class="nav-item">
+            <a href="#source" class="nav-link"
+                role="tab" id="source-tab" data-bs-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li class="nav-item">
+            <a href="#templateData" class="nav-link"
+                role="tab" id="templateData-tab" data-bs-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li class="nav-item">
+            <a href="#styleData" class="nav-link"
+                role="tab" id="styleData-tab" data-bs-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li class="nav-item">
+            <a href="#tree" class="nav-link"
+                role="tab" id="tree-tab" data-bs-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/advertising/accruals/accruals.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="../miscellaneous/functions.html#nInit" target="_self" >OnInit</a></code>
+    </p>
+
+
+<section data-compodoc="block-metadata">
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">providers</td>
+                <td class="col-md-9">
+                                <code><a href="../miscellaneous/variables.html#MAT_MOMENT_DATE_ADAPTER_OPTIONS" target="_self" >{
+    provide: DateAdapter, useClass: MomentDateAdapter, deps: [MAT_DATE_LOCALE, MAT_MOMENT_DATE_ADAPTER_OPTIONS],
+}</a></code>
+                            <code>{ provide: NGX_MAT_DATE_FORMATS, useValue: MY_FORMATS }</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-accruals</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./accruals.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./accruals.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-index">
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#accruals" >accruals</a>
+                            </li>
+                            <li>
+                                <a href="#accrualsprint" >accrualsprint</a>
+                            </li>
+                            <li>
+                                <a href="#accrualsSortedWeeks" >accrualsSortedWeeks</a>
+                            </li>
+                            <li>
+                                <a href="#accrualsWeeks" >accrualsWeeks</a>
+                            </li>
+                            <li>
+                                <a href="#actualDate" >actualDate</a>
+                            </li>
+                            <li>
+                                <a href="#columnsToDisplay" >columnsToDisplay</a>
+                            </li>
+                            <li>
+                                <a href="#current" >current</a>
+                            </li>
+                            <li>
+                                <a href="#currentOutstanding" >currentOutstanding</a>
+                            </li>
+                            <li>
+                                <a href="#dataSource" >dataSource</a>
+                            </li>
+                            <li>
+                                <a href="#dataSource2" >dataSource2</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                <a href="#datePickerElement" >datePickerElement</a>
+                            </li>
+                            <li>
+                                <a href="#dpmonthheader" >dpmonthheader</a>
+                            </li>
+                            <li>
+                                <a href="#expandedElement" >expandedElement</a>
+                            </li>
+                            <li>
+                                <a href="#filterForm" >filterForm</a>
+                            </li>
+                            <li>
+                                <a href="#isTableExpanded" >isTableExpanded</a>
+                            </li>
+                            <li>
+                                <a href="#loading" >loading</a>
+                            </li>
+                            <li>
+                                <a href="#maxDate" >maxDate</a>
+                            </li>
+                            <li>
+                                <a href="#minDate" >minDate</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                <a href="#paginator" >paginator</a>
+                            </li>
+                            <li>
+                                <a href="#selectedSite" >selectedSite</a>
+                            </li>
+                            <li>
+                                <a href="#selectedSiteName" >selectedSiteName</a>
+                            </li>
+                            <li>
+                                <a href="#sites" >sites</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                <a href="#sort" >sort</a>
+                            </li>
+                            <li>
+                                <a href="#studiesAccruals" >studiesAccruals</a>
+                            </li>
+                            <li>
+                                <a href="#studytotalaccruals" >studytotalaccruals</a>
+                            </li>
+                            <li>
+                                <a href="#today" >today</a>
+                            </li>
+                            <li>
+                                <a href="#totalaccruals" >totalaccruals</a>
+                            </li>
+                            <li>
+                                <a href="#totalaccrualsSortedWeeks" >totalaccrualsSortedWeeks</a>
+                            </li>
+                            <li>
+                                <a href="#totalaccrualsWeeks" >totalaccrualsWeeks</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#chosenMonthHandler" >chosenMonthHandler</a>
+                            </li>
+                            <li>
+                                <a href="#filter" >filter</a>
+                            </li>
+                            <li>
+                                <a href="#getMonth" >getMonth</a>
+                            </li>
+                            <li>
+                                <a href="#getTotalperCol" >getTotalperCol</a>
+                            </li>
+                            <li>
+                                <a href="#getYear" >getYear</a>
+                            </li>
+                            <li>
+                                <a href="#groupBy" >groupBy</a>
+                            </li>
+                            <li>
+                                <a href="#minus" >minus</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#printPreview" >printPreview</a>
+                            </li>
+                            <li>
+                                <a href="#removeAccrual" >removeAccrual</a>
+                            </li>
+                            <li>
+                                <a href="#toggleTableRows" >toggleTableRows</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+                    <tr>
+                        <td class="col-md-4">
+                            <h6><b>Accessors</b></h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <ul class="index-list">
+                                <li>
+                                    <a href="#getkeys" >getkeys</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-constructor">
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(dialog: MatDialog, caledarService: <a href="../injectables/CalendarService.html" target="_self">CalendarService</a>, siteService: <a href="../injectables/SiteService.html" target="_self">SiteService</a>, userPreferences: <a href="../injectables/UserPreferencesService.html" target="_self">UserPreferencesService</a>, authService: <a href="../injectables/AuthenticationService.html" target="_self">AuthenticationService</a>, invoiceService: <a href="../injectables/InvoicesService.html" target="_self">InvoicesService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="90" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:90</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>dialog</td>
+                                                  
+                                                        <td>
+                                                                    <code>MatDialog</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>caledarService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CalendarService.html" target="_self" >CalendarService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>siteService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/SiteService.html" target="_self" >SiteService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>userPreferences</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UserPreferencesService.html" target="_self" >UserPreferencesService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>authService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AuthenticationService.html" target="_self" >AuthenticationService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>invoiceService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/InvoicesService.html" target="_self" >InvoicesService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section data-compodoc="block-methods">
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="chosenMonthHandler"></a>
+                    <span class="name">
+                        <span ><b>chosenMonthHandler</b></span>
+                        <a href="#chosenMonthHandler"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>chosenMonthHandler(event, dp, input)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="231"
+                            class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:231</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>dp</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>input</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filter"></a>
+                    <span class="name">
+                        <span ><b>filter</b></span>
+                        <a href="#filter"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>filter(form)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="162"
+                            class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:162</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>form</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getMonth"></a>
+                    <span class="name">
+                        <span ><b>getMonth</b></span>
+                        <a href="#getMonth"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getMonth(data)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="106"
+                            class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:106</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getTotalperCol"></a>
+                    <span class="name">
+                        <span ><b>getTotalperCol</b></span>
+                        <a href="#getTotalperCol"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getTotalperCol(colname)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="155"
+                            class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:155</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>colname</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getYear"></a>
+                    <span class="name">
+                        <span ><b>getYear</b></span>
+                        <a href="#getYear"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getYear(data)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="103"
+                            class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:103</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="groupBy"></a>
+                    <span class="name">
+                        <span ><b>groupBy</b></span>
+                        <a href="#groupBy"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>groupBy(arr, property)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="148"
+                            class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:148</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>arr</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>property</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="minus"></a>
+                    <span class="name">
+                        <span ><b>minus</b></span>
+                        <a href="#minus"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>minus(a, b)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="222"
+                            class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:222</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>a</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>b</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="110"
+                            class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:110</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="printPreview"></a>
+                    <span class="name">
+                        <span ><b>printPreview</b></span>
+                        <a href="#printPreview"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>printPreview()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="133"
+                            class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:133</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="removeAccrual"></a>
+                    <span class="name">
+                        <span ><b>removeAccrual</b></span>
+                        <a href="#removeAccrual"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>removeAccrual(data)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="241"
+                            class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:241</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="toggleTableRows"></a>
+                    <span class="name">
+                        <span ><b>toggleTableRows</b></span>
+                        <a href="#toggleTableRows"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>toggleTableRows()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="140"
+                            class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:140</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section data-compodoc="block-properties">
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="accruals"></a>
+                    <span class="name">
+                        <span ><b>accruals</b></span>
+                        <a href="#accruals"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="62" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:62</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="accrualsprint"></a>
+                    <span class="name">
+                        <span ><b>accrualsprint</b></span>
+                        <a href="#accrualsprint"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="87" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:87</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="accrualsSortedWeeks"></a>
+                    <span class="name">
+                        <span ><b>accrualsSortedWeeks</b></span>
+                        <a href="#accrualsSortedWeeks"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="63" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:63</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="accrualsWeeks"></a>
+                    <span class="name">
+                        <span ><b>accrualsWeeks</b></span>
+                        <a href="#accrualsWeeks"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="61" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:61</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actualDate"></a>
+                    <span class="name">
+                        <span ><b>actualDate</b></span>
+                        <a href="#actualDate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+    yr: null,
+    mt: null
+  }</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="78" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:78</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="columnsToDisplay"></a>
+                    <span class="name">
+                        <span ><b>columnsToDisplay</b></span>
+                        <a href="#columnsToDisplay"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>string[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[&#x27;Please select a site and date first!&#x27;]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="53" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:53</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="current"></a>
+                    <span class="name">
+                        <span ><b>current</b></span>
+                        <a href="#current"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+    yr: null,
+    mt: null
+  }</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="69" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:69</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="currentOutstanding"></a>
+                    <span class="name">
+                        <span ><b>currentOutstanding</b></span>
+                        <a href="#currentOutstanding"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+    reimb: &#x27;&#x27;,
+    nonReimb:&#x27;&#x27;,
+    total: &#x27;&#x27;
+  }</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="73" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:73</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dataSource"></a>
+                    <span class="name">
+                        <span ><b>dataSource</b></span>
+                        <a href="#dataSource"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>MatTableDataSource&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="54" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:54</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dataSource2"></a>
+                    <span class="name">
+                        <span ><b>dataSource2</b></span>
+                        <a href="#dataSource2"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>MatTableDataSource&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="56" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:56</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="datePickerElement"></a>
+                    <span class="name">
+                            <span class="modifier"></span>
+                        <span ><b>datePickerElement</b></span>
+                        <a href="#datePickerElement"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>MatDatepicker</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <b>Decorators : </b>
+                        <br />
+                        <code>
+                            @ViewChild(&#x27;from&#x27;)<br />
+                        </code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="82" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:82</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dpmonthheader"></a>
+                    <span class="name">
+                        <span ><b>dpmonthheader</b></span>
+                        <a href="#dpmonthheader"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="88" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:88</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="expandedElement"></a>
+                    <span class="name">
+                        <span ><b>expandedElement</b></span>
+                        <a href="#expandedElement"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>any[] | null</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="55" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:55</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filterForm"></a>
+                    <span class="name">
+                        <span ><b>filterForm</b></span>
+                        <a href="#filterForm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>UntypedFormGroup</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="58" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:58</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isTableExpanded"></a>
+                    <span class="name">
+                        <span ><b>isTableExpanded</b></span>
+                        <a href="#isTableExpanded"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>JSON.parse(localStorage.getItem(&#x27;scUserSettings&#x27;))?.accrualsExpanded</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="68" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:68</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loading"></a>
+                    <span class="name">
+                        <span ><b>loading</b></span>
+                        <a href="#loading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="86" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:86</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="maxDate"></a>
+                    <span class="name">
+                        <span ><b>maxDate</b></span>
+                        <a href="#maxDate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new Date(new Date().getFullYear() , 11, 1)</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="90" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:90</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="minDate"></a>
+                    <span class="name">
+                        <span ><b>minDate</b></span>
+                        <a href="#minDate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new Date(new Date().getFullYear() - 13, 0, 1)</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="89" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:89</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="paginator"></a>
+                    <span class="name">
+                            <span class="modifier"></span>
+                        <span ><b>paginator</b></span>
+                        <a href="#paginator"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>MatPaginator</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <b>Decorators : </b>
+                        <br />
+                        <code>
+                            @ViewChild(MatPaginator, {static: true})<br />
+                        </code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="83" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:83</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="selectedSite"></a>
+                    <span class="name">
+                        <span ><b>selectedSite</b></span>
+                        <a href="#selectedSite"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>JSON.parse(localStorage.getItem(&#x27;scUserSettings&#x27;))?.selectedSite</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="57" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:57</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="selectedSiteName"></a>
+                    <span class="name">
+                        <span ><b>selectedSiteName</b></span>
+                        <a href="#selectedSiteName"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="85" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:85</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sites"></a>
+                    <span class="name">
+                        <span ><b>sites</b></span>
+                        <a href="#sites"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="59" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:59</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sort"></a>
+                    <span class="name">
+                            <span class="modifier"></span>
+                        <span ><b>sort</b></span>
+                        <a href="#sort"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>MatSort</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <b>Decorators : </b>
+                        <br />
+                        <code>
+                            @ViewChild(MatSort, {static: true})<br />
+                        </code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="84" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:84</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="studiesAccruals"></a>
+                    <span class="name">
+                        <span ><b>studiesAccruals</b></span>
+                        <a href="#studiesAccruals"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="52" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:52</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="studytotalaccruals"></a>
+                    <span class="name">
+                        <span ><b>studytotalaccruals</b></span>
+                        <a href="#studytotalaccruals"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="66" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:66</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="today"></a>
+                    <span class="name">
+                        <span ><b>today</b></span>
+                        <a href="#today"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new Date()</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="60" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:60</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="totalaccruals"></a>
+                    <span class="name">
+                        <span ><b>totalaccruals</b></span>
+                        <a href="#totalaccruals"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="65" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:65</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="totalaccrualsSortedWeeks"></a>
+                    <span class="name">
+                        <span ><b>totalaccrualsSortedWeeks</b></span>
+                        <a href="#totalaccrualsSortedWeeks"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="67" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:67</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="totalaccrualsWeeks"></a>
+                    <span class="name">
+                        <span ><b>totalaccrualsWeeks</b></span>
+                        <a href="#totalaccrualsWeeks"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="64" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:64</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-accessors">
+    <h3 id="accessors">
+        Accessors
+    </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getkeys"></a>
+                        <span class="name"><b>getkeys</b><a href="#getkeys"><span class="icon ion-ios-link"></span></a></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <span class="accessor"><b>get</b><code>getkeys()</code></span>
+                    </td>
+                </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="137" class="link-to-prism">src/app/components/advertising/accruals/accruals.component.ts:137</a></div>
+                                </td>
+                            </tr>
+
+            </tbody>
+        </table>
+</section>
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, ViewChild } from &#x27;@angular/core&#x27;;
+import { UntypedFormGroup, UntypedFormControl, Validators } from &#x27;@angular/forms&#x27;;
+import { MatDatepicker } from &#x27;@angular/material/datepicker&#x27;;
+import { MatDialog } from &#x27;@angular/material/dialog&#x27;;
+import { MatPaginator } from &#x27;@angular/material/paginator&#x27;;
+import { MatSort } from &#x27;@angular/material/sort&#x27;;
+import { MatTableDataSource } from &#x27;@angular/material/table&#x27;;
+import { AuthenticationService } from &#x27;src/app/services/administration/authentication.service&#x27;;
+import { InvoicesService } from &#x27;src/app/services/advertising/invoices.service&#x27;;
+import { SiteService } from &#x27;src/app/services/regulatory/site.service&#x27;;
+import * as _moment from &#x27;moment&#x27;;
+// tslint:disable-next-line:no-duplicate-imports
+import {default as _rollupMoment, Moment} from &#x27;moment&#x27;;
+import { CalendarService } from &#x27;src/app/services/advertising/calendar.service&#x27;;
+import { trigger, state, style, transition, animate } from &#x27;@angular/animations&#x27;;
+import { MomentDateAdapter, MAT_MOMENT_DATE_ADAPTER_OPTIONS } from &#x27;@angular/material-moment-adapter&#x27;;
+import { DateAdapter, MAT_DATE_LOCALE, MAT_DATE_FORMATS } from &#x27;@angular/material/core&#x27;;
+import { NGX_MAT_DATE_FORMATS } from &#x27;@angular-material-components/datetime-picker&#x27;;
+import { FeedBackDialogComponent } from &#x27;../../common/dialogs/utils/feed-back-dialog/feed-back-dialog.component&#x27;;
+import { UserPreferencesService } from &#x27;src/app/services/utils/user-preferences.service&#x27;;
+import { DatepickerMonthHeaderComponent } from &#x27;../../common/dialogs/utils/datepicker-month-header/datepicker-month-header.component&#x27;;
+const moment &#x3D; _rollupMoment || _moment;
+const MY_FORMATS &#x3D; {
+  parse: {
+    dateInput: &#x27;MM/YYYY&#x27;,
+  },
+  display: {
+    dateInput: &#x27;MM/YYYY&#x27;,
+    monthYearLabel: &#x27;MMM YYYY&#x27;,
+    dateA11yLabel: &#x27;LL&#x27;,
+    monthYearA11yLabel: &#x27;MMMM YYYY&#x27;,
+  },
+}
+@Component({
+  selector: &#x27;app-accruals&#x27;, animations: [trigger(&#x27;detailExpand&#x27;, [
+    state(&#x27;collapsed&#x27;, style({ height: &#x27;0px&#x27;, minHeight: &#x27;0&#x27; })),
+    state(&#x27;expanded&#x27;, style({ height: &#x27;*&#x27; })),
+    transition(&#x27;expanded &lt;&#x3D;&gt; collapsed&#x27;, animate(&#x27;225ms cubic-bezier(0.4, 0.0, 0.2, 1)&#x27;)),
+])],
+  templateUrl: &#x27;./accruals.component.html&#x27;,
+  styleUrls: [&#x27;./accruals.component.scss&#x27;],
+  providers: [  
+  {
+    provide: DateAdapter,
+    useClass: MomentDateAdapter,
+    deps: [MAT_DATE_LOCALE, MAT_MOMENT_DATE_ADAPTER_OPTIONS],
+  },
+
+  { provide: NGX_MAT_DATE_FORMATS, useValue: MY_FORMATS },
+]})
+export class AccrualsComponent implements OnInit {
+  studiesAccruals&#x3D;[]
+  columnsToDisplay: string[] &#x3D; [&#x27;Please select a site and date first!&#x27;];
+  dataSource: MatTableDataSource&lt;any&gt;;
+  expandedElement: any[] | null;
+  dataSource2: MatTableDataSource&lt;any&gt;;
+  selectedSite &#x3D; JSON.parse(localStorage.getItem(&#x27;scUserSettings&#x27;))?.selectedSite;
+  filterForm: UntypedFormGroup;
+  sites;
+  today &#x3D; new Date()
+  accrualsWeeks &#x3D; []
+  accruals &#x3D; [];
+  accrualsSortedWeeks &#x3D; [];
+  totalaccrualsWeeks &#x3D; []
+  totalaccruals &#x3D; [];
+  studytotalaccruals
+  totalaccrualsSortedWeeks &#x3D; [];
+  isTableExpanded &#x3D; JSON.parse(localStorage.getItem(&#x27;scUserSettings&#x27;))?.accrualsExpanded;
+  current &#x3D; {
+    yr: null,
+    mt: null
+  };
+  currentOutstanding &#x3D; {
+    reimb: &#x27;&#x27;,
+    nonReimb:&#x27;&#x27;,
+    total: &#x27;&#x27;
+  }
+  actualDate &#x3D; {
+    yr: null,
+    mt: null
+  };
+  @ViewChild(&#x27;from&#x27;) datePickerElement &#x3D;  MatDatepicker
+  @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
+  @ViewChild(MatSort, { static: true }) sort: MatSort;
+  selectedSiteName;
+  loading &#x3D;false;
+  accrualsprint &#x3D;false;
+  dpmonthheader;
+  minDate &#x3D; new Date(new Date().getFullYear() - 13, 0, 1);
+  maxDate &#x3D; new Date(new Date().getFullYear() , 11, 1);
+  constructor(private dialog: MatDialog,
+              private caledarService: CalendarService,
+              private siteService: SiteService,
+              private userPreferences:UserPreferencesService,
+              private authService: AuthenticationService,
+              private invoiceService: InvoicesService) {     
+                this.dpmonthheader &#x3D; DatepickerMonthHeaderComponent;
+                this.dataSource &#x3D; new MatTableDataSource();
+                this.today &#x3D; new Date();
+                this.today.setDate(0)
+              }
+
+getYear(data){
+  return new Date(data).getFullYear();
+}
+getMonth(data){
+  return new Date(data).getMonth()+1;
+}
+
+  ngOnInit(): void {
+    this.filterForm &#x3D; new UntypedFormGroup({
+      siteId: new UntypedFormControl(&#x27;&#x27;, Validators.required),
+      date : new UntypedFormControl( moment(JSON.parse(localStorage.getItem(&#x27;scUserSettings&#x27;))?.selectedMonth) || moment())
+    })
+    
+    if(JSON.parse(localStorage.getItem(&#x27;siteCentric.sites&#x27;))?.length !&#x3D; 0 &amp;&amp; JSON.parse(localStorage.getItem(&#x27;siteCentric.sites&#x27;)) !&#x3D; null )   {
+      this.sites &#x3D; JSON.parse(localStorage.getItem(&#x27;siteCentric.sites&#x27;));
+      this.filterForm.controls.siteId.setValue(this.sites.find(elem &#x3D;&gt; elem?.id &#x3D;&#x3D; JSON.parse(localStorage.getItem(&#x27;scUserSettings&#x27;))?.selectedSite?.id));
+      this.filterForm.controls.siteId.updateValueAndValidity();
+      this.filter(this.filterForm)
+
+    } else {
+       this.siteService.getAll2(this.authService.loginUserValue.company.id).subscribe(res &#x3D;&gt; {
+        localStorage.setItem(&#x27;siteCentric.sites&#x27;, JSON.stringify(res));
+        this.sites &#x3D; res;
+        this.filterForm.controls.siteId.setValue( this.sites.find(elem &#x3D;&gt; elem?.id &#x3D;&#x3D; JSON.parse(localStorage.getItem(&#x27;scUserSettings&#x27;))?.selectedSite?.id) );
+        this.filterForm.controls.siteId.updateValueAndValidity();
+        this.filter(this.filterForm)
+      });
+    } 
+  }
+
+    printPreview(){
+      this.accrualsprint &#x3D; !this.accrualsprint
+      }
+
+  get getkeys() {
+    return Object.values(this.studiesAccruals)
+  }
+  toggleTableRows() {
+    this.isTableExpanded &#x3D; !this.isTableExpanded;
+    
+    this.userPreferences.setuserState(&#x27;accrualsExpanded&#x27;,this.isTableExpanded)
+    this.dataSource.data.forEach((row: any) &#x3D;&gt; {
+      row.isExpanded &#x3D; this.isTableExpanded;
+    })
+  }
+  groupBy(arr, property) {
+    return arr.reduce(function (memo, x) {
+        if (!memo[x[property]]) { memo[x[property]] &#x3D; []; }
+        memo[x[property]].push(x);
+        return memo;
+    }, {});
+}
+getTotalperCol(colname) {
+  let total &#x3D; 0
+  this.studiesAccruals.map(elem &#x3D;&gt; {
+    total +&#x3D; parseFloat(elem[&#x60;${colname}&#x60;])
+  })
+  return total;
+}
+  filter(form) {
+    this.loading &#x3D; true;
+    this.selectedSiteName &#x3D; this.filterForm.controls.siteId.value.name
+    this.columnsToDisplay[0] &#x3D; this.selectedSiteName
+    if(this.filterForm.valid) {
+      this.caledarService.getCurrentDate().subscribe(res &#x3D;&gt; {
+        this.current.mt &#x3D; res?.mt;
+        this.current.yr &#x3D; res?.yr;
+        this.actualDate.mt &#x3D; res?.mt
+        this.actualDate.yr &#x3D; res?.yr
+        this.userPreferences.setuserState(&#x27;selectedSite&#x27;,this.filterForm.controls.siteId.value)
+        this.userPreferences.setuserState(&#x27;selectedMonth&#x27;,this.filterForm.controls.date.value,true)
+        this.invoiceService.getAccruals({siteId: this.filterForm.controls.siteId.value.id, yr:moment(this.filterForm.controls.date.value).format(&#x27;YYYY&#x27;) , mt: moment(this.filterForm.controls.date.value).format(&#x27;MM&#x27;)}).subscribe(res &#x3D;&gt; {
+          this.accruals &#x3D; res.monthAccruals;
+          this.totalaccruals &#x3D; res.totalAccruals;
+          this.studiesAccruals &#x3D; res?.studiesAccruals ?? [];
+          let total &#x3D;{
+            budgeted:0,
+            invoiced:0,
+            reimb:0,
+            nonreimb:0,
+            outstanding:0
+          }
+          this.studytotalaccruals &#x3D; total
+          Object.values(this.studiesAccruals).map(elem &#x3D;&gt; {
+            total.budgeted +&#x3D; elem.cost;
+            total.invoiced +&#x3D; elem.invoicedTotal;
+            total.reimb +&#x3D; this.minus(elem.reimb, elem.invoicedReimb);
+            total.nonreimb +&#x3D; this.minus(elem.nonReimb, elem.invoicedNonReimb);
+          })
+          total.outstanding &#x3D; total.budgeted - total.invoiced
+          this.studytotalaccruals &#x3D; total;
+          this.currentOutstanding.reimb &#x3D; res.totalReimbursable;
+          this.currentOutstanding.nonReimb &#x3D; res.totalNonReimbursable;
+          this.currentOutstanding.total &#x3D; res.totalCost;
+          this.totalaccrualsSortedWeeks &#x3D; Object.values(this.groupBy(res.totalAccruals, &#x27;finCalendarWeekId&#x27;)).map(obj &#x3D;&gt; obj)
+            this.accrualsSortedWeeks &#x3D;Object.values(this.groupBy(res.monthAccruals, &#x27;finCalendarWeekId&#x27;)).map(obj &#x3D;&gt; obj)
+         
+
+          
+          this.dataSource2 &#x3D; new MatTableDataSource(this.totalaccrualsSortedWeeks);
+          this.dataSource &#x3D; new MatTableDataSource(this.accrualsSortedWeeks);
+         
+          this.loading &#x3D; false;
+  
+  
+        })
+      }, err &#x3D;&gt; {
+        this.loading &#x3D; false;
+      })
+      
+    } else {
+      this.filterForm.markAllAsTouched()
+      this.loading &#x3D; false;
+
+    }
+   
+  }
+  
+
+  minus(a,b) {
+    if(Number.isNaN(Math.abs(parseFloat(a ? a : 0) - parseFloat(b ? b : 0)))) {
+      return 0;
+    } else {
+      return Math.abs(parseFloat(a ? a : 0) - parseFloat(b ? b : 0));
+    }
+    
+  }
+  
+  chosenMonthHandler(event, dp, input) {
+    dp.close();
+    this.actualDate &#x3D;{
+      yr: moment(event).format(&#x27;YYYY&#x27;),
+      mt: moment(event).format(&#x27;MM&#x27;)
+    }
+    this.filterForm.controls.date.setValue(moment(event).format(&#x27;YYYY-MM-DD&#x27;));
+    this.filterForm.controls.date.updateValueAndValidity();
+  }
+
+  removeAccrual(data) {
+    const ref &#x3D; this.dialog.open(FeedBackDialogComponent, {
+      data: {
+        message: &#x60;Are you sure you want to remove  ${data.eventName} + ${data.indicationName}  ?&#x60;
+      }
+    })
+    ref.afterClosed().subscribe(res &#x3D;&gt; {
+      if(res) {
+        this.caledarService.hideAccrualOnCalendar(data.eventId).subscribe(res &#x3D;&gt; {
+
+          this.filter(this.filterForm);   
+        })
+      }
+    })
+  }
+  
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;wrapper wrapper-content animated fadeInDown&quot;&gt;
+    &lt;div&gt;
+
+        &lt;div class&#x3D;&quot;row&quot;&gt;
+            &lt;div class&#x3D;&quot;col-lg-12 col-md-12 col-sm-12&quot;&gt;
+                &lt;div class&#x3D;&quot;ibox&quot;&gt;
+
+                        &lt;div class&#x3D;&quot;ibox-content&quot;&gt;
+                            &lt;div class&#x3D;&quot;d-flex justify-content-between  mb-2&quot;&gt;
+                                &lt;form autocomplete&#x3D;&quot;off&quot; action&#x3D;&quot;&quot;  [formGroup]&#x3D;&quot;filterForm&quot; (ngSubmit)&#x3D;&quot;filter(filterForm)&quot;&gt;
+                                    &lt;div class&#x3D;&quot;float-left d-flex&quot;&gt;
+                                        &lt;div class&#x3D;&quot;mr-2&quot;&gt;
+                                            &lt;mat-form-field&gt;
+                                                &lt;mat-select type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;{{&#x27;all-sites&#x27; | translate}}&quot; #siteSelect formControlName&#x3D;&quot;siteId&quot;  &gt;
+                                                    &lt;mat-option *ngFor&#x3D;&quot;let site of sites&quot; [value]&#x3D;&quot;site&quot; &gt;{{site.alias}}&lt;/mat-option&gt;
+                                                &lt;/mat-select&gt;
+                                            &lt;/mat-form-field&gt;
+                                        &lt;/div&gt;
+                                        &lt;mat-form-field &gt;
+                                            &lt;mat-label&gt;{{&#x27;month&#x27; | translate}}&lt;/mat-label&gt;
+                                            &lt;input matInput #dpInput [ngxMatDatetimePicker]&#x3D;&quot;from&quot; [max]&#x3D;&quot;maxDate&quot;   [min]&#x3D;&quot;minDate&quot; [readonly]&#x3D;&quot;true&quot; (click)&#x3D;&quot;from.open()&quot; formControlName&#x3D;&quot;date&quot;&gt;
+                                            &lt;mat-datepicker-toggle class&#x3D;&quot;position-sticky&quot; matSuffix [for]&#x3D;&quot;from&quot;&gt;&lt;/mat-datepicker-toggle&gt;
+                                            &lt;ngx-mat-datetime-picker  [hideTime]&#x3D;&quot;true&quot; #from   startView&#x3D;&quot;multi-year&quot;   [calendarHeaderComponent]&#x3D;&quot;dpmonthheader&quot;
+                                            (monthSelected)&#x3D;&quot;chosenMonthHandler($event, from, dpInput)&quot;&gt;&lt;/ngx-mat-datetime-picker&gt;
+                                            &lt;mat-error *ngIf&#x3D;&quot;filterForm.get(&#x27;date&#x27;).touched &amp;&amp; filterForm.get(&#x27;date&#x27;).hasError(&#x27;required&#x27;)&quot;&gt;&lt;/mat-error&gt;
+                                        &lt;/mat-form-field&gt;
+                                        &lt;div&gt;
+                                            &lt;button *ngIf&#x3D;&quot;!loading&quot; class&#x3D;&quot;btn btn-info btn-sm mt-2 ml-2&quot; type&#x3D;&quot;submit&quot;&gt;{{&#x27;user.manage-user.permissions.view&#x27; | translate}}&lt;/button&gt;
+                                            &lt;button *ngIf&#x3D;&quot;loading&quot;  type&#x3D;&quot;button&quot; class&#x3D;&quot;btn  btn-info btn-sm mt-2 ml-2&quot; &gt; &lt;app-loading-indicator class&#x3D;&quot;text-white&quot; [size]&#x3D;&quot;&#x27;2vh&#x27;&quot;&gt;&lt;/app-loading-indicator&gt;&lt;/button&gt;
+
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/form&gt;
+                                &lt;div class&#x3D;&quot;col-lg-2 col-sm-2 col-md-2 float-right justify-content-end&quot;&gt;
+                                    &lt;button class&#x3D;&quot;btn   btn-sm float-right mr-2&quot; *ngIf&#x3D;&quot;accruals.length&quot;  [ngClass]&#x3D;&quot;accrualsprint ? &#x27;btn-outline-secondary&#x27; :&#x27;btn-outline-info&#x27;&quot; [matTooltip]&#x3D;&quot;accrualsprint ? &#x27;Back to table&#x27; :&#x27;View Print Preview&#x27;&quot; type&#x3D;&quot;button&quot; (click)&#x3D;&quot;printPreview()&quot;&gt;&lt;i  [ngClass]&#x3D;&quot;accrualsprint ? &#x27;fa fa-table&#x27; :&#x27;fa fa-print&#x27;&quot; &gt;&lt;/i&gt;&lt;/button&gt;
+
+                                &lt;button class&#x3D;&quot;btn btn-success btn-sm float-right mr-2 &quot; *ngIf&#x3D;&quot;accruals.length&quot; matTooltip&#x3D;&quot;{{&#x27;toggle-weeks&#x27; | translate}}&quot;  (click)&#x3D;&quot;toggleTableRows()&quot;&gt;&lt;i class&#x3D;&quot;fa  &quot; [ngClass]&#x3D;&quot;isTableExpanded ? &#x27;fa-toggle-on&#x27; : &#x27;fa-toggle-off&#x27;&quot;&gt;&lt;/i&gt;&lt;/button&gt;    
+
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div id&#x3D;&quot;print-section&quot; *ngIf&#x3D;&quot;!loading &amp;&amp;  accruals.length &amp;&amp; !accrualsprint&quot;&gt;
+
+                                &lt;table mat-table
+                                        [dataSource]&#x3D;&quot;dataSource&quot; multiTemplateDataRows
+                                        class&#x3D;&quot;  mat-elevation-z8 w-100&quot;&gt;
+                                        
+                                    &lt;ng-container matColumnDef&#x3D;&quot;{{column}}&quot; *ngFor&#x3D;&quot;let column of columnsToDisplay&quot;&gt;
+                                        &lt;th mat-header-cell *matHeaderCellDef&gt; &lt;span [ngClass]&#x3D;&quot;column &#x3D;&#x3D; &#x27;Reimb.&#x27; ? &#x27;text-info&#x27; :  column &#x3D;&#x3D; &#x27;NonReimb.&#x27; ? &#x27;text-danger&#x27; : &#x27;&#x27; &quot;  class&#x3D;&quot;font-weight-bold h5&quot; &gt;{{column}} - {{&#x27;advertising.month-accruals&#x27; | translate}} - {{dpInput?.value }}&lt;/span&gt; &lt;/th&gt;
+                                        &lt;td mat-cell *matCellDef&#x3D;&quot;let element&quot; class&#x3D;&quot;text-center&quot;&gt;
+                                            &lt;span class&#x3D;&quot;font-weight-bold &quot; &gt;{{&#x27;week-of&#x27; | translate}} {{element[0].start | date: &#x27;MM/dd/yyyy&#x27;}} {{&#x27;to&#x27; | translate}} {{element[0].end | date: &#x27;MM/dd/yyyy&#x27; }}&lt;/span&gt;
+                    
+                                        &lt;/td&gt;
+                                    &lt;/ng-container&gt;
+                    
+                                    &lt;ng-container matColumnDef&#x3D;&quot;expandedDetail&quot;&gt;
+                                        &lt;td mat-cell *matCellDef&#x3D;&quot;let element;let j &#x3D; dataIndex&quot; [attr.colspan]&#x3D;&quot;columnsToDisplay?.length&quot;&gt;
+                                            &lt;div class&#x3D;&quot;example-element-detail&quot; [@detailExpand]&#x3D;&quot;isTableExpanded || element &#x3D;&#x3D; expandedElement ? &#x27;expanded&#x27; : &#x27;collapsed&#x27;&quot;&gt;
+                                                
+                                                        &lt;table class&#x3D;&quot;table table-bordered hover w-100&quot;&gt;
+                                                            &lt;thead&gt;
+                                                            &lt;tr&gt;
+                                                                &lt;th scope&#x3D;&quot;col&quot; style&#x3D;&quot;width:40%;&quot;&gt;{{&#x27;event-name&#x27; | translate}}/{{&quot;advertising.ad-type&quot; | translate}}&lt;/th&gt;
+                                                                &lt;th scope&#x3D;&quot;col&quot;&gt;{{&#x27;budgeted&#x27; | translate}}&lt;/th&gt;
+                                                                &lt;th scope&#x3D;&quot;col&quot; &gt;{{&#x27;invoiced&#x27; | translate}}&lt;/th&gt;
+                                                                &lt;th scope&#x3D;&quot;col&quot;  class&#x3D;&quot;text-info&quot;&gt;{{&#x27;reimbursable&#x27; | translate}}&lt;/th&gt;
+                                                                &lt;th scope&#x3D;&quot;col&quot; class&#x3D;&quot;text-danger&quot;&gt;{{&#x27;non-reimbursable&#x27; | translate}}&lt;/th&gt;
+                                                                &lt;th scope&#x3D;&quot;col&quot; &gt;{{&#x27;advertising.outstanding&#x27; | translate}}&lt;/th&gt;
+                                                                &lt;th  class&#x3D;&quot;lastrow&quot; scope&#x3D;&quot;col&quot; &gt;{{&#x27;action&#x27; | translate}}&lt;/th&gt;
+                                                            &lt;/tr&gt;
+                                                            &lt;/thead&gt;
+                                                                    &lt;tbody *ngFor&#x3D;&quot;let accruals of accrualsSortedWeeks[j]; let i &#x3D; index&quot;&gt;
+                                                                        &lt;td  style&#x3D;&quot;width:40%;text-overflow: ellipsis;
+                                                                        white-space: normal; word-break: break-all;&quot;&gt;{{accruals.vendorName}} - {{accruals.eventDateFrom | date: &#x27;MMM dd&#x27;}} - {{accruals.eventDateTo | date: &#x27;MMM dd&#x27;}} {{accruals.eventName}} ({{accruals.indicationName}}) &lt;br&gt;{{accruals.adType}} &lt;/td&gt;
+                                                                        &lt;td  style&#x3D;&quot;text-overflow: ellipsis;
+                                                                            white-space: normal; word-break: break-all;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{(accruals.cost || 0)| number:&#x27;1.2-2&#x27; }}
+                                                                        &lt;/td&gt;
+                                                                            &lt;td  style&#x3D;&quot;text-overflow: ellipsis;
+                                                                        white-space: normal; word-break: break-all;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{(accruals.invoicedTotal || 0)| number:&#x27;1.2-2&#x27; }} 
+                                                                            &lt;/td&gt;
+                                                                            &lt;td  class&#x3D;&quot;text-info&quot;  style&#x3D;&quot;text-overflow: ellipsis;
+                                                                            white-space: normal; word-break: break-all;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{ minus(accruals.reimb  || 0 , accruals.invoicedReimb  || 0) | number:&#x27;1.2-2&#x27; }} 
+                                                                        &lt;/td&gt;
+                                                                        &lt;td class&#x3D;&quot;text-danger&quot; style&#x3D;&quot;text-overflow: ellipsis;
+                                                                            white-space: normal; word-break: break-all;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{ minus(accruals.nonReimb  || 0 , accruals.invoicedNonReimb  || 0) | number:&#x27;1.2-2&#x27; }} 
+                                                                        &lt;/td&gt;
+                                                                        &lt;td  style&#x3D;&quot;text-overflow: ellipsis;
+                                                                            white-space: normal; word-break: break-all;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{minus(accruals.cost  || 0 , accruals.invoicedTotal  || 0) | number:&#x27;1.2-2&#x27; }} 
+                                                                        &lt;/td&gt;
+                                                                    &lt;td class&#x3D;&quot;lastrow&quot;&gt;
+                                                                        &lt;i class&#x3D;&quot;text-danger fa fa-times fa-lg fa-md&quot; style&#x3D;&quot;cursor: pointer;&quot; (click)&#x3D;&quot;removeAccrual(accruals)&quot;&gt;&lt;/i&gt;
+                                                                    &lt;/td&gt;
+                                                                            
+                                                                &lt;/tbody&gt;
+                                                        &lt;/table&gt;
+                                            &lt;/div&gt;
+                                        &lt;/td&gt;
+                                    &lt;/ng-container&gt;
+                                
+                                    &lt;tr mat-header-row *matHeaderRowDef&#x3D;&quot;columnsToDisplay&quot;&gt;&lt;/tr&gt;
+                                    &lt;tr mat-row *matRowDef&#x3D;&quot;let element; columns: columnsToDisplay;&quot;
+                                        class&#x3D;&quot;example-element-row&quot;
+                                        [class.example-expanded-row]&#x3D;&quot;expandedElement &#x3D;&#x3D;&#x3D; element || isTableExpanded&quot;
+                                        (click)&#x3D;&quot;expandedElement &#x3D; expandedElement &#x3D;&#x3D;&#x3D; element ? null : element&quot;&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr mat-row *matRowDef&#x3D;&quot;let row; columns: [&#x27;expandedDetail&#x27;]&quot; class&#x3D;&quot;example-detail-row&quot;&gt;&lt;/tr&gt;
+                                &lt;/table&gt;
+                            &lt;table mat-table
+                            [dataSource]&#x3D;&quot;dataSource2&quot; multiTemplateDataRows
+                            class&#x3D;&quot;  mat-elevation-z8 w-100&quot;&gt;
+                            
+                            &lt;ng-container matColumnDef&#x3D;&quot;{{column}}&quot; *ngFor&#x3D;&quot;let column of columnsToDisplay&quot;&gt;
+                                &lt;th cla mat-header-cell *matHeaderCellDef&gt; &lt;span class&#x3D;&quot;font-weight-bold h6&quot; [ngClass]&#x3D;&quot;column &#x3D;&#x3D; &#x27;Reimb.&#x27; ? &#x27;text-info&#x27; :  column &#x3D;&#x3D; &#x27;NonReimb.&#x27; ? &#x27;text-danger&#x27; : &#x27;&#x27; &quot; class&#x3D;&quot;font-weight-bold h5&quot; &gt;{{column}} - {{&#x27;advertising.total-accruals&#x27; | translate}} &lt;/span&gt; &lt;/th&gt;
+                                &lt;td mat-cell *matCellDef&#x3D;&quot;let element&quot; class&#x3D;&quot;text-center&quot;&gt;
+                                    &lt;span class&#x3D;&quot;font-weight-bold&quot; &gt;{{&#x27;week-of&#x27; | translate}} {{element[0].start | date: &#x27;MM/dd/yyyy&#x27;}} {{&#x27;to&#x27; | translate}} {{element[0].end | date: &#x27;MM/dd/yyyy&#x27; }}&lt;/span&gt;
+            
+                                &lt;/td&gt;
+                            &lt;/ng-container&gt;
+            
+                            &lt;ng-container matColumnDef&#x3D;&quot;expandedDetail&quot;&gt;
+                                &lt;td mat-cell *matCellDef&#x3D;&quot;let element; let j &#x3D; dataIndex&quot; [attr.colspan]&#x3D;&quot;columnsToDisplay?.length&quot;&gt;
+                                    &lt;div class&#x3D;&quot;example-element-detail&quot; [@detailExpand]&#x3D;&quot;isTableExpanded || element &#x3D;&#x3D; expandedElement ? &#x27;expanded&#x27; : &#x27;collapsed&#x27;&quot;&gt;
+                                        
+                                                &lt;table class&#x3D;&quot;table table-bordered hover w-100&quot; data-page-size&#x3D;&quot;8&quot; data-filtering&#x3D;&quot;true&quot; data-page-navigation&#x3D;&quot;.pagination&quot;&gt;
+                                                    &lt;thead&gt;
+                                                    &lt;tr&gt;
+                                                        &lt;th scope&#x3D;&quot;col&quot;  style&#x3D;&quot;width:40%;&quot; data-sort-initial&#x3D;&quot;ascending&quot; data-sorted&#x3D;&quot;true&quot;&gt;{{&#x27;event-name&#x27; | translate}}&lt;/th&gt;
+                                                        &lt;th scope&#x3D;&quot;col&quot; &gt;{{&#x27;budgeted&#x27; | translate}}&lt;/th&gt;
+                                                        &lt;th scope&#x3D;&quot;col&quot; &gt;{{&#x27;invoiced&#x27; | translate}}&lt;/th&gt;
+                                                        &lt;th scope&#x3D;&quot;col&quot;  class&#x3D;&quot;text-info&quot;&gt;{{&#x27;reimbursable&#x27; | translate}}&lt;/th&gt;
+                                                        &lt;th scope&#x3D;&quot;col&quot; class&#x3D;&quot;text-danger&quot;&gt;{{&#x27;non-reimbursable&#x27; | translate}}&lt;/th&gt;
+                                                        &lt;th scope&#x3D;&quot;col&quot; &gt;{{&#x27;advertising.outstanding&#x27; | translate}}&lt;/th&gt;
+                                                        &lt;th  class&#x3D;&quot;lastrow&quot; scope&#x3D;&quot;col&quot; &gt;{{&#x27;action&#x27; | translate}}&lt;/th&gt;
+                                                    &lt;/tr&gt;
+                                                    &lt;/thead&gt;
+                                                            &lt;tbody *ngFor&#x3D;&quot;let accruals of totalaccrualsSortedWeeks[j]; let i &#x3D; index&quot;&gt;
+                                                            &lt;td  style&#x3D;&quot;width:40%;text-overflow: ellipsis;
+                                                            white-space: normal; word-break: break-all;&quot;&gt;{{accruals.vendorName}} - {{accruals.eventDateFrom | date: &#x27;MMM dd&#x27;}} - {{accruals.eventDateTo | date: &#x27;MMM dd&#x27;}} {{accruals.eventName}} ({{accruals.indicationName}}) &lt;br&gt;{{accruals.adType}} &lt;/td&gt;
+                                                            &lt;td  style&#x3D;&quot;text-overflow: ellipsis;
+                                                                white-space: normal; word-break: break-all;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{(accruals.cost || 0)| number:&#x27;1.2-2&#x27; }}
+                                                            &lt;/td&gt;
+                                                                &lt;td  style&#x3D;&quot;text-overflow: ellipsis;
+                                                            white-space: normal; word-break: break-all;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{(accruals.invoicedTotal || 0)| number:&#x27;1.2-2&#x27; }} 
+                                                                &lt;/td&gt;
+                                                                &lt;td  class&#x3D;&quot;text-info&quot;  style&#x3D;&quot;text-overflow: ellipsis;
+                                                                white-space: normal; word-break: break-all;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{ minus(accruals.reimb  || 0 , accruals.invoicedReimb  || 0) | number:&#x27;1.2-2&#x27; }} 
+                                                            &lt;/td&gt;
+                                                            &lt;td class&#x3D;&quot;text-danger&quot; style&#x3D;&quot;text-overflow: ellipsis;
+                                                                white-space: normal; word-break: break-all;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{ minus(accruals.nonReimb  || 0 , accruals.invoicedNonReimb  || 0) | number:&#x27;1.2-2&#x27; }} 
+                                                            &lt;/td&gt;
+                                                            &lt;td  style&#x3D;&quot;text-overflow: ellipsis;
+                                                                white-space: normal; word-break: break-all;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{minus(accruals.cost  || 0 , accruals.invoicedTotal  || 0) | number:&#x27;1.2-2&#x27; }} 
+                                                            &lt;/td&gt;
+                                                        &lt;td class&#x3D;&quot;lastrow&quot;&gt;
+                                                            &lt;i class&#x3D;&quot;text-danger fa fa-times fa-lg fa-md&quot; style&#x3D;&quot;cursor: pointer;&quot; (click)&#x3D;&quot;removeAccrual(accruals)&quot;&gt;&lt;/i&gt;
+                                                        &lt;/td&gt;
+                                                                
+                                                    &lt;/tbody&gt;
+                                                &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/td&gt;
+                            &lt;/ng-container&gt;
+                        
+                            &lt;tr mat-header-row *matHeaderRowDef&#x3D;&quot;columnsToDisplay&quot;&gt;&lt;/tr&gt;
+                            &lt;tr mat-row *matRowDef&#x3D;&quot;let element; columns: columnsToDisplay;&quot;
+                                class&#x3D;&quot;example-element-row&quot;
+                                [class.example-expanded-row]&#x3D;&quot;expandedElement &#x3D;&#x3D;&#x3D; element || isTableExpanded&quot;
+                                (click)&#x3D;&quot;expandedElement &#x3D; expandedElement &#x3D;&#x3D;&#x3D; element ? null : element&quot;&gt;
+                            &lt;/tr&gt;
+                            &lt;tr mat-row *matRowDef&#x3D;&quot;let row; columns: [&#x27;expandedDetail&#x27;]&quot; class&#x3D;&quot;example-detail-row&quot;&gt;&lt;/tr&gt;
+                            &lt;/table&gt;
+                            &lt;div class&#x3D;&quot;row p-2&quot; *ngIf&#x3D;&quot;!loading &amp;&amp;  accruals.length&quot;&gt;
+                                &lt;table class&#x3D;&quot;table table-bordered&quot;&gt;
+                                    &lt;thead&gt;
+                                        &lt;tr&gt;
+                                            &lt;th&gt;{{&#x27;study-name&#x27; | translate}}&lt;/th&gt;
+                                            &lt;th scope&#x3D;&quot;col&quot;&gt;{{&#x27;budgeted&#x27; | translate}}&lt;/th&gt;
+                                            &lt;th scope&#x3D;&quot;col&quot; &gt;{{&#x27;invoiced&#x27; | translate}}&lt;/th&gt;
+                                            &lt;th scope&#x3D;&quot;col&quot;  class&#x3D;&quot;text-info&quot;&gt;{{&#x27;reimbursable&#x27; | translate}}&lt;/th&gt;
+                                            &lt;th scope&#x3D;&quot;col&quot; class&#x3D;&quot;text-danger&quot;&gt;{{&#x27;non-reimbursable&#x27; | translate}}&lt;/th&gt;
+                                            &lt;th scope&#x3D;&quot;col&quot; &gt;{{&#x27;advertising.outstanding&#x27; | translate}}&lt;/th&gt;
+                                        &lt;/tr&gt;
+                                    &lt;/thead&gt;
+                                    &lt;tbody&gt;
+                                        &lt;tr *ngFor&#x3D;&quot;let item of getkeys&quot;&gt;
+                                            &lt;td&gt;{{item.studyName}}&lt;/td&gt;
+                                            &lt;td  style&#x3D;&quot;text-overflow: ellipsis;
+                                                white-space: normal; word-break: break-all;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{(item.cost || 0)| number:&#x27;1.2-2&#x27; }}
+                                            &lt;/td&gt;
+                                                &lt;td  style&#x3D;&quot;text-overflow: ellipsis;
+                                            white-space: normal; word-break: break-all;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{(item.invoicedTotal || 0)| number:&#x27;1.2-2&#x27; }} 
+                                                &lt;/td&gt;
+                                                &lt;td  class&#x3D;&quot;text-info&quot;  style&#x3D;&quot;text-overflow: ellipsis;
+                                                white-space: normal; word-break: break-all;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{ minus(item.reimb  || 0 , item.invoicedReimb  || 0) | number:&#x27;1.2-2&#x27; }} 
+                                            &lt;/td&gt;
+                                            &lt;td class&#x3D;&quot;text-danger&quot; style&#x3D;&quot;text-overflow: ellipsis;
+                                                white-space: normal; word-break: break-all;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{ minus(item.nonReimb  || 0 , item.invoicedNonReimb  || 0) | number:&#x27;1.2-2&#x27; }} 
+                                            &lt;/td&gt;
+                                            &lt;td  style&#x3D;&quot;text-overflow: ellipsis;
+                                                white-space: normal; word-break: break-all;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{minus(item.cost  || 0 , item.invoicedTotal  || 0) | number:&#x27;1.2-2&#x27; }} 
+                                            &lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr class&#x3D;&quot;bg-primary font-weight-bold&quot; &gt;
+                                            &lt;td style&#x3D;&quot;overflow: hidden; word-break: break-all; text-overflow: ellipsis;white-space: normal;min-width: 100px;&quot; style&#x3D;&quot;cursor: pointer;&quot;&gt;{{&#x27;total&#x27;|translate}}&lt;/td&gt;
+                                    
+                                        &lt;td&gt;{{&#x27;currency&#x27; | translate}}{{studytotalaccruals.budgeted | number: &#x27;1.2-2&#x27;}}&lt;/td&gt;
+                                        &lt;td&gt;{{&#x27;currency&#x27; | translate}}{{studytotalaccruals.invoiced | number: &#x27;1.2-2&#x27;}}&lt;/td&gt;
+                                        &lt;td&gt;{{&#x27;currency&#x27; | translate}}{{studytotalaccruals.reimb | number: &#x27;1.2-2&#x27;}}&lt;/td&gt;
+                                        &lt;td&gt;{{&#x27;currency&#x27; | translate}}{{studytotalaccruals.nonreimb | number: &#x27;1.2-2&#x27;}}&lt;/td&gt;
+                                        &lt;td&gt;{{&#x27;currency&#x27; | translate}}{{studytotalaccruals.outstanding | number: &#x27;1.2-2&#x27;}}&lt;/td&gt;
+                                        
+                                        &lt;/tr&gt;
+                                    &lt;/tbody&gt;
+                                &lt;/table&gt;
+                            &lt;/div&gt;
+                        &lt;div class&#x3D;&quot;row&quot; &gt;
+                        &lt;div class&#x3D;&quot;col-lg-12 col-md-12 col-sm-12&quot;  &gt;
+                            &lt;div class&#x3D;&quot;panel panel-default&quot;&gt;
+                                &lt;div class&#x3D;&quot;panel-heading text-center font-weight-bold&quot;&gt;
+                                    {{&#x27;advertising.currently-out&#x27; | translate}}
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class&#x3D;&quot;col-lg-4 col-md-4 col-sm-4&quot;&gt;
+                            &lt;div class&#x3D;&quot;panel panel-info&quot;&gt;
+                                &lt;div class&#x3D;&quot;panel-heading text-center font-weight-bold&quot;&gt;
+                                    {{&#x27;total&#x27;|translate}}  {{&#x27;reimbursable&#x27; | translate}}: {{&#x27;currency&#x27; | translate}}{{currentOutstanding.reimb| number:&#x27;1.2-2&#x27;}}
+                                &lt;/div&gt;
+                                
+            
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class&#x3D;&quot;col-lg-4 col-md-4 col-sm-4&quot;&gt;
+                            &lt;div class&#x3D;&quot;panel panel-danger&quot;&gt;
+                                &lt;div class&#x3D;&quot;panel-heading text-center font-weight-bold&quot;&gt;
+                                    {{&#x27;total&#x27;|translate}} {{&#x27;non-reimbursable&#x27; | translate}}: {{&#x27;currency&#x27; | translate}}{{currentOutstanding.nonReimb | number:&#x27;1.2-2&#x27;}}
+                                &lt;/div&gt;
+                                
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class&#x3D;&quot;col-lg-4 col-md-4 col-sm-4&quot;&gt;
+                            &lt;div class&#x3D;&quot;panel panel-default&quot;&gt;
+                                &lt;div class&#x3D;&quot;panel-heading text-center font-weight-bold&quot;&gt;
+                                        {{&#x27;total-outstanding&#x27; | translate}}: {{&#x27;currency&#x27; | translate}}{{currentOutstanding.total | number:&#x27;1.2-2&#x27;}}
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class&#x3D;&quot;no-results&quot; *ngIf&#x3D;&quot;!loading &amp;&amp;  accruals?.length&#x3D;&#x3D;0 &amp;&amp; !accrualsprint&quot;&gt;{{&#x27;no-results&#x27; |translate}}&lt;/div&gt;
+                &lt;ng-container *ngIf&#x3D;&quot;!loading &amp;&amp;  accruals.length &amp;&amp; accrualsprint&quot;&gt;
+                    &lt;app-print-helper [reportType]&#x3D;&quot;&#x27;ACCRUALS_REPORT&#x27;&quot; [siteId]&#x3D;&quot;filterForm.controls.siteId.value.id&quot; [mt]&#x3D;&quot;getMonth(filterForm.controls.date.value)&quot; [yr]&#x3D;&quot;getYear(filterForm.controls.date.value)&quot;  [siteAlias]&#x3D;&quot;filterForm.controls.siteId.value.alias&quot; &gt;&lt;/app-print-helper&gt;
+                &lt;/ng-container&gt;
+                            &lt;/div&gt;
+
+            &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="styleData">
+                <p class="comment">
+                    <code>./accruals.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">@media print {
+   .lastrow {
+    display: none !important;
+   }
+   #print-section {
+      width: 8.5in !important;
+      margin: 0 auto !important; 
+     }
+   
+   table {
+      width: 100vw !important;
+   }
+
+   .row {
+      max-width: 100vw !important;
+   }
+   button {
+      display: none !important;
+   }
+ 
+}
+.lastrow{
+   max-width: 5%;
+}
+
+.th.mat-header-cell:last-of-type, td.mat-cell:last-of-type, td.mat-footer-cell:last-of-type {
+   padding-right: 0 !important;
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="wrapper wrapper-content animated fadeInDown">    <div>        <div class="row">            <div class="col-lg-12 col-md-12 col-sm-12">                <div class="ibox">                        <div class="ibox-content">                            <div class="d-flex justify-content-between  mb-2">                                <form autocomplete="off" action=""  [formGroup]="filterForm" (ngSubmit)="filter(filterForm)">                                    <div class="float-left d-flex">                                        <div class="mr-2">                                            <mat-form-field>                                                <mat-select type="text" placeholder="{{\'all-sites\' | translate}}" #siteSelect formControlName="siteId"  >                                                    <mat-option *ngFor="let site of sites" [value]="site" >{{site.alias}}</mat-option>                                                </mat-select>                                            </mat-form-field>                                        </div>                                        <mat-form-field >                                            <mat-label>{{\'month\' | translate}}</mat-label>                                            <input matInput #dpInput [ngxMatDatetimePicker]="from" [max]="maxDate"   [min]="minDate" [readonly]="true" (click)="from.open()" formControlName="date">                                            <mat-datepicker-toggle class="position-sticky" matSuffix [for]="from"></mat-datepicker-toggle>                                            <ngx-mat-datetime-picker  [hideTime]="true" #from   startView="multi-year"   [calendarHeaderComponent]="dpmonthheader"                                            (monthSelected)="chosenMonthHandler($event, from, dpInput)"></ngx-mat-datetime-picker>                                            <mat-error *ngIf="filterForm.get(\'date\').touched && filterForm.get(\'date\').hasError(\'required\')"></mat-error>                                        </mat-form-field>                                        <div>                                            <button *ngIf="!loading" class="btn btn-info btn-sm mt-2 ml-2" type="submit">{{\'user.manage-user.permissions.view\' | translate}}</button>                                            <button *ngIf="loading"  type="button" class="btn  btn-info btn-sm mt-2 ml-2" > <app-loading-indicator class="text-white" [size]="\'2vh\'"></app-loading-indicator></button>                                        </div>                                    </div>                                </form>                                <div class="col-lg-2 col-sm-2 col-md-2 float-right justify-content-end">                                    <button class="btn   btn-sm float-right mr-2" *ngIf="accruals.length"  [ngClass]="accrualsprint ? \'btn-outline-secondary\' :\'btn-outline-info\'" [matTooltip]="accrualsprint ? \'Back to table\' :\'View Print Preview\'" type="button" (click)="printPreview()"><i  [ngClass]="accrualsprint ? \'fa fa-table\' :\'fa fa-print\'" ></i></button>                                <button class="btn btn-success btn-sm float-right mr-2 " *ngIf="accruals.length" matTooltip="{{\'toggle-weeks\' | translate}}"  (click)="toggleTableRows()"><i class="fa  " [ngClass]="isTableExpanded ? \'fa-toggle-on\' : \'fa-toggle-off\'"></i></button>                                    </div>                            </div>                            <div id="print-section" *ngIf="!loading &&  accruals.length && !accrualsprint">                                <table mat-table                                        [dataSource]="dataSource" multiTemplateDataRows                                        class="  mat-elevation-z8 w-100">                                                                            <ng-container matColumnDef="{{column}}" *ngFor="let column of columnsToDisplay">                                        <th mat-header-cell *matHeaderCellDef> <span [ngClass]="column == \'Reimb.\' ? \'text-info\' :  column == \'NonReimb.\' ? \'text-danger\' : \'\' "  class="font-weight-bold h5" >{{column}} - {{\'advertising.month-accruals\' | translate}} - {{dpInput?.value }}</span> </th>                                        <td mat-cell *matCellDef="let element" class="text-center">                                            <span class="font-weight-bold " >{{\'week-of\' | translate}} {{element[0].start | date: \'MM/dd/yyyy\'}} {{\'to\' | translate}} {{element[0].end | date: \'MM/dd/yyyy\' }}</span>                                                            </td>                                    </ng-container>                                                        <ng-container matColumnDef="expandedDetail">                                        <td mat-cell *matCellDef="let element;let j = dataIndex" [attr.colspan]="columnsToDisplay?.length">                                            <div class="example-element-detail" [@detailExpand]="isTableExpanded || element == expandedElement ? \'expanded\' : \'collapsed\'">                                                                                                        <table class="table table-bordered hover w-100">                                                            <thead>                                                            <tr>                                                                <th scope="col" style="width:40%;">{{\'event-name\' | translate}}/{{"advertising.ad-type" | translate}}</th>                                                                <th scope="col">{{\'budgeted\' | translate}}</th>                                                                <th scope="col" >{{\'invoiced\' | translate}}</th>                                                                <th scope="col"  class="text-info">{{\'reimbursable\' | translate}}</th>                                                                <th scope="col" class="text-danger">{{\'non-reimbursable\' | translate}}</th>                                                                <th scope="col" >{{\'advertising.outstanding\' | translate}}</th>                                                                <th  class="lastrow" scope="col" >{{\'action\' | translate}}</th>                                                            </tr>                                                            </thead>                                                                    <tbody *ngFor="let accruals of accrualsSortedWeeks[j]; let i = index">                                                                        <td  style="width:40%;text-overflow: ellipsis;                                                                        white-space: normal; word-break: break-all;">{{accruals.vendorName}} - {{accruals.eventDateFrom | date: \'MMM dd\'}} - {{accruals.eventDateTo | date: \'MMM dd\'}} {{accruals.eventName}} ({{accruals.indicationName}}) <br>{{accruals.adType}} </td>                                                                        <td  style="text-overflow: ellipsis;                                                                            white-space: normal; word-break: break-all;">{{\'currency\' | translate}}{{(accruals.cost || 0)| number:\'1.2-2\' }}                                                                        </td>                                                                            <td  style="text-overflow: ellipsis;                                                                        white-space: normal; word-break: break-all;">{{\'currency\' | translate}}{{(accruals.invoicedTotal || 0)| number:\'1.2-2\' }}                                                                             </td>                                                                            <td  class="text-info"  style="text-overflow: ellipsis;                                                                            white-space: normal; word-break: break-all;">{{\'currency\' | translate}}{{ minus(accruals.reimb  || 0 , accruals.invoicedReimb  || 0) | number:\'1.2-2\' }}                                                                         </td>                                                                        <td class="text-danger" style="text-overflow: ellipsis;                                                                            white-space: normal; word-break: break-all;">{{\'currency\' | translate}}{{ minus(accruals.nonReimb  || 0 , accruals.invoicedNonReimb  || 0) | number:\'1.2-2\' }}                                                                         </td>                                                                        <td  style="text-overflow: ellipsis;                                                                            white-space: normal; word-break: break-all;">{{\'currency\' | translate}}{{minus(accruals.cost  || 0 , accruals.invoicedTotal  || 0) | number:\'1.2-2\' }}                                                                         </td>                                                                    <td class="lastrow">                                                                        <i class="text-danger fa fa-times fa-lg fa-md" style="cursor: pointer;" (click)="removeAccrual(accruals)"></i>                                                                    </td>                                                                                                                                            </tbody>                                                        </table>                                            </div>                                        </td>                                    </ng-container>                                                                    <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>                                    <tr mat-row *matRowDef="let element; columns: columnsToDisplay;"                                        class="example-element-row"                                        [class.example-expanded-row]="expandedElement === element || isTableExpanded"                                        (click)="expandedElement = expandedElement === element ? null : element">                                    </tr>                                    <tr mat-row *matRowDef="let row; columns: [\'expandedDetail\']" class="example-detail-row"></tr>                                </table>                            <table mat-table                            [dataSource]="dataSource2" multiTemplateDataRows                            class="  mat-elevation-z8 w-100">                                                        <ng-container matColumnDef="{{column}}" *ngFor="let column of columnsToDisplay">                                <th cla mat-header-cell *matHeaderCellDef> <span class="font-weight-bold h6" [ngClass]="column == \'Reimb.\' ? \'text-info\' :  column == \'NonReimb.\' ? \'text-danger\' : \'\' " class="font-weight-bold h5" >{{column}} - {{\'advertising.total-accruals\' | translate}} </span> </th>                                <td mat-cell *matCellDef="let element" class="text-center">                                    <span class="font-weight-bold" >{{\'week-of\' | translate}} {{element[0].start | date: \'MM/dd/yyyy\'}} {{\'to\' | translate}} {{element[0].end | date: \'MM/dd/yyyy\' }}</span>                                            </td>                            </ng-container>                                        <ng-container matColumnDef="expandedDetail">                                <td mat-cell *matCellDef="let element; let j = dataIndex" [attr.colspan]="columnsToDisplay?.length">                                    <div class="example-element-detail" [@detailExpand]="isTableExpanded || element == expandedElement ? \'expanded\' : \'collapsed\'">                                                                                        <table class="table table-bordered hover w-100" data-page-size="8" data-filtering="true" data-page-navigation=".pagination">                                                    <thead>                                                    <tr>                                                        <th scope="col"  style="width:40%;" data-sort-initial="ascending" data-sorted="true">{{\'event-name\' | translate}}</th>                                                        <th scope="col" >{{\'budgeted\' | translate}}</th>                                                        <th scope="col" >{{\'invoiced\' | translate}}</th>                                                        <th scope="col"  class="text-info">{{\'reimbursable\' | translate}}</th>                                                        <th scope="col" class="text-danger">{{\'non-reimbursable\' | translate}}</th>                                                        <th scope="col" >{{\'advertising.outstanding\' | translate}}</th>                                                        <th  class="lastrow" scope="col" >{{\'action\' | translate}}</th>                                                    </tr>                                                    </thead>                                                            <tbody *ngFor="let accruals of totalaccrualsSortedWeeks[j]; let i = index">                                                            <td  style="width:40%;text-overflow: ellipsis;                                                            white-space: normal; word-break: break-all;">{{accruals.vendorName}} - {{accruals.eventDateFrom | date: \'MMM dd\'}} - {{accruals.eventDateTo | date: \'MMM dd\'}} {{accruals.eventName}} ({{accruals.indicationName}}) <br>{{accruals.adType}} </td>                                                            <td  style="text-overflow: ellipsis;                                                                white-space: normal; word-break: break-all;">{{\'currency\' | translate}}{{(accruals.cost || 0)| number:\'1.2-2\' }}                                                            </td>                                                                <td  style="text-overflow: ellipsis;                                                            white-space: normal; word-break: break-all;">{{\'currency\' | translate}}{{(accruals.invoicedTotal || 0)| number:\'1.2-2\' }}                                                                 </td>                                                                <td  class="text-info"  style="text-overflow: ellipsis;                                                                white-space: normal; word-break: break-all;">{{\'currency\' | translate}}{{ minus(accruals.reimb  || 0 , accruals.invoicedReimb  || 0) | number:\'1.2-2\' }}                                                             </td>                                                            <td class="text-danger" style="text-overflow: ellipsis;                                                                white-space: normal; word-break: break-all;">{{\'currency\' | translate}}{{ minus(accruals.nonReimb  || 0 , accruals.invoicedNonReimb  || 0) | number:\'1.2-2\' }}                                                             </td>                                                            <td  style="text-overflow: ellipsis;                                                                white-space: normal; word-break: break-all;">{{\'currency\' | translate}}{{minus(accruals.cost  || 0 , accruals.invoicedTotal  || 0) | number:\'1.2-2\' }}                                                             </td>                                                        <td class="lastrow">                                                            <i class="text-danger fa fa-times fa-lg fa-md" style="cursor: pointer;" (click)="removeAccrual(accruals)"></i>                                                        </td>                                                                                                                    </tbody>                                                </table>                                    </div>                                </td>                            </ng-container>                                                    <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>                            <tr mat-row *matRowDef="let element; columns: columnsToDisplay;"                                class="example-element-row"                                [class.example-expanded-row]="expandedElement === element || isTableExpanded"                                (click)="expandedElement = expandedElement === element ? null : element">                            </tr>                            <tr mat-row *matRowDef="let row; columns: [\'expandedDetail\']" class="example-detail-row"></tr>                            </table>                            <div class="row p-2" *ngIf="!loading &&  accruals.length">                                <table class="table table-bordered">                                    <thead>                                        <tr>                                            <th>{{\'study-name\' | translate}}</th>                                            <th scope="col">{{\'budgeted\' | translate}}</th>                                            <th scope="col" >{{\'invoiced\' | translate}}</th>                                            <th scope="col"  class="text-info">{{\'reimbursable\' | translate}}</th>                                            <th scope="col" class="text-danger">{{\'non-reimbursable\' | translate}}</th>                                            <th scope="col" >{{\'advertising.outstanding\' | translate}}</th>                                        </tr>                                    </thead>                                    <tbody>                                        <tr *ngFor="let item of getkeys">                                            <td>{{item.studyName}}</td>                                            <td  style="text-overflow: ellipsis;                                                white-space: normal; word-break: break-all;">{{\'currency\' | translate}}{{(item.cost || 0)| number:\'1.2-2\' }}                                            </td>                                                <td  style="text-overflow: ellipsis;                                            white-space: normal; word-break: break-all;">{{\'currency\' | translate}}{{(item.invoicedTotal || 0)| number:\'1.2-2\' }}                                                 </td>                                                <td  class="text-info"  style="text-overflow: ellipsis;                                                white-space: normal; word-break: break-all;">{{\'currency\' | translate}}{{ minus(item.reimb  || 0 , item.invoicedReimb  || 0) | number:\'1.2-2\' }}                                             </td>                                            <td class="text-danger" style="text-overflow: ellipsis;                                                white-space: normal; word-break: break-all;">{{\'currency\' | translate}}{{ minus(item.nonReimb  || 0 , item.invoicedNonReimb  || 0) | number:\'1.2-2\' }}                                             </td>                                            <td  style="text-overflow: ellipsis;                                                white-space: normal; word-break: break-all;">{{\'currency\' | translate}}{{minus(item.cost  || 0 , item.invoicedTotal  || 0) | number:\'1.2-2\' }}                                             </td>                                        </tr>                                        <tr class="bg-primary font-weight-bold" >                                            <td style="overflow: hidden; word-break: break-all; text-overflow: ellipsis;white-space: normal;min-width: 100px;" style="cursor: pointer;">{{\'total\'|translate}}</td>                                                                            <td>{{\'currency\' | translate}}{{studytotalaccruals.budgeted | number: \'1.2-2\'}}</td>                                        <td>{{\'currency\' | translate}}{{studytotalaccruals.invoiced | number: \'1.2-2\'}}</td>                                        <td>{{\'currency\' | translate}}{{studytotalaccruals.reimb | number: \'1.2-2\'}}</td>                                        <td>{{\'currency\' | translate}}{{studytotalaccruals.nonreimb | number: \'1.2-2\'}}</td>                                        <td>{{\'currency\' | translate}}{{studytotalaccruals.outstanding | number: \'1.2-2\'}}</td>                                                                                </tr>                                    </tbody>                                </table>                            </div>                        <div class="row" >                        <div class="col-lg-12 col-md-12 col-sm-12"  >                            <div class="panel panel-default">                                <div class="panel-heading text-center font-weight-bold">                                    {{\'advertising.currently-out\' | translate}}                                </div>                            </div>                        </div>                        <div class="col-lg-4 col-md-4 col-sm-4">                            <div class="panel panel-info">                                <div class="panel-heading text-center font-weight-bold">                                    {{\'total\'|translate}}  {{\'reimbursable\' | translate}}: {{\'currency\' | translate}}{{currentOutstanding.reimb| number:\'1.2-2\'}}                                </div>                                                                        </div>                        </div>                        <div class="col-lg-4 col-md-4 col-sm-4">                            <div class="panel panel-danger">                                <div class="panel-heading text-center font-weight-bold">                                    {{\'total\'|translate}} {{\'non-reimbursable\' | translate}}: {{\'currency\' | translate}}{{currentOutstanding.nonReimb | number:\'1.2-2\'}}                                </div>                                                            </div>                        </div>                        <div class="col-lg-4 col-md-4 col-sm-4">                            <div class="panel panel-default">                                <div class="panel-heading text-center font-weight-bold">                                        {{\'total-outstanding\' | translate}}: {{\'currency\' | translate}}{{currentOutstanding.total | number:\'1.2-2\'}}                                </div>                            </div>                        </div>                    </div>                </div>                <div class="no-results" *ngIf="!loading &&  accruals?.length==0 && !accrualsprint">{{\'no-results\' |translate}}</div>                <ng-container *ngIf="!loading &&  accruals.length && accrualsprint">                    <app-print-helper [reportType]="\'ACCRUALS_REPORT\'" [siteId]="filterForm.controls.siteId.value.id" [mt]="getMonth(filterForm.controls.date.value)" [yr]="getYear(filterForm.controls.date.value)"  [siteAlias]="filterForm.controls.siteId.value.alias" ></app-print-helper>                </ng-container>                            </div>            </div>            </div>        </div>        </div></div></div>'
+    var COMPONENTS = [{'name': 'AccrualsComponent', 'selector': 'app-accruals'},{'name': 'AdApprovalsComponent', 'selector': 'app-ad-approvals'},{'name': 'AdCalendarComponent', 'selector': 'app-ad-calendar'},{'name': 'AdCategoriesComponent', 'selector': 'app-ad-categories'},{'name': 'AddCategoryDialogComponent', 'selector': 'app-add-category-dialog'},{'name': 'AddDailyScheduleResourceDialogComponent', 'selector': 'app-add-daily-schedule-resource-dialog'},{'name': 'AddDocumentDialogComponent', 'selector': 'app-add-document-dialog'},{'name': 'AddFindingsComponent', 'selector': 'app-add-findings'},{'name': 'AddFollowUpDialogComponent', 'selector': 'app-add-follow-up-dialog'},{'name': 'AddHolidayDialogComponent', 'selector': 'app-add-holiday-dialog'},{'name': 'AddIndicationDialogComponent', 'selector': 'app-add-indication-dialog'},{'name': 'AddIrbDialogComponent', 'selector': 'app-add-irb-dialog'},{'name': 'AddLabsDialogComponent', 'selector': 'app-add-labs-dialog'},{'name': 'AddMediaEventDialogComponent', 'selector': 'app-add-media-event-dialog'},{'name': 'AddMiscAppointmentComponent', 'selector': 'app-add-misc-appointment'},{'name': 'AddMiscInvoiceDialogComponent', 'selector': 'app-add-misc-invoice-dialog'},{'name': 'AddNewLeadDialogComponent', 'selector': 'app-add-new-lead-dialog'},{'name': 'AddNewTrackDialogComponent', 'selector': 'app-add-new-track-dialog'},{'name': 'AddPatientDialogComponent', 'selector': 'app-add-patient-dialog'},{'name': 'AddPatientTimerDialogComponent', 'selector': 'app-add-patient-timer-dialog'},{'name': 'AddPatientToStudyDialogComponent', 'selector': 'app-add-patient-to-study-dialog'},{'name': 'AddPatientToStudyFinalStepDialogComponent', 'selector': 'app-add-patient-to-study-final-step-dialog'},{'name': 'AddPatientToStudyFinalStepSelectedDialogComponent', 'selector': 'app-add-patient-to-study-final-step-selected-dialog'},{'name': 'AddRemitLocationDialogComponent', 'selector': 'app-add-remit-location-dialog'},{'name': 'AddRoleDialogComponent', 'selector': 'app-add-role-dialog'},{'name': 'AddSelectedPatientDialogComponent', 'selector': 'app-add-selected-patient-dialog'},{'name': 'AddStudyToCalendarDialogComponent', 'selector': 'app-add-study-to-calendar-dialog'},{'name': 'AddStudyToStudyStartDialogComponent', 'selector': 'app-add-study-to-study-start-dialog'},{'name': 'AddTaskRoleDialogComponent', 'selector': 'app-add-task-role-dialog'},{'name': 'AddTraineeDialogComponent', 'selector': 'app-add-trainee-dialog'},{'name': 'AddTrialToRegManagerDialogComponent', 'selector': 'app-add-trial-to-reg-manager-dialog'},{'name': 'AddVendorDialogComponent', 'selector': 'app-add-vendor-dialog'},{'name': 'AddVersionDialogComponent', 'selector': 'app-add-version-dialog'},{'name': 'AddWaitlistDialogComponent', 'selector': 'app-add-waitlist-dialog'},{'name': 'AdQueryComponent', 'selector': 'app-ad-query'},{'name': 'AdVendorsComponent', 'selector': 'app-ad-vendors'},{'name': 'AdvertisingReportComponent', 'selector': 'app-advertising-report'},{'name': 'AllowEsignDialogComponent', 'selector': 'app-allow-esign-dialog'},{'name': 'AnonymousCallDialogComponent', 'selector': 'app-anonymous-call-dialog'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AppointmentTrackingDialogComponent', 'selector': 'app-appointment-tracking-dialog'},{'name': 'ApprovalEditDialogComponent', 'selector': 'app-approval-edit-dialog'},{'name': 'ArchiveBoxDetailsDialogComponent', 'selector': 'app-archive-box-details-dialog'},{'name': 'ArchivesComponent', 'selector': 'app-archives'},{'name': 'AuditViewComponent', 'selector': 'app-audit-view'},{'name': 'AuditViewTableComponent', 'selector': 'app-audit-view-table'},{'name': 'BillableProceduresComponent', 'selector': 'app-billable-procedures'},{'name': 'BillingSetupDialogComponent', 'selector': 'app-billing-setup-dialog'},{'name': 'BillSponsorComponent', 'selector': 'app-bill-sponsor'},{'name': 'BoxContentsDialogComponent', 'selector': 'app-box-contents-dialog'},{'name': 'BuildStudyComponent', 'selector': 'app-build-study'},{'name': 'BulkApproveDialogComponent', 'selector': 'app-bulk-approve-dialog'},{'name': 'BulkReassignFollowUpDialogComponent', 'selector': 'app-bulk-reassign-follow-up-dialog'},{'name': 'BulkSmsDialogComponent', 'selector': 'app-bulk-sms-dialog'},{'name': 'BusinessHoursHolidaysDialogComponent', 'selector': 'app-business-hours-holidays-dialog'},{'name': 'CalendarCategoryDialogComponent', 'selector': 'app-calendar-category-dialog'},{'name': 'CalendarFooterComponent', 'selector': 'app-calendar-footer'},{'name': 'CallSchedulingDialogComponent', 'selector': 'app-call-scheduling-dialog'},{'name': 'CancelAppointmentDialogComponent', 'selector': 'app-cancel-appointment-dialog'},{'name': 'CategoryStudyBudgetDialogComponent', 'selector': 'app-category-study-budget-dialog'},{'name': 'ChangeCommitmentDialogComponent', 'selector': 'app-change-commitment-dialog'},{'name': 'ChangePasswordComponent', 'selector': 'app-change-password'},{'name': 'ChangeStudyStatusDialogComponent', 'selector': 'app-change-study-status-dialog'},{'name': 'ClosedStudiesComponent', 'selector': 'app-closed-studies'},{'name': 'CompaniesComponent', 'selector': 'app-companies'},{'name': 'CompanyDialogComponent', 'selector': 'app-company-dialog'},{'name': 'CompanySitesDialogComponent', 'selector': 'app-company-sites-dialog'},{'name': 'CompletePrescreenFormDialogComponent', 'selector': 'app-complete-prescreen-form-dialog'},{'name': 'CompleteScreeningFormDialogComponent', 'selector': 'app-complete-screening-form-dialog'},{'name': 'ConfirmationDialogComponent', 'selector': 'app-confirmation-dialog'},{'name': 'ContactAddForLeadComponent', 'selector': 'app-contact-add-for-lead'},{'name': 'ContactAddForStudyComponent', 'selector': 'app-contact-add-for-study'},{'name': 'ContactDetailsDialogComponent', 'selector': 'app-contact-details-dialog'},{'name': 'ContactDialogComponent', 'selector': 'app-contact-dialog'},{'name': 'ContactNotesComponent', 'selector': 'app-contact-notes'},{'name': 'ContactsComponent', 'selector': 'app-contacts'},{'name': 'ContactSearchResultsForLeadsComponent', 'selector': 'app-contact-search-results-for-leads'},{'name': 'ContactSearchResultsForStudiesComponent', 'selector': 'app-contact-search-results-for-studies'},{'name': 'CopiedMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'CopyStudyBuildDialogComponent', 'selector': 'app-copy-study-build-dialog'},{'name': 'CopyToAnotherSiteDialogComponent', 'selector': 'app-copy-to-another-site-dialog'},{'name': 'CountdownComponent', 'selector': 'app-countdown'},{'name': 'CreateAdDialogComponent', 'selector': 'app-create-ad-dialog'},{'name': 'CreateBillRequestDialogComponent', 'selector': 'app-create-bill-request-dialog'},{'name': 'CreateBinderDialogComponent', 'selector': 'app-create-binder-dialog'},{'name': 'CreateBoxLabelDialogComponent', 'selector': 'app-create-box-label-dialog'},{'name': 'CreateBudgetDialogComponent', 'selector': 'app-create-budget-dialog'},{'name': 'CreateFindingCategoryDialogComponent', 'selector': 'app-create-finding-category-dialog'},{'name': 'CreatePermissionTemplateComponent', 'selector': 'app-create-permission-template'},{'name': 'CreateTaskDialogComponent', 'selector': 'app-create-task-dialog'},{'name': 'CreateWorkingListDialogComponent', 'selector': 'app-create-working-list-dialog'},{'name': 'CreateWorkingListFromCheckboxesDialogComponent', 'selector': 'app-create-working-list-from-checkboxes-dialog'},{'name': 'CsvpreviewDialogComponent', 'selector': 'app-csvpreview-dialog'},{'name': 'DailyFollowUpsComponent', 'selector': 'app-daily-follow-ups'},{'name': 'DailyScheduleComponent', 'selector': 'app-daily-schedule'},{'name': 'DailySchedulePatientEventDetailsDialogComponent', 'selector': 'app-daily-schedule-patient-event-details-dialog'},{'name': 'DailySchedulePatientMisceallaneousDetailsDialogComponent', 'selector': 'app-daily-schedule-patient-misceallaneous-details-dialog'},{'name': 'DailySchedulePatientScreenDetailsDialogComponent', 'selector': 'app-daily-schedule-patient-screen-details-dialog'},{'name': 'DailySchedulePatientVisitDetatilsDialogComponent', 'selector': 'app-daily-schedule-patient-visit-detatils-dialog'},{'name': 'DailyScheduleResourceComponent', 'selector': 'app-daily-schedule-resource'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DataMergersComponent', 'selector': 'app-data-mergers'},{'name': 'DatepickerHeaderComponent', 'selector': 'datepicker-header'},{'name': 'DatepickerMonthHeaderComponent', 'selector': 'app-datepicker-month-header'},{'name': 'DateSelectComponent', 'selector': 'app-date-select'},{'name': 'DateSelectSimpleComponent', 'selector': 'app-date-select-simple'},{'name': 'DebugDialogComponent', 'selector': 'app-debug-dialog'},{'name': 'DeletePatientPhoneNumberDialogComponent', 'selector': 'app-delete-patient-phone-number-dialog'},{'name': 'DiscrepanciesComponent', 'selector': 'app-discrepancies'},{'name': 'DownloadsComponent', 'selector': 'app-downloads'},{'name': 'EditAdditionalProceduresDialogComponent', 'selector': 'app-edit-additional-procedures-dialog'},{'name': 'EditBinderComponent', 'selector': 'app-edit-binder'},{'name': 'EditBusinessHoursDialogComponent', 'selector': 'app-edit-business-hours-dialog'},{'name': 'EditEventDialogComponent', 'selector': 'app-edit-event-dialog'},{'name': 'EditFindingDetailsDialogComponent', 'selector': 'app-edit-finding-details-dialog'},{'name': 'EditHolidayDialogComponent', 'selector': 'app-edit-holiday-dialog'},{'name': 'EditMiscPaymentDialogComponent', 'selector': 'app-edit-misc-payment-dialog'},{'name': 'EditPermissionTemplateComponent', 'selector': 'app-edit-permission-template'},{'name': 'EditProcedureDialogComponent', 'selector': 'app-edit-procedure-dialog'},{'name': 'EditProcedureNameDialogComponent', 'selector': 'app-edit-procedure-name-dialog'},{'name': 'EditReportPaymentComponent', 'selector': 'app-edit-report-payment'},{'name': 'EditScoreboardDialogComponent', 'selector': 'app-edit-scoreboard-dialog'},{'name': 'EditStudyBuildComponent', 'selector': 'app-edit-study-build'},{'name': 'EditStudyFileDialogComponent', 'selector': 'app-edit-study-file-dialog'},{'name': 'EditStudyPathDialogComponent', 'selector': 'app-edit-study-path-dialog'},{'name': 'EditStudyProcedureGroupsDialogComponent', 'selector': 'app-edit-study-procedure-groups-dialog'},{'name': 'EditStudyVisitsDialogComponent', 'selector': 'app-edit-study-visits-dialog'},{'name': 'EditStudyVisitsRuleDialogComponent', 'selector': 'app-edit-study-visits-rule-dialog'},{'name': 'EditTrainingDialogComponent', 'selector': 'app-edit-training-dialog'},{'name': 'EditVisitDialogComponent', 'selector': 'app-edit-visit-dialog'},{'name': 'EditWorkingListDialogComponent', 'selector': 'app-edit-working-list-dialog'},{'name': 'EsignatureDialogComponent', 'selector': 'app-esignature-dialog'},{'name': 'ESignDialogComponent', 'selector': 'app-e-sign-dialog'},{'name': 'ExpiringDocsComponent', 'selector': 'app-expiring-docs'},{'name': 'ExternalDialogComponent', 'selector': 'app-external-dialog'},{'name': 'FeedBackDialogComponent', 'selector': 'app-feed-back-dialog'},{'name': 'FileCorrespondenceDialogComponent', 'selector': 'app-file-correspondence-dialog'},{'name': 'FileDialogComponent', 'selector': 'app-file-dialog'},{'name': 'FileResponseMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'FilterFooterComponent', 'selector': 'app-filter-footer'},{'name': 'FinalAdsApprovalDialogComponent', 'selector': 'app-final-ads-approval-dialog'},{'name': 'FinanceAdCalendarComponent', 'selector': 'app-ad-calendar'},{'name': 'FindingCategoryComponent', 'selector': 'app-finding-category'},{'name': 'FindInvoicesComponent', 'selector': 'app-find-invoices'},{'name': 'FolderDragMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'FollowUpPatientDialogComponent', 'selector': 'app-follow-up-patient-dialog'},{'name': 'FollowUpsComponent', 'selector': 'app-follow-ups'},{'name': 'ForgotPasswordComponent', 'selector': 'app-forgot-password'},{'name': 'GenericWarningDialogComponent', 'selector': 'app-generic-warning-dialog'},{'name': 'ImagePreviewDialogComponent', 'selector': 'app-image-preview-dialog'},{'name': 'ImportCsvRecruitingDialogComponent', 'selector': 'app-import-csv-recruiting-dialog'},{'name': 'IndicationsComponent', 'selector': 'app-indications'},{'name': 'InfoPopupComponent', 'selector': 'app-info-popup'},{'name': 'InputDialogComponent', 'selector': 'app-input-dialog'},{'name': 'InquiryCallDialogComponent', 'selector': 'app-inquiry-call-dialog'},{'name': 'InternalDialogComponent', 'selector': 'app-internal-dialog'},{'name': 'InviteUserDialogComponent', 'selector': 'app-invite-user-dialog'},{'name': 'InvoicesComponent', 'selector': 'app-invoices'},{'name': 'IrbComponent', 'selector': 'app-irb'},{'name': 'LabComponent', 'selector': 'app-lab'},{'name': 'LabelGeneratorComponent', 'selector': 'app-label-generator'},{'name': 'LeadDetailsDialogComponent', 'selector': 'app-lead-details-dialog'},{'name': 'LeadsComponent', 'selector': 'app-leads'},{'name': 'LedgerComponent', 'selector': 'app-ledger'},{'name': 'LinkStudyDialogComponent', 'selector': 'app-link-study-dialog'},{'name': 'LinkStudyStartDialogComponent', 'selector': 'app-link-study-start-dialog'},{'name': 'LoadingIndicatorComponent', 'selector': 'app-loading-indicator'},{'name': 'LockScreenComponent', 'selector': 'app-lock-screen'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'LongLoadingIndicatorComponent', 'selector': 'app-long-loading-indicator'},{'name': 'ManageCalendarCategoriesDialogComponent', 'selector': 'app-manage-calendar-categories-dialog'},{'name': 'ManageCompanyComponent', 'selector': 'app-manage-company'},{'name': 'ManageFindingsComponent', 'selector': 'app-manage-findings'},{'name': 'ManagePatientInterestDialogComponent', 'selector': 'app-manage-patient-interest-dialog'},{'name': 'ManageSelectedFindingsDialogComponent', 'selector': 'app-manage-selected-findings-dialog'},{'name': 'ManageUserComponent', 'selector': 'app-manage-user'},{'name': 'ManifestShipmentComponent', 'selector': 'app-manifest-shipment'},{'name': 'MargePatientDialogComponent', 'selector': 'app-marge-patient-dialog'},{'name': 'MasterFilesComponent', 'selector': 'app-master-files'},{'name': 'MergeLeadDialogComponent', 'selector': 'app-merge-lead-dialog'},{'name': 'MessageDetailDialogComponent', 'selector': 'app-message-detail-dialog'},{'name': 'MiscChargesComponent', 'selector': 'app-misc-charges'},{'name': 'MoveFileDialogComponent', 'selector': 'app-move-file-dialog'},{'name': 'MyDashboardComponent', 'selector': 'app-my-dashboard'},{'name': 'MyQaFindingsComponent', 'selector': 'app-my-qa-findings'},{'name': 'MyTasksComponent', 'selector': 'app-my-tasks'},{'name': 'NameInputDialogComponent', 'selector': 'app-name-input-dialog'},{'name': 'NameUpdateDialogComponent', 'selector': 'app-name-update-dialog'},{'name': 'NavigationComponent', 'selector': 'navigation'},{'name': 'NewFolderDialogComponent', 'selector': 'app-new-folder-dialog'},{'name': 'NotAllowedMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'NotFoundComponent', 'selector': 'app-not-found'},{'name': 'OtherReportComponent', 'selector': 'app-other-report'},{'name': 'OverlapDialogComponent', 'selector': 'app-overlap-dialog'},{'name': 'PatientAppointmentMiniViewDialogComponent', 'selector': 'app-patient-appointment-mini-view-dialog'},{'name': 'PatientMiniViewDialogComponent', 'selector': 'app-patient-mini-view-dialog'},{'name': 'PatientProfileComponent', 'selector': 'app-patient-profile'},{'name': 'PatientProfileSmsDialogComponent', 'selector': 'app-patient-profile-sms-dialog'},{'name': 'PatientSearchComponent', 'selector': 'app-patient-search'},{'name': 'PatientTrackingComponent', 'selector': 'app-patient-tracking'},{'name': 'PatientTrackingLoadComponent', 'selector': 'app-patient-tracking-load'},{'name': 'PaymentTrackerComponent', 'selector': 'app-payment-tracker'},{'name': 'PdfPreviewDialogComponent', 'selector': 'app-pdf-preview-dialog'},{'name': 'PendingEsignaturesComponent', 'selector': 'app-pending-esignatures'},{'name': 'PermanentErrorDialogComponent', 'selector': 'app-permanent-error-dialog'},{'name': 'PermissionsTemplatesComponent', 'selector': 'app-permissions-templates'},{'name': 'PipelineViewComponent', 'selector': 'app-pipeline-view'},{'name': 'PlaceholderDragMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'PmScoreCardComponent', 'selector': 'app-pm-score-card'},{'name': 'PrescreenSchedulingDialogComponent', 'selector': 'app-prescreen-scheduling-dialog'},{'name': 'PreviousPreviewComponent', 'selector': 'app-previous-preview'},{'name': 'PrintHelperComponent', 'selector': 'app-print-helper'},{'name': 'ProcedureGroupsDialogComponent', 'selector': 'app-procedure-groups-dialog'},{'name': 'ProceduresComponent', 'selector': 'app-procedures'},{'name': 'ProfileChangeDetailsDialogComponent', 'selector': 'app-profile-change-details-dialog'},{'name': 'ProfileUpdatePasswordDialogComponent', 'selector': 'app-update-password-dialog'},{'name': 'ProfileViewComponent', 'selector': 'app-profile-view'},{'name': 'ProjectManagementNotesDialogComponent', 'selector': 'app-project-management-notes-dialog'},{'name': 'PublishStudyDialogComponent', 'selector': 'app-publish-study-dialog'},{'name': 'QualityPlanComponent', 'selector': 'app-quality-plan'},{'name': 'QueryComponent', 'selector': 'app-query'},{'name': 'QueryStudiesComponent', 'selector': 'app-query-studies'},{'name': 'ReasonCategoryComponent', 'selector': 'app-reason-category'},{'name': 'ReasonInputDialogComponent', 'selector': 'app-reason-input-dialog'},{'name': 'ReceptionComponent', 'selector': 'app-reception'},{'name': 'RecordPaymentAddInvoiceDialogComponent', 'selector': 'app-record-payment-add-invoice-dialog'},{'name': 'RecordPaymentComponent', 'selector': 'app-record-payment'},{'name': 'ReferralPartnerAddDialogComponent', 'selector': 'app-referral-partner-add-dialog'},{'name': 'ReferralPartnerDetailsDialogComponent', 'selector': 'app-referral-partner-details-dialog'},{'name': 'ReferralPartnerNotesComponent', 'selector': 'app-referral-partner-notes'},{'name': 'ReferralPartnersComponent', 'selector': 'app-referral-partners'},{'name': 'ReferralPartnersSearchFooterComponent', 'selector': 'app-referral-partners-search-footer'},{'name': 'RegManagerComponent', 'selector': 'app-reg-manager'},{'name': 'RegManagerDialogComponent', 'selector': 'app-reg-manager-dialog'},{'name': 'ReimbursableAdvertisingComponent', 'selector': 'app-reimbursable-advertising'},{'name': 'RejectDocumentDialogComponent', 'selector': 'app-reject-document-dialog'},{'name': 'RemitLocationComponent', 'selector': 'app-remit-location'},{'name': 'ReportsComponent', 'selector': 'app-reports'},{'name': 'ReportTableDialogComponent', 'selector': 'app-report-table-dialog'},{'name': 'RequestEsignDialogComponent', 'selector': 'app-request-esign-dialog'},{'name': 'RerunQueryComponent', 'selector': 'app-rerun-query'},{'name': 'RescheduleAppointmentDialogComponent', 'selector': 'app-reschedule-appointment-dialog'},{'name': 'ScanBoxDialogComponent', 'selector': 'app-scan-box-dialog'},{'name': 'ScheduleMiscellaneousDialogComponent', 'selector': 'app-schedule-miscellaneous-dialog'},{'name': 'ScheduleNextVisitDialogComponent', 'selector': 'app-schedule-next-visit-dialog'},{'name': 'ScheduleVisitPatientTrackingComponent', 'selector': 'app-schedule-visit-patient-tracking'},{'name': 'ScoreCardComponent', 'selector': 'app-score-card'},{'name': 'ScoreCardSetupDialogComponent', 'selector': 'app-score-card-setup-dialog'},{'name': 'ScreenSchedulingDialogComponent', 'selector': 'app-screen-scheduling-dialog'},{'name': 'SearchComponent', 'selector': 'app-search'},{'name': 'SearchFooterComponent', 'selector': 'app-search-footer'},{'name': 'SearchLeadDialogComponent', 'selector': 'app-search-lead-dialog'},{'name': 'SelectDateDialogComponent', 'selector': 'app-select-date-dialog'},{'name': 'SelectDialogComponent', 'selector': 'app-select-dialog'},{'name': 'SelectLanguageComponent', 'selector': 'app-select-language'},{'name': 'SelectMessageLogStudyDialogComponent', 'selector': 'app-select-message-log-study-dialog'},{'name': 'SendToStudyStartDialogComponent', 'selector': 'app-send-to-study-start-dialog'},{'name': 'ShowCalendarDialogComponent', 'selector': 'app-show-calendar-dialog'},{'name': 'ShowDocumentAuditDialogComponent', 'selector': 'app-show-document-audit-dialog'},{'name': 'SimpleNameImputDialogComponent', 'selector': 'app-simple-name-imput-dialog'},{'name': 'SiteDialogComponent', 'selector': 'app-site-dialog'},{'name': 'SitesManageComponent', 'selector': 'app-sites-manage'},{'name': 'SkinConfigComponent', 'selector': 'app-skin-config'},{'name': 'SmsMessageDialogComponent', 'selector': 'app-sms-message-dialog'},{'name': 'SmsTemplateComponent', 'selector': 'app-sms-template'},{'name': 'SoftLockDialogComponent', 'selector': 'app-soft-lock-dialog'},{'name': 'SpecialAccessReportComponent', 'selector': 'app-special-access-report'},{'name': 'StudiesComponent', 'selector': 'app-studies'},{'name': 'StudyAssignmentsComponent', 'selector': 'app-study-assignments'},{'name': 'StudyBudgetMaintenanceDialogComponent', 'selector': 'app-study-budget-maintenance-dialog'},{'name': 'StudyBudgetsComponent', 'selector': 'app-study-budgets'},{'name': 'StudyBudgetViewComponent', 'selector': 'app-study-budget-view'},{'name': 'StudyComponent', 'selector': 'app-study'},{'name': 'StudyDialogComponent', 'selector': 'app-new-study-dialog'},{'name': 'StudyKnowledgebaseDialogComponent', 'selector': 'app-study-knowledgebase-dialog'},{'name': 'StudyReportFooterComponent', 'selector': 'app-study-report-footer'},{'name': 'StudyStartsComponent', 'selector': 'app-study-starts'},{'name': 'SuccessMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'TaskManagerComponent', 'selector': 'app-task-manager'},{'name': 'TaskMessagesDialogComponent', 'selector': 'app-task-messages-dialog'},{'name': 'ToBeFiledComponent', 'selector': 'app-to-be-filed'},{'name': 'TooltipComponent', 'selector': 'app-tooltip'},{'name': 'TopNavbarComponent', 'selector': 'topnavbar'},{'name': 'TrainingComponent', 'selector': 'app-training'},{'name': 'TriageVisitsReportComponent', 'selector': 'app-triage-visits-report'},{'name': 'UnassignedPaymentDialogComponent', 'selector': 'app-unassigned-payment-dialog'},{'name': 'UpdateFileDialogComponent', 'selector': 'app-update-file-dialog'},{'name': 'UpdateFinCalendarWeekDatesDialogComponent', 'selector': 'app-update-fin-calendar-week-dates-dialog'},{'name': 'UploadFileDialogComponent', 'selector': 'app-upload-file-dialog'},{'name': 'UrlPreviewComponent', 'selector': 'app-url-preview'},{'name': 'UserAccessMedicalRecordsDialogComponent', 'selector': 'app-user-access-medical-records-dialog'},{'name': 'UserInviteComponent', 'selector': 'app-user-invite'},{'name': 'UserMedicalRecordsViewComponent', 'selector': 'app-user-medical-records-view'},{'name': 'UserPermissionViewComponent', 'selector': 'app-user-permission-view'},{'name': 'UserPermissionViewDialogComponent', 'selector': 'app-user-permission-view-dialog'},{'name': 'UserRegenerateAccessMedicalRecordsDialogComponent', 'selector': 'app-user-regenerate-access-medical-records-dialog'},{'name': 'UserRolesComponent', 'selector': 'app-user-roles'},{'name': 'UsersComponent', 'selector': 'app-users'},{'name': 'VersionsComponent', 'selector': 'app-versions'},{'name': 'ViewDailyOpsReportDialogComponent', 'selector': 'app-view-daily-ops-report-dialog'},{'name': 'ViewDocumentWithPinDialogComponent', 'selector': 'app-view-document-with-pin-dialog'},{'name': 'ViewEditStudyDetailsComponent', 'selector': 'app-view-edit-study-details'},{'name': 'ViewEventDialogComponent', 'selector': 'app-view-event-dialog'},{'name': 'ViewStudyStartsDialogComponent', 'selector': 'app-view-study-starts-dialog'},{'name': 'ViewTrackedProceduresComponent', 'selector': 'app-view-tracked-procedures'},{'name': 'ViewTrackedVisitsComponent', 'selector': 'app-view-tracked-visits'},{'name': 'ViewTrackedVisitsLoadComponent', 'selector': 'app-view-tracked-visits-load'},{'name': 'VisitConditionDialogComponent', 'selector': 'app-visit-condition-dialog'},{'name': 'WarningStudyDialogComponent', 'selector': 'app-warning-study-dialog'},{'name': 'WorkingListComponent', 'selector': 'app-working-list'},{'name': 'WorkingListSchedulePreescreenComponent', 'selector': 'app-working-list-schedule-preescreen'},{'name': 'WorkingListScheduleScreenDialogComponent', 'selector': 'app-working-list-schedule-screen-dialog'},{'name': 'WorkingListSmsDialogComponent', 'selector': 'app-working-list-sms-dialog'}];
+    var DIRECTIVES = [{'name': 'MorrisChartDirective', 'selector': '[mk-morris-js]'},{'name': 'NgxMatSelectDirective', 'selector': 'mat-select[ngxMatSelect]'},{'name': 'NgxMatSelectMediaTracker', 'selector': ''},{'name': 'TimeRangeValidatorDirective', 'selector': '[appTimeRangeValidator]'}];
+    var ACTUAL_COMPONENT = {'name': 'AccrualsComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'AccrualsComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

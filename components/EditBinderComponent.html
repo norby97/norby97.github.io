@@ -1,0 +1,2918 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>site-centric documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
+            <a href="../" class="navbar-brand">site-centric documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Components</li>
+  <li class="breadcrumb-item"
+  >
+  EditBinderComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#info" class="nav-link active"
+                role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li class="nav-item">
+            <a href="#source" class="nav-link"
+                role="tab" id="source-tab" data-bs-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li class="nav-item">
+            <a href="#templateData" class="nav-link"
+                role="tab" id="templateData-tab" data-bs-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li class="nav-item">
+            <a href="#styleData" class="nav-link"
+                role="tab" id="styleData-tab" data-bs-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li class="nav-item">
+            <a href="#tree" class="nav-link"
+                role="tab" id="tree-tab" data-bs-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="../miscellaneous/functions.html#nInit" target="_self" >OnInit</a></code>
+    </p>
+
+
+<section data-compodoc="block-metadata">
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-edit-binder</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./edit-binder.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./edit-binder.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-index">
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#backupBinder" >backupBinder</a>
+                            </li>
+                            <li>
+                                <a href="#binder" >binder</a>
+                            </li>
+                            <li>
+                                <a href="#checklistSelection" >checklistSelection</a>
+                            </li>
+                            <li>
+                                <a href="#companyID" >companyID</a>
+                            </li>
+                            <li>
+                                <a href="#dataSource" >dataSource</a>
+                            </li>
+                            <li>
+                                <a href="#dragNode" >dragNode</a>
+                            </li>
+                            <li>
+                                <a href="#dragNodeExpandOverArea" >dragNodeExpandOverArea</a>
+                            </li>
+                            <li>
+                                <a href="#dragNodeExpandOverNode" >dragNodeExpandOverNode</a>
+                            </li>
+                            <li>
+                                <a href="#dragNodeExpandOverTime" >dragNodeExpandOverTime</a>
+                            </li>
+                            <li>
+                                <a href="#dragNodeExpandOverWaitTimeMs" >dragNodeExpandOverWaitTimeMs</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                <a href="#emptyItem" >emptyItem</a>
+                            </li>
+                            <li>
+                                <a href="#finalBinder" >finalBinder</a>
+                            </li>
+                            <li>
+                                <a href="#flatNodeMap" >flatNodeMap</a>
+                            </li>
+                            <li>
+                                <a href="#getChildren" >getChildren</a>
+                            </li>
+                            <li>
+                                <a href="#getLevel" >getLevel</a>
+                            </li>
+                            <li>
+                                <a href="#hasChild" >hasChild</a>
+                            </li>
+                            <li>
+                                <a href="#hasNoContent" >hasNoContent</a>
+                            </li>
+                            <li>
+                                <a href="#isExpandable" >isExpandable</a>
+                            </li>
+                            <li>
+                                <a href="#itemNameForm" >itemNameForm</a>
+                            </li>
+                            <li>
+                                <a href="#nestedNodeMap" >nestedNodeMap</a>
+                            </li>
+                            <li>
+                                <a href="#newBinder" >newBinder</a>
+                            </li>
+                            <li>
+                                <a href="#newID" >newID</a>
+                            </li>
+                            <li>
+                                <a href="#newItemName" >newItemName</a>
+                            </li>
+                            <li>
+                                <a href="#selectedParent" >selectedParent</a>
+                            </li>
+                            <li>
+                                <a href="#transformer" >transformer</a>
+                            </li>
+                            <li>
+                                <a href="#treeControl" >treeControl</a>
+                            </li>
+                            <li>
+                                <a href="#treeFlattener" >treeFlattener</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#addItem" >addItem</a>
+                            </li>
+                            <li>
+                                <a href="#addNewItem" >addNewItem</a>
+                            </li>
+                            <li>
+                                <a href="#backToTable" >backToTable</a>
+                            </li>
+                            <li>
+                                <a href="#broofa" >broofa</a>
+                            </li>
+                            <li>
+                                <a href="#changeName" >changeName</a>
+                            </li>
+                            <li>
+                                <a href="#deleteItem" >deleteItem</a>
+                            </li>
+                            <li>
+                                <a href="#descendantsAllSelected" >descendantsAllSelected</a>
+                            </li>
+                            <li>
+                                <a href="#descendantsPartiallySelected" >descendantsPartiallySelected</a>
+                            </li>
+                            <li>
+                                <a href="#dragEvent" >dragEvent</a>
+                            </li>
+                            <li>
+                                <a href="#executeUpdate" >executeUpdate</a>
+                            </li>
+                            <li>
+                                <a href="#handleDragEnd" >handleDragEnd</a>
+                            </li>
+                            <li>
+                                <a href="#handleDragOver" >handleDragOver</a>
+                            </li>
+                            <li>
+                                <a href="#handleDragStart" >handleDragStart</a>
+                            </li>
+                            <li>
+                                <a href="#handleDrop" >handleDrop</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#saveNode" >saveNode</a>
+                            </li>
+                            <li>
+                                <a href="#todoItemSelectionToggle" >todoItemSelectionToggle</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#binderName" >binderName</a>
+                            </li>
+                            <li>
+                                <a href="#id" >id</a>
+                            </li>
+                            <li>
+                                <a href="#pluginStructure" >pluginStructure</a>
+                            </li>
+                            <li>
+                                <a href="#structure" >structure</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Outputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#back" >back</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-constructor">
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(database: <a href="../injectables/CheckboxListService.html" target="_self">CheckboxListService</a>, ref: ChangeDetectorRef, route: ActivatedRoute, studyService: <a href="../injectables/StudyService.html" target="_self">StudyService</a>, binderService: <a href="../injectables/BindersTemplateService.html" target="_self">BindersTemplateService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="69" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:69</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>database</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CheckboxListService.html" target="_self" >CheckboxListService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>ref</td>
+                                                  
+                                                        <td>
+                                                                    <code>ChangeDetectorRef</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>route</td>
+                                                  
+                                                        <td>
+                                                                    <code>ActivatedRoute</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>studyService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/StudyService.html" target="_self" >StudyService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>binderService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/BindersTemplateService.html" target="_self" >BindersTemplateService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section data-compodoc="block-inputs">
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="binderName"></a>
+                        <b>binderName</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="207" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:207</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="id"></a>
+                        <b>id</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="206" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:206</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="pluginStructure"></a>
+                        <b>pluginStructure</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="204" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:204</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="structure"></a>
+                        <b>structure</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/FilePath.html" target="_self" >[FilePath]</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="203" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:203</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+    <section data-compodoc="block-outputs">
+    <h3 id="outputs">Outputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="back"></a>
+                        <b>back</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="209" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:209</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+
+
+    <section data-compodoc="block-methods">
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="addItem"></a>
+                    <span class="name">
+                        <span ><b>addItem</b></span>
+                        <a href="#addItem"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>addItem(type)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="251"
+                            class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:251</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>type</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="addNewItem"></a>
+                    <span class="name">
+                        <span ><b>addNewItem</b></span>
+                        <a href="#addNewItem"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>addNewItem(node: <a href="../classes/TodoItemFlatNode.html" target="_self">TodoItemFlatNode</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="128"
+                            class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:128</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Select the category so we can insert the new item.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>node</td>
+                                    <td>
+                                                <code><a href="../classes/TodoItemFlatNode.html" target="_self" >TodoItemFlatNode</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="backToTable"></a>
+                    <span class="name">
+                        <span ><b>backToTable</b></span>
+                        <a href="#backToTable"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>backToTable()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="312"
+                            class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:312</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="broofa"></a>
+                    <span class="name">
+                        <span ><b>broofa</b></span>
+                        <a href="#broofa"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>broofa()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="236"
+                            class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:236</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="changeName"></a>
+                    <span class="name">
+                        <span ><b>changeName</b></span>
+                        <a href="#changeName"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>changeName(event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="247"
+                            class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:247</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deleteItem"></a>
+                    <span class="name">
+                        <span ><b>deleteItem</b></span>
+                        <a href="#deleteItem"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>deleteItem(id)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="242"
+                            class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:242</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="descendantsAllSelected"></a>
+                    <span class="name">
+                        <span ><b>descendantsAllSelected</b></span>
+                        <a href="#descendantsAllSelected"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>descendantsAllSelected(node: <a href="../classes/TodoItemFlatNode.html" target="_self">TodoItemFlatNode</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="106"
+                            class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:106</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Whether all the descendants of the node are selected</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>node</td>
+                                    <td>
+                                                <code><a href="../classes/TodoItemFlatNode.html" target="_self" >TodoItemFlatNode</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="descendantsPartiallySelected"></a>
+                    <span class="name">
+                        <span ><b>descendantsPartiallySelected</b></span>
+                        <a href="#descendantsPartiallySelected"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>descendantsPartiallySelected(node: <a href="../classes/TodoItemFlatNode.html" target="_self">TodoItemFlatNode</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="112"
+                            class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:112</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Whether part of the descendants are selected</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>node</td>
+                                    <td>
+                                                <code><a href="../classes/TodoItemFlatNode.html" target="_self" >TodoItemFlatNode</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dragEvent"></a>
+                    <span class="name">
+                        <span ><b>dragEvent</b></span>
+                        <a href="#dragEvent"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>dragEvent(event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="269"
+                            class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:269</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="executeUpdate"></a>
+                    <span class="name">
+                        <span ><b>executeUpdate</b></span>
+                        <a href="#executeUpdate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>executeUpdate()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="292"
+                            class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:292</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="handleDragEnd"></a>
+                    <span class="name">
+                        <span ><b>handleDragEnd</b></span>
+                        <a href="#handleDragEnd"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>handleDragEnd(event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="194"
+                            class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:194</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="handleDragOver"></a>
+                    <span class="name">
+                        <span ><b>handleDragOver</b></span>
+                        <a href="#handleDragOver"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>handleDragOver(event, node)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="148"
+                            class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:148</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>node</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="handleDragStart"></a>
+                    <span class="name">
+                        <span ><b>handleDragStart</b></span>
+                        <a href="#handleDragStart"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>handleDragStart(event, node)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="140"
+                            class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:140</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>node</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="handleDrop"></a>
+                    <span class="name">
+                        <span ><b>handleDrop</b></span>
+                        <a href="#handleDrop"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>handleDrop(event, node)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="175"
+                            class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:175</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>node</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="218"
+                            class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:218</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="saveNode"></a>
+                    <span class="name">
+                        <span ><b>saveNode</b></span>
+                        <a href="#saveNode"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>saveNode(node: <a href="../classes/TodoItemFlatNode.html" target="_self">TodoItemFlatNode</a>, itemValue: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="135"
+                            class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:135</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Save the node to database</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>node</td>
+                                    <td>
+                                                <code><a href="../classes/TodoItemFlatNode.html" target="_self" >TodoItemFlatNode</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>itemValue</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="todoItemSelectionToggle"></a>
+                    <span class="name">
+                        <span ><b>todoItemSelectionToggle</b></span>
+                        <a href="#todoItemSelectionToggle"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>todoItemSelectionToggle(node: <a href="../classes/TodoItemFlatNode.html" target="_self">TodoItemFlatNode</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="119"
+                            class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:119</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Toggle the to-do item selection. Select/deselect all the descendants node</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>node</td>
+                                    <td>
+                                                <code><a href="../classes/TodoItemFlatNode.html" target="_self" >TodoItemFlatNode</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section data-compodoc="block-properties">
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="backupBinder"></a>
+                    <span class="name">
+                        <span ><b>backupBinder</b></span>
+                        <a href="#backupBinder"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="215" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:215</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="binder"></a>
+                    <span class="name">
+                        <span ><b>binder</b></span>
+                        <a href="#binder"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="213" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:213</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="checklistSelection"></a>
+                    <span class="name">
+                        <span ><b>checklistSelection</b></span>
+                        <a href="#checklistSelection"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new SelectionModel&lt;TodoItemFlatNode&gt;(true /* multiple */)</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="61" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:61</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>The selection for checklist</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="companyID"></a>
+                    <span class="name">
+                        <span ><b>companyID</b></span>
+                        <a href="#companyID"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="208" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:208</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dataSource"></a>
+                    <span class="name">
+                        <span ><b>dataSource</b></span>
+                        <a href="#dataSource"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>MatTreeFlatDataSource&lt;TodoItemNode | TodoItemFlatNode&gt;</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="58" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:58</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dragNode"></a>
+                    <span class="name">
+                        <span ><b>dragNode</b></span>
+                        <a href="#dragNode"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="64" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:64</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dragNodeExpandOverArea"></a>
+                    <span class="name">
+                        <span ><b>dragNodeExpandOverArea</b></span>
+                        <a href="#dragNodeExpandOverArea"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="68" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:68</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dragNodeExpandOverNode"></a>
+                    <span class="name">
+                        <span ><b>dragNodeExpandOverNode</b></span>
+                        <a href="#dragNodeExpandOverNode"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="66" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:66</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dragNodeExpandOverTime"></a>
+                    <span class="name">
+                        <span ><b>dragNodeExpandOverTime</b></span>
+                        <a href="#dragNodeExpandOverTime"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="67" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:67</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dragNodeExpandOverWaitTimeMs"></a>
+                    <span class="name">
+                        <span ><b>dragNodeExpandOverWaitTimeMs</b></span>
+                        <a href="#dragNodeExpandOverWaitTimeMs"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>300</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="65" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:65</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="emptyItem"></a>
+                    <span class="name">
+                            <span class="modifier"></span>
+                        <span ><b>emptyItem</b></span>
+                        <a href="#emptyItem"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>ElementRef</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <b>Decorators : </b>
+                        <br />
+                        <code>
+                            @ViewChild(&#x27;emptyItem&#x27;)<br />
+                        </code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="69" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:69</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="finalBinder"></a>
+                    <span class="name">
+                        <span ><b>finalBinder</b></span>
+                        <a href="#finalBinder"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="214" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:214</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="flatNodeMap"></a>
+                    <span class="name">
+                        <span ><b>flatNodeMap</b></span>
+                        <a href="#flatNodeMap"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new Map&lt;TodoItemFlatNode, TodoItemNode&gt;()</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:34</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Map from flat node to nested node. This helps us finding the nested node to be modified</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getChildren"></a>
+                    <span class="name">
+                        <span ><b>getChildren</b></span>
+                        <a href="#getChildren"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="45" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:45</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getLevel"></a>
+                    <span class="name">
+                        <span ><b>getLevel</b></span>
+                        <a href="#getLevel"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="41" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:41</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="hasChild"></a>
+                    <span class="name">
+                        <span ><b>hasChild</b></span>
+                        <a href="#hasChild"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="47" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:47</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="hasNoContent"></a>
+                    <span class="name">
+                        <span ><b>hasNoContent</b></span>
+                        <a href="#hasNoContent"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="49" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:49</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isExpandable"></a>
+                    <span class="name">
+                        <span ><b>isExpandable</b></span>
+                        <a href="#isExpandable"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:43</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="itemNameForm"></a>
+                    <span class="name">
+                        <span ><b>itemNameForm</b></span>
+                        <a href="#itemNameForm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>UntypedFormGroup</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="210" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:210</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="nestedNodeMap"></a>
+                    <span class="name">
+                        <span ><b>nestedNodeMap</b></span>
+                        <a href="#nestedNodeMap"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new Map&lt;TodoItemNode, TodoItemFlatNode&gt;()</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="37" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:37</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Map from nested node to flattened node. This helps us to keep the same object for selection</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="newBinder"></a>
+                    <span class="name">
+                        <span ><b>newBinder</b></span>
+                        <a href="#newBinder"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="212" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:212</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="newID"></a>
+                    <span class="name">
+                        <span ><b>newID</b></span>
+                        <a href="#newID"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>2</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="211" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:211</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="newItemName"></a>
+                    <span class="name">
+                        <span ><b>newItemName</b></span>
+                        <a href="#newItemName"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;&#x27;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="52" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:52</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>The new item&#39;s name</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="selectedParent"></a>
+                    <span class="name">
+                        <span ><b>selectedParent</b></span>
+                        <a href="#selectedParent"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../classes/TodoItemFlatNode.html" target="_self" >TodoItemFlatNode | null</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>null</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="40" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:40</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>A selected parent node to be inserted</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="transformer"></a>
+                    <span class="name">
+                        <span ><b>transformer</b></span>
+                        <a href="#transformer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="92" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:92</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Transformer to convert nested node to flat node. Record the nodes in maps for later use.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="treeControl"></a>
+                    <span class="name">
+                        <span ><b>treeControl</b></span>
+                        <a href="#treeControl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../classes/TodoItemFlatNode.html" target="_self" >FlatTreeControl&lt;TodoItemFlatNode&gt;</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="54" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:54</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="treeFlattener"></a>
+                    <span class="name">
+                        <span ><b>treeFlattener</b></span>
+                        <a href="#treeFlattener"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>MatTreeFlattener&lt;TodoItemNode | TodoItemFlatNode&gt;</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="56" class="link-to-prism">src/app/components/administration/companies/manage-company/edit-binder/edit-binder.component.ts:56</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { SelectionModel } from &#x27;@angular/cdk/collections&#x27;;
+import { FlatTreeControl } from &#x27;@angular/cdk/tree&#x27;;
+import { ChangeDetectorRef, Component, ElementRef, EventEmitter, Injectable, Input, OnInit, Output, ViewChild } from &#x27;@angular/core&#x27;;
+import { UntypedFormControl, UntypedFormGroup, Validators } from &#x27;@angular/forms&#x27;;
+import { MatTreeFlattener, MatTreeFlatDataSource } from &#x27;@angular/material/tree&#x27;;
+import { ActivatedRoute } from &#x27;@angular/router&#x27;;
+import { BehaviorSubject } from &#x27;rxjs&#x27;;
+import { CheckboxListService, TodoItemFlatNode, TodoItemNode } from &#x27;src/app/directives/checkbox-list.service&#x27;;
+import { FilePath } from &#x27;src/app/models/regulatory/FilePath&#x27;;
+import { BindersTemplateService } from &#x27;src/app/services/regulatory/binders-template.service&#x27;;
+import { StudyService } from &#x27;src/app/services/regulatory/study.service&#x27;;
+
+declare var $: any;
+
+
+/**
+ * The Json object for to-do list data.
+ */
+const TREE_DATA &#x3D; {
+  &quot;Study files&quot;: {
+    &#x27;&#x27;: null,
+  },
+};
+
+
+@Component({
+  selector: &#x27;app-edit-binder&#x27;,
+  templateUrl: &#x27;./edit-binder.component.html&#x27;,
+  styleUrls: [&#x27;./edit-binder.component.scss&#x27;]
+})
+export class EditBinderComponent implements OnInit {
+
+  /** Map from flat node to nested node. This helps us finding the nested node to be modified */
+  flatNodeMap &#x3D; new Map&lt;TodoItemFlatNode, TodoItemNode&gt;();
+
+  /** Map from nested node to flattened node. This helps us to keep the same object for selection */
+  nestedNodeMap &#x3D; new Map&lt;TodoItemNode, TodoItemFlatNode&gt;();
+
+  /** A selected parent node to be inserted */
+  selectedParent: TodoItemFlatNode | null &#x3D; null;
+  getLevel &#x3D; (node: TodoItemFlatNode) &#x3D;&gt; node.level;
+
+  isExpandable &#x3D; (node: TodoItemFlatNode) &#x3D;&gt; node.expandable;
+
+  getChildren &#x3D; (node: TodoItemNode): TodoItemNode[] &#x3D;&gt; node.children;
+
+  hasChild &#x3D; (_: number, _nodeData: TodoItemFlatNode) &#x3D;&gt; _nodeData.expandable;
+
+  hasNoContent &#x3D; (_: number, _nodeData: TodoItemFlatNode) &#x3D;&gt; _nodeData.item &#x3D;&#x3D;&#x3D; &#x27;&#x27;;
+
+  /** The new item&#x27;s name */
+  newItemName &#x3D; &#x27;&#x27;;
+
+  treeControl: FlatTreeControl&lt;TodoItemFlatNode&gt;;
+
+  treeFlattener: MatTreeFlattener&lt;TodoItemNode, TodoItemFlatNode&gt;;
+
+  dataSource: MatTreeFlatDataSource&lt;TodoItemNode, TodoItemFlatNode&gt;;
+
+  /** The selection for checklist */
+  checklistSelection &#x3D; new SelectionModel&lt;TodoItemFlatNode&gt;(true /* multiple */);
+
+  /* Drag and drop */
+  dragNode: any;
+  dragNodeExpandOverWaitTimeMs &#x3D; 300;
+  dragNodeExpandOverNode: any;
+  dragNodeExpandOverTime: number;
+  dragNodeExpandOverArea: string;
+  @ViewChild(&#x27;emptyItem&#x27;) emptyItem: ElementRef;
+
+  constructor(private database: CheckboxListService,
+    private ref: ChangeDetectorRef,
+    private route: ActivatedRoute,
+    private studyService: StudyService,
+    private binderService: BindersTemplateService) {
+    this.treeFlattener &#x3D; new MatTreeFlattener(this.transformer, this.getLevel, this.isExpandable, this.getChildren);
+    this.treeControl &#x3D; new FlatTreeControl&lt;TodoItemFlatNode&gt;(this.getLevel, this.isExpandable);
+    this.dataSource &#x3D; new MatTreeFlatDataSource(this.treeControl, this.treeFlattener);
+
+    database.dataChange.subscribe(data &#x3D;&gt; {
+    
+    
+      this.dataSource.data &#x3D; [];
+      this.dataSource.data &#x3D; data;
+    });
+  }
+
+ 
+  /**
+   * Transformer to convert nested node to flat node. Record the nodes in maps for later use.
+   */
+  transformer &#x3D; (node: TodoItemNode, level: number) &#x3D;&gt; {
+    const existingNode &#x3D; this.nestedNodeMap.get(node);
+    const flatNode &#x3D; existingNode &amp;&amp; existingNode.item &#x3D;&#x3D;&#x3D; node.item
+      ? existingNode
+      : new TodoItemFlatNode();
+    flatNode.item &#x3D; node.item;
+    flatNode.level &#x3D; level;
+    flatNode.expandable &#x3D; (node.children &amp;&amp; node.children.length &gt; 0);
+    this.flatNodeMap.set(flatNode, node);
+    this.nestedNodeMap.set(node, flatNode);
+    return flatNode;
+  }
+
+  /** Whether all the descendants of the node are selected */
+  descendantsAllSelected(node: TodoItemFlatNode): boolean {
+    const descendants &#x3D; this.treeControl.getDescendants(node);
+    return descendants.every(child &#x3D;&gt; this.checklistSelection.isSelected(child));
+  }
+
+  /** Whether part of the descendants are selected */
+  descendantsPartiallySelected(node: TodoItemFlatNode): boolean {
+    const descendants &#x3D; this.treeControl.getDescendants(node);
+    const result &#x3D; descendants.some(child &#x3D;&gt; this.checklistSelection.isSelected(child));
+    return result &amp;&amp; !this.descendantsAllSelected(node);
+  }
+
+  /** Toggle the to-do item selection. Select/deselect all the descendants node */
+  todoItemSelectionToggle(node: TodoItemFlatNode): void {
+    this.checklistSelection.toggle(node);
+    const descendants &#x3D; this.treeControl.getDescendants(node);
+    this.checklistSelection.isSelected(node)
+      ? this.checklistSelection.select(...descendants)
+      : this.checklistSelection.deselect(...descendants);
+  }
+
+  /** Select the category so we can insert the new item. */
+  addNewItem(node: TodoItemFlatNode) {
+    const parentNode &#x3D; this.flatNodeMap.get(node);
+    this.database.insertItem(parentNode, &#x27;&#x27;);
+    this.treeControl.expand(node);
+  }
+
+  /** Save the node to database */
+  saveNode(node: TodoItemFlatNode, itemValue: string) {
+    const nestedNode &#x3D; this.flatNodeMap.get(node);
+    this.database.updateItem(nestedNode, itemValue);
+  }
+
+  handleDragStart(event, node) {
+    // Required by Firefox (https://stackoverflow.com/questions/19055264/why-doesnt-html5-drag-and-drop-work-in-firefox)
+    event.dataTransfer.setData(&#x27;foo&#x27;, &#x27;bar&#x27;);
+    event.dataTransfer.setDragImage(this.emptyItem.nativeElement, 0, 0);
+    this.dragNode &#x3D; node;
+    this.treeControl.collapse(node);
+  }
+
+  handleDragOver(event, node) {
+    event.preventDefault();
+
+    // Handle node expand
+    if (node &#x3D;&#x3D;&#x3D; this.dragNodeExpandOverNode) {
+      if (this.dragNode !&#x3D;&#x3D; node &amp;&amp; !this.treeControl.isExpanded(node)) {
+        if ((new Date().getTime() - this.dragNodeExpandOverTime) &gt; this.dragNodeExpandOverWaitTimeMs) {
+          this.treeControl.expand(node);
+        }
+      }
+    } else {
+      this.dragNodeExpandOverNode &#x3D; node;
+      this.dragNodeExpandOverTime &#x3D; new Date().getTime();
+    }
+
+    // Handle drag area
+    const percentageX &#x3D; event.offsetX / event.target.clientWidth;
+    const percentageY &#x3D; event.offsetY / event.target.clientHeight;
+    if (percentageY &lt; 0.33) {
+      this.dragNodeExpandOverArea &#x3D; &#x27;above&#x27;;
+    } else if (percentageY &gt; 0.66) {
+      this.dragNodeExpandOverArea &#x3D; &#x27;below&#x27;;
+    } else {
+      this.dragNodeExpandOverArea &#x3D; &#x27;center&#x27;;
+    }
+  }
+
+  handleDrop(event, node) {
+    event.preventDefault();
+    if (node !&#x3D;&#x3D; this.dragNode) {
+      let newItem: TodoItemNode;
+      if (this.dragNodeExpandOverArea &#x3D;&#x3D;&#x3D; &#x27;above&#x27;) {
+        newItem &#x3D; this.database.copyPasteItemAbove(this.flatNodeMap.get(this.dragNode), this.flatNodeMap.get(node));
+      } else if (this.dragNodeExpandOverArea &#x3D;&#x3D;&#x3D; &#x27;below&#x27;) {
+        newItem &#x3D; this.database.copyPasteItemBelow(this.flatNodeMap.get(this.dragNode), this.flatNodeMap.get(node));
+      } else {
+        newItem &#x3D; this.database.copyPasteItem(this.flatNodeMap.get(this.dragNode), this.flatNodeMap.get(node));
+      }
+      this.database.deleteItem(this.flatNodeMap.get(this.dragNode));
+      this.treeControl.expandDescendants(this.nestedNodeMap.get(newItem));
+    }
+    this.dragNode &#x3D; null;
+    this.dragNodeExpandOverNode &#x3D; null;
+    this.dragNodeExpandOverTime &#x3D; 0;
+  }
+
+  handleDragEnd(event) {
+    this.dragNode &#x3D; null;
+    this.dragNodeExpandOverNode &#x3D; null;
+    this.dragNodeExpandOverTime &#x3D; 0;
+  }
+
+
+
+
+  @Input() structure: [FilePath];
+  @Input() pluginStructure: any;
+
+  @Input() id: string;
+  @Input() binderName: string;
+  companyID: string
+  @Output() back: EventEmitter&lt;any&gt; &#x3D; new EventEmitter();
+  itemNameForm: UntypedFormGroup;
+  newID &#x3D; 2;
+  newBinder &#x3D; false;
+  binder &#x3D; [];
+  finalBinder &#x3D; [];
+  backupBinder &#x3D; [];
+  
+
+  ngOnInit(): void {
+
+  //   this.pluginStructure &#x3D; JSON.parse(this.pluginStructure);
+  //   this.route.params.subscribe(params &#x3D;&gt; { this.companyID &#x3D; params.id; });
+  //   this.itemNameForm &#x3D; new UntypedFormGroup({
+  //     itemName: new UntypedFormControl(&#x27;&#x27;, [Validators.required]),
+  //   });
+
+  //   if(this.pluginStructure &#x3D;&#x3D; null) {
+  //     this.newBinder &#x3D; true;
+  //     this.pluginStructure &#x3D;[];
+  //     this.pluginStructure.push({
+  //       id: 1, parent: {id:&#x27;#&#x27;}, text:&#x27;&#x27;,
+  //       icon: &#x27;fa fa-folder&#x27;, state: { opened: true }
+  //   });
+  // } else {
+  // }
+  }
+  broofa() {
+    return &#x27;xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx&#x27;.replace(/[xy]/g, function(c) {
+        var r &#x3D; Math.random()*16|0, v &#x3D; c &#x3D;&#x3D; &#x27;x&#x27; ? r : (r&amp;0x3|0x8);
+        return v.toString(16);
+    });
+}
+  deleteItem(id) {
+    this.binder &#x3D; this.binder.filter(item &#x3D;&gt; item.id !&#x3D;&#x3D; id);
+    this.backupBinder &#x3D; this.backupBinder.filter(item &#x3D;&gt; item.id !&#x3D;&#x3D; id);
+  }
+
+  changeName(event) {
+    this.itemNameForm.controls.itemName.setValue(event.target.value);
+  }
+ 
+  addItem(type) {
+
+    if(this.binder.filter(elem &#x3D;&gt; {return elem.text &#x3D;&#x3D; this.itemNameForm.get(&#x27;itemName&#x27;).value &amp;&amp; elem.type &#x3D;&#x3D; type}).length) {
+      this.studyService.showError(&#x27;duplicate-name&#x27;)
+    } else {
+      let tempBinder &#x3D; this.binder;
+      if (this.itemNameForm.valid) {
+        tempBinder.push({id: this.newID++, text: this.itemNameForm.get(&#x27;itemName&#x27;).value, children:[], type, parent: 1, icon: type &#x3D;&#x3D; &#x27;FOLDER&#x27; ? &#x27;fa fa-folder&#x27; : &#x27;fa fa-upload&#x27;  })
+        $(&#x27;#jstree1&#x27;).jstree(true).settings.core.data &#x3D; tempBinder;
+        $(&#x27;#jstree1&#x27;).jstree(true).refresh(true);
+        this.binder &#x3D; tempBinder;
+      } else {
+        this.itemNameForm.markAllAsTouched();
+      }
+    }
+    
+  }
+
+  dragEvent(event) {
+    if(event.destination &#x3D;&#x3D;&#x3D; null) {
+      this.binder.forEach(element &#x3D;&gt; {
+        if(element.$$id &#x3D;&#x3D;&#x3D; event.item.$$id) {
+          element.parent &#x3D; null;
+        };
+      })
+    }
+    if((event.item.fileType &#x3D;&#x3D;&#x3D; &#x27;FOLDER&#x27; &amp;&amp; event.destination?.fileType &#x3D;&#x3D;&#x3D; &#x27;PLACEHOLDER&#x27;)) {
+      this.studyService.showFolderDragError();
+      this.binder &#x3D; this.backupBinder;
+      this.ref.detectChanges();
+      return;
+    }
+    if((event.item.fileType &#x3D;&#x3D;&#x3D; &#x27;PLACEHOLDER&#x27; &amp;&amp; event.destination?.fileType &#x3D;&#x3D;&#x3D; &#x27;PLACEHOLDER&#x27;)) {
+      this.studyService.showPlaceholderDragError();
+      this.binder &#x3D; this.backupBinder;
+      this.ref.detectChanges();
+      return;
+    }
+  }
+  
+
+executeUpdate() {
+  this.binder.forEach(elem &#x3D;&gt; {
+    if(elem.parent &#x3D;&#x3D; 1) {
+      elem.parent &#x3D; {id:1}
+    }
+  })
+  const data &#x3D; {
+    id: this.id,
+    company: {id: this.companyID},
+    structure: this.binder,
+    pluginStructure: JSON.stringify(this.binder),
+    name: this.binderName
+  }
+  this.binderService.update(data).subscribe(res &#x3D;&gt; {
+
+    this.back.emit(false);
+
+  });
+}
+
+  backToTable() {
+    this.back.emit(false);
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;panel-body&quot;&gt;
+  &lt;div class&#x3D;&quot;w-100&quot;&gt; &lt;div&gt;
+    &lt;button class&#x3D;&quot;btn btn-sm  btn-outline-secondary btn-sm mr-2 mt-2&quot; (click)&#x3D;&quot;backToTable();&quot;&gt;{{ &#x27;user.manage-user.back&#x27; | translate }}&lt;/button&gt;
+
+  &lt;/div&gt;&lt;/div&gt;
+  &lt;div class&#x3D;&quot;row&quot;&gt;
+    &lt;div class&#x3D;&quot;col-lg-9 col-md-9 col-sm-9 d-flex&quot;&gt;
+    
+      &lt;mat-tree [dataSource]&#x3D;&quot;dataSource&quot; [treeControl]&#x3D;&quot;treeControl&quot;&gt;
+        &lt;mat-tree-node *matTreeNodeDef&#x3D;&quot;let node&quot;
+                       matTreeNodeToggle
+                       matTreeNodePadding&gt;
+                       &lt;i class&#x3D;&quot;fa  fa-md pb-1 pr-2 fa-file&quot;  
+                        &gt;&lt;/i&gt;          &lt;mat-checkbox style&#x3D;&quot;padding-top: 0.5rem;&quot;
+          readonly
+                        [ngClass]&#x3D;&quot;{&#x27;drop-above&#x27;: dragNodeExpandOverArea &#x3D;&#x3D;&#x3D; &#x27;above&#x27; &amp;&amp; dragNodeExpandOverNode &#x3D;&#x3D;&#x3D; node,
+                                    &#x27;drop-below&#x27;: dragNodeExpandOverArea &#x3D;&#x3D;&#x3D; &#x27;below&#x27; &amp;&amp; dragNodeExpandOverNode &#x3D;&#x3D;&#x3D; node,
+                                    &#x27;drop-center&#x27;: dragNodeExpandOverArea &#x3D;&#x3D;&#x3D; &#x27;center&#x27; &amp;&amp; dragNodeExpandOverNode &#x3D;&#x3D;&#x3D; node}&quot;
+                        [checked]&#x3D;&quot;checklistSelection.isSelected(node)&quot;
+                        style&#x3D;&quot;cursor: move;&quot;
+                        (change)&#x3D;&quot;checklistSelection.toggle(node);&quot;
+                        draggable&#x3D;&quot;true&quot;
+                        (dragstart)&#x3D;&quot;handleDragStart($event, node);&quot;
+                        (dragover)&#x3D;&quot;handleDragOver($event, node);&quot;
+                        (drop)&#x3D;&quot;handleDrop($event, node);&quot;
+                        (dragend)&#x3D;&quot;handleDragEnd($event);&quot;&gt;{{node.item}}&lt;/mat-checkbox&gt;
+        &lt;/mat-tree-node&gt;
+
+        &lt;mat-tree-node *matTreeNodeDef&#x3D;&quot;let node; when: hasNoContent&quot; matTreeNodePadding&gt;
+          &lt;button mat-icon-button disabled&gt;&lt;/button&gt;
+          &lt;mat-form-field&gt;
+            &lt;input matInput #itemValue placeholder&#x3D;&quot;New item&quot;&gt;
+            &lt;mat-error *ngIf&#x3D;&quot;itemValue.value&#x3D;&#x3D;&#x27;&#x27;&quot;&gt;&lt;/mat-error&gt;
+            &lt;span matSuffix&gt;&lt;button class&#x3D;&quot;btn btn-success btn-sm&quot; (click)&#x3D;&quot;saveNode(node, itemValue.value)&quot;&gt;{{&#x27;add-file&#x27;|translate}}&lt;/button&gt;&lt;/span&gt;
+          &lt;/mat-form-field&gt;
+        &lt;/mat-tree-node&gt;
+
+        &lt;mat-tree-node *matTreeNodeDef&#x3D;&quot;let node; when: hasChild&quot;
+                       matTreeNodePadding&gt;
+                       &lt;i class&#x3D;&quot;fa  fa-md pb-2 pr-2 &quot;style&#x3D;&quot;cursor:pointer;&quot; matTreeNodeToggle
+                       [attr.aria-label]&#x3D;&quot;&#x27;toggle &#x27; + node.filename&quot; [ngClass]&#x3D;&quot;treeControl.isExpanded(node) ? &#x27;fa-chevron-down&#x27; : &#x27;fa-chevron-right&#x27;&quot;&gt;&lt;/i&gt;
+         
+          &lt;mat-checkbox  [ngClass]&#x3D;&quot;{&#x27;drop-above&#x27;: dragNodeExpandOverArea &#x3D;&#x3D;&#x3D; &#x27;above&#x27; &amp;&amp; dragNodeExpandOverNode &#x3D;&#x3D;&#x3D; node,
+                                    &#x27;drop-below&#x27;: dragNodeExpandOverArea &#x3D;&#x3D;&#x3D; &#x27;below&#x27; &amp;&amp; dragNodeExpandOverNode &#x3D;&#x3D;&#x3D; node,
+                                    &#x27;drop-center&#x27;: dragNodeExpandOverArea &#x3D;&#x3D;&#x3D; &#x27;center&#x27; &amp;&amp; dragNodeExpandOverNode &#x3D;&#x3D;&#x3D; node}&quot;
+                        draggable&#x3D;&quot;true&quot; style&#x3D;&quot;cursor: default;&quot;
+                        (dragstart)&#x3D;&quot;handleDragStart($event, node);&quot;
+                        (dragover)&#x3D;&quot;handleDragOver($event, node);&quot;
+                        (drop)&#x3D;&quot;handleDrop($event, node);&quot;
+                        (dragend)&#x3D;&quot;handleDragEnd($event);&quot;
+                        [checked]&#x3D;&quot;descendantsAllSelected(node)&quot;
+                        [indeterminate]&#x3D;&quot;descendantsPartiallySelected(node)&quot;
+                        (change)&#x3D;&quot;todoItemSelectionToggle(node)&quot;&gt;{{node.item}}&lt;/mat-checkbox&gt;
+                        &lt;i class&#x3D;&quot;fa  fa-md pb-2 pl-2 text-info fa-plus&quot;style&#x3D;&quot;cursor:pointer;&quot; matTreeNodeToggle
+                        [attr.aria-label]&#x3D;&quot;&#x27;toggle &#x27; + node.item&quot; (click)&#x3D;&quot;addNewItem(node)&quot;&gt;&lt;/i&gt;
+        &lt;/mat-tree-node&gt;
+      &lt;/mat-tree&gt;
+
+      &lt;span #emptyItem&gt;&lt;/span&gt;
+
+    &lt;/div&gt;
+    &lt;!-- &lt;div class&#x3D;&quot;mt-2&quot;&gt;
+      &lt;div id&#x3D;&quot;jstree1&quot;&gt;
+      &lt;/div&gt;
+  &lt;/div&gt; --&gt;
+
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="styleData">
+                <p class="comment">
+                    <code>./edit-binder.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.drop-above {
+    border-top: 10px solid #dddddd;
+    margin-top: -10px;
+  }
+  
+  .drop-below {
+    border-bottom: 10px solid #dddddd;
+    margin-bottom: -10px;
+  }
+  
+  .drop-center {
+    background-color: #dddddd;
+  }
+  .mat-ripple .mat-checkbox-ripple .mat-focus-indicator {
+    display: none !important;
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="panel-body">  <div class="w-100"> <div>    <button class="btn btn-sm  btn-outline-secondary btn-sm mr-2 mt-2" (click)="backToTable();">{{ \'user.manage-user.back\' | translate }}</button>  </div></div>  <div class="row">    <div class="col-lg-9 col-md-9 col-sm-9 d-flex">          <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">        <mat-tree-node *matTreeNodeDef="let node"                       matTreeNodeToggle                       matTreeNodePadding>                       <i class="fa  fa-md pb-1 pr-2 fa-file"                          ></i>          <mat-checkbox style="padding-top: 0.5rem;"          readonly                        [ngClass]="{\'drop-above\': dragNodeExpandOverArea === \'above\' && dragNodeExpandOverNode === node,                                    \'drop-below\': dragNodeExpandOverArea === \'below\' && dragNodeExpandOverNode === node,                                    \'drop-center\': dragNodeExpandOverArea === \'center\' && dragNodeExpandOverNode === node}"                        [checked]="checklistSelection.isSelected(node)"                        style="cursor: move;"                        (change)="checklistSelection.toggle(node);"                        draggable="true"                        (dragstart)="handleDragStart($event, node);"                        (dragover)="handleDragOver($event, node);"                        (drop)="handleDrop($event, node);"                        (dragend)="handleDragEnd($event);">{{node.item}}</mat-checkbox>        </mat-tree-node>        <mat-tree-node *matTreeNodeDef="let node; when: hasNoContent" matTreeNodePadding>          <button mat-icon-button disabled></button>          <mat-form-field>            <input matInput #itemValue placeholder="New item">            <mat-error *ngIf="itemValue.value==\'\'"></mat-error>            <span matSuffix><button class="btn btn-success btn-sm" (click)="saveNode(node, itemValue.value)">{{\'add-file\'|translate}}</button></span>          </mat-form-field>        </mat-tree-node>        <mat-tree-node *matTreeNodeDef="let node; when: hasChild"                       matTreeNodePadding>                       <i class="fa  fa-md pb-2 pr-2 "style="cursor:pointer;" matTreeNodeToggle                       [attr.aria-label]="\'toggle \' + node.filename" [ngClass]="treeControl.isExpanded(node) ? \'fa-chevron-down\' : \'fa-chevron-right\'"></i>                   <mat-checkbox  [ngClass]="{\'drop-above\': dragNodeExpandOverArea === \'above\' && dragNodeExpandOverNode === node,                                    \'drop-below\': dragNodeExpandOverArea === \'below\' && dragNodeExpandOverNode === node,                                    \'drop-center\': dragNodeExpandOverArea === \'center\' && dragNodeExpandOverNode === node}"                        draggable="true" style="cursor: default;"                        (dragstart)="handleDragStart($event, node);"                        (dragover)="handleDragOver($event, node);"                        (drop)="handleDrop($event, node);"                        (dragend)="handleDragEnd($event);"                        [checked]="descendantsAllSelected(node)"                        [indeterminate]="descendantsPartiallySelected(node)"                        (change)="todoItemSelectionToggle(node)">{{node.item}}</mat-checkbox>                        <i class="fa  fa-md pb-2 pl-2 text-info fa-plus"style="cursor:pointer;" matTreeNodeToggle                        [attr.aria-label]="\'toggle \' + node.item" (click)="addNewItem(node)"></i>        </mat-tree-node>      </mat-tree>      <span #emptyItem></span>    </div>    <!-- <div class="mt-2">      <div id="jstree1">      </div>  </div> --></div></div>'
+    var COMPONENTS = [{'name': 'AccrualsComponent', 'selector': 'app-accruals'},{'name': 'AdApprovalsComponent', 'selector': 'app-ad-approvals'},{'name': 'AdCalendarComponent', 'selector': 'app-ad-calendar'},{'name': 'AdCategoriesComponent', 'selector': 'app-ad-categories'},{'name': 'AddCategoryDialogComponent', 'selector': 'app-add-category-dialog'},{'name': 'AddDailyScheduleResourceDialogComponent', 'selector': 'app-add-daily-schedule-resource-dialog'},{'name': 'AddDocumentDialogComponent', 'selector': 'app-add-document-dialog'},{'name': 'AddFindingsComponent', 'selector': 'app-add-findings'},{'name': 'AddFollowUpDialogComponent', 'selector': 'app-add-follow-up-dialog'},{'name': 'AddHolidayDialogComponent', 'selector': 'app-add-holiday-dialog'},{'name': 'AddIndicationDialogComponent', 'selector': 'app-add-indication-dialog'},{'name': 'AddIrbDialogComponent', 'selector': 'app-add-irb-dialog'},{'name': 'AddLabsDialogComponent', 'selector': 'app-add-labs-dialog'},{'name': 'AddMediaEventDialogComponent', 'selector': 'app-add-media-event-dialog'},{'name': 'AddMiscAppointmentComponent', 'selector': 'app-add-misc-appointment'},{'name': 'AddMiscInvoiceDialogComponent', 'selector': 'app-add-misc-invoice-dialog'},{'name': 'AddNewLeadDialogComponent', 'selector': 'app-add-new-lead-dialog'},{'name': 'AddNewTrackDialogComponent', 'selector': 'app-add-new-track-dialog'},{'name': 'AddPatientDialogComponent', 'selector': 'app-add-patient-dialog'},{'name': 'AddPatientTimerDialogComponent', 'selector': 'app-add-patient-timer-dialog'},{'name': 'AddPatientToStudyDialogComponent', 'selector': 'app-add-patient-to-study-dialog'},{'name': 'AddPatientToStudyFinalStepDialogComponent', 'selector': 'app-add-patient-to-study-final-step-dialog'},{'name': 'AddPatientToStudyFinalStepSelectedDialogComponent', 'selector': 'app-add-patient-to-study-final-step-selected-dialog'},{'name': 'AddRemitLocationDialogComponent', 'selector': 'app-add-remit-location-dialog'},{'name': 'AddRoleDialogComponent', 'selector': 'app-add-role-dialog'},{'name': 'AddSelectedPatientDialogComponent', 'selector': 'app-add-selected-patient-dialog'},{'name': 'AddStudyToCalendarDialogComponent', 'selector': 'app-add-study-to-calendar-dialog'},{'name': 'AddStudyToStudyStartDialogComponent', 'selector': 'app-add-study-to-study-start-dialog'},{'name': 'AddTaskRoleDialogComponent', 'selector': 'app-add-task-role-dialog'},{'name': 'AddTraineeDialogComponent', 'selector': 'app-add-trainee-dialog'},{'name': 'AddTrialToRegManagerDialogComponent', 'selector': 'app-add-trial-to-reg-manager-dialog'},{'name': 'AddVendorDialogComponent', 'selector': 'app-add-vendor-dialog'},{'name': 'AddVersionDialogComponent', 'selector': 'app-add-version-dialog'},{'name': 'AddWaitlistDialogComponent', 'selector': 'app-add-waitlist-dialog'},{'name': 'AdQueryComponent', 'selector': 'app-ad-query'},{'name': 'AdVendorsComponent', 'selector': 'app-ad-vendors'},{'name': 'AdvertisingReportComponent', 'selector': 'app-advertising-report'},{'name': 'AllowEsignDialogComponent', 'selector': 'app-allow-esign-dialog'},{'name': 'AnonymousCallDialogComponent', 'selector': 'app-anonymous-call-dialog'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AppointmentTrackingDialogComponent', 'selector': 'app-appointment-tracking-dialog'},{'name': 'ApprovalEditDialogComponent', 'selector': 'app-approval-edit-dialog'},{'name': 'ArchiveBoxDetailsDialogComponent', 'selector': 'app-archive-box-details-dialog'},{'name': 'ArchivesComponent', 'selector': 'app-archives'},{'name': 'AuditViewComponent', 'selector': 'app-audit-view'},{'name': 'AuditViewTableComponent', 'selector': 'app-audit-view-table'},{'name': 'BillableProceduresComponent', 'selector': 'app-billable-procedures'},{'name': 'BillingSetupDialogComponent', 'selector': 'app-billing-setup-dialog'},{'name': 'BillSponsorComponent', 'selector': 'app-bill-sponsor'},{'name': 'BoxContentsDialogComponent', 'selector': 'app-box-contents-dialog'},{'name': 'BuildStudyComponent', 'selector': 'app-build-study'},{'name': 'BulkApproveDialogComponent', 'selector': 'app-bulk-approve-dialog'},{'name': 'BulkReassignFollowUpDialogComponent', 'selector': 'app-bulk-reassign-follow-up-dialog'},{'name': 'BulkSmsDialogComponent', 'selector': 'app-bulk-sms-dialog'},{'name': 'BusinessHoursHolidaysDialogComponent', 'selector': 'app-business-hours-holidays-dialog'},{'name': 'CalendarCategoryDialogComponent', 'selector': 'app-calendar-category-dialog'},{'name': 'CalendarFooterComponent', 'selector': 'app-calendar-footer'},{'name': 'CallSchedulingDialogComponent', 'selector': 'app-call-scheduling-dialog'},{'name': 'CancelAppointmentDialogComponent', 'selector': 'app-cancel-appointment-dialog'},{'name': 'CategoryStudyBudgetDialogComponent', 'selector': 'app-category-study-budget-dialog'},{'name': 'ChangeCommitmentDialogComponent', 'selector': 'app-change-commitment-dialog'},{'name': 'ChangePasswordComponent', 'selector': 'app-change-password'},{'name': 'ChangeStudyStatusDialogComponent', 'selector': 'app-change-study-status-dialog'},{'name': 'ClosedStudiesComponent', 'selector': 'app-closed-studies'},{'name': 'CompaniesComponent', 'selector': 'app-companies'},{'name': 'CompanyDialogComponent', 'selector': 'app-company-dialog'},{'name': 'CompanySitesDialogComponent', 'selector': 'app-company-sites-dialog'},{'name': 'CompletePrescreenFormDialogComponent', 'selector': 'app-complete-prescreen-form-dialog'},{'name': 'CompleteScreeningFormDialogComponent', 'selector': 'app-complete-screening-form-dialog'},{'name': 'ConfirmationDialogComponent', 'selector': 'app-confirmation-dialog'},{'name': 'ContactAddForLeadComponent', 'selector': 'app-contact-add-for-lead'},{'name': 'ContactAddForStudyComponent', 'selector': 'app-contact-add-for-study'},{'name': 'ContactDetailsDialogComponent', 'selector': 'app-contact-details-dialog'},{'name': 'ContactDialogComponent', 'selector': 'app-contact-dialog'},{'name': 'ContactNotesComponent', 'selector': 'app-contact-notes'},{'name': 'ContactsComponent', 'selector': 'app-contacts'},{'name': 'ContactSearchResultsForLeadsComponent', 'selector': 'app-contact-search-results-for-leads'},{'name': 'ContactSearchResultsForStudiesComponent', 'selector': 'app-contact-search-results-for-studies'},{'name': 'CopiedMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'CopyStudyBuildDialogComponent', 'selector': 'app-copy-study-build-dialog'},{'name': 'CopyToAnotherSiteDialogComponent', 'selector': 'app-copy-to-another-site-dialog'},{'name': 'CountdownComponent', 'selector': 'app-countdown'},{'name': 'CreateAdDialogComponent', 'selector': 'app-create-ad-dialog'},{'name': 'CreateBillRequestDialogComponent', 'selector': 'app-create-bill-request-dialog'},{'name': 'CreateBinderDialogComponent', 'selector': 'app-create-binder-dialog'},{'name': 'CreateBoxLabelDialogComponent', 'selector': 'app-create-box-label-dialog'},{'name': 'CreateBudgetDialogComponent', 'selector': 'app-create-budget-dialog'},{'name': 'CreateFindingCategoryDialogComponent', 'selector': 'app-create-finding-category-dialog'},{'name': 'CreatePermissionTemplateComponent', 'selector': 'app-create-permission-template'},{'name': 'CreateTaskDialogComponent', 'selector': 'app-create-task-dialog'},{'name': 'CreateWorkingListDialogComponent', 'selector': 'app-create-working-list-dialog'},{'name': 'CreateWorkingListFromCheckboxesDialogComponent', 'selector': 'app-create-working-list-from-checkboxes-dialog'},{'name': 'CsvpreviewDialogComponent', 'selector': 'app-csvpreview-dialog'},{'name': 'DailyFollowUpsComponent', 'selector': 'app-daily-follow-ups'},{'name': 'DailyScheduleComponent', 'selector': 'app-daily-schedule'},{'name': 'DailySchedulePatientEventDetailsDialogComponent', 'selector': 'app-daily-schedule-patient-event-details-dialog'},{'name': 'DailySchedulePatientMisceallaneousDetailsDialogComponent', 'selector': 'app-daily-schedule-patient-misceallaneous-details-dialog'},{'name': 'DailySchedulePatientScreenDetailsDialogComponent', 'selector': 'app-daily-schedule-patient-screen-details-dialog'},{'name': 'DailySchedulePatientVisitDetatilsDialogComponent', 'selector': 'app-daily-schedule-patient-visit-detatils-dialog'},{'name': 'DailyScheduleResourceComponent', 'selector': 'app-daily-schedule-resource'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DataMergersComponent', 'selector': 'app-data-mergers'},{'name': 'DatepickerHeaderComponent', 'selector': 'datepicker-header'},{'name': 'DatepickerMonthHeaderComponent', 'selector': 'app-datepicker-month-header'},{'name': 'DateSelectComponent', 'selector': 'app-date-select'},{'name': 'DateSelectSimpleComponent', 'selector': 'app-date-select-simple'},{'name': 'DebugDialogComponent', 'selector': 'app-debug-dialog'},{'name': 'DeletePatientPhoneNumberDialogComponent', 'selector': 'app-delete-patient-phone-number-dialog'},{'name': 'DiscrepanciesComponent', 'selector': 'app-discrepancies'},{'name': 'DownloadsComponent', 'selector': 'app-downloads'},{'name': 'EditAdditionalProceduresDialogComponent', 'selector': 'app-edit-additional-procedures-dialog'},{'name': 'EditBinderComponent', 'selector': 'app-edit-binder'},{'name': 'EditBusinessHoursDialogComponent', 'selector': 'app-edit-business-hours-dialog'},{'name': 'EditEventDialogComponent', 'selector': 'app-edit-event-dialog'},{'name': 'EditFindingDetailsDialogComponent', 'selector': 'app-edit-finding-details-dialog'},{'name': 'EditHolidayDialogComponent', 'selector': 'app-edit-holiday-dialog'},{'name': 'EditMiscPaymentDialogComponent', 'selector': 'app-edit-misc-payment-dialog'},{'name': 'EditPermissionTemplateComponent', 'selector': 'app-edit-permission-template'},{'name': 'EditProcedureDialogComponent', 'selector': 'app-edit-procedure-dialog'},{'name': 'EditProcedureNameDialogComponent', 'selector': 'app-edit-procedure-name-dialog'},{'name': 'EditReportPaymentComponent', 'selector': 'app-edit-report-payment'},{'name': 'EditScoreboardDialogComponent', 'selector': 'app-edit-scoreboard-dialog'},{'name': 'EditStudyBuildComponent', 'selector': 'app-edit-study-build'},{'name': 'EditStudyFileDialogComponent', 'selector': 'app-edit-study-file-dialog'},{'name': 'EditStudyPathDialogComponent', 'selector': 'app-edit-study-path-dialog'},{'name': 'EditStudyProcedureGroupsDialogComponent', 'selector': 'app-edit-study-procedure-groups-dialog'},{'name': 'EditStudyVisitsDialogComponent', 'selector': 'app-edit-study-visits-dialog'},{'name': 'EditStudyVisitsRuleDialogComponent', 'selector': 'app-edit-study-visits-rule-dialog'},{'name': 'EditTrainingDialogComponent', 'selector': 'app-edit-training-dialog'},{'name': 'EditVisitDialogComponent', 'selector': 'app-edit-visit-dialog'},{'name': 'EditWorkingListDialogComponent', 'selector': 'app-edit-working-list-dialog'},{'name': 'EsignatureDialogComponent', 'selector': 'app-esignature-dialog'},{'name': 'ESignDialogComponent', 'selector': 'app-e-sign-dialog'},{'name': 'ExpiringDocsComponent', 'selector': 'app-expiring-docs'},{'name': 'ExternalDialogComponent', 'selector': 'app-external-dialog'},{'name': 'FeedBackDialogComponent', 'selector': 'app-feed-back-dialog'},{'name': 'FileCorrespondenceDialogComponent', 'selector': 'app-file-correspondence-dialog'},{'name': 'FileDialogComponent', 'selector': 'app-file-dialog'},{'name': 'FileResponseMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'FilterFooterComponent', 'selector': 'app-filter-footer'},{'name': 'FinalAdsApprovalDialogComponent', 'selector': 'app-final-ads-approval-dialog'},{'name': 'FinanceAdCalendarComponent', 'selector': 'app-ad-calendar'},{'name': 'FindingCategoryComponent', 'selector': 'app-finding-category'},{'name': 'FindInvoicesComponent', 'selector': 'app-find-invoices'},{'name': 'FolderDragMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'FollowUpPatientDialogComponent', 'selector': 'app-follow-up-patient-dialog'},{'name': 'FollowUpsComponent', 'selector': 'app-follow-ups'},{'name': 'ForgotPasswordComponent', 'selector': 'app-forgot-password'},{'name': 'GenericWarningDialogComponent', 'selector': 'app-generic-warning-dialog'},{'name': 'ImagePreviewDialogComponent', 'selector': 'app-image-preview-dialog'},{'name': 'ImportCsvRecruitingDialogComponent', 'selector': 'app-import-csv-recruiting-dialog'},{'name': 'IndicationsComponent', 'selector': 'app-indications'},{'name': 'InfoPopupComponent', 'selector': 'app-info-popup'},{'name': 'InputDialogComponent', 'selector': 'app-input-dialog'},{'name': 'InquiryCallDialogComponent', 'selector': 'app-inquiry-call-dialog'},{'name': 'InternalDialogComponent', 'selector': 'app-internal-dialog'},{'name': 'InviteUserDialogComponent', 'selector': 'app-invite-user-dialog'},{'name': 'InvoicesComponent', 'selector': 'app-invoices'},{'name': 'IrbComponent', 'selector': 'app-irb'},{'name': 'LabComponent', 'selector': 'app-lab'},{'name': 'LabelGeneratorComponent', 'selector': 'app-label-generator'},{'name': 'LeadDetailsDialogComponent', 'selector': 'app-lead-details-dialog'},{'name': 'LeadsComponent', 'selector': 'app-leads'},{'name': 'LedgerComponent', 'selector': 'app-ledger'},{'name': 'LinkStudyDialogComponent', 'selector': 'app-link-study-dialog'},{'name': 'LinkStudyStartDialogComponent', 'selector': 'app-link-study-start-dialog'},{'name': 'LoadingIndicatorComponent', 'selector': 'app-loading-indicator'},{'name': 'LockScreenComponent', 'selector': 'app-lock-screen'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'LongLoadingIndicatorComponent', 'selector': 'app-long-loading-indicator'},{'name': 'ManageCalendarCategoriesDialogComponent', 'selector': 'app-manage-calendar-categories-dialog'},{'name': 'ManageCompanyComponent', 'selector': 'app-manage-company'},{'name': 'ManageFindingsComponent', 'selector': 'app-manage-findings'},{'name': 'ManagePatientInterestDialogComponent', 'selector': 'app-manage-patient-interest-dialog'},{'name': 'ManageSelectedFindingsDialogComponent', 'selector': 'app-manage-selected-findings-dialog'},{'name': 'ManageUserComponent', 'selector': 'app-manage-user'},{'name': 'ManifestShipmentComponent', 'selector': 'app-manifest-shipment'},{'name': 'MargePatientDialogComponent', 'selector': 'app-marge-patient-dialog'},{'name': 'MasterFilesComponent', 'selector': 'app-master-files'},{'name': 'MergeLeadDialogComponent', 'selector': 'app-merge-lead-dialog'},{'name': 'MessageDetailDialogComponent', 'selector': 'app-message-detail-dialog'},{'name': 'MiscChargesComponent', 'selector': 'app-misc-charges'},{'name': 'MoveFileDialogComponent', 'selector': 'app-move-file-dialog'},{'name': 'MyDashboardComponent', 'selector': 'app-my-dashboard'},{'name': 'MyQaFindingsComponent', 'selector': 'app-my-qa-findings'},{'name': 'MyTasksComponent', 'selector': 'app-my-tasks'},{'name': 'NameInputDialogComponent', 'selector': 'app-name-input-dialog'},{'name': 'NameUpdateDialogComponent', 'selector': 'app-name-update-dialog'},{'name': 'NavigationComponent', 'selector': 'navigation'},{'name': 'NewFolderDialogComponent', 'selector': 'app-new-folder-dialog'},{'name': 'NotAllowedMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'NotFoundComponent', 'selector': 'app-not-found'},{'name': 'OtherReportComponent', 'selector': 'app-other-report'},{'name': 'OverlapDialogComponent', 'selector': 'app-overlap-dialog'},{'name': 'PatientAppointmentMiniViewDialogComponent', 'selector': 'app-patient-appointment-mini-view-dialog'},{'name': 'PatientMiniViewDialogComponent', 'selector': 'app-patient-mini-view-dialog'},{'name': 'PatientProfileComponent', 'selector': 'app-patient-profile'},{'name': 'PatientProfileSmsDialogComponent', 'selector': 'app-patient-profile-sms-dialog'},{'name': 'PatientSearchComponent', 'selector': 'app-patient-search'},{'name': 'PatientTrackingComponent', 'selector': 'app-patient-tracking'},{'name': 'PatientTrackingLoadComponent', 'selector': 'app-patient-tracking-load'},{'name': 'PaymentTrackerComponent', 'selector': 'app-payment-tracker'},{'name': 'PdfPreviewDialogComponent', 'selector': 'app-pdf-preview-dialog'},{'name': 'PendingEsignaturesComponent', 'selector': 'app-pending-esignatures'},{'name': 'PermanentErrorDialogComponent', 'selector': 'app-permanent-error-dialog'},{'name': 'PermissionsTemplatesComponent', 'selector': 'app-permissions-templates'},{'name': 'PipelineViewComponent', 'selector': 'app-pipeline-view'},{'name': 'PlaceholderDragMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'PmScoreCardComponent', 'selector': 'app-pm-score-card'},{'name': 'PrescreenSchedulingDialogComponent', 'selector': 'app-prescreen-scheduling-dialog'},{'name': 'PreviousPreviewComponent', 'selector': 'app-previous-preview'},{'name': 'PrintHelperComponent', 'selector': 'app-print-helper'},{'name': 'ProcedureGroupsDialogComponent', 'selector': 'app-procedure-groups-dialog'},{'name': 'ProceduresComponent', 'selector': 'app-procedures'},{'name': 'ProfileChangeDetailsDialogComponent', 'selector': 'app-profile-change-details-dialog'},{'name': 'ProfileUpdatePasswordDialogComponent', 'selector': 'app-update-password-dialog'},{'name': 'ProfileViewComponent', 'selector': 'app-profile-view'},{'name': 'ProjectManagementNotesDialogComponent', 'selector': 'app-project-management-notes-dialog'},{'name': 'PublishStudyDialogComponent', 'selector': 'app-publish-study-dialog'},{'name': 'QualityPlanComponent', 'selector': 'app-quality-plan'},{'name': 'QueryComponent', 'selector': 'app-query'},{'name': 'QueryStudiesComponent', 'selector': 'app-query-studies'},{'name': 'ReasonCategoryComponent', 'selector': 'app-reason-category'},{'name': 'ReasonInputDialogComponent', 'selector': 'app-reason-input-dialog'},{'name': 'ReceptionComponent', 'selector': 'app-reception'},{'name': 'RecordPaymentAddInvoiceDialogComponent', 'selector': 'app-record-payment-add-invoice-dialog'},{'name': 'RecordPaymentComponent', 'selector': 'app-record-payment'},{'name': 'ReferralPartnerAddDialogComponent', 'selector': 'app-referral-partner-add-dialog'},{'name': 'ReferralPartnerDetailsDialogComponent', 'selector': 'app-referral-partner-details-dialog'},{'name': 'ReferralPartnerNotesComponent', 'selector': 'app-referral-partner-notes'},{'name': 'ReferralPartnersComponent', 'selector': 'app-referral-partners'},{'name': 'ReferralPartnersSearchFooterComponent', 'selector': 'app-referral-partners-search-footer'},{'name': 'RegManagerComponent', 'selector': 'app-reg-manager'},{'name': 'RegManagerDialogComponent', 'selector': 'app-reg-manager-dialog'},{'name': 'ReimbursableAdvertisingComponent', 'selector': 'app-reimbursable-advertising'},{'name': 'RejectDocumentDialogComponent', 'selector': 'app-reject-document-dialog'},{'name': 'RemitLocationComponent', 'selector': 'app-remit-location'},{'name': 'ReportsComponent', 'selector': 'app-reports'},{'name': 'ReportTableDialogComponent', 'selector': 'app-report-table-dialog'},{'name': 'RequestEsignDialogComponent', 'selector': 'app-request-esign-dialog'},{'name': 'RerunQueryComponent', 'selector': 'app-rerun-query'},{'name': 'RescheduleAppointmentDialogComponent', 'selector': 'app-reschedule-appointment-dialog'},{'name': 'ScanBoxDialogComponent', 'selector': 'app-scan-box-dialog'},{'name': 'ScheduleMiscellaneousDialogComponent', 'selector': 'app-schedule-miscellaneous-dialog'},{'name': 'ScheduleNextVisitDialogComponent', 'selector': 'app-schedule-next-visit-dialog'},{'name': 'ScheduleVisitPatientTrackingComponent', 'selector': 'app-schedule-visit-patient-tracking'},{'name': 'ScoreCardComponent', 'selector': 'app-score-card'},{'name': 'ScoreCardSetupDialogComponent', 'selector': 'app-score-card-setup-dialog'},{'name': 'ScreenSchedulingDialogComponent', 'selector': 'app-screen-scheduling-dialog'},{'name': 'SearchComponent', 'selector': 'app-search'},{'name': 'SearchFooterComponent', 'selector': 'app-search-footer'},{'name': 'SearchLeadDialogComponent', 'selector': 'app-search-lead-dialog'},{'name': 'SelectDateDialogComponent', 'selector': 'app-select-date-dialog'},{'name': 'SelectDialogComponent', 'selector': 'app-select-dialog'},{'name': 'SelectLanguageComponent', 'selector': 'app-select-language'},{'name': 'SelectMessageLogStudyDialogComponent', 'selector': 'app-select-message-log-study-dialog'},{'name': 'SendToStudyStartDialogComponent', 'selector': 'app-send-to-study-start-dialog'},{'name': 'ShowCalendarDialogComponent', 'selector': 'app-show-calendar-dialog'},{'name': 'ShowDocumentAuditDialogComponent', 'selector': 'app-show-document-audit-dialog'},{'name': 'SimpleNameImputDialogComponent', 'selector': 'app-simple-name-imput-dialog'},{'name': 'SiteDialogComponent', 'selector': 'app-site-dialog'},{'name': 'SitesManageComponent', 'selector': 'app-sites-manage'},{'name': 'SkinConfigComponent', 'selector': 'app-skin-config'},{'name': 'SmsMessageDialogComponent', 'selector': 'app-sms-message-dialog'},{'name': 'SmsTemplateComponent', 'selector': 'app-sms-template'},{'name': 'SoftLockDialogComponent', 'selector': 'app-soft-lock-dialog'},{'name': 'SpecialAccessReportComponent', 'selector': 'app-special-access-report'},{'name': 'StudiesComponent', 'selector': 'app-studies'},{'name': 'StudyAssignmentsComponent', 'selector': 'app-study-assignments'},{'name': 'StudyBudgetMaintenanceDialogComponent', 'selector': 'app-study-budget-maintenance-dialog'},{'name': 'StudyBudgetsComponent', 'selector': 'app-study-budgets'},{'name': 'StudyBudgetViewComponent', 'selector': 'app-study-budget-view'},{'name': 'StudyComponent', 'selector': 'app-study'},{'name': 'StudyDialogComponent', 'selector': 'app-new-study-dialog'},{'name': 'StudyKnowledgebaseDialogComponent', 'selector': 'app-study-knowledgebase-dialog'},{'name': 'StudyReportFooterComponent', 'selector': 'app-study-report-footer'},{'name': 'StudyStartsComponent', 'selector': 'app-study-starts'},{'name': 'SuccessMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'TaskManagerComponent', 'selector': 'app-task-manager'},{'name': 'TaskMessagesDialogComponent', 'selector': 'app-task-messages-dialog'},{'name': 'ToBeFiledComponent', 'selector': 'app-to-be-filed'},{'name': 'TooltipComponent', 'selector': 'app-tooltip'},{'name': 'TopNavbarComponent', 'selector': 'topnavbar'},{'name': 'TrainingComponent', 'selector': 'app-training'},{'name': 'TriageVisitsReportComponent', 'selector': 'app-triage-visits-report'},{'name': 'UnassignedPaymentDialogComponent', 'selector': 'app-unassigned-payment-dialog'},{'name': 'UpdateFileDialogComponent', 'selector': 'app-update-file-dialog'},{'name': 'UpdateFinCalendarWeekDatesDialogComponent', 'selector': 'app-update-fin-calendar-week-dates-dialog'},{'name': 'UploadFileDialogComponent', 'selector': 'app-upload-file-dialog'},{'name': 'UrlPreviewComponent', 'selector': 'app-url-preview'},{'name': 'UserAccessMedicalRecordsDialogComponent', 'selector': 'app-user-access-medical-records-dialog'},{'name': 'UserInviteComponent', 'selector': 'app-user-invite'},{'name': 'UserMedicalRecordsViewComponent', 'selector': 'app-user-medical-records-view'},{'name': 'UserPermissionViewComponent', 'selector': 'app-user-permission-view'},{'name': 'UserPermissionViewDialogComponent', 'selector': 'app-user-permission-view-dialog'},{'name': 'UserRegenerateAccessMedicalRecordsDialogComponent', 'selector': 'app-user-regenerate-access-medical-records-dialog'},{'name': 'UserRolesComponent', 'selector': 'app-user-roles'},{'name': 'UsersComponent', 'selector': 'app-users'},{'name': 'VersionsComponent', 'selector': 'app-versions'},{'name': 'ViewDailyOpsReportDialogComponent', 'selector': 'app-view-daily-ops-report-dialog'},{'name': 'ViewDocumentWithPinDialogComponent', 'selector': 'app-view-document-with-pin-dialog'},{'name': 'ViewEditStudyDetailsComponent', 'selector': 'app-view-edit-study-details'},{'name': 'ViewEventDialogComponent', 'selector': 'app-view-event-dialog'},{'name': 'ViewStudyStartsDialogComponent', 'selector': 'app-view-study-starts-dialog'},{'name': 'ViewTrackedProceduresComponent', 'selector': 'app-view-tracked-procedures'},{'name': 'ViewTrackedVisitsComponent', 'selector': 'app-view-tracked-visits'},{'name': 'ViewTrackedVisitsLoadComponent', 'selector': 'app-view-tracked-visits-load'},{'name': 'VisitConditionDialogComponent', 'selector': 'app-visit-condition-dialog'},{'name': 'WarningStudyDialogComponent', 'selector': 'app-warning-study-dialog'},{'name': 'WorkingListComponent', 'selector': 'app-working-list'},{'name': 'WorkingListSchedulePreescreenComponent', 'selector': 'app-working-list-schedule-preescreen'},{'name': 'WorkingListScheduleScreenDialogComponent', 'selector': 'app-working-list-schedule-screen-dialog'},{'name': 'WorkingListSmsDialogComponent', 'selector': 'app-working-list-sms-dialog'}];
+    var DIRECTIVES = [{'name': 'MorrisChartDirective', 'selector': '[mk-morris-js]'},{'name': 'NgxMatSelectDirective', 'selector': 'mat-select[ngxMatSelect]'},{'name': 'NgxMatSelectMediaTracker', 'selector': ''},{'name': 'TimeRangeValidatorDirective', 'selector': '[appTimeRangeValidator]'}];
+    var ACTUAL_COMPONENT = {'name': 'EditBinderComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'EditBinderComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

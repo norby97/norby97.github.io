@@ -1,0 +1,1919 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>site-centric documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
+            <a href="../" class="navbar-brand">site-centric documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Components</li>
+  <li class="breadcrumb-item"
+  >
+  LedgerComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#info" class="nav-link active"
+                role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li class="nav-item">
+            <a href="#source" class="nav-link"
+                role="tab" id="source-tab" data-bs-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li class="nav-item">
+            <a href="#templateData" class="nav-link"
+                role="tab" id="templateData-tab" data-bs-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li class="nav-item">
+            <a href="#styleData" class="nav-link"
+                role="tab" id="styleData-tab" data-bs-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li class="nav-item">
+            <a href="#tree" class="nav-link"
+                role="tab" id="tree-tab" data-bs-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/finance/ledger/ledger.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="../miscellaneous/functions.html#nInit" target="_self" >OnInit</a></code>
+                <code>AfterViewInit</code>
+    </p>
+
+
+<section data-compodoc="block-metadata">
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-ledger</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./ledger.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./ledger.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-index">
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#details" >details</a>
+                            </li>
+                            <li>
+                                <a href="#dpheader" >dpheader</a>
+                            </li>
+                            <li>
+                                <a href="#invoices" >invoices</a>
+                            </li>
+                            <li>
+                                <a href="#ledgerForm" >ledgerForm</a>
+                            </li>
+                            <li>
+                                <a href="#ledgerStats" >ledgerStats</a>
+                            </li>
+                            <li>
+                                <a href="#limit" >limit</a>
+                            </li>
+                            <li>
+                                <a href="#loading" >loading</a>
+                            </li>
+                            <li>
+                                <a href="#searched" >searched</a>
+                            </li>
+                            <li>
+                                <a href="#searcher2" >searcher2</a>
+                            </li>
+                            <li>
+                                <a href="#sites" >sites</a>
+                            </li>
+                            <li>
+                                <a href="#skip" >skip</a>
+                            </li>
+                            <li>
+                                <a href="#studies" >studies</a>
+                            </li>
+                            <li>
+                                <a href="#studiesloading" >studiesloading</a>
+                            </li>
+                            <li>
+                                <a href="#studyName" >studyName</a>
+                            </li>
+                            <li>
+                                <a href="#studySelected" >studySelected</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#add" >add</a>
+                            </li>
+                            <li>
+                                <a href="#calcSums" >calcSums</a>
+                            </li>
+                            <li>
+                                <a href="#getInvoices" >getInvoices</a>
+                            </li>
+                            <li>
+                                <a href="#isPast" >isPast</a>
+                            </li>
+                            <li>
+                                <a href="#ngAfterViewInit" >ngAfterViewInit</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#openAddMiscInvoice" >openAddMiscInvoice</a>
+                            </li>
+                            <li>
+                                <a href="#openDialog" >openDialog</a>
+                            </li>
+                            <li>
+                                <a href="#setStudyName" >setStudyName</a>
+                            </li>
+                            <li>
+                                <a href="#voidInvoice" >voidInvoice</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-constructor">
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(siteService: <a href="../injectables/SiteService.html" target="_self">SiteService</a>, dialog: MatDialog, _formBuilder: UntypedFormBuilder, utilService: <a href="../injectables/UtilService.html" target="_self">UtilService</a>, router: Router, trackedVisitService: <a href="../injectables/TrackedVisitsService.html" target="_self">TrackedVisitsService</a>, ledgerService: <a href="../injectables/LedgerService.html" target="_self">LedgerService</a>, invoiceService: <a href="../injectables/InvoicesService.html" target="_self">InvoicesService</a>, userPreferences: <a href="../injectables/UserPreferencesService.html" target="_self">UserPreferencesService</a>, authService: <a href="../injectables/AuthenticationService.html" target="_self">AuthenticationService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="47" class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:47</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>siteService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/SiteService.html" target="_self" >SiteService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>dialog</td>
+                                                  
+                                                        <td>
+                                                                    <code>MatDialog</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_formBuilder</td>
+                                                  
+                                                        <td>
+                                                                    <code>UntypedFormBuilder</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>utilService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UtilService.html" target="_self" >UtilService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                    <code>Router</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>trackedVisitService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/TrackedVisitsService.html" target="_self" >TrackedVisitsService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>ledgerService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/LedgerService.html" target="_self" >LedgerService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>invoiceService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/InvoicesService.html" target="_self" >InvoicesService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>userPreferences</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UserPreferencesService.html" target="_self" >UserPreferencesService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>authService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AuthenticationService.html" target="_self" >AuthenticationService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section data-compodoc="block-methods">
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="add"></a>
+                    <span class="name">
+                        <span ><b>add</b></span>
+                        <a href="#add"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>add(y, z)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="283"
+                            class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:283</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>y</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>z</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="calcSums"></a>
+                    <span class="name">
+                        <span ><b>calcSums</b></span>
+                        <a href="#calcSums"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>calcSums()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="250"
+                            class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:250</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getInvoices"></a>
+                    <span class="name">
+                        <span ><b>getInvoices</b></span>
+                        <a href="#getInvoices"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getInvoices()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="286"
+                            class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:286</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isPast"></a>
+                    <span class="name">
+                        <span ><b>isPast</b></span>
+                        <a href="#isPast"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>isPast(givenDate1)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="206"
+                            class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:206</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>givenDate1</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngAfterViewInit"></a>
+                    <span class="name">
+                        <span ><b>ngAfterViewInit</b></span>
+                        <a href="#ngAfterViewInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngAfterViewInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="84"
+                            class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:84</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="63"
+                            class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:63</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openAddMiscInvoice"></a>
+                    <span class="name">
+                        <span ><b>openAddMiscInvoice</b></span>
+                        <a href="#openAddMiscInvoice"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openAddMiscInvoice()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="102"
+                            class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:102</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openDialog"></a>
+                    <span class="name">
+                        <span ><b>openDialog</b></span>
+                        <a href="#openDialog"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openDialog(invoice)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="123"
+                            class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:123</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>invoice</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setStudyName"></a>
+                    <span class="name">
+                        <span ><b>setStudyName</b></span>
+                        <a href="#setStudyName"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setStudyName(event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="313"
+                            class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:313</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="voidInvoice"></a>
+                    <span class="name">
+                        <span ><b>voidInvoice</b></span>
+                        <a href="#voidInvoice"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>voidInvoice(invoice)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="212"
+                            class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:212</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>invoice</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section data-compodoc="block-properties">
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="details"></a>
+                    <span class="name">
+                        <span ><b>details</b></span>
+                        <a href="#details"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:29</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dpheader"></a>
+                    <span class="name">
+                        <span ><b>dpheader</b></span>
+                        <a href="#dpheader"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="47" class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:47</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="invoices"></a>
+                    <span class="name">
+                        <span ><b>invoices</b></span>
+                        <a href="#invoices"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:33</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ledgerForm"></a>
+                    <span class="name">
+                        <span ><b>ledgerForm</b></span>
+                        <a href="#ledgerForm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>UntypedFormGroup</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:27</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ledgerStats"></a>
+                    <span class="name">
+                        <span ><b>ledgerStats</b></span>
+                        <a href="#ledgerStats"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+    totalInv: 0,
+    pastDue: 0,
+    currentBalance:0,
+    invoicedToSponsor: 0,
+    totalPayments: 0,
+    studyBalance: 0
+  }</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:35</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="limit"></a>
+                    <span class="name">
+                        <span ><b>limit</b></span>
+                        <a href="#limit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>30</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:43</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loading"></a>
+                    <span class="name">
+                        <span ><b>loading</b></span>
+                        <a href="#loading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="46" class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:46</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="searched"></a>
+                    <span class="name">
+                        <span ><b>searched</b></span>
+                        <a href="#searched"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:31</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="searcher2"></a>
+                    <span class="name">
+                        <span ><b>searcher2</b></span>
+                        <a href="#searcher2"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="319" class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:319</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sites"></a>
+                    <span class="name">
+                        <span ><b>sites</b></span>
+                        <a href="#sites"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:28</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="skip"></a>
+                    <span class="name">
+                        <span ><b>skip</b></span>
+                        <a href="#skip"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>0</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:44</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="studies"></a>
+                    <span class="name">
+                        <span ><b>studies</b></span>
+                        <a href="#studies"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:30</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="studiesloading"></a>
+                    <span class="name">
+                        <span ><b>studiesloading</b></span>
+                        <a href="#studiesloading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>true</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="45" class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:45</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="studyName"></a>
+                    <span class="name">
+                        <span ><b>studyName</b></span>
+                        <a href="#studyName"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;&#x27;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:34</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="studySelected"></a>
+                    <span class="name">
+                        <span ><b>studySelected</b></span>
+                        <a href="#studySelected"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/components/finance/ledger/ledger.component.ts:32</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { formatDate } from &#x27;@angular/common&#x27;;
+import { AfterViewInit, Component, OnInit } from &#x27;@angular/core&#x27;;
+import { UntypedFormBuilder, UntypedFormControl, UntypedFormGroup, Validators } from &#x27;@angular/forms&#x27;;
+import { MatDialog } from &#x27;@angular/material/dialog&#x27;;
+import { Router } from &#x27;@angular/router&#x27;;
+import { Observable, of } from &#x27;rxjs&#x27;;
+import { AuthenticationService } from &#x27;src/app/services/administration/authentication.service&#x27;;
+import { LedgerService } from &#x27;src/app/services/finance/ledger.service&#x27;;
+import { TrackedVisitsService } from &#x27;src/app/services/finance/tracked-visits.service&#x27;;
+import { SiteService } from &#x27;src/app/services/regulatory/site.service&#x27;;
+import { UtilService } from &#x27;src/app/services/utils/UtilService&#x27;;
+import { AddMiscInvoiceDialogComponent } from &#x27;../../common/dialogs/finance/add-misc-invoice-dialog/add-misc-invoice-dialog.component&#x27;;
+import { EditMiscPaymentDialogComponent } from &#x27;../../common/dialogs/finance/edit-misc-payment-dialog/edit-misc-payment-dialog.component&#x27;;
+import { CsvpreviewDialogComponent } from &#x27;../../common/dialogs/utils/csvpreview-dialog/csvpreview-dialog.component&#x27;;
+import { PdfPreviewDialogComponent } from &#x27;../../common/pdf-preview-dialog/pdf-preview-dialog.component&#x27;;
+import { UserPreferencesService } from &#x27;src/app/services/utils/user-preferences.service&#x27;;
+import { DatepickerHeaderComponent } from &#x27;../../common/dialogs/utils/datepicker-header/datepicker-header.component&#x27;;
+import { InvoicesService } from &#x27;src/app/services/advertising/invoices.service&#x27;;
+import { FeedBackDialogComponent } from &#x27;../../common/dialogs/utils/feed-back-dialog/feed-back-dialog.component&#x27;;
+
+@Component({
+  selector: &#x27;app-ledger&#x27;,
+  templateUrl: &#x27;./ledger.component.html&#x27;,
+  styleUrls: [&#x27;./ledger.component.scss&#x27;]
+})
+export class LedgerComponent implements OnInit, AfterViewInit {
+  ledgerForm: UntypedFormGroup;
+  sites;
+  details;
+  studies;
+  searched &#x3D; false;
+  studySelected &#x3D; false;
+  invoices;
+  studyName&#x3D;&#x27;&#x27;;
+  ledgerStats &#x3D; {
+    totalInv: 0,
+    pastDue: 0,
+    currentBalance:0,
+    invoicedToSponsor: 0,
+    totalPayments: 0,
+    studyBalance: 0
+  }
+  limit &#x3D; 30;
+  skip &#x3D; 0;
+  studiesloading &#x3D; true;
+  loading &#x3D; false;
+  dpheader;
+
+  constructor(private siteService: SiteService,
+    private dialog: MatDialog,
+    private _formBuilder: UntypedFormBuilder,
+    private utilService: UtilService,
+    private router:Router,
+    private trackedVisitService: TrackedVisitsService,
+    private ledgerService: LedgerService,
+    private invoiceService: InvoicesService,
+    private userPreferences: UserPreferencesService,
+    private authService: AuthenticationService,) { 
+      this.dpheader &#x3D; DatepickerHeaderComponent;
+
+    }
+
+  ngOnInit(): void {
+    this.ledgerForm &#x3D; new UntypedFormGroup({
+      site: new UntypedFormControl(&#x27;&#x27;, Validators.required),
+      study: new UntypedFormControl(&#x27;&#x27;, Validators.required),
+      from: new UntypedFormControl(&#x27;&#x27;,),
+      to: new UntypedFormControl(&#x27;&#x27;,),
+    })
+    if(JSON.parse(localStorage.getItem(&#x27;siteCentric.sites&#x27;))?.length !&#x3D; 0 &amp;&amp; JSON.parse(localStorage.getItem(&#x27;siteCentric.sites&#x27;)) !&#x3D; null )   {
+      this.sites &#x3D; JSON.parse(localStorage.getItem(&#x27;siteCentric.sites&#x27;));
+      this.ledgerForm.controls.site.setValue(this.sites.find(elem &#x3D;&gt; elem?.id &#x3D;&#x3D; JSON.parse(localStorage.getItem(&#x27;scUserSettings&#x27;))?.selectedSite?.id));
+      this.ledgerForm.controls.site.updateValueAndValidity();
+    } else {
+       this.siteService.getAll2(this.authService.loginUserValue.company.id).subscribe(res &#x3D;&gt; {
+        localStorage.setItem(&#x27;siteCentric.sites&#x27;, JSON.stringify(res));
+        this.sites &#x3D; res;
+        this.ledgerForm.controls.site.setValue(this.sites.find(elem &#x3D;&gt; elem?.id &#x3D;&#x3D; JSON.parse(localStorage.getItem(&#x27;scUserSettings&#x27;))?.selectedSite?.id));
+        this.ledgerForm.controls.site.updateValueAndValidity();
+      });
+    }
+    
+  }
+  ngAfterViewInit(): void {
+    if(this.utilService.getLedger() !&#x3D; null) {
+      this.details &#x3D; this.utilService.getLedger();
+      this.studyName &#x3D; this.details.studyName;
+      this.studySelected &#x3D; true    
+      this.ledgerForm.controls.site.setValue(this.details.site);
+      this.ledgerForm.controls.site.updateValueAndValidity();
+      this.userPreferences.setuserState(&#x27;selectedSite&#x27;,this.ledgerForm.controls.site.value,true)
+      this.ledgerForm.controls.study.setValue(this.details.studyId);
+      this.ledgerForm.controls.study.updateValueAndValidity();
+      this.ledgerForm.controls.from.setValue(this.details.dateFrom);
+      this.ledgerForm.controls.from.updateValueAndValidity();
+      this.ledgerForm.controls.to.setValue(this.details.dateTo);
+      this.ledgerForm.controls.to.updateValueAndValidity();
+      this.getInvoices()
+    }
+  }
+
+  openAddMiscInvoice() {
+    const ref &#x3D; this.dialog.open(AddMiscInvoiceDialogComponent, {
+      width: &#x27;auto&#x27;,
+      height: &#x27;auto&#x27;,
+      panelClass: &#x27;custom-dialog-container&#x27;,
+      data: {
+        site: this.ledgerForm.controls.site.value,
+        study: {studyDetailId:this.invoices?.studyDetailId},
+      },
+      disableClose: true,
+      maxHeight:&#x27;80vh&#x27;,
+      maxWidth:&#x27;80vw&#x27;,
+    })
+    ref.afterClosed().subscribe(res &#x3D;&gt; {
+      if(res){
+        this.getInvoices();
+
+      }
+    })
+  }
+
+  openDialog(invoice) {
+    if(invoice.type &#x3D;&#x3D; &#x27;Adv. Invoice&#x27;) {
+       this.ledgerService.getAdvInvoice(invoice.id).subscribe(res &#x3D;&gt; {
+        const blob &#x3D; new Blob([res], {  type: &quot;application/pdf&quot;} );
+
+        this.dialog.open(PdfPreviewDialogComponent, {
+          data:{
+            invoice,
+              showprint:true,
+              deletefile:false,
+
+              actualFile: blob
+          }, 
+          height: &#x27;auto&#x27;,
+          maxHeight:&#x27;95vh&#x27;,
+          minWidth:&#x27;85vw&#x27;,
+          width: &#x27;auto&#x27;,
+          disableClose: true,
+          panelClass:&quot;custom-dialog-container&quot;
+          })
+       })
+    } else if(invoice.type &#x3D;&#x3D; &#x27;Payment&#x27; || invoice.type &#x3D;&#x3D; &#x27;Unassigned Payment&#x27;) {
+      const data2 &#x3D; {
+        site: this.ledgerForm.controls.site.value,
+        studyName: this.studyName,
+        studyId: this.ledgerForm.controls.study.value,
+        dateFrom:this.ledgerForm.controls.from.value ? formatDate(this.ledgerForm.controls.from.value, &#x27;yyyy-MM-dd&#x27;, &#x27;en-Us&#x27;) : &#x27;&#x27;,
+        dateTo: this.ledgerForm.controls.to.value ? formatDate(this.ledgerForm.controls.to.value, &#x27;yyyy-MM-dd&#x27;, &#x27;en-Us&#x27;) : &#x27;&#x27;,
+      }
+       this.utilService.ledgerAdded(data2);
+       this.router.navigate([&#x27;/finance/edit/record-payment/&#x27;,invoice.id, this.studyName.split(&#x27; &#x27;).join(&#x27;-&#x27;)]);
+    } else if(invoice.type &#x3D;&#x3D; &#x27;Tracked Visits&#x27; ) {
+        const data2 &#x3D; {
+          studyId: this.ledgerForm.controls.study.value,
+          procedureTypeFilter:  &#x27;ALL_PROCEDURES&#x27; ,
+          dateFrom:this.ledgerForm.controls.from.value ? formatDate(this.ledgerForm.controls.from.value, &#x27;yyyy-MM-dd&#x27;, &#x27;en-Us&#x27;) : &#x27;&#x27;,
+          dateTo: this.ledgerForm.controls.to.value ? formatDate(this.ledgerForm.controls.to.value, &#x27;yyyy-MM-dd&#x27;, &#x27;en-Us&#x27;) : &#x27;&#x27;,
+          patientStudyLinkIds: []
+        }
+        this.trackedVisitService.exportcsv(data2).subscribe(res &#x3D;&gt; {
+          const blob &#x3D; new Blob([res], {  type: &quot;text/csv;charset&#x3D;utf-8&quot;} );
+          this.dialog.open(CsvpreviewDialogComponent, {
+            data: {
+              actualFile: blob,
+              studyName:this.studyName,
+              siteName:this.ledgerForm.controls.site.value.alias
+
+            },
+            minWidth:&#x27;90vw&#x27;,
+            width: &#x27;95vw&#x27;,
+            minHeight:&#x27;75vh&#x27;,
+            height: &#x27;auto&#x27;,
+            panelClass:&#x27;custom-dialog-container&#x27;,
+            disableClose: true,
+            maxHeight:&#x27;90vh&#x27;
+          })
+        })
+
+    } else {
+      this.ledgerService.getMiscInvoice(invoice.id).subscribe(res &#x3D;&gt; {
+        const blob &#x3D; new Blob([res], {  type: &quot;application/pdf&quot;} );
+
+        this.dialog.open(PdfPreviewDialogComponent, {
+          data:{
+            invoice,
+              showprint:true,
+              deletefile:false,
+
+              actualFile: blob
+          }, 
+          height: &#x27;auto&#x27;,
+          maxHeight:&#x27;95vh&#x27;,
+          minWidth:&#x27;85vw&#x27;,
+          width: &#x27;auto&#x27;,
+          disableClose: true,
+          panelClass:&quot;custom-dialog-container&quot;
+          })
+       })
+      
+
+    }
+  }
+
+isPast(givenDate1) {
+  let diff &#x3D; new Date().getTime() - new Date(givenDate1).getTime();
+  return diff &lt; 0;
+  
+}
+
+voidInvoice(invoice) {
+
+  const dialogRef &#x3D; this.dialog.open(FeedBackDialogComponent, {
+    minWidth: &#x27;auto&#x27;,
+    maxHeight:&#x27;80vh&#x27;,
+    maxWidth:&#x27;80vw&#x27;,
+    width: &#x27;auto&#x27;,
+    height:&#x27;auto&#x27;,
+    disableClose: true,
+    data: {
+        message: &#x27;Are you sure you want to void this invoice for &#x27; + invoice.studyName + &#x27;?&#x27;,
+    }
+});
+    dialogRef.afterClosed().subscribe((res) &#x3D;&gt; {
+        if (res &#x3D;&#x3D;&#x3D; true) {
+          this.invoiceService.voidnvoice({invoiceId:invoice.id }).subscribe(res &#x3D;&gt; {
+            const blob &#x3D; new Blob([res], {  type: &quot;application/pdf&quot;} );
+            this.dialog.open(PdfPreviewDialogComponent, {
+              data:{
+                  showprint:true,
+                  deletefile:false,
+
+                  invoice,
+                actualFile: blob
+              }, 
+              height: &#x27;auto&#x27;,
+              maxHeight:&#x27;95vh&#x27;,
+              minWidth:&#x27;85vw&#x27;,
+              width: &#x27;auto&#x27;,
+              disableClose: true,
+              panelClass:&quot;custom-dialog-container&quot;
+              })
+              this.getInvoices();
+          })
+        } 
+    });
+
+ }
+  calcSums() {
+    this.ledgerStats &#x3D; {
+      totalInv: 0,
+      pastDue: 0,
+      invoicedToSponsor:0,
+      totalPayments: 0,
+      currentBalance: 0,
+      studyBalance: 0
+    }
+    this.invoices?.ledgerViews?.map(elem &#x3D;&gt;{
+      if(elem.type &#x3D;&#x3D; &quot;Payment&quot;) {
+        elem.payment &#x3D; elem.balance
+        this.ledgerStats.totalPayments +&#x3D; elem.payment;
+        this.ledgerStats.currentBalance -&#x3D; elem.balance;
+        elem.currentBalance &#x3D; this.ledgerStats.currentBalance;
+      } else {
+        elem.charge &#x3D; elem.balance
+        this.ledgerStats.totalInv +&#x3D; elem.charge;
+        if(elem.type !&#x3D;&#x27;Tracked Visits&#x27; &amp;&amp; this.utilService.checkIfTodayOrPast(elem.dueDate) &amp;&amp; elem.dueDate) {
+          this.ledgerStats.pastDue &#x3D; this.add(this.ledgerStats.pastDue, elem.charge)
+        }
+        if(elem.type !&#x3D;&#x27;Tracked Visits&#x27;) {
+          this.ledgerStats.invoicedToSponsor &#x3D; this.add(this.ledgerStats.invoicedToSponsor, elem.charge)
+        }
+        this.ledgerStats.currentBalance+&#x3D; elem.balance;
+        elem.currentBalance &#x3D; this.ledgerStats.currentBalance;
+        
+      }
+      
+      
+    })
+    this.ledgerStats.studyBalance &#x3D; this.ledgerStats.totalInv - this.ledgerStats.totalPayments;
+  }
+  add(y, z) {
+    return  +y + +z;
+  }
+  getInvoices() {
+    
+      this.userPreferences.setuserState(&#x27;selectedSite&#x27;,this.ledgerForm.controls.site.value)
+
+    if(this.ledgerForm.valid) {
+      this.searched &#x3D; false;
+      this.loading &#x3D; true;
+      const data &#x3D; {
+        studyId: this.ledgerForm.controls.study.value,
+        dateFrom:this.ledgerForm.controls.from.value ? formatDate(this.ledgerForm.controls.from.value, &#x27;yyyy-MM-dd&#x27;, &#x27;en-Us&#x27;) : &#x27;&#x27;,
+        dateTo: this.ledgerForm.controls.from.value ? formatDate(this.ledgerForm.controls.to.value, &#x27;yyyy-MM-dd&#x27;, &#x27;en-Us&#x27;) : &#x27;&#x27;,
+      }
+      this.ledgerService.getInvoices(data).subscribe(res &#x3D;&gt; {
+        this.invoices &#x3D; res;
+        this.calcSums();
+        this.loading &#x3D; false;
+        this.searched &#x3D; true;
+
+      }, err &#x3D;&gt; {
+        this.loading &#x3D; false;
+      })
+    } else {
+      this.ledgerForm.markAllAsTouched()
+    }
+  
+  }
+
+  setStudyName(event) {
+    this.studyName &#x3D; this.studies.filter(elem &#x3D;&gt; elem?.id &#x3D;&#x3D; event?.value)[0]?.name
+  }
+
+
+
+  searcher2 &#x3D; (search: string, pageNumber: number, pageSize: number):Observable&lt;any[]&gt; &#x3D;&gt; { 
+    this.userPreferences.setuserState(&#x27;selectedSite&#x27;,this.ledgerForm.controls.site.value)
+
+    const data &#x3D; {
+      dateFrom:this.ledgerForm.controls.from.value ? formatDate(this.ledgerForm.controls.from.value, &#x27;yyyy-MM-dd&#x27;, &#x27;en-Us&#x27;): &#x27;&#x27;,
+      dateTo:this.ledgerForm.controls.to.value ? formatDate(this.ledgerForm.controls.to.value, &#x27;yyyy-MM-dd&#x27;, &#x27;en-Us&#x27;) : &#x27;&#x27;,
+      siteId: this.ledgerForm.controls.site.value.id,
+      search,
+      pageNumber: pageNumber-1,
+      pageSize,
+      statuses: [&#x27;MOVING_FORWARD&#x27;,&#x27;ADD_ON&#x27;,&#x27;ACTIVE&#x27;]
+    }
+    if(pageNumber - 1 !&#x3D; 0) {
+      this.siteService.getStudies(data).subscribe(res &#x3D;&gt; {
+        this.studies &#x3D; [...this.studies, ...res.content];
+      })
+    } else {
+      this.studiesloading &#x3D;true;
+      this.siteService.getStudies(data).subscribe(res &#x3D;&gt; {
+        this.studies &#x3D; [...res.content];
+        this.studiesloading &#x3D;false;
+      })
+    }
+    return of(this.studies)
+  }
+  
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;wrapper wrapper-content animated fadeInDown&quot; &gt;
+   
+    &lt;div class&#x3D;&quot;ibox-content &quot;&gt;
+       
+        &lt;form autocomplete&#x3D;&quot;off&quot; [formGroup]&#x3D;&quot;ledgerForm&quot; (ngSubmit)&#x3D;&quot;getInvoices()&quot; &gt;
+            &lt;div class&#x3D;&quot; row&quot; &gt;
+                    &lt;div class&#x3D;&quot;col-lg-2 col-md-2 col-sm-2&quot;&gt;
+                        &lt;mat-form-field &gt;
+                            &lt;mat-select #siteselect type&#x3D;&quot;text&quot; required&#x3D;&quot;&quot; placeholder&#x3D;&quot;{{&#x27;select-site&#x27; | translate}}&quot; (selectionChange)&#x3D;&quot;searcher2(&#x27;&#x27;,1,30)&quot; formControlName&#x3D;&quot;site&quot;  &gt;
+                                &lt;mat-option *ngFor&#x3D;&quot;let item of sites&quot; [value]&#x3D;&quot;item&quot;  &gt;{{item.alias}}&lt;/mat-option&gt;
+                            &lt;/mat-select&gt;
+                            &lt;mat-hint *ngIf&#x3D;&quot;!siteselect.value&quot;&gt;{{&#x27;select-study-first&#x27; | translate}}&lt;/mat-hint&gt;
+
+                        &lt;/mat-form-field&gt;
+                    &lt;/div&gt;
+                    &lt;div class&#x3D;&quot;col-lg-4 col-md-4 col-sm-4&quot;&gt;
+                        &lt;mat-form-field [ngClass]&#x3D;&quot;studiesloading ? &#x27;unclickable&#x27; : &#x27;&#x27;&quot; &gt;
+                            &lt;mat-select 
+                                formControlName&#x3D;&quot;study&quot;
+                                ngxMatSelect 
+                              #ms3&#x3D;&quot;ngxMatSelect&quot;
+ [searchBoxPlaceholder]&#x3D;&quot;&#x27;Search&#x27;&quot;  (selectionChange)&#x3D;&quot;setStudyName($event)&quot;
+                              [useInfiniteScroll]&#x3D;&quot;true&quot;
+                              [source]&#x3D;&quot;studies&quot; 
+                               
+                              [inFirstLoadCallSearcher]&#x3D;&quot;true&quot;
+                              [inFirstLoadSearcherValue]&#x3D;&quot;&#x27;&#x27;&quot; 
+                              [searcher]&#x3D;&quot;searcher2&quot; 
+                              [lazyLoad]&#x3D;&quot;true&quot;
+                              placeholder&#x3D;&quot;{{&#x27;select-study&#x27; | translate}}&quot;
+                              &gt;
+                              &lt;mat-option [value]&#x3D;&quot;item.id&quot; *ngFor&#x3D;&quot;let item of ms3.source&quot;&gt;
+                                {{item.name}}
+                              &lt;/mat-option&gt;
+                            &lt;/mat-select&gt;
+                            &lt;span matSuffix *ngIf&#x3D;&quot;studiesloading&quot;&gt;
+                                &lt;app-loading-indicator class&#x3D;&quot;text-info&quot; [size]&#x3D;&quot;&#x27;2vh&#x27;&quot;&gt;&lt;/app-loading-indicator&gt;
+                             &lt;/span&gt;
+                          &lt;/mat-form-field&gt;
+
+                   
+                    &lt;/div&gt;
+                    &lt;div class&#x3D;&quot;col-lg-2 col-md-2 col-sm-2&quot;&gt;
+                        &lt;mat-form-field  &gt;
+                            &lt;mat-label&gt;{{&#x27;from&#x27; | translate}}&lt;/mat-label&gt;
+                            &lt;input matInput [ngxMatDatetimePicker]&#x3D;&quot;from&quot;  formControlName&#x3D;&quot;from&quot; #fromdatepicker  [readonly]&#x3D;&quot;true&quot; (click)&#x3D;&quot;from.open()&quot; &gt;
+                            &lt;mat-datepicker-toggle class&#x3D;&quot;position-sticky&quot; matSuffix [for]&#x3D;&quot;from&quot;&gt;&lt;/mat-datepicker-toggle&gt;
+                            &lt;ngx-mat-datetime-picker  [hideTime]&#x3D;&quot;true&quot; #from [calendarHeaderComponent]&#x3D;&quot;dpheader&quot;&gt;&lt;/ngx-mat-datetime-picker&gt;
+                            &lt;span matSuffix *ngIf&#x3D;&quot;fromdatepicker.value&quot;&gt;
+                                &lt;i class&#x3D;&quot;fa fa-times fa-lg text-danger&quot; (click)&#x3D;&quot;$event.stopPropagation(); fromdatepicker.value &#x3D;&#x27;&#x27;&quot;&gt;&lt;/i&gt;
+                            &lt;/span&gt;
+                        &lt;/mat-form-field&gt;
+                       
+                    &lt;/div&gt;
+                    &lt;div class&#x3D;&quot;col-lg-2 col-md-2 col-sm-2&quot; &gt;
+                        &lt;mat-form-field  &gt;
+                            &lt;mat-label&gt;{{&#x27;to&#x27; | translate}}&lt;/mat-label&gt;
+                            &lt;input matInput [ngxMatDatetimePicker]&#x3D;&quot;to&quot; formControlName&#x3D;&quot;to&quot; #todatepicker [readonly]&#x3D;&quot;true&quot; (click)&#x3D;&quot;to.open()&quot; &gt;
+                            &lt;mat-datepicker-toggle class&#x3D;&quot;position-sticky&quot; matSuffix [for]&#x3D;&quot;to&quot;&gt;&lt;/mat-datepicker-toggle&gt;
+                            &lt;ngx-mat-datetime-picker  [hideTime]&#x3D;&quot;true&quot; #to [calendarHeaderComponent]&#x3D;&quot;dpheader&quot;&gt;&lt;/ngx-mat-datetime-picker&gt;
+                            &lt;span matSuffix *ngIf&#x3D;&quot;todatepicker.value&quot;&gt;
+                                &lt;i class&#x3D;&quot;fa fa-times fa-lg text-danger&quot; (click)&#x3D;&quot;$event.stopPropagation(); todatepicker.value &#x3D;&#x27;&#x27;&quot;&gt;&lt;/i&gt;
+                            &lt;/span&gt;
+                        &lt;/mat-form-field&gt;
+
+                    &lt;/div&gt;
+                    &lt;div class&#x3D;&quot;col-lg-2 col-md-2 col-sm-2  mt-2&quot;&gt;
+                        &lt;button class&#x3D;&quot;btn  btn-outline-secondary btn-sm float-right  mr-1&quot;  type&#x3D;&quot;button&quot;  [useExistingCss]&#x3D;&quot;true&quot;
+                        printSectionId&#x3D;&quot;print-section&quot;  ngxPrint matTooltip&#x3D;&quot;{{&#x27;print&#x27; | translate}}&quot;  *ngIf&#x3D;&quot;searched&quot; &gt;&lt;i class&#x3D;&quot;fas fa-print&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+                        &lt;button class&#x3D;&quot;btn  btn-outline-secondary btn-sm float-right mr-1&quot;  *ngIf&#x3D;&quot;searched&quot;  type&#x3D;&quot;button&quot;   &gt;&lt;i class&#x3D;&quot;fas fa-file-excel&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+                        &lt;button class&#x3D;&quot;btn btn-info btn-sm float-right mr-1&quot;   type&#x3D;&quot;button&quot; (click)&#x3D;&quot;openAddMiscInvoice()&quot; *ngIf&#x3D;&quot;searched&quot;  &gt;{{&quot;add-invoice&quot; | translate}}&lt;/button&gt;
+                        &lt;button class&#x3D;&quot;btn btn-info btn-sm float-right mr-1&quot; type&#x3D;&quot;submit&quot; *ngIf&#x3D;&quot;!loading&quot;&gt;{{&#x27;show-simple&#x27; | translate}}&lt;/button&gt;
+                        &lt;button class&#x3D;&quot;btn btn-info btn-sm float-right mr-1&quot; type&#x3D;&quot;btn&quot; *ngIf&#x3D;&quot;loading&quot;&gt;&lt;app-loading-indicator [size]&#x3D;&quot;&#x27;2vh&#x27;&quot; class&#x3D;&quot;text-white&quot;&gt;&lt;/app-loading-indicator&gt;&lt;/button&gt;
+            
+                     &lt;/div&gt;
+            &lt;/div&gt;  
+              
+         
+            &lt;/form&gt;
+            &lt;div id&#x3D;&quot;print-section&quot;&gt;
+                
+                &lt;div class&#x3D;&quot;ibox-content d-flex mt-2&quot; *ngIf&#x3D;&quot;searched&quot;&gt;
+                    &lt;div class&#x3D;&quot;col-lg-2 col-md-2 col-sm-2   text-center border-right&quot;&gt;
+                        &lt;h3&gt;{{studyName}} &lt;br&gt;
+                    &lt;/h3&gt; 
+                    &lt;/div&gt;
+                    &lt;div class&#x3D;&quot;col-lg-2 col-md-2 col-sm-2 text-center border-right&quot;&gt;&lt;span class&#x3D;&quot;font-weight-bold&quot;&gt;{{&#x27;currency&#x27; | translate}}{{ledgerStats?.totalInv | number: &#x27;1.2-2&#x27;}} &lt;/span&gt; &lt;br&gt; &lt;small&gt;{{&#x27;total-invoices&#x27; | translate}}&lt;/small&gt;&lt;/div&gt;
+                    &lt;div class&#x3D;&quot;col-lg-2 col-md-2 col-sm-2 text-center border-right&quot;&gt;&lt;span class&#x3D;&quot;font-weight-bold&quot;&gt;{{&#x27;currency&#x27; | translate}}{{ledgerStats?.invoicedToSponsor | number: &#x27;1.2-2&#x27;}} &lt;/span&gt; &lt;br&gt; &lt;small&gt;{{&#x27;invoiced-to-sponsor&#x27; | translate}}&lt;/small&gt;&lt;/div&gt;
+                    &lt;div class&#x3D;&quot;col-lg-2 col-md-2 col-sm-2 text-center border-right text-danger&quot;&gt;&lt;span class&#x3D;&quot;font-weight-bold&quot;&gt;{{&#x27;currency&#x27; | translate}}{{ledgerStats?.pastDue | number: &#x27;1.2-2&#x27;}}&lt;/span&gt;  &lt;br&gt; &lt;small&gt;{{&#x27;past-due&#x27; | translate}}&lt;/small&gt;&lt;/div&gt;
+                    &lt;div class&#x3D;&quot;col-lg-2 col-md-2 col-sm-2 text-center border-right &quot;&gt;&lt;span class&#x3D;&quot;font-weight-bold&quot;&gt;{{&#x27;currency&#x27; | translate}}{{ledgerStats?.totalPayments | number: &#x27;1.2-2&#x27;}} &lt;/span&gt;  &lt;br&gt; &lt;small&gt;{{&#x27;total-payments&#x27; | translate}}&lt;/small&gt;&lt;/div&gt;
+                    &lt;div class&#x3D;&quot;col-lg-2 col-md-2 col-sm-2 text-center &quot;&gt;&lt;span class&#x3D;&quot;font-weight-bold&quot; [ngClass]&#x3D;&quot;ledgerStats?.studyBalance &lt; 0 ? &#x27;text-danger&#x27;: &#x27;&#x27;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{ledgerStats?.studyBalance | number: &#x27;1.2-2&#x27;}} &lt;/span&gt;  &lt;br&gt; &lt;small&gt;{{&#x27;study-balance&#x27; | translate}}&lt;/small&gt;&lt;/div&gt;
+
+                &lt;/div&gt;
+                &lt;table class&#x3D;&quot;table table-hover &quot; *ngIf&#x3D;&quot;searched&quot; &gt;
+                    &lt;thead&gt;
+                    &lt;tr&gt; 
+                        &lt;th &gt;{{&#x27;invoice-date&#x27; | translate}}&lt;/th&gt;
+                        &lt;th &gt;{{&#x27;type&#x27; | translate}}&lt;/th&gt;
+                        &lt;th &gt;{{&#x27;reference-number&#x27; | translate}}&lt;/th&gt;
+                        &lt;th &gt;{{&#x27;user-name&#x27; | translate}}&lt;/th&gt;
+                        &lt;th &gt;{{&#x27;created-at&#x27; | translate}}&lt;/th&gt;
+                        &lt;th &gt;{{&#x27;description&#x27; | translate}}&lt;/th&gt;
+                        &lt;th &gt;{{&#x27;charge&#x27; | translate}}&lt;/th&gt;
+                        &lt;th &gt;{{&#x27;payment&#x27; | translate}}&lt;/th&gt;
+                        &lt;th &gt;{{&#x27;balance&#x27; | translate}}&lt;/th&gt;
+                    &lt;/tr&gt;
+                    &lt;/thead&gt;
+                    &lt;tbody&gt;
+                      &lt;tr  style&#x3D;&quot;overflow: hidden; word-break: break-all; text-overflow: ellipsis;white-space: normal;&quot; *ngFor&#x3D;&quot;let item of invoices?.ledgerViews&quot; &gt;
+                          &lt;td&gt;{{item.date | date:&#x27;MM/dd/yyyy&#x27;}}&lt;/td&gt;
+                          &lt;td&gt;{{item.type | translate }}&lt;/td&gt;
+                          &lt;td&gt;&lt;a href&#x3D;&quot;javascript:void(0)&quot; *ngIf&#x3D;&quot;item.type!&#x3D;&#x27;Tracked Visits&#x27;&quot;  (click)&#x3D;&quot;openDialog(item)&quot;&gt;{{item?.paymentReference}}&lt;/a&gt;
+                            &lt;a href&#x3D;&quot;javascript:void(0)&quot; *ngIf&#x3D;&quot;item.type&#x3D;&#x3D;&#x27;Tracked Visits&#x27;&quot; (click)&#x3D;&quot;openDialog(item)&quot;&gt;View Details&lt;/a&gt;&lt;/td&gt;
+                          &lt;td&gt;{{item.userFullName  }}&lt;/td&gt;
+                          &lt;td&gt;{{item.createdDateTime | date:&#x27;MM/dd/yyyy hh:mm a&#x27;  }}&lt;/td&gt;
+                          &lt;td&gt;&lt;span  *ngIf&#x3D;&quot;item.type!&#x3D;&#x27;Payment&#x27; &amp;&amp; item.type !&#x3D;&#x27;Tracked Visits&#x27;&quot;&gt;{{item.transaction}}&lt;/span&gt;
+                            &lt;span  *ngIf&#x3D;&quot;item.type&#x3D;&#x3D;&#x27;Payment&#x27;&quot;&gt; {{item?.paymentType | withoutUnderscore | titlecase}}&lt;/span&gt;  &lt;/td&gt;
+                          &lt;td&gt;&lt;span *ngIf&#x3D;&quot;item?.charge&quot;  [ngClass]&#x3D;&quot;utilService.checkIfTodayOrPast(item.dueDate) &amp;&amp; item.dueDate ? &#x27;text-danger&#x27; :&#x27;&#x27;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{item?.charge | number :&#x27;1.2-2&#x27;}}&lt;/span&gt;&lt;/td&gt;
+                          &lt;td&gt;&lt;span *ngIf&#x3D;&quot;item?.payment&quot;&gt;{{&#x27;currency&#x27; | translate}}{{item?.payment | number :&#x27;1.2-2&#x27;}}&lt;/span&gt;&lt;/td&gt;
+                          &lt;td [ngClass]&#x3D;&quot;item.currentBalance &lt; 0 ? &#x27;text-danger&#x27;: &#x27;&#x27;&quot;&gt;{{&#x27;currency&#x27; | translate}}{{item.currentBalance | number :&#x27;1.2-2&#x27;}}&lt;/td&gt;
+
+                      &lt;/tr&gt;
+                      
+                    &lt;/tbody&gt;
+                &lt;/table&gt;
+                &lt;div class&#x3D;&quot;no-results&quot; *ngIf&#x3D;&quot;loading&quot;&gt;
+                    &lt;app-loading-indicator [size]&#x3D;&quot;&#x27;5vh&#x27;&quot; class&#x3D;&quot;text-info&quot;&gt;&lt;/app-loading-indicator&gt;
+                &lt;/div&gt;
+        &lt;/div&gt; 
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="styleData">
+                <p class="comment">
+                    <code>./ledger.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss"></code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="wrapper wrapper-content animated fadeInDown" >       <div class="ibox-content ">               <form autocomplete="off" [formGroup]="ledgerForm" (ngSubmit)="getInvoices()" >            <div class=" row" >                    <div class="col-lg-2 col-md-2 col-sm-2">                        <mat-form-field >                            <mat-select #siteselect type="text" required="" placeholder="{{\'select-site\' | translate}}" (selectionChange)="searcher2(\'\',1,30)" formControlName="site"  >                                <mat-option *ngFor="let item of sites" [value]="item"  >{{item.alias}}</mat-option>                            </mat-select>                            <mat-hint *ngIf="!siteselect.value">{{\'select-study-first\' | translate}}</mat-hint>                        </mat-form-field>                    </div>                    <div class="col-lg-4 col-md-4 col-sm-4">                        <mat-form-field [ngClass]="studiesloading ? \'unclickable\' : \'\'" >                            <mat-select                                 formControlName="study"                                ngxMatSelect                               #ms3="ngxMatSelect" [searchBoxPlaceholder]="\'Search\'"  (selectionChange)="setStudyName($event)"                              [useInfiniteScroll]="true"                              [source]="studies"                                                              [inFirstLoadCallSearcher]="true"                              [inFirstLoadSearcherValue]="\'\'"                               [searcher]="searcher2"                               [lazyLoad]="true"                              placeholder="{{\'select-study\' | translate}}"                              >                              <mat-option [value]="item.id" *ngFor="let item of ms3.source">                                {{item.name}}                              </mat-option>                            </mat-select>                            <span matSuffix *ngIf="studiesloading">                                <app-loading-indicator class="text-info" [size]="\'2vh\'"></app-loading-indicator>                             </span>                          </mat-form-field>                                       </div>                    <div class="col-lg-2 col-md-2 col-sm-2">                        <mat-form-field  >                            <mat-label>{{\'from\' | translate}}</mat-label>                            <input matInput [ngxMatDatetimePicker]="from"  formControlName="from" #fromdatepicker  [readonly]="true" (click)="from.open()" >                            <mat-datepicker-toggle class="position-sticky" matSuffix [for]="from"></mat-datepicker-toggle>                            <ngx-mat-datetime-picker  [hideTime]="true" #from [calendarHeaderComponent]="dpheader"></ngx-mat-datetime-picker>                            <span matSuffix *ngIf="fromdatepicker.value">                                <i class="fa fa-times fa-lg text-danger" (click)="$event.stopPropagation(); fromdatepicker.value =\'\'"></i>                            </span>                        </mat-form-field>                                           </div>                    <div class="col-lg-2 col-md-2 col-sm-2" >                        <mat-form-field  >                            <mat-label>{{\'to\' | translate}}</mat-label>                            <input matInput [ngxMatDatetimePicker]="to" formControlName="to" #todatepicker [readonly]="true" (click)="to.open()" >                            <mat-datepicker-toggle class="position-sticky" matSuffix [for]="to"></mat-datepicker-toggle>                            <ngx-mat-datetime-picker  [hideTime]="true" #to [calendarHeaderComponent]="dpheader"></ngx-mat-datetime-picker>                            <span matSuffix *ngIf="todatepicker.value">                                <i class="fa fa-times fa-lg text-danger" (click)="$event.stopPropagation(); todatepicker.value =\'\'"></i>                            </span>                        </mat-form-field>                    </div>                    <div class="col-lg-2 col-md-2 col-sm-2  mt-2">                        <button class="btn  btn-outline-secondary btn-sm float-right  mr-1"  type="button"  [useExistingCss]="true"                        printSectionId="print-section"  ngxPrint matTooltip="{{\'print\' | translate}}"  *ngIf="searched" ><i class="fas fa-print"></i></button>                        <button class="btn  btn-outline-secondary btn-sm float-right mr-1"  *ngIf="searched"  type="button"   ><i class="fas fa-file-excel"></i></button>                        <button class="btn btn-info btn-sm float-right mr-1"   type="button" (click)="openAddMiscInvoice()" *ngIf="searched"  >{{"add-invoice" | translate}}</button>                        <button class="btn btn-info btn-sm float-right mr-1" type="submit" *ngIf="!loading">{{\'show-simple\' | translate}}</button>                        <button class="btn btn-info btn-sm float-right mr-1" type="btn" *ngIf="loading"><app-loading-indicator [size]="\'2vh\'" class="text-white"></app-loading-indicator></button>                                 </div>            </div>                                     </form>            <div id="print-section">                                <div class="ibox-content d-flex mt-2" *ngIf="searched">                    <div class="col-lg-2 col-md-2 col-sm-2   text-center border-right">                        <h3>{{studyName}} <br>                    </h3>                     </div>                    <div class="col-lg-2 col-md-2 col-sm-2 text-center border-right"><span class="font-weight-bold">{{\'currency\' | translate}}{{ledgerStats?.totalInv | number: \'1.2-2\'}} </span> <br> <small>{{\'total-invoices\' | translate}}</small></div>                    <div class="col-lg-2 col-md-2 col-sm-2 text-center border-right"><span class="font-weight-bold">{{\'currency\' | translate}}{{ledgerStats?.invoicedToSponsor | number: \'1.2-2\'}} </span> <br> <small>{{\'invoiced-to-sponsor\' | translate}}</small></div>                    <div class="col-lg-2 col-md-2 col-sm-2 text-center border-right text-danger"><span class="font-weight-bold">{{\'currency\' | translate}}{{ledgerStats?.pastDue | number: \'1.2-2\'}}</span>  <br> <small>{{\'past-due\' | translate}}</small></div>                    <div class="col-lg-2 col-md-2 col-sm-2 text-center border-right "><span class="font-weight-bold">{{\'currency\' | translate}}{{ledgerStats?.totalPayments | number: \'1.2-2\'}} </span>  <br> <small>{{\'total-payments\' | translate}}</small></div>                    <div class="col-lg-2 col-md-2 col-sm-2 text-center "><span class="font-weight-bold" [ngClass]="ledgerStats?.studyBalance < 0 ? \'text-danger\': \'\'">{{\'currency\' | translate}}{{ledgerStats?.studyBalance | number: \'1.2-2\'}} </span>  <br> <small>{{\'study-balance\' | translate}}</small></div>                </div>                <table class="table table-hover " *ngIf="searched" >                    <thead>                    <tr>                         <th >{{\'invoice-date\' | translate}}</th>                        <th >{{\'type\' | translate}}</th>                        <th >{{\'reference-number\' | translate}}</th>                        <th >{{\'user-name\' | translate}}</th>                        <th >{{\'created-at\' | translate}}</th>                        <th >{{\'description\' | translate}}</th>                        <th >{{\'charge\' | translate}}</th>                        <th >{{\'payment\' | translate}}</th>                        <th >{{\'balance\' | translate}}</th>                    </tr>                    </thead>                    <tbody>                      <tr  style="overflow: hidden; word-break: break-all; text-overflow: ellipsis;white-space: normal;" *ngFor="let item of invoices?.ledgerViews" >                          <td>{{item.date | date:\'MM/dd/yyyy\'}}</td>                          <td>{{item.type | translate }}</td>                          <td><a href="javascript:void(0)" *ngIf="item.type!=\'Tracked Visits\'"  (click)="openDialog(item)">{{item?.paymentReference}}</a>                            <a href="javascript:void(0)" *ngIf="item.type==\'Tracked Visits\'" (click)="openDialog(item)">View Details</a></td>                          <td>{{item.userFullName  }}</td>                          <td>{{item.createdDateTime | date:\'MM/dd/yyyy hh:mm a\'  }}</td>                          <td><span  *ngIf="item.type!=\'Payment\' && item.type !=\'Tracked Visits\'">{{item.transaction}}</span>                            <span  *ngIf="item.type==\'Payment\'"> {{item?.paymentType | withoutUnderscore | titlecase}}</span>  </td>                          <td><span *ngIf="item?.charge"  [ngClass]="utilService.checkIfTodayOrPast(item.dueDate) && item.dueDate ? \'text-danger\' :\'\'">{{\'currency\' | translate}}{{item?.charge | number :\'1.2-2\'}}</span></td>                          <td><span *ngIf="item?.payment">{{\'currency\' | translate}}{{item?.payment | number :\'1.2-2\'}}</span></td>                          <td [ngClass]="item.currentBalance < 0 ? \'text-danger\': \'\'">{{\'currency\' | translate}}{{item.currentBalance | number :\'1.2-2\'}}</td>                      </tr>                                          </tbody>                </table>                <div class="no-results" *ngIf="loading">                    <app-loading-indicator [size]="\'5vh\'" class="text-info"></app-loading-indicator>                </div>        </div>     </div></div></div>'
+    var COMPONENTS = [{'name': 'AccrualsComponent', 'selector': 'app-accruals'},{'name': 'AdApprovalsComponent', 'selector': 'app-ad-approvals'},{'name': 'AdCalendarComponent', 'selector': 'app-ad-calendar'},{'name': 'AdCategoriesComponent', 'selector': 'app-ad-categories'},{'name': 'AddCategoryDialogComponent', 'selector': 'app-add-category-dialog'},{'name': 'AddDailyScheduleResourceDialogComponent', 'selector': 'app-add-daily-schedule-resource-dialog'},{'name': 'AddDocumentDialogComponent', 'selector': 'app-add-document-dialog'},{'name': 'AddFindingsComponent', 'selector': 'app-add-findings'},{'name': 'AddFollowUpDialogComponent', 'selector': 'app-add-follow-up-dialog'},{'name': 'AddHolidayDialogComponent', 'selector': 'app-add-holiday-dialog'},{'name': 'AddIndicationDialogComponent', 'selector': 'app-add-indication-dialog'},{'name': 'AddIrbDialogComponent', 'selector': 'app-add-irb-dialog'},{'name': 'AddLabsDialogComponent', 'selector': 'app-add-labs-dialog'},{'name': 'AddMediaEventDialogComponent', 'selector': 'app-add-media-event-dialog'},{'name': 'AddMiscAppointmentComponent', 'selector': 'app-add-misc-appointment'},{'name': 'AddMiscInvoiceDialogComponent', 'selector': 'app-add-misc-invoice-dialog'},{'name': 'AddNewLeadDialogComponent', 'selector': 'app-add-new-lead-dialog'},{'name': 'AddNewTrackDialogComponent', 'selector': 'app-add-new-track-dialog'},{'name': 'AddPatientDialogComponent', 'selector': 'app-add-patient-dialog'},{'name': 'AddPatientTimerDialogComponent', 'selector': 'app-add-patient-timer-dialog'},{'name': 'AddPatientToStudyDialogComponent', 'selector': 'app-add-patient-to-study-dialog'},{'name': 'AddPatientToStudyFinalStepDialogComponent', 'selector': 'app-add-patient-to-study-final-step-dialog'},{'name': 'AddPatientToStudyFinalStepSelectedDialogComponent', 'selector': 'app-add-patient-to-study-final-step-selected-dialog'},{'name': 'AddRemitLocationDialogComponent', 'selector': 'app-add-remit-location-dialog'},{'name': 'AddRoleDialogComponent', 'selector': 'app-add-role-dialog'},{'name': 'AddSelectedPatientDialogComponent', 'selector': 'app-add-selected-patient-dialog'},{'name': 'AddStudyToCalendarDialogComponent', 'selector': 'app-add-study-to-calendar-dialog'},{'name': 'AddStudyToStudyStartDialogComponent', 'selector': 'app-add-study-to-study-start-dialog'},{'name': 'AddTaskRoleDialogComponent', 'selector': 'app-add-task-role-dialog'},{'name': 'AddTraineeDialogComponent', 'selector': 'app-add-trainee-dialog'},{'name': 'AddTrialToRegManagerDialogComponent', 'selector': 'app-add-trial-to-reg-manager-dialog'},{'name': 'AddVendorDialogComponent', 'selector': 'app-add-vendor-dialog'},{'name': 'AddVersionDialogComponent', 'selector': 'app-add-version-dialog'},{'name': 'AddWaitlistDialogComponent', 'selector': 'app-add-waitlist-dialog'},{'name': 'AdQueryComponent', 'selector': 'app-ad-query'},{'name': 'AdVendorsComponent', 'selector': 'app-ad-vendors'},{'name': 'AdvertisingReportComponent', 'selector': 'app-advertising-report'},{'name': 'AllowEsignDialogComponent', 'selector': 'app-allow-esign-dialog'},{'name': 'AnonymousCallDialogComponent', 'selector': 'app-anonymous-call-dialog'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AppointmentTrackingDialogComponent', 'selector': 'app-appointment-tracking-dialog'},{'name': 'ApprovalEditDialogComponent', 'selector': 'app-approval-edit-dialog'},{'name': 'ArchiveBoxDetailsDialogComponent', 'selector': 'app-archive-box-details-dialog'},{'name': 'ArchivesComponent', 'selector': 'app-archives'},{'name': 'AuditViewComponent', 'selector': 'app-audit-view'},{'name': 'AuditViewTableComponent', 'selector': 'app-audit-view-table'},{'name': 'BillableProceduresComponent', 'selector': 'app-billable-procedures'},{'name': 'BillingSetupDialogComponent', 'selector': 'app-billing-setup-dialog'},{'name': 'BillSponsorComponent', 'selector': 'app-bill-sponsor'},{'name': 'BoxContentsDialogComponent', 'selector': 'app-box-contents-dialog'},{'name': 'BuildStudyComponent', 'selector': 'app-build-study'},{'name': 'BulkApproveDialogComponent', 'selector': 'app-bulk-approve-dialog'},{'name': 'BulkReassignFollowUpDialogComponent', 'selector': 'app-bulk-reassign-follow-up-dialog'},{'name': 'BulkSmsDialogComponent', 'selector': 'app-bulk-sms-dialog'},{'name': 'BusinessHoursHolidaysDialogComponent', 'selector': 'app-business-hours-holidays-dialog'},{'name': 'CalendarCategoryDialogComponent', 'selector': 'app-calendar-category-dialog'},{'name': 'CalendarFooterComponent', 'selector': 'app-calendar-footer'},{'name': 'CallSchedulingDialogComponent', 'selector': 'app-call-scheduling-dialog'},{'name': 'CancelAppointmentDialogComponent', 'selector': 'app-cancel-appointment-dialog'},{'name': 'CategoryStudyBudgetDialogComponent', 'selector': 'app-category-study-budget-dialog'},{'name': 'ChangeCommitmentDialogComponent', 'selector': 'app-change-commitment-dialog'},{'name': 'ChangePasswordComponent', 'selector': 'app-change-password'},{'name': 'ChangeStudyStatusDialogComponent', 'selector': 'app-change-study-status-dialog'},{'name': 'ClosedStudiesComponent', 'selector': 'app-closed-studies'},{'name': 'CompaniesComponent', 'selector': 'app-companies'},{'name': 'CompanyDialogComponent', 'selector': 'app-company-dialog'},{'name': 'CompanySitesDialogComponent', 'selector': 'app-company-sites-dialog'},{'name': 'CompletePrescreenFormDialogComponent', 'selector': 'app-complete-prescreen-form-dialog'},{'name': 'CompleteScreeningFormDialogComponent', 'selector': 'app-complete-screening-form-dialog'},{'name': 'ConfirmationDialogComponent', 'selector': 'app-confirmation-dialog'},{'name': 'ContactAddForLeadComponent', 'selector': 'app-contact-add-for-lead'},{'name': 'ContactAddForStudyComponent', 'selector': 'app-contact-add-for-study'},{'name': 'ContactDetailsDialogComponent', 'selector': 'app-contact-details-dialog'},{'name': 'ContactDialogComponent', 'selector': 'app-contact-dialog'},{'name': 'ContactNotesComponent', 'selector': 'app-contact-notes'},{'name': 'ContactsComponent', 'selector': 'app-contacts'},{'name': 'ContactSearchResultsForLeadsComponent', 'selector': 'app-contact-search-results-for-leads'},{'name': 'ContactSearchResultsForStudiesComponent', 'selector': 'app-contact-search-results-for-studies'},{'name': 'CopiedMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'CopyStudyBuildDialogComponent', 'selector': 'app-copy-study-build-dialog'},{'name': 'CopyToAnotherSiteDialogComponent', 'selector': 'app-copy-to-another-site-dialog'},{'name': 'CountdownComponent', 'selector': 'app-countdown'},{'name': 'CreateAdDialogComponent', 'selector': 'app-create-ad-dialog'},{'name': 'CreateBillRequestDialogComponent', 'selector': 'app-create-bill-request-dialog'},{'name': 'CreateBinderDialogComponent', 'selector': 'app-create-binder-dialog'},{'name': 'CreateBoxLabelDialogComponent', 'selector': 'app-create-box-label-dialog'},{'name': 'CreateBudgetDialogComponent', 'selector': 'app-create-budget-dialog'},{'name': 'CreateFindingCategoryDialogComponent', 'selector': 'app-create-finding-category-dialog'},{'name': 'CreatePermissionTemplateComponent', 'selector': 'app-create-permission-template'},{'name': 'CreateTaskDialogComponent', 'selector': 'app-create-task-dialog'},{'name': 'CreateWorkingListDialogComponent', 'selector': 'app-create-working-list-dialog'},{'name': 'CreateWorkingListFromCheckboxesDialogComponent', 'selector': 'app-create-working-list-from-checkboxes-dialog'},{'name': 'CsvpreviewDialogComponent', 'selector': 'app-csvpreview-dialog'},{'name': 'DailyFollowUpsComponent', 'selector': 'app-daily-follow-ups'},{'name': 'DailyScheduleComponent', 'selector': 'app-daily-schedule'},{'name': 'DailySchedulePatientEventDetailsDialogComponent', 'selector': 'app-daily-schedule-patient-event-details-dialog'},{'name': 'DailySchedulePatientMisceallaneousDetailsDialogComponent', 'selector': 'app-daily-schedule-patient-misceallaneous-details-dialog'},{'name': 'DailySchedulePatientScreenDetailsDialogComponent', 'selector': 'app-daily-schedule-patient-screen-details-dialog'},{'name': 'DailySchedulePatientVisitDetatilsDialogComponent', 'selector': 'app-daily-schedule-patient-visit-detatils-dialog'},{'name': 'DailyScheduleResourceComponent', 'selector': 'app-daily-schedule-resource'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DataMergersComponent', 'selector': 'app-data-mergers'},{'name': 'DatepickerHeaderComponent', 'selector': 'datepicker-header'},{'name': 'DatepickerMonthHeaderComponent', 'selector': 'app-datepicker-month-header'},{'name': 'DateSelectComponent', 'selector': 'app-date-select'},{'name': 'DateSelectSimpleComponent', 'selector': 'app-date-select-simple'},{'name': 'DebugDialogComponent', 'selector': 'app-debug-dialog'},{'name': 'DeletePatientPhoneNumberDialogComponent', 'selector': 'app-delete-patient-phone-number-dialog'},{'name': 'DiscrepanciesComponent', 'selector': 'app-discrepancies'},{'name': 'DownloadsComponent', 'selector': 'app-downloads'},{'name': 'EditAdditionalProceduresDialogComponent', 'selector': 'app-edit-additional-procedures-dialog'},{'name': 'EditBinderComponent', 'selector': 'app-edit-binder'},{'name': 'EditBusinessHoursDialogComponent', 'selector': 'app-edit-business-hours-dialog'},{'name': 'EditEventDialogComponent', 'selector': 'app-edit-event-dialog'},{'name': 'EditFindingDetailsDialogComponent', 'selector': 'app-edit-finding-details-dialog'},{'name': 'EditHolidayDialogComponent', 'selector': 'app-edit-holiday-dialog'},{'name': 'EditMiscPaymentDialogComponent', 'selector': 'app-edit-misc-payment-dialog'},{'name': 'EditPermissionTemplateComponent', 'selector': 'app-edit-permission-template'},{'name': 'EditProcedureDialogComponent', 'selector': 'app-edit-procedure-dialog'},{'name': 'EditProcedureNameDialogComponent', 'selector': 'app-edit-procedure-name-dialog'},{'name': 'EditReportPaymentComponent', 'selector': 'app-edit-report-payment'},{'name': 'EditScoreboardDialogComponent', 'selector': 'app-edit-scoreboard-dialog'},{'name': 'EditStudyBuildComponent', 'selector': 'app-edit-study-build'},{'name': 'EditStudyFileDialogComponent', 'selector': 'app-edit-study-file-dialog'},{'name': 'EditStudyPathDialogComponent', 'selector': 'app-edit-study-path-dialog'},{'name': 'EditStudyProcedureGroupsDialogComponent', 'selector': 'app-edit-study-procedure-groups-dialog'},{'name': 'EditStudyVisitsDialogComponent', 'selector': 'app-edit-study-visits-dialog'},{'name': 'EditStudyVisitsRuleDialogComponent', 'selector': 'app-edit-study-visits-rule-dialog'},{'name': 'EditTrainingDialogComponent', 'selector': 'app-edit-training-dialog'},{'name': 'EditVisitDialogComponent', 'selector': 'app-edit-visit-dialog'},{'name': 'EditWorkingListDialogComponent', 'selector': 'app-edit-working-list-dialog'},{'name': 'EsignatureDialogComponent', 'selector': 'app-esignature-dialog'},{'name': 'ESignDialogComponent', 'selector': 'app-e-sign-dialog'},{'name': 'ExpiringDocsComponent', 'selector': 'app-expiring-docs'},{'name': 'ExternalDialogComponent', 'selector': 'app-external-dialog'},{'name': 'FeedBackDialogComponent', 'selector': 'app-feed-back-dialog'},{'name': 'FileCorrespondenceDialogComponent', 'selector': 'app-file-correspondence-dialog'},{'name': 'FileDialogComponent', 'selector': 'app-file-dialog'},{'name': 'FileResponseMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'FilterFooterComponent', 'selector': 'app-filter-footer'},{'name': 'FinalAdsApprovalDialogComponent', 'selector': 'app-final-ads-approval-dialog'},{'name': 'FinanceAdCalendarComponent', 'selector': 'app-ad-calendar'},{'name': 'FindingCategoryComponent', 'selector': 'app-finding-category'},{'name': 'FindInvoicesComponent', 'selector': 'app-find-invoices'},{'name': 'FolderDragMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'FollowUpPatientDialogComponent', 'selector': 'app-follow-up-patient-dialog'},{'name': 'FollowUpsComponent', 'selector': 'app-follow-ups'},{'name': 'ForgotPasswordComponent', 'selector': 'app-forgot-password'},{'name': 'GenericWarningDialogComponent', 'selector': 'app-generic-warning-dialog'},{'name': 'ImagePreviewDialogComponent', 'selector': 'app-image-preview-dialog'},{'name': 'ImportCsvRecruitingDialogComponent', 'selector': 'app-import-csv-recruiting-dialog'},{'name': 'IndicationsComponent', 'selector': 'app-indications'},{'name': 'InfoPopupComponent', 'selector': 'app-info-popup'},{'name': 'InputDialogComponent', 'selector': 'app-input-dialog'},{'name': 'InquiryCallDialogComponent', 'selector': 'app-inquiry-call-dialog'},{'name': 'InternalDialogComponent', 'selector': 'app-internal-dialog'},{'name': 'InviteUserDialogComponent', 'selector': 'app-invite-user-dialog'},{'name': 'InvoicesComponent', 'selector': 'app-invoices'},{'name': 'IrbComponent', 'selector': 'app-irb'},{'name': 'LabComponent', 'selector': 'app-lab'},{'name': 'LabelGeneratorComponent', 'selector': 'app-label-generator'},{'name': 'LeadDetailsDialogComponent', 'selector': 'app-lead-details-dialog'},{'name': 'LeadsComponent', 'selector': 'app-leads'},{'name': 'LedgerComponent', 'selector': 'app-ledger'},{'name': 'LinkStudyDialogComponent', 'selector': 'app-link-study-dialog'},{'name': 'LinkStudyStartDialogComponent', 'selector': 'app-link-study-start-dialog'},{'name': 'LoadingIndicatorComponent', 'selector': 'app-loading-indicator'},{'name': 'LockScreenComponent', 'selector': 'app-lock-screen'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'LongLoadingIndicatorComponent', 'selector': 'app-long-loading-indicator'},{'name': 'ManageCalendarCategoriesDialogComponent', 'selector': 'app-manage-calendar-categories-dialog'},{'name': 'ManageCompanyComponent', 'selector': 'app-manage-company'},{'name': 'ManageFindingsComponent', 'selector': 'app-manage-findings'},{'name': 'ManagePatientInterestDialogComponent', 'selector': 'app-manage-patient-interest-dialog'},{'name': 'ManageSelectedFindingsDialogComponent', 'selector': 'app-manage-selected-findings-dialog'},{'name': 'ManageUserComponent', 'selector': 'app-manage-user'},{'name': 'ManifestShipmentComponent', 'selector': 'app-manifest-shipment'},{'name': 'MargePatientDialogComponent', 'selector': 'app-marge-patient-dialog'},{'name': 'MasterFilesComponent', 'selector': 'app-master-files'},{'name': 'MergeLeadDialogComponent', 'selector': 'app-merge-lead-dialog'},{'name': 'MessageDetailDialogComponent', 'selector': 'app-message-detail-dialog'},{'name': 'MiscChargesComponent', 'selector': 'app-misc-charges'},{'name': 'MoveFileDialogComponent', 'selector': 'app-move-file-dialog'},{'name': 'MyDashboardComponent', 'selector': 'app-my-dashboard'},{'name': 'MyQaFindingsComponent', 'selector': 'app-my-qa-findings'},{'name': 'MyTasksComponent', 'selector': 'app-my-tasks'},{'name': 'NameInputDialogComponent', 'selector': 'app-name-input-dialog'},{'name': 'NameUpdateDialogComponent', 'selector': 'app-name-update-dialog'},{'name': 'NavigationComponent', 'selector': 'navigation'},{'name': 'NewFolderDialogComponent', 'selector': 'app-new-folder-dialog'},{'name': 'NotAllowedMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'NotFoundComponent', 'selector': 'app-not-found'},{'name': 'OtherReportComponent', 'selector': 'app-other-report'},{'name': 'OverlapDialogComponent', 'selector': 'app-overlap-dialog'},{'name': 'PatientAppointmentMiniViewDialogComponent', 'selector': 'app-patient-appointment-mini-view-dialog'},{'name': 'PatientMiniViewDialogComponent', 'selector': 'app-patient-mini-view-dialog'},{'name': 'PatientProfileComponent', 'selector': 'app-patient-profile'},{'name': 'PatientProfileSmsDialogComponent', 'selector': 'app-patient-profile-sms-dialog'},{'name': 'PatientSearchComponent', 'selector': 'app-patient-search'},{'name': 'PatientTrackingComponent', 'selector': 'app-patient-tracking'},{'name': 'PatientTrackingLoadComponent', 'selector': 'app-patient-tracking-load'},{'name': 'PaymentTrackerComponent', 'selector': 'app-payment-tracker'},{'name': 'PdfPreviewDialogComponent', 'selector': 'app-pdf-preview-dialog'},{'name': 'PendingEsignaturesComponent', 'selector': 'app-pending-esignatures'},{'name': 'PermanentErrorDialogComponent', 'selector': 'app-permanent-error-dialog'},{'name': 'PermissionsTemplatesComponent', 'selector': 'app-permissions-templates'},{'name': 'PipelineViewComponent', 'selector': 'app-pipeline-view'},{'name': 'PlaceholderDragMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'PmScoreCardComponent', 'selector': 'app-pm-score-card'},{'name': 'PrescreenSchedulingDialogComponent', 'selector': 'app-prescreen-scheduling-dialog'},{'name': 'PreviousPreviewComponent', 'selector': 'app-previous-preview'},{'name': 'PrintHelperComponent', 'selector': 'app-print-helper'},{'name': 'ProcedureGroupsDialogComponent', 'selector': 'app-procedure-groups-dialog'},{'name': 'ProceduresComponent', 'selector': 'app-procedures'},{'name': 'ProfileChangeDetailsDialogComponent', 'selector': 'app-profile-change-details-dialog'},{'name': 'ProfileUpdatePasswordDialogComponent', 'selector': 'app-update-password-dialog'},{'name': 'ProfileViewComponent', 'selector': 'app-profile-view'},{'name': 'ProjectManagementNotesDialogComponent', 'selector': 'app-project-management-notes-dialog'},{'name': 'PublishStudyDialogComponent', 'selector': 'app-publish-study-dialog'},{'name': 'QualityPlanComponent', 'selector': 'app-quality-plan'},{'name': 'QueryComponent', 'selector': 'app-query'},{'name': 'QueryStudiesComponent', 'selector': 'app-query-studies'},{'name': 'ReasonCategoryComponent', 'selector': 'app-reason-category'},{'name': 'ReasonInputDialogComponent', 'selector': 'app-reason-input-dialog'},{'name': 'ReceptionComponent', 'selector': 'app-reception'},{'name': 'RecordPaymentAddInvoiceDialogComponent', 'selector': 'app-record-payment-add-invoice-dialog'},{'name': 'RecordPaymentComponent', 'selector': 'app-record-payment'},{'name': 'ReferralPartnerAddDialogComponent', 'selector': 'app-referral-partner-add-dialog'},{'name': 'ReferralPartnerDetailsDialogComponent', 'selector': 'app-referral-partner-details-dialog'},{'name': 'ReferralPartnerNotesComponent', 'selector': 'app-referral-partner-notes'},{'name': 'ReferralPartnersComponent', 'selector': 'app-referral-partners'},{'name': 'ReferralPartnersSearchFooterComponent', 'selector': 'app-referral-partners-search-footer'},{'name': 'RegManagerComponent', 'selector': 'app-reg-manager'},{'name': 'RegManagerDialogComponent', 'selector': 'app-reg-manager-dialog'},{'name': 'ReimbursableAdvertisingComponent', 'selector': 'app-reimbursable-advertising'},{'name': 'RejectDocumentDialogComponent', 'selector': 'app-reject-document-dialog'},{'name': 'RemitLocationComponent', 'selector': 'app-remit-location'},{'name': 'ReportsComponent', 'selector': 'app-reports'},{'name': 'ReportTableDialogComponent', 'selector': 'app-report-table-dialog'},{'name': 'RequestEsignDialogComponent', 'selector': 'app-request-esign-dialog'},{'name': 'RerunQueryComponent', 'selector': 'app-rerun-query'},{'name': 'RescheduleAppointmentDialogComponent', 'selector': 'app-reschedule-appointment-dialog'},{'name': 'ScanBoxDialogComponent', 'selector': 'app-scan-box-dialog'},{'name': 'ScheduleMiscellaneousDialogComponent', 'selector': 'app-schedule-miscellaneous-dialog'},{'name': 'ScheduleNextVisitDialogComponent', 'selector': 'app-schedule-next-visit-dialog'},{'name': 'ScheduleVisitPatientTrackingComponent', 'selector': 'app-schedule-visit-patient-tracking'},{'name': 'ScoreCardComponent', 'selector': 'app-score-card'},{'name': 'ScoreCardSetupDialogComponent', 'selector': 'app-score-card-setup-dialog'},{'name': 'ScreenSchedulingDialogComponent', 'selector': 'app-screen-scheduling-dialog'},{'name': 'SearchComponent', 'selector': 'app-search'},{'name': 'SearchFooterComponent', 'selector': 'app-search-footer'},{'name': 'SearchLeadDialogComponent', 'selector': 'app-search-lead-dialog'},{'name': 'SelectDateDialogComponent', 'selector': 'app-select-date-dialog'},{'name': 'SelectDialogComponent', 'selector': 'app-select-dialog'},{'name': 'SelectLanguageComponent', 'selector': 'app-select-language'},{'name': 'SelectMessageLogStudyDialogComponent', 'selector': 'app-select-message-log-study-dialog'},{'name': 'SendToStudyStartDialogComponent', 'selector': 'app-send-to-study-start-dialog'},{'name': 'ShowCalendarDialogComponent', 'selector': 'app-show-calendar-dialog'},{'name': 'ShowDocumentAuditDialogComponent', 'selector': 'app-show-document-audit-dialog'},{'name': 'SimpleNameImputDialogComponent', 'selector': 'app-simple-name-imput-dialog'},{'name': 'SiteDialogComponent', 'selector': 'app-site-dialog'},{'name': 'SitesManageComponent', 'selector': 'app-sites-manage'},{'name': 'SkinConfigComponent', 'selector': 'app-skin-config'},{'name': 'SmsMessageDialogComponent', 'selector': 'app-sms-message-dialog'},{'name': 'SmsTemplateComponent', 'selector': 'app-sms-template'},{'name': 'SoftLockDialogComponent', 'selector': 'app-soft-lock-dialog'},{'name': 'SpecialAccessReportComponent', 'selector': 'app-special-access-report'},{'name': 'StudiesComponent', 'selector': 'app-studies'},{'name': 'StudyAssignmentsComponent', 'selector': 'app-study-assignments'},{'name': 'StudyBudgetMaintenanceDialogComponent', 'selector': 'app-study-budget-maintenance-dialog'},{'name': 'StudyBudgetsComponent', 'selector': 'app-study-budgets'},{'name': 'StudyBudgetViewComponent', 'selector': 'app-study-budget-view'},{'name': 'StudyComponent', 'selector': 'app-study'},{'name': 'StudyDialogComponent', 'selector': 'app-new-study-dialog'},{'name': 'StudyKnowledgebaseDialogComponent', 'selector': 'app-study-knowledgebase-dialog'},{'name': 'StudyReportFooterComponent', 'selector': 'app-study-report-footer'},{'name': 'StudyStartsComponent', 'selector': 'app-study-starts'},{'name': 'SuccessMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'TaskManagerComponent', 'selector': 'app-task-manager'},{'name': 'TaskMessagesDialogComponent', 'selector': 'app-task-messages-dialog'},{'name': 'ToBeFiledComponent', 'selector': 'app-to-be-filed'},{'name': 'TooltipComponent', 'selector': 'app-tooltip'},{'name': 'TopNavbarComponent', 'selector': 'topnavbar'},{'name': 'TrainingComponent', 'selector': 'app-training'},{'name': 'TriageVisitsReportComponent', 'selector': 'app-triage-visits-report'},{'name': 'UnassignedPaymentDialogComponent', 'selector': 'app-unassigned-payment-dialog'},{'name': 'UpdateFileDialogComponent', 'selector': 'app-update-file-dialog'},{'name': 'UpdateFinCalendarWeekDatesDialogComponent', 'selector': 'app-update-fin-calendar-week-dates-dialog'},{'name': 'UploadFileDialogComponent', 'selector': 'app-upload-file-dialog'},{'name': 'UrlPreviewComponent', 'selector': 'app-url-preview'},{'name': 'UserAccessMedicalRecordsDialogComponent', 'selector': 'app-user-access-medical-records-dialog'},{'name': 'UserInviteComponent', 'selector': 'app-user-invite'},{'name': 'UserMedicalRecordsViewComponent', 'selector': 'app-user-medical-records-view'},{'name': 'UserPermissionViewComponent', 'selector': 'app-user-permission-view'},{'name': 'UserPermissionViewDialogComponent', 'selector': 'app-user-permission-view-dialog'},{'name': 'UserRegenerateAccessMedicalRecordsDialogComponent', 'selector': 'app-user-regenerate-access-medical-records-dialog'},{'name': 'UserRolesComponent', 'selector': 'app-user-roles'},{'name': 'UsersComponent', 'selector': 'app-users'},{'name': 'VersionsComponent', 'selector': 'app-versions'},{'name': 'ViewDailyOpsReportDialogComponent', 'selector': 'app-view-daily-ops-report-dialog'},{'name': 'ViewDocumentWithPinDialogComponent', 'selector': 'app-view-document-with-pin-dialog'},{'name': 'ViewEditStudyDetailsComponent', 'selector': 'app-view-edit-study-details'},{'name': 'ViewEventDialogComponent', 'selector': 'app-view-event-dialog'},{'name': 'ViewStudyStartsDialogComponent', 'selector': 'app-view-study-starts-dialog'},{'name': 'ViewTrackedProceduresComponent', 'selector': 'app-view-tracked-procedures'},{'name': 'ViewTrackedVisitsComponent', 'selector': 'app-view-tracked-visits'},{'name': 'ViewTrackedVisitsLoadComponent', 'selector': 'app-view-tracked-visits-load'},{'name': 'VisitConditionDialogComponent', 'selector': 'app-visit-condition-dialog'},{'name': 'WarningStudyDialogComponent', 'selector': 'app-warning-study-dialog'},{'name': 'WorkingListComponent', 'selector': 'app-working-list'},{'name': 'WorkingListSchedulePreescreenComponent', 'selector': 'app-working-list-schedule-preescreen'},{'name': 'WorkingListScheduleScreenDialogComponent', 'selector': 'app-working-list-schedule-screen-dialog'},{'name': 'WorkingListSmsDialogComponent', 'selector': 'app-working-list-sms-dialog'}];
+    var DIRECTIVES = [{'name': 'MorrisChartDirective', 'selector': '[mk-morris-js]'},{'name': 'NgxMatSelectDirective', 'selector': 'mat-select[ngxMatSelect]'},{'name': 'NgxMatSelectMediaTracker', 'selector': ''},{'name': 'TimeRangeValidatorDirective', 'selector': '[appTimeRangeValidator]'}];
+    var ACTUAL_COMPONENT = {'name': 'LedgerComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'LedgerComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

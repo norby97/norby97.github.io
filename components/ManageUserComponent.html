@@ -1,0 +1,3226 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>site-centric documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
+            <a href="../" class="navbar-brand">site-centric documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Components</li>
+  <li class="breadcrumb-item"
+  >
+  ManageUserComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#info" class="nav-link active"
+                role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li class="nav-item">
+            <a href="#source" class="nav-link"
+                role="tab" id="source-tab" data-bs-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li class="nav-item">
+            <a href="#templateData" class="nav-link"
+                role="tab" id="templateData-tab" data-bs-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li class="nav-item">
+            <a href="#styleData" class="nav-link"
+                role="tab" id="styleData-tab" data-bs-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li class="nav-item">
+            <a href="#tree" class="nav-link"
+                role="tab" id="tree-tab" data-bs-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/administration/users/manage-user/manage-user.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="../miscellaneous/functions.html#nInit" target="_self" >OnInit</a></code>
+    </p>
+
+
+<section data-compodoc="block-metadata">
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-manage-user</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./manage-user.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./manage-user.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-index">
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#accountSelectTypes" >accountSelectTypes</a>
+                            </li>
+                            <li>
+                                <a href="#accountTypeMap" >accountTypeMap</a>
+                            </li>
+                            <li>
+                                <a href="#accountTypes" >accountTypes</a>
+                            </li>
+                            <li>
+                                <a href="#actualFile" >actualFile</a>
+                            </li>
+                            <li>
+                                <a href="#actualFileDetails" >actualFileDetails</a>
+                            </li>
+                            <li>
+                                <a href="#actualFileName" >actualFileName</a>
+                            </li>
+                            <li>
+                                <a href="#actualRank" >actualRank</a>
+                            </li>
+                            <li>
+                                <a href="#actualUser" >actualUser</a>
+                            </li>
+                            <li>
+                                <a href="#assignedSites" >assignedSites</a>
+                            </li>
+                            <li>
+                                <a href="#cantaccept" >cantaccept</a>
+                            </li>
+                            <li>
+                                <a href="#canvas" >canvas</a>
+                            </li>
+                            <li>
+                                <a href="#companySites" >companySites</a>
+                            </li>
+                            <li>
+                                <a href="#companyStudies" >companyStudies</a>
+                            </li>
+                            <li>
+                                <a href="#ctx" >ctx</a>
+                            </li>
+                            <li>
+                                <a href="#editUserForm" >editUserForm</a>
+                            </li>
+                            <li>
+                                <a href="#esignTab" >esignTab</a>
+                            </li>
+                            <li>
+                                <a href="#fileService" >fileService</a>
+                            </li>
+                            <li>
+                                <a href="#folders" >folders</a>
+                            </li>
+                            <li>
+                                <a href="#id" >id</a>
+                            </li>
+                            <li>
+                                <a href="#initAuditTableService" >initAuditTableService</a>
+                            </li>
+                            <li>
+                                <a href="#initDone" >initDone</a>
+                            </li>
+                            <li>
+                                <a href="#invalidphonenr" >invalidphonenr</a>
+                            </li>
+                            <li>
+                                <a href="#isInvestigator" >isInvestigator</a>
+                            </li>
+                            <li>
+                                <a href="#loading" >loading</a>
+                            </li>
+                            <li>
+                                <a href="#pageNum" >pageNum</a>
+                            </li>
+                            <li>
+                                <a href="#pageNumPending" >pageNumPending</a>
+                            </li>
+                            <li>
+                                <a href="#pageRendering" >pageRendering</a>
+                            </li>
+                            <li>
+                                <a href="#pdfDoc" >pdfDoc</a>
+                            </li>
+                            <li>
+                                <a href="#phonecheckload" >phonecheckload</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#router" >router</a>
+                            </li>
+                            <li>
+                                <a href="#scale" >scale</a>
+                            </li>
+                            <li>
+                                <a href="#serverUrl" >serverUrl</a>
+                            </li>
+                            <li>
+                                <a href="#sites" >sites</a>
+                            </li>
+                            <li>
+                                <a href="#studyID" >studyID</a>
+                            </li>
+                            <li>
+                                <a href="#studyName" >studyName</a>
+                            </li>
+                            <li>
+                                <a href="#totalPageNumber" >totalPageNumber</a>
+                            </li>
+                            <li>
+                                <a href="#url" >url</a>
+                            </li>
+                            <li>
+                                <a href="#user" >user</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#utilService" >utilService</a>
+                            </li>
+                            <li>
+                                <a href="#validationIconClicked" >validationIconClicked</a>
+                            </li>
+                            <li>
+                                <a href="#validphone" >validphone</a>
+                            </li>
+                            <li>
+                                <a href="#zoomRange" >zoomRange</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#assignUser" >assignUser</a>
+                            </li>
+                            <li>
+                                <a href="#assignUserStudy" >assignUserStudy</a>
+                            </li>
+                            <li>
+                                <a href="#downloadFile" >downloadFile</a>
+                            </li>
+                            <li>
+                                <a href="#edit" >edit</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#openAllowEsignDialog" >openAllowEsignDialog</a>
+                            </li>
+                            <li>
+                                <a href="#process" >process</a>
+                            </li>
+                            <li>
+                                <a href="#refreshAssignedSites" >refreshAssignedSites</a>
+                            </li>
+                            <li>
+                                <a href="#regeneratePin" >regeneratePin</a>
+                            </li>
+                            <li>
+                                <a href="#revokeEsign" >revokeEsign</a>
+                            </li>
+                            <li>
+                                <a href="#setForm" >setForm</a>
+                            </li>
+                            <li>
+                                <a href="#toogleInv" >toogleInv</a>
+                            </li>
+                            <li>
+                                <a href="#toogleSch" >toogleSch</a>
+                            </li>
+                            <li>
+                                <a href="#toogleSiteFlag" >toogleSiteFlag</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-constructor">
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(route: ActivatedRoute, userService: <a href="../injectables/UserService.html" target="_self">UserService</a>, router: Router, siteService: <a href="../injectables/SiteService.html" target="_self">SiteService</a>, utilService: <a href="../injectables/UtilService.html" target="_self">UtilService</a>, http: HttpClient, studyService: <a href="../injectables/StudyService.html" target="_self">StudyService</a>, authService: <a href="../injectables/AuthenticationService.html" target="_self">AuthenticationService</a>, dialog: MatDialog)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="83" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:83</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>route</td>
+                                                  
+                                                        <td>
+                                                                    <code>ActivatedRoute</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>userService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UserService.html" target="_self" >UserService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                    <code>Router</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>siteService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/SiteService.html" target="_self" >SiteService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>utilService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UtilService.html" target="_self" >UtilService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>http</td>
+                                                  
+                                                        <td>
+                                                                    <code>HttpClient</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>studyService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/StudyService.html" target="_self" >StudyService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>authService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AuthenticationService.html" target="_self" >AuthenticationService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>dialog</td>
+                                                  
+                                                        <td>
+                                                                    <code>MatDialog</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section data-compodoc="block-methods">
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="assignUser"></a>
+                    <span class="name">
+                        <span ><b>assignUser</b></span>
+                        <a href="#assignUser"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>assignUser(e, site)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="313"
+                            class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:313</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>e</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>site</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="assignUserStudy"></a>
+                    <span class="name">
+                        <span ><b>assignUserStudy</b></span>
+                        <a href="#assignUserStudy"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>assignUserStudy(study, assignedroleID)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="329"
+                            class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:329</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>study</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>assignedroleID</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="downloadFile"></a>
+                    <span class="name">
+                        <span ><b>downloadFile</b></span>
+                        <a href="#downloadFile"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>downloadFile()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="249"
+                            class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:249</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="edit"></a>
+                    <span class="name">
+                        <span ><b>edit</b></span>
+                        <a href="#edit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>edit(form)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="266"
+                            class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:266</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>form</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="97"
+                            class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:97</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openAllowEsignDialog"></a>
+                    <span class="name">
+                        <span ><b>openAllowEsignDialog</b></span>
+                        <a href="#openAllowEsignDialog"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openAllowEsignDialog()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="258"
+                            class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:258</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="process"></a>
+                    <span class="name">
+                        <span ><b>process</b></span>
+                        <a href="#process"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>process(input)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="158"
+                            class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:158</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>input</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="refreshAssignedSites"></a>
+                    <span class="name">
+                        <span ><b>refreshAssignedSites</b></span>
+                        <a href="#refreshAssignedSites"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>refreshAssignedSites()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="163"
+                            class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:163</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="regeneratePin"></a>
+                    <span class="name">
+                        <span ><b>regeneratePin</b></span>
+                        <a href="#regeneratePin"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>regeneratePin()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="237"
+                            class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:237</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="revokeEsign"></a>
+                    <span class="name">
+                        <span ><b>revokeEsign</b></span>
+                        <a href="#revokeEsign"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>revokeEsign()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="303"
+                            class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:303</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setForm"></a>
+                    <span class="name">
+                        <span ><b>setForm</b></span>
+                        <a href="#setForm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setForm(user)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="213"
+                            class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:213</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>user</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="toogleInv"></a>
+                    <span class="name">
+                        <span ><b>toogleInv</b></span>
+                        <a href="#toogleInv"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>toogleInv(status)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="203"
+                            class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:203</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>status</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="toogleSch"></a>
+                    <span class="name">
+                        <span ><b>toogleSch</b></span>
+                        <a href="#toogleSch"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>toogleSch(status)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="208"
+                            class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:208</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>status</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="toogleSiteFlag"></a>
+                    <span class="name">
+                        <span ><b>toogleSiteFlag</b></span>
+                        <a href="#toogleSiteFlag"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>toogleSiteFlag(type, site)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="169"
+                            class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:169</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>type</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>site</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section data-compodoc="block-properties">
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="accountSelectTypes"></a>
+                    <span class="name">
+                        <span ><b>accountSelectTypes</b></span>
+                        <a href="#accountSelectTypes"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+    { name: &quot;EXTERNAL&quot;, rank: 0 },
+    { name: &quot;REGULAR_USER&quot;, rank: 1 },
+    { name: &quot;REGULATORY_USER&quot;, rank: 2 },
+    { name: &quot;COMPANY_ADMINISTRATOR&quot;, rank: 3 },
+    { name: &quot;SYSTEM_ADMINISTRATOR&quot;, rank: 4 },
+    { name: &quot;SUPER_USER&quot;, rank: 5 },
+  ]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="72" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:72</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="accountTypeMap"></a>
+                    <span class="name">
+                        <span ><b>accountTypeMap</b></span>
+                        <a href="#accountTypeMap"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+    EXTERNAL: &quot;Guest User&quot;,
+    REGULAR_USER: &quot;Regular User&quot;,
+    REGULATORY_USER: &quot;Regulatory User&quot;,
+    COMPANY_ADMINISTRATOR: &quot;Company Administrator&quot;,
+    SYSTEM_ADMINISTRATOR: &quot;System Administrator&quot;,
+    SUPER_USER: &quot;Super User&quot;,
+  }</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="64" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:64</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="accountTypes"></a>
+                    <span class="name">
+                        <span ><b>accountTypes</b></span>
+                        <a href="#accountTypes"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../miscellaneous/enumerations.html#AccountType" target="_self" >AccountType</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:32</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actualFile"></a>
+                    <span class="name">
+                        <span ><b>actualFile</b></span>
+                        <a href="#actualFile"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>null</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>null</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:34</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actualFileDetails"></a>
+                    <span class="name">
+                        <span ><b>actualFileDetails</b></span>
+                        <a href="#actualFileDetails"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>null</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>null</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="40" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:40</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actualFileName"></a>
+                    <span class="name">
+                        <span ><b>actualFileName</b></span>
+                        <a href="#actualFileName"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>null</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>null</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="55" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:55</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actualRank"></a>
+                    <span class="name">
+                        <span ><b>actualRank</b></span>
+                        <a href="#actualRank"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>0</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="63" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:63</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actualUser"></a>
+                    <span class="name">
+                        <span ><b>actualUser</b></span>
+                        <a href="#actualUser"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="80" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:80</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="assignedSites"></a>
+                    <span class="name">
+                        <span ><b>assignedSites</b></span>
+                        <a href="#assignedSites"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="81" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:81</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="cantaccept"></a>
+                    <span class="name">
+                        <span ><b>cantaccept</b></span>
+                        <a href="#cantaccept"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="37" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:37</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="canvas"></a>
+                    <span class="name">
+                        <span ><b>canvas</b></span>
+                        <a href="#canvas"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>null</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>null</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="52" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:52</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="companySites"></a>
+                    <span class="name">
+                        <span ><b>companySites</b></span>
+                        <a href="#companySites"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="61" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:61</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="companyStudies"></a>
+                    <span class="name">
+                        <span ><b>companyStudies</b></span>
+                        <a href="#companyStudies"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="62" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:62</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ctx"></a>
+                    <span class="name">
+                        <span ><b>ctx</b></span>
+                        <a href="#ctx"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>null</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>null</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="53" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:53</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="editUserForm"></a>
+                    <span class="name">
+                        <span ><b>editUserForm</b></span>
+                        <a href="#editUserForm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>UntypedFormGroup</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:33</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="esignTab"></a>
+                    <span class="name">
+                        <span ><b>esignTab</b></span>
+                        <a href="#esignTab"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="60" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:60</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fileService"></a>
+                    <span class="name">
+                        <span ><b>fileService</b></span>
+                        <a href="#fileService"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="58" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:58</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="folders"></a>
+                    <span class="name">
+                        <span ><b>folders</b></span>
+                        <a href="#folders"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/FolderStructure.html" target="_self" >FolderStructure[]</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="41" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:41</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="id"></a>
+                    <span class="name">
+                        <span ><b>id</b></span>
+                        <a href="#id"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:30</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="initAuditTableService"></a>
+                    <span class="name">
+                        <span ><b>initAuditTableService</b></span>
+                        <a href="#initAuditTableService"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="57" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:57</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="initDone"></a>
+                    <span class="name">
+                        <span ><b>initDone</b></span>
+                        <a href="#initDone"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:35</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="invalidphonenr"></a>
+                    <span class="name">
+                        <span ><b>invalidphonenr</b></span>
+                        <a href="#invalidphonenr"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="38" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:38</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isInvestigator"></a>
+                    <span class="name">
+                        <span ><b>isInvestigator</b></span>
+                        <a href="#isInvestigator"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="54" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:54</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loading"></a>
+                    <span class="name">
+                        <span ><b>loading</b></span>
+                        <a href="#loading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="83" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:83</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pageNum"></a>
+                    <span class="name">
+                        <span ><b>pageNum</b></span>
+                        <a href="#pageNum"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>1</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="45" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:45</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pageNumPending"></a>
+                    <span class="name">
+                        <span ><b>pageNumPending</b></span>
+                        <a href="#pageNumPending"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>null</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>null</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="47" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:47</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pageRendering"></a>
+                    <span class="name">
+                        <span ><b>pageRendering</b></span>
+                        <a href="#pageRendering"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="46" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:46</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pdfDoc"></a>
+                    <span class="name">
+                        <span ><b>pdfDoc</b></span>
+                        <a href="#pdfDoc"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>null</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>null</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:43</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="phonecheckload"></a>
+                    <span class="name">
+                        <span ><b>phonecheckload</b></span>
+                        <a href="#phonecheckload"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="39" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:39</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="router"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>router</b></span>
+                        <a href="#router"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Router</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="87" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:87</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="scale"></a>
+                    <span class="name">
+                        <span ><b>scale</b></span>
+                        <a href="#scale"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>1.5</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="49" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:49</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="serverUrl"></a>
+                    <span class="name">
+                        <span ><b>serverUrl</b></span>
+                        <a href="#serverUrl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="59" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:59</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sites"></a>
+                    <span class="name">
+                        <span ><b>sites</b></span>
+                        <a href="#sites"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="82" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:82</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="studyID"></a>
+                    <span class="name">
+                        <span ><b>studyID</b></span>
+                        <a href="#studyID"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="56" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:56</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="studyName"></a>
+                    <span class="name">
+                        <span ><b>studyName</b></span>
+                        <a href="#studyName"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&quot;&quot;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="50" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:50</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="totalPageNumber"></a>
+                    <span class="name">
+                        <span ><b>totalPageNumber</b></span>
+                        <a href="#totalPageNumber"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>null</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>null</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="48" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:48</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="url"></a>
+                    <span class="name">
+                        <span ><b>url</b></span>
+                        <a href="#url"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>null</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>null</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="42" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:42</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="user"></a>
+                    <span class="name">
+                        <span ><b>user</b></span>
+                        <a href="#user"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/User.html" target="_self" >User</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:31</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="utilService"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>utilService</b></span>
+                        <a href="#utilService"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../injectables/UtilService.html" target="_self" >UtilService</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="89" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:89</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="validationIconClicked"></a>
+                    <span class="name">
+                        <span ><b>validationIconClicked</b></span>
+                        <a href="#validationIconClicked"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:44</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="validphone"></a>
+                    <span class="name">
+                        <span ><b>validphone</b></span>
+                        <a href="#validphone"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:36</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="zoomRange"></a>
+                    <span class="name">
+                        <span ><b>zoomRange</b></span>
+                        <a href="#zoomRange"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>0.5</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="51" class="link-to-prism">src/app/components/administration/users/manage-user/manage-user.component.ts:51</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &quot;@angular/core&quot;;
+import { ActivatedRoute, Router } from &quot;@angular/router&quot;;
+import { UserService } from &quot;src/app/services/administration/user.service&quot;;
+import {
+  UntypedFormControl,
+  UntypedFormGroup,
+  Validators,
+} from &quot;@angular/forms&quot;;
+import { saveAs } from &quot;file-saver&quot;;
+import { AllowEsignDialogComponent } from &quot;./allow-esign-dialog.component&quot;;
+import { MatDialog } from &quot;@angular/material/dialog&quot;;
+import { environment } from &quot;../../../../../environments/environment&quot;;
+import { User } from &quot;../../../../models/administration/user/User&quot;;
+import { StudyService } from &quot;src/app/services/regulatory/study.service&quot;;
+import { SiteService } from &quot;src/app/services/regulatory/site.service&quot;;
+import { AuthenticationService } from &quot;src/app/services/administration/authentication.service&quot;;
+import { HttpClient } from &quot;@angular/common/http&quot;;
+import { AccountType } from &quot;src/app/models/administration/user/AccountType&quot;;
+import { Study } from &quot;src/app/models/common/Study&quot;;
+import { forkJoin } from &quot;rxjs&quot;;
+import { FolderStructure } from &quot;src/app/models/regulatory/folder-structure.model&quot;;
+import { UtilService } from &quot;src/app/services/utils/UtilService&quot;;
+
+@Component({
+  selector: &quot;app-manage-user&quot;,
+  templateUrl: &quot;./manage-user.component.html&quot;,
+  styleUrls: [&quot;./manage-user.component.scss&quot;],
+})
+export class ManageUserComponent implements OnInit {
+  id: string;
+  user: User;
+  accountTypes: AccountType;
+  editUserForm: UntypedFormGroup;
+  actualFile &#x3D; null;
+  initDone &#x3D; false;
+  validphone &#x3D; false;
+  cantaccept &#x3D; false;
+  invalidphonenr &#x3D; false;
+  phonecheckload &#x3D; false;
+  actualFileDetails &#x3D; null;
+  folders: FolderStructure[] &#x3D; [];
+  url &#x3D; null;
+  pdfDoc &#x3D; null;
+  validationIconClicked &#x3D; false;
+  pageNum &#x3D; 1;
+  pageRendering &#x3D; false;
+  pageNumPending &#x3D; null;
+  totalPageNumber &#x3D; null;
+  scale &#x3D; 1.5;
+  studyName &#x3D; &quot;&quot;;
+  zoomRange &#x3D; 0.5;
+  canvas &#x3D; null;
+  ctx &#x3D; null;
+  isInvestigator &#x3D; false;
+  actualFileName &#x3D; null;
+  studyID: any;
+  initAuditTableService: any;
+  fileService: any;
+  serverUrl: string;
+  esignTab &#x3D; false;
+  companySites;
+  companyStudies;
+  actualRank &#x3D; 0;
+  accountTypeMap &#x3D; {
+    EXTERNAL: &quot;Guest User&quot;,
+    REGULAR_USER: &quot;Regular User&quot;,
+    REGULATORY_USER: &quot;Regulatory User&quot;,
+    COMPANY_ADMINISTRATOR: &quot;Company Administrator&quot;,
+    SYSTEM_ADMINISTRATOR: &quot;System Administrator&quot;,
+    SUPER_USER: &quot;Super User&quot;,
+  };
+  accountSelectTypes &#x3D; [
+    { name: &quot;EXTERNAL&quot;, rank: 0 },
+    { name: &quot;REGULAR_USER&quot;, rank: 1 },
+    { name: &quot;REGULATORY_USER&quot;, rank: 2 },
+    { name: &quot;COMPANY_ADMINISTRATOR&quot;, rank: 3 },
+    { name: &quot;SYSTEM_ADMINISTRATOR&quot;, rank: 4 },
+    { name: &quot;SUPER_USER&quot;, rank: 5 },
+  ];
+  actualUser;
+  assignedSites &#x3D; [];
+  sites;
+  loading &#x3D; false;
+  constructor(
+    private route: ActivatedRoute,
+    private userService: UserService,
+    public router: Router,
+    private siteService: SiteService,
+    public utilService: UtilService,
+
+    private http: HttpClient,
+    private studyService: StudyService,
+    private authService: AuthenticationService,
+    private dialog: MatDialog
+  ) {}
+
+  ngOnInit(): void {
+    this.editUserForm &#x3D; new UntypedFormGroup({
+      firstName: new UntypedFormControl(&quot;&quot;, [Validators.required]),
+      middleInitial: new UntypedFormControl(&quot;&quot;),
+      lastName: new UntypedFormControl(&quot;&quot;, [Validators.required]),
+      email: new UntypedFormControl(&quot;&quot;, [
+        Validators.required,
+        Validators.pattern(&quot;^[a-zA-Z0-9._-]+@[a-zA-Z0-9-]+.[a-zA-Z]{2,6}$&quot;),
+      ]),
+      address1: new UntypedFormControl(&quot;&quot;),
+      address2: new UntypedFormControl(&quot;&quot;),
+      city: new UntypedFormControl(&quot;&quot;),
+      showOnSchedule: new UntypedFormControl(&quot;&quot;),
+      state: new UntypedFormControl(&quot;&quot;),
+      dashboardLayoutType: new UntypedFormControl(&quot;CRC&quot;),
+      preferencesLayout: new UntypedFormControl(
+        localStorage.getItem(&quot;scUserSettings&quot;)
+      ),
+      investigator: new UntypedFormControl(&quot;&quot;),
+      zip: new UntypedFormControl(&quot;&quot;),
+      phone: new UntypedFormControl(&quot;&quot;, [
+        Validators.required,
+        Validators.pattern(&quot;^[+]*[0-9]{10,11}&quot;),
+      ]),
+      accountType: new UntypedFormControl(&quot;&quot;, [Validators.required]),
+      validationMethod: new UntypedFormControl(&quot;&quot;, [Validators.required]),
+    });
+
+    this.route.params.subscribe((params) &#x3D;&gt; {
+      this.id &#x3D; params.id;
+      this.refreshAssignedSites()
+    });
+    if(JSON.parse(localStorage.getItem(&#x27;siteCentric.sites&#x27;))?.length !&#x3D; 0 &amp;&amp; JSON.parse(localStorage.getItem(&#x27;siteCentric.sites&#x27;)) !&#x3D; null )   {
+        this.sites &#x3D; JSON.parse(localStorage.getItem(&#x27;siteCentric.sites&#x27;));
+      } else {
+         this.siteService.getAll2(this.authService.loginUserValue.company.id).subscribe(res &#x3D;&gt; {
+        localStorage.setItem(&#x27;siteCentric.sites&#x27;, JSON.stringify(res));
+          this.sites &#x3D; res;
+        });
+      } 
+    const actualUser &#x3D; this.userService.getUserByID(this.id);
+    const companyStudies &#x3D; this.studyService.getRolesForUser({
+      userID: this.id,
+    });
+
+    forkJoin([actualUser,  companyStudies]).subscribe(
+      (res) &#x3D;&gt; {
+        this.actualUser &#x3D; res[0];
+        this.user &#x3D; res[0];
+        this.editUserForm.controls.dashboardLayoutType.setValue(
+          this.actualUser?.dashboardLayoutType &#x3D;&#x3D; &quot;SITE_MANAGEMENT&quot;
+            ? &quot;SITE_MANAGEMENT&quot;
+            : &quot;CRC&quot;
+        );
+        this.editUserForm.controls.dashboardLayoutType.updateValueAndValidity();
+        this.setForm(this.user);
+        this.companyStudies &#x3D; res[1];
+      }
+    );
+    this.serverUrl &#x3D; environment.serverUrl;
+  }
+  process(input){
+    this.phonecheckload &#x3D; true;
+  
+      this.phonecheckload &#x3D; false;
+    }
+  refreshAssignedSites(){
+    this.siteService.getUserSites2(this.id).subscribe(res &#x3D;&gt;{
+        this.assignedSites &#x3D; res;
+    });
+  }
+
+  toogleSiteFlag(type,site) {
+    this.loading &#x3D; true;
+    const data &#x3D; {
+        userId:this.id,
+        siteId:site
+    }
+    if(type &#x3D;&#x3D; 0) {
+        this.userService.makeUserSiteManager(data).subscribe(res &#x3D;&gt; {
+            this.refreshAssignedSites()
+        });
+    } 
+    if(type &#x3D;&#x3D; 1) {
+        this.userService.makeUserSitePrincipalInvestigator(data).subscribe(res &#x3D;&gt; {
+            this.refreshAssignedSites()
+          
+        });
+    } 
+    if(type &#x3D;&#x3D; 2) {
+        this.userService.makeUserSiteShowOnSchedule(data).subscribe(res &#x3D;&gt; {
+            this.refreshAssignedSites()
+
+        });
+    } 
+    if(type &#x3D;&#x3D; 3) {
+        
+        this.userService.makeUserSiteStatus(data).subscribe(res &#x3D;&gt; {
+            this.refreshAssignedSites()
+
+        });
+    } 
+    
+
+  }
+
+  toogleInv(status) {
+    this.editUserForm.controls.investigator.setValue(status);
+    this.editUserForm.controls.investigator.updateValueAndValidity();
+  }
+
+  toogleSch(status) {
+    this.editUserForm.controls.showOnSchedule.setValue(status);
+    this.editUserForm.controls.showOnSchedule.updateValueAndValidity();
+  }
+
+  setForm(user) {
+    this.isInvestigator &#x3D; user.investigator;
+    this.editUserForm.controls.lastName.setValue(user.lastName);
+    this.editUserForm.controls.firstName.setValue(user.firstName);
+    this.editUserForm.controls.middleInitial.setValue(user.middleInitial);
+    this.editUserForm.controls.address1.setValue(user.address1);
+    this.editUserForm.controls.address2.setValue(user.address2);
+    this.editUserForm.controls.city.setValue(user.city);
+    this.editUserForm.controls.zip.setValue(user.zip);
+    this.editUserForm.controls.state.setValue(user.state);
+    this.editUserForm.controls.email.setValue(user.email);
+    this.editUserForm.controls.investigator.setValue(user.investigator);
+    this.editUserForm.controls.phone.setValue(user.phone);
+    this.editUserForm.controls.showOnSchedule.setValue(user.showOnSchedule);
+    this.editUserForm.controls.validationMethod.setValue(user.validationMethod);
+    this.editUserForm.controls.preferencesLayout.setValue(
+      user.preferencesLayout
+    );
+    this.editUserForm.controls.accountType.setValue(user.accountType);
+    this.editUserForm.controls.dashboardLayoutType.setValue(
+      user.dashboardLayoutType &#x3D;&#x3D; null ? &#x27;CRC&#x27; :user.dashboardLayoutType
+    );
+  }
+
+  regeneratePin() {
+    this.userService.generatePin(null, this.user.id).subscribe((res) &#x3D;&gt; {
+      if (res.responseStatus !&#x3D;&#x3D; &quot;SUCCESS&quot;) {
+        this.userService.showError(res.responseMessage);
+      } else {
+        this.userService.getUserByID(this.id).subscribe((res) &#x3D;&gt; {
+          this.user &#x3D; res;
+        });
+      }
+    });
+  }
+
+  downloadFile() {
+    if (this.actualFile &#x3D;&#x3D;&#x3D; null) {
+      this.studyService.showError(&quot;Please select a PDF first.&quot;);
+    } else {
+      const blob &#x3D; new Blob([this.actualFile], { type: &quot;application/pdf&quot; });
+      saveAs(blob, this.actualFileName);
+    }
+  }
+
+  openAllowEsignDialog() {
+    const dialogRef &#x3D; this.dialog.open(AllowEsignDialogComponent, {
+      height: &quot;auto&quot;,
+      width: &quot;auto&quot;,
+      disableClose: true,
+      data: this.user,
+    });
+  }
+  edit(form) {
+    if (this.editUserForm.valid) {
+      const data &#x3D; this.user;
+      Object.keys(data).map((a) &#x3D;&gt; {
+        if (form.value[a] !&#x3D; undefined) {
+          data[a] &#x3D; form.value[a];
+        }
+      });
+      if (
+        form.preferencesLayout &#x3D;&#x3D; undefined ||
+        form.preferencesLayout &#x3D;&#x3D; null ||
+        form.preferencesLayout &#x3D;&#x3D; &quot;&quot;
+      ) {
+        if (
+          localStorage.getItem(&quot;scUserSettings&quot;) &#x3D;&#x3D; undefined ||
+          localStorage.getItem(&quot;scUserSettings&quot;) &#x3D;&#x3D; &quot;&quot; ||
+          localStorage.getItem(&quot;scUserSettings&quot;) &#x3D;&#x3D; null
+        ) {
+          localStorage.setItem(
+            &quot;scUserSettings&quot;,
+            JSON.stringify({ selectedSite: { id: null, name: &quot;&quot;, alias: &quot;&quot; } })
+          );
+        } else {
+          localStorage.setItem(
+            &quot;scUserSettings&quot;,
+            localStorage.getItem(&quot;scUserSettings&quot;)
+          );
+        }
+      }
+      this.userService.updateUser(data).subscribe((res) &#x3D;&gt; {
+        this.router.navigate([&quot;/administration/users&quot;]);
+      });
+    } else {
+      this.editUserForm.markAllAsTouched();
+    }
+  }
+
+  revokeEsign() {
+    this.userService.revokePin(this.user.id).subscribe((res) &#x3D;&gt; {
+      if (res.responseStatus !&#x3D;&#x3D; &quot;SUCCESS&quot;) {
+        this.userService.showError(res.responseMessage);
+      } else {
+        this.user.pinCreatedOn &#x3D; undefined;
+      }
+    });
+  }
+
+  assignUser(e, site) {
+    const data &#x3D; {
+      userId: this.user.id,
+      siteId: site.id,
+    };
+    this.siteService.assignRegulatory(data).subscribe((res) &#x3D;&gt; {
+      this.siteService
+        .getAll2(
+          JSON.parse(localStorage.getItem(&quot;siteCentric.loginUser&quot;)).company?.id
+        )
+        .subscribe((result) &#x3D;&gt; {
+          this.companySites &#x3D; result;
+        });
+    });
+  }
+
+  assignUserStudy(study, assignedroleID) {
+    const data &#x3D; {
+      request: {
+        studyId: study.id,
+        id: assignedroleID,
+        user: {
+          email: this.actualUser.email,
+        },
+        roles: [],
+      },
+    };
+    this.studyService.updateRoles(data).subscribe((res) &#x3D;&gt; {
+      this.studyService
+        .getRolesForUser({ userID: this.id })
+        .subscribe((res) &#x3D;&gt; {
+          this.companyStudies &#x3D; res;
+        });
+    });
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;wrapper wrapper-content animated fadeInDown&quot;&gt;
+    &lt;div&gt;
+        &lt;div class&#x3D;&quot;row&quot;&gt;
+            &lt;div class&#x3D;&quot;col-lg-12 col-md-12 col-sm-12&quot;&gt;
+
+
+                &lt;div class&#x3D;&quot;tabs-container&quot;&gt;
+        
+                    &lt;ul class&#x3D;&quot;nav nav-tabs d-flex&quot; role&#x3D;&quot;tablist&quot;&gt;
+                        &lt;li&gt;&lt;a class&#x3D;&quot;nav-link active&quot; data-toggle&#x3D;&quot;tab&quot; href&#x3D;&quot;#tab-1&quot;&gt;{{&#x27;user.manage-user.general.tab-label&#x27; | translate}}&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a class&#x3D;&quot;nav-link&quot; data-toggle&#x3D;&quot;tab&quot; href&#x3D;&quot;#tab-2&quot; (click)&#x3D;&quot;refreshAssignedSites()&quot;&gt;{{&#x27;user.manage-user.sites.tab-label&#x27; | translate}}&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a class&#x3D;&quot;nav-link&quot; data-toggle&#x3D;&quot;tab&quot; href&#x3D;&quot;#tab-4&quot; (click)&#x3D;&quot;esignTab&#x3D; true;&quot;&gt;{{&#x27;user.manage-user.esign.tab-label&#x27; | translate}}&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a class&#x3D;&quot;nav-link&quot; data-toggle&#x3D;&quot;tab&quot; href&#x3D;&quot;#tab-5&quot;&gt;{{&#x27;user.manage-user.permissions.tab-label&#x27; | translate}}&lt;/a&gt;&lt;/li&gt;
+        
+                    &lt;/ul&gt;
+                    &lt;div class&#x3D;&quot;tab-content&quot;&gt;
+                        &lt;div role&#x3D;&quot;tabpanel&quot; id&#x3D;&quot;tab-1&quot; class&#x3D;&quot;tab-pane active&quot;&gt;
+                            &lt;div class&#x3D;&quot;panel-body&quot;&gt;
+                                &lt;form autocomplete&#x3D;&quot;off&quot; role&#x3D;&quot;form&quot; class&#x3D;&quot;row mt-3&quot; [formGroup]&#x3D;&quot;editUserForm&quot; 
+                                      (ngSubmit)&#x3D;&quot;edit(editUserForm)&quot;&gt;
+                                    &lt;div class&#x3D;&quot;col-lg-6 col-md-6 col-sm-6 &quot;&gt;
+                                        &lt;div class&#x3D;&quot;row&quot;&gt;
+                                            &lt;div class&#x3D;&quot;col-lg-3 col-md-3 col-sm-3&quot;&gt;
+                                                &lt;mat-form-field&gt;
+                                                    &lt;input matInput type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;{{ &#x27;user.manage-user.general.first&#x27; | translate }}&quot;   formControlName&#x3D;&quot;firstName&quot; &gt;
+                                                    &lt;mat-error *ngIf&#x3D;&quot;editUserForm.get(&#x27;firstName&#x27;).touched &amp;&amp; editUserForm.get(&#x27;firstName&#x27;).hasError(&#x27;required&#x27;)&quot;&gt;&lt;/mat-error&gt;
+                                                &lt;/mat-form-field&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class&#x3D;&quot;col-lg-2 col-md-2 col-sm-2&quot;&gt;
+                                                &lt;mat-form-field&gt;&lt;input matInput type&#x3D;&quot;text&quot; maxlength&#x3D;&quot;1&quot; placeholder&#x3D;&quot;{{ &#x27;user.manage-user.general.middle&#x27; | translate }}&quot;   formControlName&#x3D;&quot;middleInitial&quot; &gt;&lt;/mat-form-field&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class&#x3D;&quot;col-lg-3 col-md-3 col-sm-3&quot;&gt;
+                                                &lt;mat-form-field&gt;&lt;input matInput type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;{{ &#x27;user.manage-user.general.last&#x27; | translate }}&quot;   formControlName&#x3D;&quot;lastName&quot;&gt;&lt;/mat-form-field&gt;
+
+                                            &lt;/div&gt;
+                                            &lt;div class&#x3D;&quot;col-lg-4 col-md-4 col-sm-4&quot;&gt;
+                                                &lt;mat-form-field&gt;
+                                                    &lt;input matInput type&#x3D;&quot;email&quot; placeholder&#x3D;&quot;{{ &#x27;user.manage-user.general.email&#x27; | translate }}&quot;   formControlName&#x3D;&quot;email&quot;&gt;
+                                                    &lt;mat-error *ngIf&#x3D;&quot;editUserForm.get(&#x27;email&#x27;).touched &amp;&amp;  ( editUserForm.get(&#x27;email&#x27;).hasError(&#x27;required&#x27;) || editUserForm.get(&#x27;email&#x27;).hasError(&#x27;email&#x27;) )&quot;&gt;&lt;/mat-error&gt;
+                                                &lt;/mat-form-field&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class&#x3D;&quot;row&quot;&gt;
+                                            &lt;div class&#x3D;&quot;col-lg-3 col-md-3 col-sm-3&quot;&gt;
+                                                &lt;mat-form-field&gt;
+                                                    &lt;input matInput #phonenr  type&#x3D;&quot;text&quot; required&#x3D;&quot;&quot; (paste)&#x3D;&quot;process($event)&quot; placeholder&#x3D;&quot;{{&#x27;user.manage-user.general.phone&#x27; | translate}} 1&quot; formControlName&#x3D;&quot;phone&quot;  [value]&#x3D;&quot;editUserForm?.controls?.phone?.value | phone&quot; (input)&#x3D;&quot;process($event)&quot;    onpaste&#x3D;&quot;event.target.value.replace(/[^0-9]/g, &#x27;&#x27;)&quot; onkeyup&#x3D;&quot;event.target.value.replace(/[^0-9]/g, &#x27;&#x27;)&quot;   onkeypress&#x3D;&quot;if(event.target.value.length &gt; 10){ return event.charCode &gt; 48 &amp;&amp; event.charCode &lt; 48 }else{ return (event.charCode &#x3D;&#x3D; 8 || event.charCode &#x3D;&#x3D; 0 || event.charCode &#x3D;&#x3D; 13) ? null : event.charCode &gt;&#x3D; 48 &amp;&amp; event.charCode &lt;&#x3D; 57}&quot; &gt;
+                                                    &lt;span matSuffix *ngIf&#x3D;&quot;phonecheckload&quot;&gt;&lt;app-loading-indicator [size]&#x3D;&quot;&#x27;2vh&#x27;&quot; class&#x3D;&quot;text-info&quot; &gt;&lt;/app-loading-indicator&gt;&lt;/span&gt;
+                                                    &lt;mat-hint *ngIf&#x3D;&quot;invalidphonenr&quot; class&#x3D;&quot;text-danger&quot;&gt;&lt;strong&gt;{{&#x27;invalid-phone&#x27; | translate}}&lt;/strong&gt;&lt;/mat-hint&gt;
+                                                    &lt;mat-hint *ngIf&#x3D;&quot;validphone&quot; class&#x3D;&quot;text-info&quot;&gt;&lt;strong&gt;{{&#x27;valid-phone&#x27; | translate}}&lt;/strong&gt;&lt;/mat-hint&gt;
+                                                    &lt;mat-hint *ngIf&#x3D;&quot;cantaccept&quot; class&#x3D;&quot;text-warning&quot;&gt;&lt;strong&gt;{{&#x27;cant-accept&#x27; | translate}}&lt;/strong&gt;&lt;/mat-hint&gt;
+
+                                                &lt;/mat-form-field&gt;
+                                            &lt;/div&gt;
+                                        
+                                       
+                                            &lt;div class&#x3D;&quot;col-lg-2 col-md-2 col-sm-2&quot;&gt;
+                                                &lt;mat-form-field&gt;
+                                                    &lt;mat-select  placeholder&#x3D;&quot;{{&#x27;user.manage-user.general.state&#x27; | translate}}&quot;
+                                                    formControlName&#x3D;&quot;state&quot;&gt;
+                                            &lt;mat-option *ngFor&#x3D;&quot;let state of utilService.getStates&quot;
+                                                    [value]&#x3D;&quot;state&quot;&gt;
+                                                    {{state}}
+                                                &lt;/mat-option&gt;
+                                            &lt;/mat-select&gt;
+                                                &lt;/mat-form-field&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class&#x3D;&quot;col-lg-2 col-md-2 col-sm-2&quot;&gt;
+                                                &lt;mat-form-field&gt;&lt;input matInput type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;{{ &#x27;user.manage-user.general.city&#x27; | translate }}&quot;   formControlName&#x3D;&quot;city&quot;&gt;&lt;/mat-form-field&gt;
+
+                                            &lt;/div&gt;
+                                            &lt;div class&#x3D;&quot;col-lg-1 col-md-1 col-sm-1&quot;&gt;
+                                                &lt;mat-form-field&gt;&lt;input matInput  onpaste&#x3D;&quot;return false&quot; onkeypress&#x3D;&quot;if(event.target.value.length &gt; 10){ return event.charCode &gt; 48 &amp;&amp; event.charCode &lt; 48 }else{ return (event.charCode &#x3D;&#x3D; 8 || event.charCode &#x3D;&#x3D; 0 || event.charCode &#x3D;&#x3D; 13) ? null : event.charCode &gt;&#x3D; 48 &amp;&amp; event.charCode &lt;&#x3D; 57}&quot;  type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;{{ &#x27;user.manage-user.general.zip&#x27; | translate }}&quot;   formControlName&#x3D;&quot;zip&quot; &gt;&lt;/mat-form-field&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class&#x3D;&quot;col-lg-4 col-md-4 col-sm-4 row m-0 p-0&quot;&gt;
+                                                &lt;div  class&#x3D;&quot;col-lg-6 col-sm-6 col-md-6&quot;&gt;
+                                                    &lt;mat-form-field&gt;&lt;input matInput type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;{{ &#x27;user.manage-user.general.address1&#x27; | translate }}&quot;   formControlName&#x3D;&quot;address1&quot;&gt;&lt;/mat-form-field&gt;
+
+                                                &lt;/div&gt;
+                                                &lt;div  class&#x3D;&quot;col-lg-6 col-sm-6 col-md-6&quot;&gt;
+                                                    &lt;mat-form-field&gt;&lt;input matInput type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;{{ &#x27;user.manage-user.general.address2&#x27; | translate }}&quot;   formControlName&#x3D;&quot;address2&quot;&gt;&lt;/mat-form-field&gt;
+
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                      
+                                      
+                                        &lt;/div&gt;
+
+                                        &lt;div class&#x3D;&quot;row&quot;&gt;
+
+                                            &lt;div class&#x3D;&quot;col-lg-3 col-md-3 col-sm-3&quot;&gt;
+                                              
+                                                &lt;mat-form-field&gt;
+                                                    &lt;mat-select type&#x3D;&quot;text&quot;   formControlName&#x3D;&quot;validationMethod&quot;&gt;
+                                                        &lt;mat-option *ngFor&#x3D;&quot;let method of [&#x27;EMAIL&#x27;,&#x27;SMS&#x27;]&quot;
+                                                                [value]&#x3D;&quot;method&quot;&gt;{{ &#x27;user.manage-user.general.receive-code&#x27; | translate }} {{method}}&lt;/mat-option&gt;
+                                                    &lt;/mat-select&gt;
+                                                    &lt;mat-error *ngIf&#x3D;&quot;editUserForm.get(&#x27;validationMethod&#x27;).touched &amp;&amp; editUserForm.get(&#x27;validationMethod&#x27;).hasError(&#x27;required&#x27;)&quot;&gt;&lt;/mat-error&gt;
+        
+                                                   &lt;/mat-form-field&gt;
+        
+                                            &lt;/div&gt;
+                                            &lt;div class&#x3D;&quot;col-lg-2 col-md-2 col-sm-2&quot;&gt;
+                                              
+                                                &lt;mat-form-field&gt;
+                                                    &lt;mat-select type&#x3D;&quot;text&quot;   formControlName&#x3D;&quot;dashboardLayoutType&quot; placeholder&#x3D;&quot;{{ &#x27;dashboard-layout&#x27; | translate }}&quot;&gt;
+                                                        &lt;mat-option *ngFor&#x3D;&quot;let method of [&#x27;CRC&#x27;,&#x27;SITE_MANAGEMENT&#x27;]&quot;
+                                                                [value]&#x3D;&quot;method&quot;&gt;{{ method | withoutUnderscore | titlecase | translate }}&lt;/mat-option&gt;
+                                                    &lt;/mat-select&gt;
+        
+                                                   &lt;/mat-form-field&gt;
+        
+                                            &lt;/div&gt;
+                                            &lt;div class&#x3D;&quot;col-lg-3 col-md-3 col-sm-3&quot;&gt;
+                                                &lt;mat-form-field&gt;
+                                                    &lt;mat-select type&#x3D;&quot;text&quot;  formControlName&#x3D;&quot;accountType&quot;&gt;
+                                                        &lt;mat-option *ngFor&#x3D;&quot;let type of accountSelectTypes&quot; [hidden]&#x3D;&quot;type.rank &gt; actualRank&quot;
+                                                                [value]&#x3D;&quot;type.name&quot;&gt;{{type.name | i18nSelect: accountTypeMap}}&lt;/mat-option&gt;
+                                                    &lt;/mat-select&gt;
+                                                    &lt;mat-error *ngIf&#x3D;&quot;editUserForm.get(&#x27;accountType&#x27;).touched &amp;&amp; editUserForm.get(&#x27;accountType&#x27;).hasError(&#x27;required&#x27;)&quot;&gt;&lt;/mat-error&gt;
+                                                &lt;/mat-form-field&gt; 
+                                               
+        
+                                            &lt;/div&gt;
+                                            &lt;div class&#x3D;&quot;col-lg-4 col-md-4 col-sm-4&quot;&gt;
+                                                &lt;!-- &lt;div class&#x3D;&quot;d-flex mt-3  mb-2&quot; &gt;
+                                                    &lt;span&gt;{{ &#x27;user.manage-user.general.investigator&#x27; | translate }}&lt;/span&gt; 
+                                                    &lt;div class&#x3D;&quot;ml-3 switch&quot;&gt;
+                                                        &lt;div class&#x3D;&quot;onoffswitch&quot;&gt;
+                                                            &lt;input  type&#x3D;&quot;checkbox&quot;  class&#x3D;&quot;onoffswitch-checkbox&quot; formControlName&#x3D;&quot;investigator&quot;  #checkbox (change)&#x3D;&quot;toogleInv(checkbox.checked)&quot; id&#x3D;&quot;example-investigator&quot;&gt;
+                                                            &lt;label class&#x3D;&quot;onoffswitch-label&quot; for&#x3D;&quot;example-investigator&quot;&gt;
+                                                                &lt;span class&#x3D;&quot;onoffswitch-inner&quot;&gt;&lt;/span&gt;
+                                                                &lt;span class&#x3D;&quot;onoffswitch-switch&quot;&gt;&lt;/span&gt;
+                                                            &lt;/label&gt;
+                                                        &lt;/div&gt;
+                                                    &lt;/div&gt;
+                                                    &lt;span class&#x3D;&quot;ml-5&quot;&gt;{{ &#x27;user.manage-user.general.schedule&#x27; | translate }}&lt;/span&gt;
+                                                    &lt;div class&#x3D;&quot;ml-3 switch&quot;&gt;
+                                                        &lt;div class&#x3D;&quot;onoffswitch&quot;&gt;
+                                                            &lt;input  type&#x3D;&quot;checkbox&quot;  class&#x3D;&quot;onoffswitch-checkbox&quot; formControlName&#x3D;&quot;showOnSchedule&quot;  #checkboxsch (change)&#x3D;&quot;toogleSch(checkboxsch.checked)&quot; id&#x3D;&quot;example-schedule&quot;&gt;
+                                                            &lt;label class&#x3D;&quot;onoffswitch-label&quot; for&#x3D;&quot;example-schedule&quot;&gt;
+                                                                &lt;span class&#x3D;&quot;onoffswitch-inner&quot;&gt;&lt;/span&gt;
+                                                                &lt;span class&#x3D;&quot;onoffswitch-switch&quot;&gt;&lt;/span&gt;
+                                                            &lt;/label&gt;
+                                                        &lt;/div&gt;
+                                                    &lt;/div&gt;
+                                                
+                                                &lt;/div&gt; --&gt;
+                                                &lt;button type&#x3D;&quot;submit&quot; class&#x3D;&quot;btn btn-info btn-sm float-right mt-2 &quot;&gt;{{&#x27;save-changes&#x27; | translate}}&lt;/button&gt;
+
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                        
+                                        &lt;div class&#x3D;&quot;col-lg-12 col-md-12 col-sm-12 p-0&quot;&gt;
+                                            &lt;app-user-medical-records-view&gt;&lt;/app-user-medical-records-view&gt;
+                                        &lt;/div&gt;
+                                     
+                                    &lt;/div&gt;
+                                     &lt;div class&#x3D;&quot;col-lg-6 col-md-6 col-sm-6&quot;&gt;
+                                        
+                                            &lt;div id&#x3D;&quot;print-section&quot;&gt;
+                                                &lt;table class&#x3D;&quot;table table-hover&quot; &gt;
+        
+                                                &lt;thead&gt;
+                                                &lt;tr&gt;
+                                                    &lt;th&gt;Assigned {{&#x27;user.manage-user.studies.name&#x27; | translate}}(s)&lt;/th&gt;
+                                                    &lt;th&gt;{{&#x27;user.manage-user.studies.site&#x27; | translate}}&lt;/th&gt;
+                                                    &lt;th&gt;{{&#x27;user.manage-user.studies.investigator&#x27; | translate}}&lt;/th&gt;
+                                                    &lt;th&gt;{{&#x27;Role&#x27; | translate}} &lt;button class&#x3D;&quot;btn btn-sm btn-outline-secondary  float-right&quot;  [useExistingCss]&#x3D;&quot;true&quot;
+                                                        printSectionId&#x3D;&quot;print-section&quot;  ngxPrint matTooltip&#x3D;&quot;{{&#x27;print&#x27; | translate}}&quot;&gt;&lt;i class&#x3D;&quot;fa fa-print&quot;&gt;&lt;/i&gt;&lt;/button&gt;&lt;/th&gt;
+                                        
+                                                &lt;/tr&gt;
+                                                &lt;/thead&gt;
+                                                &lt;tbody&gt;
+                                                &lt;tr *ngFor&#x3D;&quot;let item of companyStudies&quot;&gt;
+                                                    &lt;td &gt;{{item.studyName}}&lt;/td&gt;
+                                                    &lt;td &gt;{{item.siteAlias}}&lt;/td&gt;
+                                                    &lt;td &gt;{{item.principalInvestigatorName}}&lt;/td&gt;
+                                                    &lt;td &gt;{{item.role | withoutUnderscore | titlecase}}&lt;/td&gt;
+                                                &lt;/tr&gt;
+                                                &lt;/tbody&gt;
+                                            &lt;/table&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class&#x3D;&quot;no-results&quot; *ngIf&#x3D;&quot;!companyStudies?.length&quot;&gt;
+                                            {{&#x27;no-results&#x27; | translate}}
+                                        &lt;/div&gt;
+                                     &lt;/div&gt;
+                                    
+                                    
+                                &lt;/form&gt;
+        
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div role&#x3D;&quot;tabpanel&quot; id&#x3D;&quot;tab-2&quot; class&#x3D;&quot;tab-pane w-100&quot;&gt;
+                            &lt;div class&#x3D;&quot;panel-body &quot;&gt;
+                                &lt;table class&#x3D;&quot;table table-hover&quot;&gt;
+                                    &lt;thead&gt;
+                                        &lt;tr&gt;
+                                            &lt;th  style&#x3D;&quot;max-width: 200px;&quot;&gt;{{&#x27;user.manage-user.sites.name&#x27; | translate}}&lt;/th&gt;
+                                            &lt;th  class&#x3D;&quot;text-center&quot;style&#x3D;&quot;max-width: 200px;&quot;&gt;{{&#x27;active&#x27; | translate}}?&lt;/th&gt;
+                                            &lt;th class&#x3D;&quot;text-center&quot; style&#x3D;&quot;max-width: 200px;&quot;&gt;{{&#x27;site-manager&#x27; | translate}}?&lt;/th&gt;
+                                            &lt;th class&#x3D;&quot;text-center&quot; style&#x3D;&quot;max-width: 100px;&quot;&gt;{{&#x27;principal-investigator&#x27; | translate}}?&lt;/th&gt;
+                                            &lt;th class&#x3D;&quot;text-center&quot; style&#x3D;&quot;max-width: 200px;&quot;&gt; {{&#x27;show-on-schedule&#x27; | translate}}?&lt;/th&gt;
+                                        &lt;/tr&gt;
+                                    &lt;/thead&gt;
+                                    &lt;tbody&gt;
+                                    &lt;tr *ngFor&#x3D;&quot;let site of assignedSites;let i &#x3D; index;&quot;&gt;
+                                        &lt;td&gt;{{site.name}}&lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;div class&#x3D;&quot;d-flex justify-content-center&quot;&gt;
+                                                &lt;div class&#x3D;&quot;text-center switch&quot;&gt;
+                                                    &lt;div class&#x3D;&quot;onoffswitch&quot;&gt;
+                                                        &lt;input  type&#x3D;&quot;checkbox&quot;  class&#x3D;&quot;onoffswitch-checkbox&quot; [checked]&#x3D;&quot;site.active&quot;  (change)&#x3D;&quot;toogleSiteFlag(3, site.id)&quot;  id&#x3D;&quot;exampleactive-{{site.id}}&quot;&gt;
+                                                        &lt;label class&#x3D;&quot;onoffswitch-label&quot; for&#x3D;&quot;exampleactive-{{site.id}}&quot;&gt;
+                                                            &lt;span class&#x3D;&quot;onoffswitch-inner&quot;&gt;&lt;/span&gt;
+                                                            &lt;span class&#x3D;&quot;onoffswitch-switch&quot;&gt;&lt;/span&gt;
+                                                        &lt;/label&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                            &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;div class&#x3D;&quot;d-flex justify-content-center&quot;&gt;
+                                                &lt;div class&#x3D;&quot;text-center switch&quot;&gt;
+                                                    &lt;div class&#x3D;&quot;onoffswitch&quot;&gt;
+                                                        &lt;input  type&#x3D;&quot;checkbox&quot;  class&#x3D;&quot;onoffswitch-checkbox&quot; [checked]&#x3D;&quot;site.manager&quot; (change)&#x3D;&quot;toogleSiteFlag(0, site.id)&quot; id&#x3D;&quot;examplemanager-{{site.id}}&quot;&gt;
+                                                        &lt;label class&#x3D;&quot;onoffswitch-label&quot; for&#x3D;&quot;examplemanager-{{site.id}}&quot;&gt;
+                                                            &lt;span class&#x3D;&quot;onoffswitch-inner&quot;&gt;&lt;/span&gt;
+                                                            &lt;span class&#x3D;&quot;onoffswitch-switch&quot;&gt;&lt;/span&gt;
+                                                        &lt;/label&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                            &lt;/td&gt;
+                                            &lt;td&gt;
+                                                &lt;div class&#x3D;&quot;d-flex justify-content-center&quot;&gt;
+                                                    &lt;div class&#x3D;&quot;text-center switch&quot;&gt;
+                                                        &lt;div class&#x3D;&quot;onoffswitch&quot;&gt;
+                                                            &lt;input  type&#x3D;&quot;checkbox&quot;  class&#x3D;&quot;onoffswitch-checkbox&quot; [checked]&#x3D;&quot;site.principalInvestigator&quot; (change)&#x3D;&quot;toogleSiteFlag(1, site.id)&quot;   id&#x3D;&quot;exampleprincipalinv-{{site.id}}&quot;&gt;
+                                                            &lt;label class&#x3D;&quot;onoffswitch-label&quot; for&#x3D;&quot;exampleprincipalinv-{{site.id}}&quot;&gt;
+                                                                &lt;span class&#x3D;&quot;onoffswitch-inner&quot;&gt;&lt;/span&gt;
+                                                                &lt;span class&#x3D;&quot;onoffswitch-switch&quot;&gt;&lt;/span&gt;
+                                                            &lt;/label&gt;
+                                                        &lt;/div&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                                &lt;/td&gt;
+                                                &lt;td&gt;
+                                                    &lt;div class&#x3D;&quot;d-flex justify-content-center&quot;&gt;
+                                                        &lt;div class&#x3D;&quot;text-center switch&quot;&gt;
+                                                            &lt;div class&#x3D;&quot;onoffswitch&quot;&gt;
+                                                                &lt;input  type&#x3D;&quot;checkbox&quot;  class&#x3D;&quot;onoffswitch-checkbox&quot; [checked]&#x3D;&quot;site.showOnSchedule&quot;  (change)&#x3D;&quot;toogleSiteFlag(2, site.id)&quot;  id&#x3D;&quot;exampleshowOnSchedule-{{site.id}}&quot;&gt;
+                                                                &lt;label class&#x3D;&quot;onoffswitch-label&quot; for&#x3D;&quot;exampleshowOnSchedule-{{site.id}}&quot;&gt;
+                                                                    &lt;span class&#x3D;&quot;onoffswitch-inner&quot;&gt;&lt;/span&gt;
+                                                                    &lt;span class&#x3D;&quot;onoffswitch-switch&quot;&gt;&lt;/span&gt;
+                                                                &lt;/label&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    &lt;/div&gt;
+                                                    &lt;/td&gt;
+                                                
+                                        &lt;/tr&gt;
+                                    &lt;/tbody&gt;
+                                &lt;/table&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+        
+                      
+                        &lt;div role&#x3D;&quot;tabpanel&quot; id&#x3D;&quot;tab-4&quot; class&#x3D;&quot;tab-pane&quot;&gt;
+                            &lt;div class&#x3D;&quot;panel-body&quot;&gt;
+                                &lt;div class&#x3D;&quot; d-flex justify-content-between mb-2 pb-2&quot;&gt;
+                                    &lt;button class&#x3D;&quot;btn btn-success btn-sm float-left&quot; (click)&#x3D;&quot;regeneratePin()&quot;
+                                        [ngClass]&#x3D;&quot;{&#x27;disabled unclickable&#x27;: !user?.pinCreatedOn}&quot;&gt;{{&#x27;user.manage-user.medical-records.regenerate-PIN&#x27; | translate}}&lt;/button&gt;
+                                    &lt;div class&#x3D;&quot;d-flex justify-content-end pin-sent&quot;&gt;
+        
+                                        &lt;span *ngIf&#x3D;&quot;user?.pinCreatedOn&quot; class&#x3D;&quot;d-block mb-2&quot;&gt;{{&#x27;user.manage-user.esign.pin-sent&#x27; | translate}} {{user.pinCreatedOn | date}}&lt;/span&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class&#x3D;&quot;d-flex justify-content-end &quot;&gt;
+                                        &lt;button *ngIf&#x3D;&quot;!user?.pinCreatedOn &quot; class&#x3D;&quot;btn btn-green btn-sm&quot;
+                                            (click)&#x3D;&quot;openAllowEsignDialog()&quot;&gt;{{&#x27;user.manage-user.esign.allow&#x27; | translate}}
+                                        &lt;/button&gt;
+                                        &lt;button *ngIf&#x3D;&quot;user?.pinCreatedOn&quot; class&#x3D;&quot;btn btn-danger btn-sm&quot; (click)&#x3D;&quot;revokeEsign()&quot;&gt;{{&#x27;user.manage-user.esign.revoke&#x27; | translate}}
+                                        &lt;/button&gt;
+                                        &lt;a class&#x3D;&quot;btn btn-outline-secondary  ml-2&quot; href&#x3D;&quot;{{serverUrl + user?.fdaFormUrlPrefix}}&quot;
+                                            target&#x3D;&quot;_blank&quot; matTooltip&#x3D;&quot;{{&#x27;download&#x27;|translate}}&quot;&gt;&lt;i class&#x3D;&quot;fa fa-download&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class&#x3D;&quot;text-center m-t-md&quot; *ngIf&#x3D;&quot;esignTab&quot;&gt;
+                                    &lt;ngx-extended-pdf-viewer [src]&#x3D;&quot;&#x27;../../../assets/esign-law.pdf&#x27;&quot; 
+                                    [useBrowserLocale]&#x3D;&quot;true&quot; 
+                                    [textLayer]&#x3D;&quot;true&quot;
+                                    [logLevel]&#x3D;&quot;0&quot;
+                                    [showFindButton]&#x3D;&#x27;false&#x27;
+                                    [height]&#x3D;&quot;&#x27;80vh&#x27;&quot;  
+                                    [showDownloadButton]&#x3D;&#x27;false&#x27;
+                                    [showBookmarkButton]&#x3D;&#x27;false&#x27; 
+                                    [showOpenFileButton]&#x3D;&#x27;false&#x27;  
+                                    [showPrintButton]&#x3D;&#x27;false&#x27;   &gt;&lt;/ngx-extended-pdf-viewer&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div role&#x3D;&quot;tabpanel&quot; id&#x3D;&quot;tab-5&quot; class&#x3D;&quot;tab-pane&quot;&gt;
+                            &lt;div class&#x3D;&quot;panel-body&quot;&gt;
+                                &lt;app-user-permission-view&gt;&lt;/app-user-permission-view&gt;
+        
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+        
+              
+                    &lt;/div&gt;
+        
+                &lt;/div&gt;
+        
+            &lt;/div&gt;
+        
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="styleData">
+                <p class="comment">
+                    <code>./manage-user.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.pin-sent {
+  width: auto;
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="wrapper wrapper-content animated fadeInDown">    <div>        <div class="row">            <div class="col-lg-12 col-md-12 col-sm-12">                <div class="tabs-container">                            <ul class="nav nav-tabs d-flex" role="tablist">                        <li><a class="nav-link active" data-toggle="tab" href="#tab-1">{{\'user.manage-user.general.tab-label\' | translate}}</a></li>                        <li><a class="nav-link" data-toggle="tab" href="#tab-2" (click)="refreshAssignedSites()">{{\'user.manage-user.sites.tab-label\' | translate}}</a></li>                        <li><a class="nav-link" data-toggle="tab" href="#tab-4" (click)="esignTab= true;">{{\'user.manage-user.esign.tab-label\' | translate}}</a></li>                        <li><a class="nav-link" data-toggle="tab" href="#tab-5">{{\'user.manage-user.permissions.tab-label\' | translate}}</a></li>                            </ul>                    <div class="tab-content">                        <div role="tabpanel" id="tab-1" class="tab-pane active">                            <div class="panel-body">                                <form autocomplete="off" role="form" class="row mt-3" [formGroup]="editUserForm"                                       (ngSubmit)="edit(editUserForm)">                                    <div class="col-lg-6 col-md-6 col-sm-6 ">                                        <div class="row">                                            <div class="col-lg-3 col-md-3 col-sm-3">                                                <mat-form-field>                                                    <input matInput type="text" placeholder="{{ \'user.manage-user.general.first\' | translate }}"   formControlName="firstName" >                                                    <mat-error *ngIf="editUserForm.get(\'firstName\').touched && editUserForm.get(\'firstName\').hasError(\'required\')"></mat-error>                                                </mat-form-field>                                            </div>                                            <div class="col-lg-2 col-md-2 col-sm-2">                                                <mat-form-field><input matInput type="text" maxlength="1" placeholder="{{ \'user.manage-user.general.middle\' | translate }}"   formControlName="middleInitial" ></mat-form-field>                                            </div>                                            <div class="col-lg-3 col-md-3 col-sm-3">                                                <mat-form-field><input matInput type="text" placeholder="{{ \'user.manage-user.general.last\' | translate }}"   formControlName="lastName"></mat-form-field>                                            </div>                                            <div class="col-lg-4 col-md-4 col-sm-4">                                                <mat-form-field>                                                    <input matInput type="email" placeholder="{{ \'user.manage-user.general.email\' | translate }}"   formControlName="email">                                                    <mat-error *ngIf="editUserForm.get(\'email\').touched &&  ( editUserForm.get(\'email\').hasError(\'required\') || editUserForm.get(\'email\').hasError(\'email\') )"></mat-error>                                                </mat-form-field>                                            </div>                                        </div>                                        <div class="row">                                            <div class="col-lg-3 col-md-3 col-sm-3">                                                <mat-form-field>                                                    <input matInput #phonenr  type="text" required="" (paste)="process($event)" placeholder="{{\'user.manage-user.general.phone\' | translate}} 1" formControlName="phone"  [value]="editUserForm?.controls?.phone?.value | phone" (input)="process($event)"    onpaste="event.target.value.replace(/[^0-9]/g, \'\')" onkeyup="event.target.value.replace(/[^0-9]/g, \'\')"   onkeypress="if(event.target.value.length > 10){ return event.charCode > 48 && event.charCode < 48 }else{ return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57}" >                                                    <span matSuffix *ngIf="phonecheckload"><app-loading-indicator [size]="\'2vh\'" class="text-info" ></app-loading-indicator></span>                                                    <mat-hint *ngIf="invalidphonenr" class="text-danger"><strong>{{\'invalid-phone\' | translate}}</strong></mat-hint>                                                    <mat-hint *ngIf="validphone" class="text-info"><strong>{{\'valid-phone\' | translate}}</strong></mat-hint>                                                    <mat-hint *ngIf="cantaccept" class="text-warning"><strong>{{\'cant-accept\' | translate}}</strong></mat-hint>                                                </mat-form-field>                                            </div>                                                                                                                           <div class="col-lg-2 col-md-2 col-sm-2">                                                <mat-form-field>                                                    <mat-select  placeholder="{{\'user.manage-user.general.state\' | translate}}"                                                    formControlName="state">                                            <mat-option *ngFor="let state of utilService.getStates"                                                    [value]="state">                                                    {{state}}                                                </mat-option>                                            </mat-select>                                                </mat-form-field>                                            </div>                                            <div class="col-lg-2 col-md-2 col-sm-2">                                                <mat-form-field><input matInput type="text" placeholder="{{ \'user.manage-user.general.city\' | translate }}"   formControlName="city"></mat-form-field>                                            </div>                                            <div class="col-lg-1 col-md-1 col-sm-1">                                                <mat-form-field><input matInput  onpaste="return false" onkeypress="if(event.target.value.length > 10){ return event.charCode > 48 && event.charCode < 48 }else{ return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57}"  type="text" placeholder="{{ \'user.manage-user.general.zip\' | translate }}"   formControlName="zip" ></mat-form-field>                                            </div>                                            <div class="col-lg-4 col-md-4 col-sm-4 row m-0 p-0">                                                <div  class="col-lg-6 col-sm-6 col-md-6">                                                    <mat-form-field><input matInput type="text" placeholder="{{ \'user.manage-user.general.address1\' | translate }}"   formControlName="address1"></mat-form-field>                                                </div>                                                <div  class="col-lg-6 col-sm-6 col-md-6">                                                    <mat-form-field><input matInput type="text" placeholder="{{ \'user.manage-user.general.address2\' | translate }}"   formControlName="address2"></mat-form-field>                                                </div>                                            </div>                                                                                                                    </div>                                        <div class="row">                                            <div class="col-lg-3 col-md-3 col-sm-3">                                                                                              <mat-form-field>                                                    <mat-select type="text"   formControlName="validationMethod">                                                        <mat-option *ngFor="let method of [\'EMAIL\',\'SMS\']"                                                                [value]="method">{{ \'user.manage-user.general.receive-code\' | translate }} {{method}}</mat-option>                                                    </mat-select>                                                    <mat-error *ngIf="editUserForm.get(\'validationMethod\').touched && editUserForm.get(\'validationMethod\').hasError(\'required\')"></mat-error>                                                           </mat-form-field>                                                    </div>                                            <div class="col-lg-2 col-md-2 col-sm-2">                                                                                              <mat-form-field>                                                    <mat-select type="text"   formControlName="dashboardLayoutType" placeholder="{{ \'dashboard-layout\' | translate }}">                                                        <mat-option *ngFor="let method of [\'CRC\',\'SITE_MANAGEMENT\']"                                                                [value]="method">{{ method | withoutUnderscore | titlecase | translate }}</mat-option>                                                    </mat-select>                                                           </mat-form-field>                                                    </div>                                            <div class="col-lg-3 col-md-3 col-sm-3">                                                <mat-form-field>                                                    <mat-select type="text"  formControlName="accountType">                                                        <mat-option *ngFor="let type of accountSelectTypes" [hidden]="type.rank > actualRank"                                                                [value]="type.name">{{type.name | i18nSelect: accountTypeMap}}</mat-option>                                                    </mat-select>                                                    <mat-error *ngIf="editUserForm.get(\'accountType\').touched && editUserForm.get(\'accountType\').hasError(\'required\')"></mat-error>                                                </mat-form-field>                                                                                                    </div>                                            <div class="col-lg-4 col-md-4 col-sm-4">                                                <!-- <div class="d-flex mt-3  mb-2" >                                                    <span>{{ \'user.manage-user.general.investigator\' | translate }}</span>                                                     <div class="ml-3 switch">                                                        <div class="onoffswitch">                                                            <input  type="checkbox"  class="onoffswitch-checkbox" formControlName="investigator"  #checkbox (change)="toogleInv(checkbox.checked)" id="example-investigator">                                                            <label class="onoffswitch-label" for="example-investigator">                                                                <span class="onoffswitch-inner"></span>                                                                <span class="onoffswitch-switch"></span>                                                            </label>                                                        </div>                                                    </div>                                                    <span class="ml-5">{{ \'user.manage-user.general.schedule\' | translate }}</span>                                                    <div class="ml-3 switch">                                                        <div class="onoffswitch">                                                            <input  type="checkbox"  class="onoffswitch-checkbox" formControlName="showOnSchedule"  #checkboxsch (change)="toogleSch(checkboxsch.checked)" id="example-schedule">                                                            <label class="onoffswitch-label" for="example-schedule">                                                                <span class="onoffswitch-inner"></span>                                                                <span class="onoffswitch-switch"></span>                                                            </label>                                                        </div>                                                    </div>                                                                                                </div> -->                                                <button type="submit" class="btn btn-info btn-sm float-right mt-2 ">{{\'save-changes\' | translate}}</button>                                            </div>                                        </div>                                                                                <div class="col-lg-12 col-md-12 col-sm-12 p-0">                                            <app-user-medical-records-view></app-user-medical-records-view>                                        </div>                                                                         </div>                                     <div class="col-lg-6 col-md-6 col-sm-6">                                                                                    <div id="print-section">                                                <table class="table table-hover" >                                                        <thead>                                                <tr>                                                    <th>Assigned {{\'user.manage-user.studies.name\' | translate}}(s)</th>                                                    <th>{{\'user.manage-user.studies.site\' | translate}}</th>                                                    <th>{{\'user.manage-user.studies.investigator\' | translate}}</th>                                                    <th>{{\'Role\' | translate}} <button class="btn btn-sm btn-outline-secondary  float-right"  [useExistingCss]="true"                                                        printSectionId="print-section"  ngxPrint matTooltip="{{\'print\' | translate}}"><i class="fa fa-print"></i></button></th>                                                                                        </tr>                                                </thead>                                                <tbody>                                                <tr *ngFor="let item of companyStudies">                                                    <td >{{item.studyName}}</td>                                                    <td >{{item.siteAlias}}</td>                                                    <td >{{item.principalInvestigatorName}}</td>                                                    <td >{{item.role | withoutUnderscore | titlecase}}</td>                                                </tr>                                                </tbody>                                            </table>                                        </div>                                        <div class="no-results" *ngIf="!companyStudies?.length">                                            {{\'no-results\' | translate}}                                        </div>                                     </div>                                                                                                        </form>                                    </div>                        </div>                                                <div role="tabpanel" id="tab-2" class="tab-pane w-100">                            <div class="panel-body ">                                <table class="table table-hover">                                    <thead>                                        <tr>                                            <th  style="max-width: 200px;">{{\'user.manage-user.sites.name\' | translate}}</th>                                            <th  class="text-center"style="max-width: 200px;">{{\'active\' | translate}}?</th>                                            <th class="text-center" style="max-width: 200px;">{{\'site-manager\' | translate}}?</th>                                            <th class="text-center" style="max-width: 100px;">{{\'principal-investigator\' | translate}}?</th>                                            <th class="text-center" style="max-width: 200px;"> {{\'show-on-schedule\' | translate}}?</th>                                        </tr>                                    </thead>                                    <tbody>                                    <tr *ngFor="let site of assignedSites;let i = index;">                                        <td>{{site.name}}</td>                                        <td>                                            <div class="d-flex justify-content-center">                                                <div class="text-center switch">                                                    <div class="onoffswitch">                                                        <input  type="checkbox"  class="onoffswitch-checkbox" [checked]="site.active"  (change)="toogleSiteFlag(3, site.id)"  id="exampleactive-{{site.id}}">                                                        <label class="onoffswitch-label" for="exampleactive-{{site.id}}">                                                            <span class="onoffswitch-inner"></span>                                                            <span class="onoffswitch-switch"></span>                                                        </label>                                                    </div>                                                </div>                                            </div>                                            </td>                                        <td>                                            <div class="d-flex justify-content-center">                                                <div class="text-center switch">                                                    <div class="onoffswitch">                                                        <input  type="checkbox"  class="onoffswitch-checkbox" [checked]="site.manager" (change)="toogleSiteFlag(0, site.id)" id="examplemanager-{{site.id}}">                                                        <label class="onoffswitch-label" for="examplemanager-{{site.id}}">                                                            <span class="onoffswitch-inner"></span>                                                            <span class="onoffswitch-switch"></span>                                                        </label>                                                    </div>                                                </div>                                            </div>                                            </td>                                            <td>                                                <div class="d-flex justify-content-center">                                                    <div class="text-center switch">                                                        <div class="onoffswitch">                                                            <input  type="checkbox"  class="onoffswitch-checkbox" [checked]="site.principalInvestigator" (change)="toogleSiteFlag(1, site.id)"   id="exampleprincipalinv-{{site.id}}">                                                            <label class="onoffswitch-label" for="exampleprincipalinv-{{site.id}}">                                                                <span class="onoffswitch-inner"></span>                                                                <span class="onoffswitch-switch"></span>                                                            </label>                                                        </div>                                                    </div>                                                </div>                                                </td>                                                <td>                                                    <div class="d-flex justify-content-center">                                                        <div class="text-center switch">                                                            <div class="onoffswitch">                                                                <input  type="checkbox"  class="onoffswitch-checkbox" [checked]="site.showOnSchedule"  (change)="toogleSiteFlag(2, site.id)"  id="exampleshowOnSchedule-{{site.id}}">                                                                <label class="onoffswitch-label" for="exampleshowOnSchedule-{{site.id}}">                                                                    <span class="onoffswitch-inner"></span>                                                                    <span class="onoffswitch-switch"></span>                                                                </label>                                                            </div>                                                        </div>                                                    </div>                                                    </td>                                                                                        </tr>                                    </tbody>                                </table>                            </div>                        </div>                                                      <div role="tabpanel" id="tab-4" class="tab-pane">                            <div class="panel-body">                                <div class=" d-flex justify-content-between mb-2 pb-2">                                    <button class="btn btn-success btn-sm float-left" (click)="regeneratePin()"                                        [ngClass]="{\'disabled unclickable\': !user?.pinCreatedOn}">{{\'user.manage-user.medical-records.regenerate-PIN\' | translate}}</button>                                    <div class="d-flex justify-content-end pin-sent">                                                <span *ngIf="user?.pinCreatedOn" class="d-block mb-2">{{\'user.manage-user.esign.pin-sent\' | translate}} {{user.pinCreatedOn | date}}</span>                                    </div>                                    <div class="d-flex justify-content-end ">                                        <button *ngIf="!user?.pinCreatedOn " class="btn btn-green btn-sm"                                            (click)="openAllowEsignDialog()">{{\'user.manage-user.esign.allow\' | translate}}                                        </button>                                        <button *ngIf="user?.pinCreatedOn" class="btn btn-danger btn-sm" (click)="revokeEsign()">{{\'user.manage-user.esign.revoke\' | translate}}                                        </button>                                        <a class="btn btn-outline-secondary  ml-2" href="{{serverUrl + user?.fdaFormUrlPrefix}}"                                            target="_blank" matTooltip="{{\'download\'|translate}}"><i class="fa fa-download"></i></a>                                    </div>                                </div>                                <div class="text-center m-t-md" *ngIf="esignTab">                                    <ngx-extended-pdf-viewer [src]="\'../../../assets/esign-law.pdf\'"                                     [useBrowserLocale]="true"                                     [textLayer]="true"                                    [logLevel]="0"                                    [showFindButton]=\'false\'                                    [height]="\'80vh\'"                                      [showDownloadButton]=\'false\'                                    [showBookmarkButton]=\'false\'                                     [showOpenFileButton]=\'false\'                                      [showPrintButton]=\'false\'   ></ngx-extended-pdf-viewer>                                </div>                            </div>                        </div>                        <div role="tabpanel" id="tab-5" class="tab-pane">                            <div class="panel-body">                                <app-user-permission-view></app-user-permission-view>                                    </div>                        </div>                                          </div>                        </div>                    </div>                </div>    </div>    </div></div>'
+    var COMPONENTS = [{'name': 'AccrualsComponent', 'selector': 'app-accruals'},{'name': 'AdApprovalsComponent', 'selector': 'app-ad-approvals'},{'name': 'AdCalendarComponent', 'selector': 'app-ad-calendar'},{'name': 'AdCategoriesComponent', 'selector': 'app-ad-categories'},{'name': 'AddCategoryDialogComponent', 'selector': 'app-add-category-dialog'},{'name': 'AddDailyScheduleResourceDialogComponent', 'selector': 'app-add-daily-schedule-resource-dialog'},{'name': 'AddDocumentDialogComponent', 'selector': 'app-add-document-dialog'},{'name': 'AddFindingsComponent', 'selector': 'app-add-findings'},{'name': 'AddFollowUpDialogComponent', 'selector': 'app-add-follow-up-dialog'},{'name': 'AddHolidayDialogComponent', 'selector': 'app-add-holiday-dialog'},{'name': 'AddIndicationDialogComponent', 'selector': 'app-add-indication-dialog'},{'name': 'AddIrbDialogComponent', 'selector': 'app-add-irb-dialog'},{'name': 'AddLabsDialogComponent', 'selector': 'app-add-labs-dialog'},{'name': 'AddMediaEventDialogComponent', 'selector': 'app-add-media-event-dialog'},{'name': 'AddMiscAppointmentComponent', 'selector': 'app-add-misc-appointment'},{'name': 'AddMiscInvoiceDialogComponent', 'selector': 'app-add-misc-invoice-dialog'},{'name': 'AddNewLeadDialogComponent', 'selector': 'app-add-new-lead-dialog'},{'name': 'AddNewTrackDialogComponent', 'selector': 'app-add-new-track-dialog'},{'name': 'AddPatientDialogComponent', 'selector': 'app-add-patient-dialog'},{'name': 'AddPatientTimerDialogComponent', 'selector': 'app-add-patient-timer-dialog'},{'name': 'AddPatientToStudyDialogComponent', 'selector': 'app-add-patient-to-study-dialog'},{'name': 'AddPatientToStudyFinalStepDialogComponent', 'selector': 'app-add-patient-to-study-final-step-dialog'},{'name': 'AddPatientToStudyFinalStepSelectedDialogComponent', 'selector': 'app-add-patient-to-study-final-step-selected-dialog'},{'name': 'AddRemitLocationDialogComponent', 'selector': 'app-add-remit-location-dialog'},{'name': 'AddRoleDialogComponent', 'selector': 'app-add-role-dialog'},{'name': 'AddSelectedPatientDialogComponent', 'selector': 'app-add-selected-patient-dialog'},{'name': 'AddStudyToCalendarDialogComponent', 'selector': 'app-add-study-to-calendar-dialog'},{'name': 'AddStudyToStudyStartDialogComponent', 'selector': 'app-add-study-to-study-start-dialog'},{'name': 'AddTaskRoleDialogComponent', 'selector': 'app-add-task-role-dialog'},{'name': 'AddTraineeDialogComponent', 'selector': 'app-add-trainee-dialog'},{'name': 'AddTrialToRegManagerDialogComponent', 'selector': 'app-add-trial-to-reg-manager-dialog'},{'name': 'AddVendorDialogComponent', 'selector': 'app-add-vendor-dialog'},{'name': 'AddVersionDialogComponent', 'selector': 'app-add-version-dialog'},{'name': 'AddWaitlistDialogComponent', 'selector': 'app-add-waitlist-dialog'},{'name': 'AdQueryComponent', 'selector': 'app-ad-query'},{'name': 'AdVendorsComponent', 'selector': 'app-ad-vendors'},{'name': 'AdvertisingReportComponent', 'selector': 'app-advertising-report'},{'name': 'AllowEsignDialogComponent', 'selector': 'app-allow-esign-dialog'},{'name': 'AnonymousCallDialogComponent', 'selector': 'app-anonymous-call-dialog'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AppointmentTrackingDialogComponent', 'selector': 'app-appointment-tracking-dialog'},{'name': 'ApprovalEditDialogComponent', 'selector': 'app-approval-edit-dialog'},{'name': 'ArchiveBoxDetailsDialogComponent', 'selector': 'app-archive-box-details-dialog'},{'name': 'ArchivesComponent', 'selector': 'app-archives'},{'name': 'AuditViewComponent', 'selector': 'app-audit-view'},{'name': 'AuditViewTableComponent', 'selector': 'app-audit-view-table'},{'name': 'BillableProceduresComponent', 'selector': 'app-billable-procedures'},{'name': 'BillingSetupDialogComponent', 'selector': 'app-billing-setup-dialog'},{'name': 'BillSponsorComponent', 'selector': 'app-bill-sponsor'},{'name': 'BoxContentsDialogComponent', 'selector': 'app-box-contents-dialog'},{'name': 'BuildStudyComponent', 'selector': 'app-build-study'},{'name': 'BulkApproveDialogComponent', 'selector': 'app-bulk-approve-dialog'},{'name': 'BulkReassignFollowUpDialogComponent', 'selector': 'app-bulk-reassign-follow-up-dialog'},{'name': 'BulkSmsDialogComponent', 'selector': 'app-bulk-sms-dialog'},{'name': 'BusinessHoursHolidaysDialogComponent', 'selector': 'app-business-hours-holidays-dialog'},{'name': 'CalendarCategoryDialogComponent', 'selector': 'app-calendar-category-dialog'},{'name': 'CalendarFooterComponent', 'selector': 'app-calendar-footer'},{'name': 'CallSchedulingDialogComponent', 'selector': 'app-call-scheduling-dialog'},{'name': 'CancelAppointmentDialogComponent', 'selector': 'app-cancel-appointment-dialog'},{'name': 'CategoryStudyBudgetDialogComponent', 'selector': 'app-category-study-budget-dialog'},{'name': 'ChangeCommitmentDialogComponent', 'selector': 'app-change-commitment-dialog'},{'name': 'ChangePasswordComponent', 'selector': 'app-change-password'},{'name': 'ChangeStudyStatusDialogComponent', 'selector': 'app-change-study-status-dialog'},{'name': 'ClosedStudiesComponent', 'selector': 'app-closed-studies'},{'name': 'CompaniesComponent', 'selector': 'app-companies'},{'name': 'CompanyDialogComponent', 'selector': 'app-company-dialog'},{'name': 'CompanySitesDialogComponent', 'selector': 'app-company-sites-dialog'},{'name': 'CompletePrescreenFormDialogComponent', 'selector': 'app-complete-prescreen-form-dialog'},{'name': 'CompleteScreeningFormDialogComponent', 'selector': 'app-complete-screening-form-dialog'},{'name': 'ConfirmationDialogComponent', 'selector': 'app-confirmation-dialog'},{'name': 'ContactAddForLeadComponent', 'selector': 'app-contact-add-for-lead'},{'name': 'ContactAddForStudyComponent', 'selector': 'app-contact-add-for-study'},{'name': 'ContactDetailsDialogComponent', 'selector': 'app-contact-details-dialog'},{'name': 'ContactDialogComponent', 'selector': 'app-contact-dialog'},{'name': 'ContactNotesComponent', 'selector': 'app-contact-notes'},{'name': 'ContactsComponent', 'selector': 'app-contacts'},{'name': 'ContactSearchResultsForLeadsComponent', 'selector': 'app-contact-search-results-for-leads'},{'name': 'ContactSearchResultsForStudiesComponent', 'selector': 'app-contact-search-results-for-studies'},{'name': 'CopiedMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'CopyStudyBuildDialogComponent', 'selector': 'app-copy-study-build-dialog'},{'name': 'CopyToAnotherSiteDialogComponent', 'selector': 'app-copy-to-another-site-dialog'},{'name': 'CountdownComponent', 'selector': 'app-countdown'},{'name': 'CreateAdDialogComponent', 'selector': 'app-create-ad-dialog'},{'name': 'CreateBillRequestDialogComponent', 'selector': 'app-create-bill-request-dialog'},{'name': 'CreateBinderDialogComponent', 'selector': 'app-create-binder-dialog'},{'name': 'CreateBoxLabelDialogComponent', 'selector': 'app-create-box-label-dialog'},{'name': 'CreateBudgetDialogComponent', 'selector': 'app-create-budget-dialog'},{'name': 'CreateFindingCategoryDialogComponent', 'selector': 'app-create-finding-category-dialog'},{'name': 'CreatePermissionTemplateComponent', 'selector': 'app-create-permission-template'},{'name': 'CreateTaskDialogComponent', 'selector': 'app-create-task-dialog'},{'name': 'CreateWorkingListDialogComponent', 'selector': 'app-create-working-list-dialog'},{'name': 'CreateWorkingListFromCheckboxesDialogComponent', 'selector': 'app-create-working-list-from-checkboxes-dialog'},{'name': 'CsvpreviewDialogComponent', 'selector': 'app-csvpreview-dialog'},{'name': 'DailyFollowUpsComponent', 'selector': 'app-daily-follow-ups'},{'name': 'DailyScheduleComponent', 'selector': 'app-daily-schedule'},{'name': 'DailySchedulePatientEventDetailsDialogComponent', 'selector': 'app-daily-schedule-patient-event-details-dialog'},{'name': 'DailySchedulePatientMisceallaneousDetailsDialogComponent', 'selector': 'app-daily-schedule-patient-misceallaneous-details-dialog'},{'name': 'DailySchedulePatientScreenDetailsDialogComponent', 'selector': 'app-daily-schedule-patient-screen-details-dialog'},{'name': 'DailySchedulePatientVisitDetatilsDialogComponent', 'selector': 'app-daily-schedule-patient-visit-detatils-dialog'},{'name': 'DailyScheduleResourceComponent', 'selector': 'app-daily-schedule-resource'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DataMergersComponent', 'selector': 'app-data-mergers'},{'name': 'DatepickerHeaderComponent', 'selector': 'datepicker-header'},{'name': 'DatepickerMonthHeaderComponent', 'selector': 'app-datepicker-month-header'},{'name': 'DateSelectComponent', 'selector': 'app-date-select'},{'name': 'DateSelectSimpleComponent', 'selector': 'app-date-select-simple'},{'name': 'DebugDialogComponent', 'selector': 'app-debug-dialog'},{'name': 'DeletePatientPhoneNumberDialogComponent', 'selector': 'app-delete-patient-phone-number-dialog'},{'name': 'DiscrepanciesComponent', 'selector': 'app-discrepancies'},{'name': 'DownloadsComponent', 'selector': 'app-downloads'},{'name': 'EditAdditionalProceduresDialogComponent', 'selector': 'app-edit-additional-procedures-dialog'},{'name': 'EditBinderComponent', 'selector': 'app-edit-binder'},{'name': 'EditBusinessHoursDialogComponent', 'selector': 'app-edit-business-hours-dialog'},{'name': 'EditEventDialogComponent', 'selector': 'app-edit-event-dialog'},{'name': 'EditFindingDetailsDialogComponent', 'selector': 'app-edit-finding-details-dialog'},{'name': 'EditHolidayDialogComponent', 'selector': 'app-edit-holiday-dialog'},{'name': 'EditMiscPaymentDialogComponent', 'selector': 'app-edit-misc-payment-dialog'},{'name': 'EditPermissionTemplateComponent', 'selector': 'app-edit-permission-template'},{'name': 'EditProcedureDialogComponent', 'selector': 'app-edit-procedure-dialog'},{'name': 'EditProcedureNameDialogComponent', 'selector': 'app-edit-procedure-name-dialog'},{'name': 'EditReportPaymentComponent', 'selector': 'app-edit-report-payment'},{'name': 'EditScoreboardDialogComponent', 'selector': 'app-edit-scoreboard-dialog'},{'name': 'EditStudyBuildComponent', 'selector': 'app-edit-study-build'},{'name': 'EditStudyFileDialogComponent', 'selector': 'app-edit-study-file-dialog'},{'name': 'EditStudyPathDialogComponent', 'selector': 'app-edit-study-path-dialog'},{'name': 'EditStudyProcedureGroupsDialogComponent', 'selector': 'app-edit-study-procedure-groups-dialog'},{'name': 'EditStudyVisitsDialogComponent', 'selector': 'app-edit-study-visits-dialog'},{'name': 'EditStudyVisitsRuleDialogComponent', 'selector': 'app-edit-study-visits-rule-dialog'},{'name': 'EditTrainingDialogComponent', 'selector': 'app-edit-training-dialog'},{'name': 'EditVisitDialogComponent', 'selector': 'app-edit-visit-dialog'},{'name': 'EditWorkingListDialogComponent', 'selector': 'app-edit-working-list-dialog'},{'name': 'EsignatureDialogComponent', 'selector': 'app-esignature-dialog'},{'name': 'ESignDialogComponent', 'selector': 'app-e-sign-dialog'},{'name': 'ExpiringDocsComponent', 'selector': 'app-expiring-docs'},{'name': 'ExternalDialogComponent', 'selector': 'app-external-dialog'},{'name': 'FeedBackDialogComponent', 'selector': 'app-feed-back-dialog'},{'name': 'FileCorrespondenceDialogComponent', 'selector': 'app-file-correspondence-dialog'},{'name': 'FileDialogComponent', 'selector': 'app-file-dialog'},{'name': 'FileResponseMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'FilterFooterComponent', 'selector': 'app-filter-footer'},{'name': 'FinalAdsApprovalDialogComponent', 'selector': 'app-final-ads-approval-dialog'},{'name': 'FinanceAdCalendarComponent', 'selector': 'app-ad-calendar'},{'name': 'FindingCategoryComponent', 'selector': 'app-finding-category'},{'name': 'FindInvoicesComponent', 'selector': 'app-find-invoices'},{'name': 'FolderDragMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'FollowUpPatientDialogComponent', 'selector': 'app-follow-up-patient-dialog'},{'name': 'FollowUpsComponent', 'selector': 'app-follow-ups'},{'name': 'ForgotPasswordComponent', 'selector': 'app-forgot-password'},{'name': 'GenericWarningDialogComponent', 'selector': 'app-generic-warning-dialog'},{'name': 'ImagePreviewDialogComponent', 'selector': 'app-image-preview-dialog'},{'name': 'ImportCsvRecruitingDialogComponent', 'selector': 'app-import-csv-recruiting-dialog'},{'name': 'IndicationsComponent', 'selector': 'app-indications'},{'name': 'InfoPopupComponent', 'selector': 'app-info-popup'},{'name': 'InputDialogComponent', 'selector': 'app-input-dialog'},{'name': 'InquiryCallDialogComponent', 'selector': 'app-inquiry-call-dialog'},{'name': 'InternalDialogComponent', 'selector': 'app-internal-dialog'},{'name': 'InviteUserDialogComponent', 'selector': 'app-invite-user-dialog'},{'name': 'InvoicesComponent', 'selector': 'app-invoices'},{'name': 'IrbComponent', 'selector': 'app-irb'},{'name': 'LabComponent', 'selector': 'app-lab'},{'name': 'LabelGeneratorComponent', 'selector': 'app-label-generator'},{'name': 'LeadDetailsDialogComponent', 'selector': 'app-lead-details-dialog'},{'name': 'LeadsComponent', 'selector': 'app-leads'},{'name': 'LedgerComponent', 'selector': 'app-ledger'},{'name': 'LinkStudyDialogComponent', 'selector': 'app-link-study-dialog'},{'name': 'LinkStudyStartDialogComponent', 'selector': 'app-link-study-start-dialog'},{'name': 'LoadingIndicatorComponent', 'selector': 'app-loading-indicator'},{'name': 'LockScreenComponent', 'selector': 'app-lock-screen'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'LongLoadingIndicatorComponent', 'selector': 'app-long-loading-indicator'},{'name': 'ManageCalendarCategoriesDialogComponent', 'selector': 'app-manage-calendar-categories-dialog'},{'name': 'ManageCompanyComponent', 'selector': 'app-manage-company'},{'name': 'ManageFindingsComponent', 'selector': 'app-manage-findings'},{'name': 'ManagePatientInterestDialogComponent', 'selector': 'app-manage-patient-interest-dialog'},{'name': 'ManageSelectedFindingsDialogComponent', 'selector': 'app-manage-selected-findings-dialog'},{'name': 'ManageUserComponent', 'selector': 'app-manage-user'},{'name': 'ManifestShipmentComponent', 'selector': 'app-manifest-shipment'},{'name': 'MargePatientDialogComponent', 'selector': 'app-marge-patient-dialog'},{'name': 'MasterFilesComponent', 'selector': 'app-master-files'},{'name': 'MergeLeadDialogComponent', 'selector': 'app-merge-lead-dialog'},{'name': 'MessageDetailDialogComponent', 'selector': 'app-message-detail-dialog'},{'name': 'MiscChargesComponent', 'selector': 'app-misc-charges'},{'name': 'MoveFileDialogComponent', 'selector': 'app-move-file-dialog'},{'name': 'MyDashboardComponent', 'selector': 'app-my-dashboard'},{'name': 'MyQaFindingsComponent', 'selector': 'app-my-qa-findings'},{'name': 'MyTasksComponent', 'selector': 'app-my-tasks'},{'name': 'NameInputDialogComponent', 'selector': 'app-name-input-dialog'},{'name': 'NameUpdateDialogComponent', 'selector': 'app-name-update-dialog'},{'name': 'NavigationComponent', 'selector': 'navigation'},{'name': 'NewFolderDialogComponent', 'selector': 'app-new-folder-dialog'},{'name': 'NotAllowedMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'NotFoundComponent', 'selector': 'app-not-found'},{'name': 'OtherReportComponent', 'selector': 'app-other-report'},{'name': 'OverlapDialogComponent', 'selector': 'app-overlap-dialog'},{'name': 'PatientAppointmentMiniViewDialogComponent', 'selector': 'app-patient-appointment-mini-view-dialog'},{'name': 'PatientMiniViewDialogComponent', 'selector': 'app-patient-mini-view-dialog'},{'name': 'PatientProfileComponent', 'selector': 'app-patient-profile'},{'name': 'PatientProfileSmsDialogComponent', 'selector': 'app-patient-profile-sms-dialog'},{'name': 'PatientSearchComponent', 'selector': 'app-patient-search'},{'name': 'PatientTrackingComponent', 'selector': 'app-patient-tracking'},{'name': 'PatientTrackingLoadComponent', 'selector': 'app-patient-tracking-load'},{'name': 'PaymentTrackerComponent', 'selector': 'app-payment-tracker'},{'name': 'PdfPreviewDialogComponent', 'selector': 'app-pdf-preview-dialog'},{'name': 'PendingEsignaturesComponent', 'selector': 'app-pending-esignatures'},{'name': 'PermanentErrorDialogComponent', 'selector': 'app-permanent-error-dialog'},{'name': 'PermissionsTemplatesComponent', 'selector': 'app-permissions-templates'},{'name': 'PipelineViewComponent', 'selector': 'app-pipeline-view'},{'name': 'PlaceholderDragMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'PmScoreCardComponent', 'selector': 'app-pm-score-card'},{'name': 'PrescreenSchedulingDialogComponent', 'selector': 'app-prescreen-scheduling-dialog'},{'name': 'PreviousPreviewComponent', 'selector': 'app-previous-preview'},{'name': 'PrintHelperComponent', 'selector': 'app-print-helper'},{'name': 'ProcedureGroupsDialogComponent', 'selector': 'app-procedure-groups-dialog'},{'name': 'ProceduresComponent', 'selector': 'app-procedures'},{'name': 'ProfileChangeDetailsDialogComponent', 'selector': 'app-profile-change-details-dialog'},{'name': 'ProfileUpdatePasswordDialogComponent', 'selector': 'app-update-password-dialog'},{'name': 'ProfileViewComponent', 'selector': 'app-profile-view'},{'name': 'ProjectManagementNotesDialogComponent', 'selector': 'app-project-management-notes-dialog'},{'name': 'PublishStudyDialogComponent', 'selector': 'app-publish-study-dialog'},{'name': 'QualityPlanComponent', 'selector': 'app-quality-plan'},{'name': 'QueryComponent', 'selector': 'app-query'},{'name': 'QueryStudiesComponent', 'selector': 'app-query-studies'},{'name': 'ReasonCategoryComponent', 'selector': 'app-reason-category'},{'name': 'ReasonInputDialogComponent', 'selector': 'app-reason-input-dialog'},{'name': 'ReceptionComponent', 'selector': 'app-reception'},{'name': 'RecordPaymentAddInvoiceDialogComponent', 'selector': 'app-record-payment-add-invoice-dialog'},{'name': 'RecordPaymentComponent', 'selector': 'app-record-payment'},{'name': 'ReferralPartnerAddDialogComponent', 'selector': 'app-referral-partner-add-dialog'},{'name': 'ReferralPartnerDetailsDialogComponent', 'selector': 'app-referral-partner-details-dialog'},{'name': 'ReferralPartnerNotesComponent', 'selector': 'app-referral-partner-notes'},{'name': 'ReferralPartnersComponent', 'selector': 'app-referral-partners'},{'name': 'ReferralPartnersSearchFooterComponent', 'selector': 'app-referral-partners-search-footer'},{'name': 'RegManagerComponent', 'selector': 'app-reg-manager'},{'name': 'RegManagerDialogComponent', 'selector': 'app-reg-manager-dialog'},{'name': 'ReimbursableAdvertisingComponent', 'selector': 'app-reimbursable-advertising'},{'name': 'RejectDocumentDialogComponent', 'selector': 'app-reject-document-dialog'},{'name': 'RemitLocationComponent', 'selector': 'app-remit-location'},{'name': 'ReportsComponent', 'selector': 'app-reports'},{'name': 'ReportTableDialogComponent', 'selector': 'app-report-table-dialog'},{'name': 'RequestEsignDialogComponent', 'selector': 'app-request-esign-dialog'},{'name': 'RerunQueryComponent', 'selector': 'app-rerun-query'},{'name': 'RescheduleAppointmentDialogComponent', 'selector': 'app-reschedule-appointment-dialog'},{'name': 'ScanBoxDialogComponent', 'selector': 'app-scan-box-dialog'},{'name': 'ScheduleMiscellaneousDialogComponent', 'selector': 'app-schedule-miscellaneous-dialog'},{'name': 'ScheduleNextVisitDialogComponent', 'selector': 'app-schedule-next-visit-dialog'},{'name': 'ScheduleVisitPatientTrackingComponent', 'selector': 'app-schedule-visit-patient-tracking'},{'name': 'ScoreCardComponent', 'selector': 'app-score-card'},{'name': 'ScoreCardSetupDialogComponent', 'selector': 'app-score-card-setup-dialog'},{'name': 'ScreenSchedulingDialogComponent', 'selector': 'app-screen-scheduling-dialog'},{'name': 'SearchComponent', 'selector': 'app-search'},{'name': 'SearchFooterComponent', 'selector': 'app-search-footer'},{'name': 'SearchLeadDialogComponent', 'selector': 'app-search-lead-dialog'},{'name': 'SelectDateDialogComponent', 'selector': 'app-select-date-dialog'},{'name': 'SelectDialogComponent', 'selector': 'app-select-dialog'},{'name': 'SelectLanguageComponent', 'selector': 'app-select-language'},{'name': 'SelectMessageLogStudyDialogComponent', 'selector': 'app-select-message-log-study-dialog'},{'name': 'SendToStudyStartDialogComponent', 'selector': 'app-send-to-study-start-dialog'},{'name': 'ShowCalendarDialogComponent', 'selector': 'app-show-calendar-dialog'},{'name': 'ShowDocumentAuditDialogComponent', 'selector': 'app-show-document-audit-dialog'},{'name': 'SimpleNameImputDialogComponent', 'selector': 'app-simple-name-imput-dialog'},{'name': 'SiteDialogComponent', 'selector': 'app-site-dialog'},{'name': 'SitesManageComponent', 'selector': 'app-sites-manage'},{'name': 'SkinConfigComponent', 'selector': 'app-skin-config'},{'name': 'SmsMessageDialogComponent', 'selector': 'app-sms-message-dialog'},{'name': 'SmsTemplateComponent', 'selector': 'app-sms-template'},{'name': 'SoftLockDialogComponent', 'selector': 'app-soft-lock-dialog'},{'name': 'SpecialAccessReportComponent', 'selector': 'app-special-access-report'},{'name': 'StudiesComponent', 'selector': 'app-studies'},{'name': 'StudyAssignmentsComponent', 'selector': 'app-study-assignments'},{'name': 'StudyBudgetMaintenanceDialogComponent', 'selector': 'app-study-budget-maintenance-dialog'},{'name': 'StudyBudgetsComponent', 'selector': 'app-study-budgets'},{'name': 'StudyBudgetViewComponent', 'selector': 'app-study-budget-view'},{'name': 'StudyComponent', 'selector': 'app-study'},{'name': 'StudyDialogComponent', 'selector': 'app-new-study-dialog'},{'name': 'StudyKnowledgebaseDialogComponent', 'selector': 'app-study-knowledgebase-dialog'},{'name': 'StudyReportFooterComponent', 'selector': 'app-study-report-footer'},{'name': 'StudyStartsComponent', 'selector': 'app-study-starts'},{'name': 'SuccessMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'TaskManagerComponent', 'selector': 'app-task-manager'},{'name': 'TaskMessagesDialogComponent', 'selector': 'app-task-messages-dialog'},{'name': 'ToBeFiledComponent', 'selector': 'app-to-be-filed'},{'name': 'TooltipComponent', 'selector': 'app-tooltip'},{'name': 'TopNavbarComponent', 'selector': 'topnavbar'},{'name': 'TrainingComponent', 'selector': 'app-training'},{'name': 'TriageVisitsReportComponent', 'selector': 'app-triage-visits-report'},{'name': 'UnassignedPaymentDialogComponent', 'selector': 'app-unassigned-payment-dialog'},{'name': 'UpdateFileDialogComponent', 'selector': 'app-update-file-dialog'},{'name': 'UpdateFinCalendarWeekDatesDialogComponent', 'selector': 'app-update-fin-calendar-week-dates-dialog'},{'name': 'UploadFileDialogComponent', 'selector': 'app-upload-file-dialog'},{'name': 'UrlPreviewComponent', 'selector': 'app-url-preview'},{'name': 'UserAccessMedicalRecordsDialogComponent', 'selector': 'app-user-access-medical-records-dialog'},{'name': 'UserInviteComponent', 'selector': 'app-user-invite'},{'name': 'UserMedicalRecordsViewComponent', 'selector': 'app-user-medical-records-view'},{'name': 'UserPermissionViewComponent', 'selector': 'app-user-permission-view'},{'name': 'UserPermissionViewDialogComponent', 'selector': 'app-user-permission-view-dialog'},{'name': 'UserRegenerateAccessMedicalRecordsDialogComponent', 'selector': 'app-user-regenerate-access-medical-records-dialog'},{'name': 'UserRolesComponent', 'selector': 'app-user-roles'},{'name': 'UsersComponent', 'selector': 'app-users'},{'name': 'VersionsComponent', 'selector': 'app-versions'},{'name': 'ViewDailyOpsReportDialogComponent', 'selector': 'app-view-daily-ops-report-dialog'},{'name': 'ViewDocumentWithPinDialogComponent', 'selector': 'app-view-document-with-pin-dialog'},{'name': 'ViewEditStudyDetailsComponent', 'selector': 'app-view-edit-study-details'},{'name': 'ViewEventDialogComponent', 'selector': 'app-view-event-dialog'},{'name': 'ViewStudyStartsDialogComponent', 'selector': 'app-view-study-starts-dialog'},{'name': 'ViewTrackedProceduresComponent', 'selector': 'app-view-tracked-procedures'},{'name': 'ViewTrackedVisitsComponent', 'selector': 'app-view-tracked-visits'},{'name': 'ViewTrackedVisitsLoadComponent', 'selector': 'app-view-tracked-visits-load'},{'name': 'VisitConditionDialogComponent', 'selector': 'app-visit-condition-dialog'},{'name': 'WarningStudyDialogComponent', 'selector': 'app-warning-study-dialog'},{'name': 'WorkingListComponent', 'selector': 'app-working-list'},{'name': 'WorkingListSchedulePreescreenComponent', 'selector': 'app-working-list-schedule-preescreen'},{'name': 'WorkingListScheduleScreenDialogComponent', 'selector': 'app-working-list-schedule-screen-dialog'},{'name': 'WorkingListSmsDialogComponent', 'selector': 'app-working-list-sms-dialog'}];
+    var DIRECTIVES = [{'name': 'MorrisChartDirective', 'selector': '[mk-morris-js]'},{'name': 'NgxMatSelectDirective', 'selector': 'mat-select[ngxMatSelect]'},{'name': 'NgxMatSelectMediaTracker', 'selector': ''},{'name': 'TimeRangeValidatorDirective', 'selector': '[appTimeRangeValidator]'}];
+    var ACTUAL_COMPONENT = {'name': 'ManageUserComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'ManageUserComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

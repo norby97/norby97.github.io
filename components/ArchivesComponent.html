@@ -1,0 +1,2124 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>site-centric documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
+            <a href="../" class="navbar-brand">site-centric documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Components</li>
+  <li class="breadcrumb-item"
+  >
+  ArchivesComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#info" class="nav-link active"
+                role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li class="nav-item">
+            <a href="#source" class="nav-link"
+                role="tab" id="source-tab" data-bs-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li class="nav-item">
+            <a href="#templateData" class="nav-link"
+                role="tab" id="templateData-tab" data-bs-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li class="nav-item">
+            <a href="#styleData" class="nav-link"
+                role="tab" id="styleData-tab" data-bs-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li class="nav-item">
+            <a href="#tree" class="nav-link"
+                role="tab" id="tree-tab" data-bs-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/regulatory/archives/archives.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="../miscellaneous/functions.html#nInit" target="_self" >OnInit</a></code>
+    </p>
+
+
+<section data-compodoc="block-metadata">
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-archives</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./archives.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./archives.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-index">
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#archiveloading" >archiveloading</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#archivesService" >archivesService</a>
+                            </li>
+                            <li>
+                                <a href="#auditloading" >auditloading</a>
+                            </li>
+                            <li>
+                                <a href="#audits" >audits</a>
+                            </li>
+                            <li>
+                                <a href="#autorefresh" >autorefresh</a>
+                            </li>
+                            <li>
+                                <a href="#boxContents" >boxContents</a>
+                            </li>
+                            <li>
+                                <a href="#dpheader" >dpheader</a>
+                            </li>
+                            <li>
+                                <a href="#loading" >loading</a>
+                            </li>
+                            <li>
+                                <a href="#noteForm" >noteForm</a>
+                            </li>
+                            <li>
+                                <a href="#notes" >notes</a>
+                            </li>
+                            <li>
+                                <a href="#notesloading" >notesloading</a>
+                            </li>
+                            <li>
+                                <a href="#recordForm" >recordForm</a>
+                            </li>
+                            <li>
+                                <a href="#selectedStudy" >selectedStudy</a>
+                            </li>
+                            <li>
+                                <a href="#sitearchives" >sitearchives</a>
+                            </li>
+                            <li>
+                                <a href="#siteForm" >siteForm</a>
+                            </li>
+                            <li>
+                                <a href="#sites" >sites</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#utilService" >utilService</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#findOtherDocuments" >findOtherDocuments</a>
+                            </li>
+                            <li>
+                                <a href="#findPatients" >findPatients</a>
+                            </li>
+                            <li>
+                                <a href="#getAudits" >getAudits</a>
+                            </li>
+                            <li>
+                                <a href="#getLists" >getLists</a>
+                            </li>
+                            <li>
+                                <a href="#getNotes" >getNotes</a>
+                            </li>
+                            <li>
+                                <a href="#loadStudy" >loadStudy</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnDestroy" >ngOnDestroy</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#openBoxDetailsDialog" >openBoxDetailsDialog</a>
+                            </li>
+                            <li>
+                                <a href="#openScanBoxDialog" >openScanBoxDialog</a>
+                            </li>
+                            <li>
+                                <a href="#sendNote" >sendNote</a>
+                            </li>
+                            <li>
+                                <a href="#updateStudyArchiveDetails" >updateStudyArchiveDetails</a>
+                            </li>
+                            <li>
+                                <a href="#viewBoxInventory" >viewBoxInventory</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-constructor">
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(siteService: <a href="../injectables/SiteService.html" target="_self">SiteService</a>, authService: <a href="../injectables/AuthenticationService.html" target="_self">AuthenticationService</a>, auditService: <a href="../injectables/AuditService.html" target="_self">AuditService</a>, dialog: MatDialog, userPreferences: <a href="../injectables/UserPreferencesService.html" target="_self">UserPreferencesService</a>, utilService: <a href="../injectables/UtilService.html" target="_self">UtilService</a>, archivesService: <a href="../injectables/RegManagerService.html" target="_self">RegManagerService</a>, archiveService: <a href="../injectables/RegManagerService.html" target="_self">RegManagerService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:35</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>siteService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/SiteService.html" target="_self" >SiteService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>authService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AuthenticationService.html" target="_self" >AuthenticationService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>auditService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AuditService.html" target="_self" >AuditService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>dialog</td>
+                                                  
+                                                        <td>
+                                                                    <code>MatDialog</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>userPreferences</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UserPreferencesService.html" target="_self" >UserPreferencesService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>utilService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UtilService.html" target="_self" >UtilService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>archivesService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/RegManagerService.html" target="_self" >RegManagerService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>archiveService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/RegManagerService.html" target="_self" >RegManagerService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section data-compodoc="block-methods">
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findOtherDocuments"></a>
+                    <span class="name">
+                        <span ><b>findOtherDocuments</b></span>
+                        <a href="#findOtherDocuments"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>findOtherDocuments()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="195"
+                            class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:195</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findPatients"></a>
+                    <span class="name">
+                        <span ><b>findPatients</b></span>
+                        <a href="#findPatients"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>findPatients()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="171"
+                            class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:171</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getAudits"></a>
+                    <span class="name">
+                        <span ><b>getAudits</b></span>
+                        <a href="#getAudits"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getAudits(studyID)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="81"
+                            class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:81</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>studyID</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getLists"></a>
+                    <span class="name">
+                        <span ><b>getLists</b></span>
+                        <a href="#getLists"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getLists()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="238"
+                            class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:238</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getNotes"></a>
+                    <span class="name">
+                        <span ><b>getNotes</b></span>
+                        <a href="#getNotes"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getNotes(studyID)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="93"
+                            class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:93</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>studyID</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadStudy"></a>
+                    <span class="name">
+                        <span ><b>loadStudy</b></span>
+                        <a href="#loadStudy"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>loadStudy(box)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="219"
+                            class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:219</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>box</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnDestroy"></a>
+                    <span class="name">
+                        <span ><b>ngOnDestroy</b></span>
+                        <a href="#ngOnDestroy"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnDestroy()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="48"
+                            class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:48</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="51"
+                            class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:51</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openBoxDetailsDialog"></a>
+                    <span class="name">
+                        <span ><b>openBoxDetailsDialog</b></span>
+                        <a href="#openBoxDetailsDialog"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openBoxDetailsDialog(box)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="125"
+                            class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:125</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>box</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openScanBoxDialog"></a>
+                    <span class="name">
+                        <span ><b>openScanBoxDialog</b></span>
+                        <a href="#openScanBoxDialog"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openScanBoxDialog()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="107"
+                            class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:107</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sendNote"></a>
+                    <span class="name">
+                        <span ><b>sendNote</b></span>
+                        <a href="#sendNote"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>sendNote(form)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="281"
+                            class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:281</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>form</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateStudyArchiveDetails"></a>
+                    <span class="name">
+                        <span ><b>updateStudyArchiveDetails</b></span>
+                        <a href="#updateStudyArchiveDetails"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>updateStudyArchiveDetails()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="259"
+                            class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:259</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="viewBoxInventory"></a>
+                    <span class="name">
+                        <span ><b>viewBoxInventory</b></span>
+                        <a href="#viewBoxInventory"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>viewBoxInventory()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="146"
+                            class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:146</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section data-compodoc="block-properties">
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="archiveloading"></a>
+                    <span class="name">
+                        <span ><b>archiveloading</b></span>
+                        <a href="#archiveloading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:26</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="archivesService"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>archivesService</b></span>
+                        <a href="#archivesService"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../injectables/RegManagerService.html" target="_self" >RegManagerService</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:43</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="auditloading"></a>
+                    <span class="name">
+                        <span ><b>auditloading</b></span>
+                        <a href="#auditloading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:33</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="audits"></a>
+                    <span class="name">
+                        <span ><b>audits</b></span>
+                        <a href="#audits"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:29</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="autorefresh"></a>
+                    <span class="name">
+                        <span ><b>autorefresh</b></span>
+                        <a href="#autorefresh"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:32</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="boxContents"></a>
+                    <span class="name">
+                        <span ><b>boxContents</b></span>
+                        <a href="#boxContents"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:28</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dpheader"></a>
+                    <span class="name">
+                        <span ><b>dpheader</b></span>
+                        <a href="#dpheader"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:34</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loading"></a>
+                    <span class="name">
+                        <span ><b>loading</b></span>
+                        <a href="#loading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:24</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="noteForm"></a>
+                    <span class="name">
+                        <span ><b>noteForm</b></span>
+                        <a href="#noteForm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>UntypedFormGroup</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:22</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="notes"></a>
+                    <span class="name">
+                        <span ><b>notes</b></span>
+                        <a href="#notes"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:35</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="notesloading"></a>
+                    <span class="name">
+                        <span ><b>notesloading</b></span>
+                        <a href="#notesloading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:25</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="recordForm"></a>
+                    <span class="name">
+                        <span ><b>recordForm</b></span>
+                        <a href="#recordForm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>UntypedFormGroup</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:31</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="selectedStudy"></a>
+                    <span class="name">
+                        <span ><b>selectedStudy</b></span>
+                        <a href="#selectedStudy"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>null</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>null</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:30</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sitearchives"></a>
+                    <span class="name">
+                        <span ><b>sitearchives</b></span>
+                        <a href="#sitearchives"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:27</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="siteForm"></a>
+                    <span class="name">
+                        <span ><b>siteForm</b></span>
+                        <a href="#siteForm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>UntypedFormGroup</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:21</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sites"></a>
+                    <span class="name">
+                        <span ><b>sites</b></span>
+                        <a href="#sites"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:23</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="utilService"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>utilService</b></span>
+                        <a href="#utilService"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../injectables/UtilService.html" target="_self" >UtilService</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="42" class="link-to-prism">src/app/components/regulatory/archives/archives.component.ts:42</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { CdkDragDrop, transferArrayItem } from &#x27;@angular/cdk/drag-drop&#x27;;
+import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { UntypedFormGroup, UntypedFormControl, Validators } from &#x27;@angular/forms&#x27;;
+import { MatDialog } from &#x27;@angular/material/dialog&#x27;;
+import { AuthenticationService } from &#x27;src/app/services/administration/authentication.service&#x27;;
+import { SiteService } from &#x27;src/app/services/regulatory/site.service&#x27;;
+import { UtilService } from &#x27;src/app/services/utils/UtilService&#x27;;
+import { UserPreferencesService } from &#x27;src/app/services/utils/user-preferences.service&#x27;;
+import { RegManagerService } from &#x27;src/app/services/regulatory/reg-manager.service&#x27;;
+import { ScanBoxDialogComponent } from &#x27;../../common/dialogs/regulatory/scan-box-dialog/scan-box-dialog.component&#x27;;
+import { ArchiveBoxDetailsDialogComponent } from &#x27;../../common/dialogs/regulatory/archive-box-details-dialog/archive-box-details-dialog.component&#x27;;
+import { DatepickerHeaderComponent } from &#x27;../../common/dialogs/utils/datepicker-header/datepicker-header.component&#x27;;
+import { AuditService } from &#x27;src/app/services/administration/audit.service&#x27;;
+
+@Component({
+  selector: &#x27;app-archives&#x27;,
+  templateUrl: &#x27;./archives.component.html&#x27;,
+  styleUrls: [&#x27;./archives.component.scss&#x27;]
+})
+export class ArchivesComponent implements OnInit {
+  siteForm: UntypedFormGroup;
+  noteForm: UntypedFormGroup;
+  sites;
+  loading &#x3D; false;
+  notesloading &#x3D; false;
+  archiveloading &#x3D; false;
+  sitearchives
+  boxContents&#x3D;[];
+  audits&#x3D;[];
+  selectedStudy&#x3D;null
+  recordForm: UntypedFormGroup
+  autorefresh &#x3D; false;
+  auditloading &#x3D; false;
+  dpheader
+  notes
+  
+  constructor(private siteService: SiteService,
+              private authService: AuthenticationService,
+              private auditService: AuditService,
+              private dialog:MatDialog,
+              private userPreferences: UserPreferencesService,
+              public utilService: UtilService,
+              public archivesService: RegManagerService,
+              private archiveService: RegManagerService,) { 
+                this.dpheader &#x3D; DatepickerHeaderComponent;
+
+              }
+  ngOnDestroy(): void {
+  }
+
+  ngOnInit(): void {
+    this.siteForm &#x3D; new UntypedFormGroup({
+      siteID: new UntypedFormControl(&#x27;&#x27;,Validators.required),
+    }); 
+    this.noteForm &#x3D; new UntypedFormGroup({
+      note: new UntypedFormControl(&#x27;&#x27;, Validators.required),
+    });
+    this.recordForm &#x3D; new UntypedFormGroup({
+      desctructionDate: new UntypedFormControl(&#x27;&#x27;,Validators.required),
+      irbdate: new UntypedFormControl(&#x27;&#x27;,),
+      terms: new UntypedFormControl(&#x27;&#x27;,),
+      contact: new UntypedFormControl(&#x27;&#x27;),
+    });
+    if(JSON.parse(localStorage.getItem(&#x27;siteCentric.sites&#x27;))?.length !&#x3D; 0 &amp;&amp; JSON.parse(localStorage.getItem(&#x27;siteCentric.sites&#x27;)) !&#x3D; null )   {
+      this.sites &#x3D; JSON.parse(localStorage.getItem(&#x27;siteCentric.sites&#x27;));
+      this.siteForm.controls.siteID.setValue(this.sites.find(elem &#x3D;&gt; elem?.id &#x3D;&#x3D; JSON.parse(localStorage.getItem(&#x27;scUserSettings&#x27;))?.selectedSite?.id));
+      this.siteForm.controls.siteID.updateValueAndValidity();
+      this.getLists()
+    } else {
+       this.siteService.getAll2(this.authService.loginUserValue.company.id).subscribe(res &#x3D;&gt; {
+        localStorage.setItem(&#x27;siteCentric.sites&#x27;, JSON.stringify(res));
+        this.sites &#x3D; res;
+        this.siteForm.controls.siteID.setValue(this.sites.find(elem &#x3D;&gt; elem?.id &#x3D;&#x3D; JSON.parse(localStorage.getItem(&#x27;scUserSettings&#x27;))?.selectedSite?.id));
+        this.siteForm.controls.siteID.updateValueAndValidity();
+        this.getLists()
+      });
+    }
+  
+
+  }
+  getAudits(studyID) {
+    this.auditloading &#x3D; true
+    this.auditService.getAuditsForStudyArchiveView(studyID).subscribe(res &#x3D;&gt; {
+      this.audits &#x3D; res;
+    
+      
+      this.auditloading &#x3D; false;
+    }, err &#x3D;&gt;  {
+      this.auditloading &#x3D; false;
+    });
+  
+  }
+  getNotes(studyID) {
+    this.notesloading &#x3D; true
+    this.archivesService.getStudyNotes(studyID).subscribe(res &#x3D;&gt; {
+    
+      this.notes &#x3D; res
+      this.notes?.map(elem &#x3D;&gt; {
+        elem.createdDate &#x3D; elem.createdDate.replace(&#x27;T&#x27;,&#x27; &#x27;) + &#x27; UTC&#x27;
+        elem.createdDate &#x3D; elem.createdDate.toString()
+      })
+      this.notesloading &#x3D; false;
+    }, err &#x3D;&gt;  {
+      this.notesloading &#x3D; false;
+    });
+  }
+  openScanBoxDialog() {
+    const ref &#x3D; this.dialog.open(ScanBoxDialogComponent, {
+      width: &#x27;auto&#x27;,
+      height: &#x27;auto&#x27;,
+      disableClose: true,
+      maxHeight:&#x27;80vh&#x27;,
+    maxWidth:&#x27;80vw&#x27;,
+      minWidth:&#x27;40vw&#x27;,
+      panelClass:&#x27;custom-dialog-container&#x27;
+    });
+    
+    ref.afterClosed().subscribe(res &#x3D;&gt; {
+      if(res) {
+        this.getLists();
+           
+      }
+    })
+  }
+  openBoxDetailsDialog(box){
+    const ref &#x3D; this.dialog.open(ArchiveBoxDetailsDialogComponent, {
+      width: &#x27;auto&#x27;,
+      height: &#x27;auto&#x27;,
+      disableClose: true,
+      maxHeight:&#x27;80vh&#x27;,
+    maxWidth:&#x27;80vw&#x27;,
+      minWidth:&#x27;40vw&#x27;,
+      data:{
+        box
+      },
+      panelClass:&#x27;custom-dialog-container&#x27;
+    });
+    
+    ref.afterClosed().subscribe(res &#x3D;&gt; {
+      if(res) {
+           
+      }
+    })
+  }
+
+  viewBoxInventory(){
+    const ref &#x3D; this.dialog.open(ArchiveBoxDetailsDialogComponent, {
+      width: &#x27;auto&#x27;,
+      height: &#x27;auto&#x27;,
+      disableClose: true,
+      maxHeight:&#x27;80vh&#x27;,
+    maxWidth:&#x27;80vw&#x27;,
+      minWidth:&#x27;40vw&#x27;,
+      data:{
+        box:this.selectedStudy,
+        type:1,
+        manifest:false,
+
+        types:[&#x27;REGULATORY&#x27;,&#x27;PATIENT&#x27;,&#x27;CONTRACT&#x27;]
+      },
+      panelClass:&#x27;custom-dialog-container&#x27;
+    });
+    
+    ref.afterClosed().subscribe(res &#x3D;&gt; {
+      if(res) {
+           
+      }
+    })
+  }
+
+  findPatients(){
+    const ref &#x3D; this.dialog.open(ArchiveBoxDetailsDialogComponent, {
+      width: &#x27;auto&#x27;,
+      height: &#x27;auto&#x27;,
+      disableClose: true,
+      maxHeight:&#x27;80vh&#x27;,
+    maxWidth:&#x27;80vw&#x27;,
+      minWidth:&#x27;40vw&#x27;,
+      data:{
+        box:this.selectedStudy,
+        types:[&#x27;PATIENT&#x27;],
+        manifest:false,
+        type:2,
+        
+      },
+      panelClass:&#x27;custom-dialog-container&#x27;
+    });
+    
+    ref.afterClosed().subscribe(res &#x3D;&gt; {
+      if(res) {
+           
+      }
+    })
+  }
+  findOtherDocuments(){
+    const ref &#x3D; this.dialog.open(ArchiveBoxDetailsDialogComponent, {
+      width: &#x27;auto&#x27;,
+      height: &#x27;auto&#x27;,
+      disableClose: true,
+      maxHeight:&#x27;80vh&#x27;,
+    maxWidth:&#x27;80vw&#x27;,
+      minWidth:&#x27;40vw&#x27;,
+      data:{
+        box:this.selectedStudy,
+        types:[&#x27;REGULATORY&#x27;,&#x27;CONTRACT&#x27;],
+        type:3
+      },
+      panelClass:&#x27;custom-dialog-container&#x27;
+    });
+    
+    ref.afterClosed().subscribe(res &#x3D;&gt; {
+      if(res) {
+           
+      }
+    })
+  }
+
+
+  loadStudy(box){
+    this.selectedStudy &#x3D; box;
+    this.archiveloading &#x3D; true;
+    this.recordForm.controls.desctructionDate.setValue(new Date(this.selectedStudy?.estimatedDestructionDate))
+    this.recordForm.controls.desctructionDate.setValidators(Validators.required)
+    this.recordForm.controls.desctructionDate.updateValueAndValidity();
+    this.recordForm.controls.terms.setValue(this.selectedStudy?.destructionTerms)
+    this.recordForm.controls.terms.setValidators(null)
+    this.recordForm.controls.terms.updateValueAndValidity();
+    this.recordForm.controls.contact.setValue(this.selectedStudy?.destructionContact)
+    this.recordForm.controls.contact.setValidators(null)
+    this.recordForm.controls.contact.updateValueAndValidity();
+  
+    this.archiveloading &#x3D; false;
+    this.getNotes(box.id)
+    this.getAudits(box.id)
+    
+  }
+  
+  getLists() {
+    this.loading &#x3D;true;
+   
+    if(this.siteForm.valid) {
+      this.archiveService.getArchivesBySite(this.siteForm.controls.siteID.value.id).subscribe(res &#x3D;&gt; {
+        this.sitearchives &#x3D; res;
+        if(this.selectedStudy !&#x3D; null){
+          this.loadStudy(this.sitearchives.filter(elem &#x3D;&gt; elem.id&#x3D;&#x3D;this.selectedStudy.id)[0])
+          this.loading &#x3D; false
+        } else {
+
+          this.loading &#x3D; false
+        }
+
+      })
+    } else {
+      this.siteForm.markAllAsTouched()
+      this.loading &#x3D; false
+    }
+
+  }
+  updateStudyArchiveDetails(){
+    this.archiveloading&#x3D;true;
+    if(this.recordForm.valid){
+        const data &#x3D; {
+          studyId:this.selectedStudy.id,
+          req: {
+            estimatedDestructionDate:this.recordForm.controls.desctructionDate.value,
+            destructionTerms:this.recordForm.controls.terms.value,
+            destructionContact:this.recordForm.controls.contact.value
+          }
+        }
+        this.archiveService.updateStudyArchive(data).subscribe(res &#x3D;&gt; {
+         this.getLists()
+         
+         this.archiveloading&#x3D;false
+        })
+    } else{
+      this.recordForm.markAllAsTouched();
+    }
+  }
+
+
+  sendNote(form) {
+    this.notesloading &#x3D; true;
+    if(this.noteForm.valid ) {
+      const data &#x3D; {
+        studyId:this.selectedStudy.id,
+        req: {
+          note:this.noteForm.controls.note.value
+        }
+      }
+    
+      this.archiveService.createStudyNote(data).subscribe(res &#x3D;&gt; {
+        this.getNotes(this.selectedStudy.id)
+        this.getAudits(this.selectedStudy.id)
+        this.noteForm.reset(&#x27;&#x27;)
+      }, err &#x3D;&gt; {
+        this.notesloading &#x3D; false;
+      });
+    } else {
+      this.notesloading &#x3D; false;
+      this.noteForm.markAllAsTouched();
+    }
+  
+  }
+
+ 
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;wrapper wrapper-content animated fadeInDown&quot; &gt;
+  
+    &lt;div&gt;
+      &lt;div class&#x3D;&quot;row&quot; &gt;
+        &lt;div class&#x3D;&quot;col-lg-4 col-md-4 col-sm-4 boxFixHead&quot;   style&#x3D;&quot;max-height:80vh;&quot; &gt;
+            &lt;div class&#x3D;&quot;ibox&quot; &gt;
+                &lt;div class&#x3D;&quot;ibox-content &quot;&gt;
+                    &lt;form autocomplete&#x3D;&quot;off&quot; [formGroup]&#x3D;&quot;siteForm&quot;  (ngSubmit)&#x3D;&quot;selectedStudy&#x3D;null;getLists();&quot;&gt;
+                    &lt;div class&#x3D;&quot;ibox-title row&quot;&gt;
+                               &lt;div class&#x3D;&quot;col-lg-5 col-sm-5 col-md-5&quot;&gt;
+                                   &lt;mat-form-field&gt;
+                                       &lt;mat-select type&#x3D;&quot;text&quot;placeholder&#x3D;&quot;{{&#x27;select-site&#x27; | translate}}&quot;  formControlName&#x3D;&quot;siteID&quot;  &gt;
+                                           &lt;mat-option *ngFor&#x3D;&quot;let site of sites&quot; [value]&#x3D;&quot;site&quot; &gt;{{site.alias}}&lt;/mat-option&gt;
+                                       &lt;/mat-select&gt;
+                                       &lt;mat-error *ngIf&#x3D;&quot;siteForm.get(&#x27;siteID&#x27;).touched &amp;&amp; siteForm.get(&#x27;siteID&#x27;).hasError(&#x27;required&#x27;)&quot;&gt;&lt;/mat-error&gt;
+                                       &lt;span matSuffix&gt;
+                                        &lt;button class&#x3D;&quot;btn btn-info btn-sm &quot; *ngIf&#x3D;&quot;!loading&quot; type&#x3D;&quot;submit&quot; (click)&#x3D;&quot;$event.stopPropagation()&quot;&gt;{{&#x27;view&#x27; | translate}}&lt;/button&gt;
+                                        &lt;button *ngIf&#x3D;&quot;loading&quot;  type&#x3D;&quot;button&quot; class&#x3D;&quot;btn btn-info btn-sm  &quot; &gt; &lt;app-loading-indicator class&#x3D;&quot;text-white&quot; [size]&#x3D;&quot;&#x27;2vh&#x27;&quot;&gt;&lt;/app-loading-indicator&gt;&lt;/button&gt;
+                                    
+                                       &lt;/span&gt;
+                                   &lt;/mat-form-field&gt;
+                               &lt;/div&gt;
+                               &lt;div class&#x3D;&quot;col-lg-7 col-sm-7 col-md-7&quot;&gt;
+                                   &lt;div&gt;
+                                    
+                                    &lt;div&gt;
+                                        &lt;button class&#x3D;&quot;btn btn-success btn-sm mt-2 float-right &quot; (click)&#x3D;&quot;openScanBoxDialog()&quot; type&#x3D;&quot;button&quot;&gt;{{&#x27;scan-box&#x27; | translate}}&lt;/button&gt;
+                                    &lt;/div&gt;
+                                      
+                                    &lt;/div&gt;
+                                 
+                           
+                               &lt;/div&gt;
+                   
+       
+                        &lt;/div&gt;
+                    &lt;/form&gt;
+                    &lt;table  class&#x3D;&quot;table table-hover table-bordered &quot; &gt;
+                        &lt;thead  &gt; 
+                        &lt;tr&gt;
+                            &lt;th  &gt;{{&#x27;study-name&#x27; | translate}}&lt;/th&gt;
+                            &lt;th  &gt;{{&#x27;destruction-date&#x27; | translate}}&lt;/th&gt;
+                        &lt;/tr&gt;
+                        &lt;/thead&gt;
+                      &lt;tbody&gt;
+                        &lt;tr (click)&#x3D;&quot;loadStudy(item)&quot; style&#x3D;&quot;cursor:pointer&quot; [ngClass]&#x3D;&quot;selectedStudy?.id &#x3D;&#x3D; item.id ? &#x27;info-border&#x27; :&#x27;&#x27;&quot; *ngFor&#x3D;&quot;let item of sitearchives&quot;&gt;
+                            &lt;td &gt;{{item?.studyName }} &lt;br&gt;
+                            &lt;td &gt; {{item?.estimatedDestructionDate   | date:&#x27;MM/dd/yyyy &#x27; }}  &lt;/td&gt;
+                            
+                        &lt;/tr&gt;
+                      &lt;/tbody&gt;
+                    &lt;/table&gt;
+                  
+                    &lt;div  class&#x3D;&quot;no-results&quot; *ngIf&#x3D;&quot;!loading &amp;&amp; !sitearchives?.length&quot;&gt;
+                        {{&#x27;no-results&#x27; | translate}}
+                    &lt;/div&gt;
+                    &lt;div  class&#x3D;&quot;no-results&quot; *ngIf&#x3D;&quot;loading&quot;&gt;
+                        &lt;app-loading-indicator class&#x3D;&quot;text-info&quot; [size]&#x3D;&quot;&#x27;5vh&#x27;&quot;&gt;&lt;/app-loading-indicator&gt;                            
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt; 
+        &lt;div class&#x3D;&quot;col-lg-8 col-md-8 col-sm-8 boxFixHead&quot;   style&#x3D;&quot;max-height: 75vh;&quot; &gt;
+            &lt;div class&#x3D;&quot;ibox&quot; &gt;
+                &lt;!-- &lt;div class&#x3D;&quot;ibox-content &quot;&gt;
+                    &lt;div class&#x3D;&quot;ibox-title&quot;&gt;
+                    &lt;h4&gt;{{selectedStudy?.studyName}} &lt;br&gt; &lt;small&gt;{{selectedStudy?.estimatedDestructionDate | date:&#x27;MM/dd/yyyy&#x27;}}&lt;/small&gt;&lt;/h4&gt;
+                    &lt;/div&gt;
+                    &lt;table class&#x3D;&quot;table table-hover&quot;&gt;
+                        &lt;thead&gt;
+                            &lt;tr&gt;
+                                &lt;th&gt;{{&#x27;alias&#x27; | translate}}&lt;/th&gt;
+                                &lt;th&gt;{{&#x27;screen-number&#x27; | translate}}&lt;/th&gt;
+                                &lt;th&gt;{{&#x27;box-id&#x27; | translate}}&lt;/th&gt;
+                                &lt;th&gt;{{&#x27;location&#x27; | translate}}&lt;/th&gt;
+                                &lt;th&gt;{{&#x27;action&#x27; | translate}}&lt;/th&gt;
+            
+                            &lt;/tr&gt;
+                        &lt;/thead&gt;
+                        &lt;tbody&gt;
+                        &lt;tr  *ngFor&#x3D;&quot;let item of boxContents;&quot;&gt;
+                            &lt;td&gt;{{item.subjectAlias}}&lt;/td&gt;
+                            &lt;td&gt;{{item.subjectNumber}}&lt;/td&gt;
+                            &lt;td&gt;{{item.archiveBoxName}} &lt;/td&gt;
+                            &lt;td&gt;{{item.storageLocationType}}&lt;/td&gt;
+                            &lt;td&gt;&lt;i class&#x3D;&quot;fa fa-lg fa-eye text-success&quot; matTooltip&#x3D;&quot;{{&#x27;view-box-details&#x27; | translate}}&quot; (click)&#x3D;&quot;openBoxDetailsDialog(item)&quot; style&#x3D;&quot;cursor:pointer;&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                &lt;/table&gt;
+                &lt;div class&#x3D;&quot;no-results&quot; *ngIf&#x3D;&quot;!boxContents?.length&quot;&gt;
+                    {{&#x27;no-results&#x27; | translate}}
+                &lt;/div&gt;
+                  
+                    &lt;div  class&#x3D;&quot;no-results&quot; *ngIf&#x3D;&quot;!loading &amp;&amp; !sitearchives?.length&quot;&gt;
+                        {{&#x27;no-results&#x27; | translate}}
+                    &lt;/div&gt;
+                    &lt;div  class&#x3D;&quot;no-results&quot; *ngIf&#x3D;&quot;loading&quot;&gt;
+                        &lt;app-loading-indicator class&#x3D;&quot;text-info&quot; [size]&#x3D;&quot;&#x27;5vh&#x27;&quot;&gt;&lt;/app-loading-indicator&gt;                            
+                    &lt;/div&gt;
+                &lt;/div&gt; --&gt;
+                &lt;div class&#x3D;&quot;ibox-content&quot; &gt;
+                    &lt;div class&#x3D;&quot;ibox-title&quot; *ngIf&#x3D;&quot;selectedStudy&quot;&gt;
+                        &lt;h2&gt;{{selectedStudy?.studyName}}  
+                        &lt;div class&#x3D;&quot;float-right&quot;&gt;
+                            &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn  float-right btn-warning btn-sm mt-2 mr-2 &quot;  *ngIf&#x3D;&quot;!loading&quot; (click)&#x3D;&quot;findOtherDocuments()&quot;&gt;{{&#x27;find-other-documents&#x27; | translate}}&lt;/button&gt;
+                            &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn  float-right btn-green btn-sm mt-2 mr-2 &quot;  *ngIf&#x3D;&quot;!loading&quot; (click)&#x3D;&quot;findPatients()&quot;&gt;{{&#x27;find-patients&#x27; | translate}}&lt;/button&gt;
+                            &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn  float-right btn-success btn-sm mt-2 mr-2 &quot;  *ngIf&#x3D;&quot;!loading&quot; (click)&#x3D;&quot;viewBoxInventory()&quot;&gt;{{&#x27;view-box-inventory&#x27; | translate}}&lt;/button&gt;
+                        &lt;/div&gt;
+                    &lt;/h2&gt;
+                        &lt;/div&gt;
+                        &lt;div class&#x3D;&quot; no-results&quot; *ngIf&#x3D;&quot;!selectedStudy&quot;&gt;
+                            &lt;h2&gt;{{&#x27;please-select-study&#x27; | translate}}&lt;/h2&gt;
+                            &lt;/div&gt;
+                        &lt;div class&#x3D;&quot;row&quot; *ngIf&#x3D;&quot;selectedStudy&quot;&gt;
+                            &lt;div class&#x3D;&quot;col-lg-5 col-sm-5 col-md-5 &quot;&gt;
+                                &lt;form [formGroup]&#x3D;&quot;recordForm&quot;&gt;
+                                    &lt;mat-form-field&gt;
+                                        &lt;input   matInput placeholder&#x3D;&quot;{{&#x27;desctruction-date&#x27; | translate}}&quot;
+                                        [readonly] &#x3D; &quot;true&quot;
+                                        (click)&#x3D;&quot;dateFrom.open()&quot;
+                                        formControlName&#x3D;&quot;desctructionDate&quot;
+                                        [ngxMatDatetimePicker]&#x3D;&quot;dateFrom&quot;&gt;
+                                        &lt;mat-datepicker-toggle matSuffix   [for]&#x3D;&quot;dateFrom&quot;  &gt;&lt;/mat-datepicker-toggle&gt;
+                                        &lt;ngx-mat-datetime-picker  [hideTime]&#x3D;&quot;true&quot; #dateFrom [calendarHeaderComponent]&#x3D;&quot;dpheader&quot;&gt;&lt;/ngx-mat-datetime-picker&gt;
+                                    &lt;/mat-form-field&gt;
+                                    &lt;mat-form-field class&#x3D;&quot;mb-2&quot;&gt;
+                                        &lt;input   matInput placeholder&#x3D;&quot;{{&#x27;irb-closed-date&#x27; | translate}}&quot;
+                                        [readonly] &#x3D; &quot;true&quot;
+                                        [disabled] &#x3D;&quot;true&quot;
+                                        (click)&#x3D;&quot;dateTo.open()&quot;
+                                        formControlName&#x3D;&quot;irbdate&quot;
+                                        [ngxMatDatetimePicker]&#x3D;&quot;dateTo&quot;&gt;
+                                        &lt;mat-datepicker-toggle matSuffix   [for]&#x3D;&quot;dateTo&quot;  &gt;&lt;/mat-datepicker-toggle&gt;
+                                        &lt;ngx-mat-datetime-picker  [hideTime]&#x3D;&quot;true&quot; #dateTo [calendarHeaderComponent]&#x3D;&quot;dpheader&quot;&gt;&lt;/ngx-mat-datetime-picker&gt;
+                                        &lt;mat-hint&gt;
+                                            {{&#x27;irb-closed-date-hint&#x27; | translate}}
+                                        &lt;/mat-hint&gt;
+                                    &lt;/mat-form-field&gt;          
+                                    &lt;mat-form-field&gt;
+                                        &lt;input matInput #namedom2  type&#x3D;&quot;text&quot;  placeholder&#x3D;&quot;{{&#x27;terms&#x27;|translate}}&quot; formControlName&#x3D;&quot;terms&quot; &gt;
+                                    &lt;/mat-form-field&gt;
+                                    &lt;mat-form-field&gt;
+                                        &lt;input matInput #namedom3  type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;{{&#x27;contact&#x27;|translate}}&quot; formControlName&#x3D;&quot;contact&quot; &gt;
+                                    &lt;/mat-form-field&gt;
+                                    &lt;div&gt;
+                                        &lt;button class&#x3D;&quot;btn btn-info btn-sm float-right&quot; *ngIf&#x3D;&quot;!archiveloading&quot; (click)&#x3D;&quot;updateStudyArchiveDetails()&quot;&gt;{{&#x27;make-changes&#x27;|translate}}&lt;/button&gt;   
+                                        &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn  float-right btn-info btn-sm &quot; *ngIf&#x3D;&quot;archiveloading&quot;&gt;&lt;app-loading-indicator [size]&#x3D;&quot;&#x27;2vh&#x27;&quot;&gt;&lt;/app-loading-indicator&gt;&lt;/button&gt;
+                                    &lt;/div&gt;
+                                &lt;/form&gt;
+                                &lt;form autocomplete&#x3D;&quot;off&quot; [formGroup]&#x3D;&quot;noteForm&quot; &gt;
+                                    &lt;mat-form-field&gt;
+                                        &lt;textarea  matInput  placeholder&#x3D;&quot;{{&#x27;note&#x27; | translate}}&quot; formControlName&#x3D;&quot;note&quot;  &gt;&lt;/textarea&gt;
+                                    &lt;/mat-form-field&gt;
+    
+                                    &lt;div class&#x3D;&quot;row&quot;&gt;
+                                        &lt;div class&#x3D;&quot;col-lg-4 col-md-4  col-sm-4&quot; &gt;
+                                     
+         
+         
+
+                                        &lt;/div&gt;
+       
+                                        &lt;div class&#x3D;&quot;col-lg-3 col-md-3 col-sm-3 &quot;&gt;
+                                        
+                                        &lt;/div&gt;
+                                        &lt;div class&#x3D;&quot;col-lg-5 col-md-5 col-sm-5&quot;&gt;
+                                            &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn  float-right btn-outline-info btn-sm mt-2 &quot;  *ngIf&#x3D;&quot;!loading&quot; (click)&#x3D;&quot;sendNote(noteForm)&quot;&gt;{{&#x27;add-note&#x27; | translate}}&lt;/button&gt;
+                                            &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn  float-right btn-outline-info btn-sm mt-2 &quot; *ngIf&#x3D;&quot;loading&quot;&gt;&lt;app-loading-indicator [size]&#x3D;&quot;&#x27;2vh&#x27;&quot;&gt;&lt;/app-loading-indicator&gt;&lt;/button&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+    
+
+                                &lt;/form&gt;
+                                &lt;hr&gt;
+                                &lt;div class&#x3D;&quot;feed-activity-list tableFixHead&quot; *ngIf&#x3D;&quot;!notesloading&quot; style&#x3D;&quot;max-height: 38vh;&quot;&gt;
+
+                                    &lt;div class&#x3D;&quot;feed-element p-0&quot; *ngFor&#x3D;&quot;let note of notes&quot; &gt;
+                                        &lt;div class&#x3D;&quot;media-body &quot;  style&#x3D;&quot;text-overflow: ellipsis;
+                                        white-space: normal; word-break: break-all;&quot;&gt;
+                                            &lt;strong&gt;{{note.createdDate | date: &#x27;MM/dd/yyyy hh:mm a&#x27;}} &lt;span class&#x3D;&quot;text-success&quot;&gt;{{note.createdByFullName &#x3D;&#x3D;&#x27;Import Import&#x27; ? &#x27;Imported&#x27; : note.createdByFullName}}&lt;/span&gt; :&lt;/strong&gt;  {{note.note}}
+                                        &lt;/div&gt;
+
+                                    &lt;/div&gt;
+                                    &lt;div class&#x3D;&quot;no-results&quot; *ngIf&#x3D;&quot;!notes?.length &amp;&amp; !notesloading&quot;&gt;
+                                        &lt;div&gt;{{&#x27;inquiry.no-notes&#x27; | translate}}&lt;/div&gt;
+                                      &lt;/div&gt;
+                                &lt;/div&gt;
+
+                                &lt;div class&#x3D;&quot;no-results&quot;  *ngIf&#x3D;&quot;notesloading&quot;&gt;
+                                    &lt;app-loading-indicator class&#x3D;&quot;text-info&quot; [size]&#x3D;&quot;&#x27;5vh&#x27;&quot;&gt;&lt;/app-loading-indicator&gt;
+
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class&#x3D;&quot;col-lg-7 col-sm-7 col-md-7&quot;&gt;
+                                &lt;div class&#x3D;&quot;row&quot;&gt;
+                                    &lt;div class&#x3D;&quot;col-lg-4 col-md-4  col-sm-4&quot; &gt;
+                                     
+         
+         
+
+                                    &lt;/div&gt;
+       
+                                   
+                                    &lt;div class&#x3D;&quot;col-lg-8 col-md-8 col-sm-8&quot;&gt;
+                               
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class&#x3D;&quot;feed-activity-list tableFixHead&quot; *ngIf&#x3D;&quot;!auditloading&quot; style&#x3D;&quot;max-height: 38vh;&quot;&gt;
+
+                                    &lt;div class&#x3D;&quot;feed-element p-0&quot; *ngFor&#x3D;&quot;let note of audits&quot; &gt;
+                                        &lt;div class&#x3D;&quot;media-body &quot;  style&#x3D;&quot;text-overflow: ellipsis;
+                                        white-space: normal; word-break: break-all;&quot;&gt;
+                                        &lt;span class&#x3D;&quot;font-weight-bold&quot;&gt;{{note.action | withoutUnderscore | titlecase}} @ {{note.updatedDate | date:&#x27;MM/dd/yyyy hh:mm a&#x27;}}&lt;/span&gt;&lt;br&gt;
+                                        &lt;span&gt;{{note.message}}&lt;/span&gt;
+                                        &lt;/div&gt;
+
+                                    &lt;/div&gt;
+                                    &lt;div class&#x3D;&quot;no-results&quot; *ngIf&#x3D;&quot;!audits?.length &amp;&amp; !auditloading&quot;&gt;
+                                        &lt;div&gt;{{&#x27;no-results&#x27; | translate}}&lt;/div&gt;
+                                      &lt;/div&gt;
+                                &lt;/div&gt;
+
+                                &lt;div class&#x3D;&quot;no-results&quot;  *ngIf&#x3D;&quot;auditloading&quot;&gt;
+                                    &lt;app-loading-indicator class&#x3D;&quot;text-info&quot; [size]&#x3D;&quot;&#x27;5vh&#x27;&quot;&gt;&lt;/app-loading-indicator&gt;
+
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt; 
+      &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="styleData">
+                <p class="comment">
+                    <code>./archives.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss"></code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="wrapper wrapper-content animated fadeInDown" >      <div>      <div class="row" >        <div class="col-lg-4 col-md-4 col-sm-4 boxFixHead"   style="max-height:80vh;" >            <div class="ibox" >                <div class="ibox-content ">                    <form autocomplete="off" [formGroup]="siteForm"  (ngSubmit)="selectedStudy=null;getLists();">                    <div class="ibox-title row">                               <div class="col-lg-5 col-sm-5 col-md-5">                                   <mat-form-field>                                       <mat-select type="text"placeholder="{{\'select-site\' | translate}}"  formControlName="siteID"  >                                           <mat-option *ngFor="let site of sites" [value]="site" >{{site.alias}}</mat-option>                                       </mat-select>                                       <mat-error *ngIf="siteForm.get(\'siteID\').touched && siteForm.get(\'siteID\').hasError(\'required\')"></mat-error>                                       <span matSuffix>                                        <button class="btn btn-info btn-sm " *ngIf="!loading" type="submit" (click)="$event.stopPropagation()">{{\'view\' | translate}}</button>                                        <button *ngIf="loading"  type="button" class="btn btn-info btn-sm  " > <app-loading-indicator class="text-white" [size]="\'2vh\'"></app-loading-indicator></button>                                                                           </span>                                   </mat-form-field>                               </div>                               <div class="col-lg-7 col-sm-7 col-md-7">                                   <div>                                                                        <div>                                        <button class="btn btn-success btn-sm mt-2 float-right " (click)="openScanBoxDialog()" type="button">{{\'scan-box\' | translate}}</button>                                    </div>                                                                          </div>                                                                                           </div>                                                  </div>                    </form>                    <table  class="table table-hover table-bordered " >                        <thead  >                         <tr>                            <th  >{{\'study-name\' | translate}}</th>                            <th  >{{\'destruction-date\' | translate}}</th>                        </tr>                        </thead>                      <tbody>                        <tr (click)="loadStudy(item)" style="cursor:pointer" [ngClass]="selectedStudy?.id == item.id ? \'info-border\' :\'\'" *ngFor="let item of sitearchives">                            <td >{{item?.studyName }} <br>                            <td > {{item?.estimatedDestructionDate   | date:\'MM/dd/yyyy \' }}  </td>                                                    </tr>                      </tbody>                    </table>                                      <div  class="no-results" *ngIf="!loading && !sitearchives?.length">                        {{\'no-results\' | translate}}                    </div>                    <div  class="no-results" *ngIf="loading">                        <app-loading-indicator class="text-info" [size]="\'5vh\'"></app-loading-indicator>                                                </div>                </div>            </div>        </div>         <div class="col-lg-8 col-md-8 col-sm-8 boxFixHead"   style="max-height: 75vh;" >            <div class="ibox" >                <!-- <div class="ibox-content ">                    <div class="ibox-title">                    <h4>{{selectedStudy?.studyName}} <br> <small>{{selectedStudy?.estimatedDestructionDate | date:\'MM/dd/yyyy\'}}</small></h4>                    </div>                    <table class="table table-hover">                        <thead>                            <tr>                                <th>{{\'alias\' | translate}}</th>                                <th>{{\'screen-number\' | translate}}</th>                                <th>{{\'box-id\' | translate}}</th>                                <th>{{\'location\' | translate}}</th>                                <th>{{\'action\' | translate}}</th>                                        </tr>                        </thead>                        <tbody>                        <tr  *ngFor="let item of boxContents;">                            <td>{{item.subjectAlias}}</td>                            <td>{{item.subjectNumber}}</td>                            <td>{{item.archiveBoxName}} </td>                            <td>{{item.storageLocationType}}</td>                            <td><i class="fa fa-lg fa-eye text-success" matTooltip="{{\'view-box-details\' | translate}}" (click)="openBoxDetailsDialog(item)" style="cursor:pointer;"></i></td>                        </tr>                        </tbody>                </table>                <div class="no-results" *ngIf="!boxContents?.length">                    {{\'no-results\' | translate}}                </div>                                      <div  class="no-results" *ngIf="!loading && !sitearchives?.length">                        {{\'no-results\' | translate}}                    </div>                    <div  class="no-results" *ngIf="loading">                        <app-loading-indicator class="text-info" [size]="\'5vh\'"></app-loading-indicator>                                                </div>                </div> -->                <div class="ibox-content" >                    <div class="ibox-title" *ngIf="selectedStudy">                        <h2>{{selectedStudy?.studyName}}                          <div class="float-right">                            <button type="button" class="btn  float-right btn-warning btn-sm mt-2 mr-2 "  *ngIf="!loading" (click)="findOtherDocuments()">{{\'find-other-documents\' | translate}}</button>                            <button type="button" class="btn  float-right btn-green btn-sm mt-2 mr-2 "  *ngIf="!loading" (click)="findPatients()">{{\'find-patients\' | translate}}</button>                            <button type="button" class="btn  float-right btn-success btn-sm mt-2 mr-2 "  *ngIf="!loading" (click)="viewBoxInventory()">{{\'view-box-inventory\' | translate}}</button>                        </div>                    </h2>                        </div>                        <div class=" no-results" *ngIf="!selectedStudy">                            <h2>{{\'please-select-study\' | translate}}</h2>                            </div>                        <div class="row" *ngIf="selectedStudy">                            <div class="col-lg-5 col-sm-5 col-md-5 ">                                <form [formGroup]="recordForm">                                    <mat-form-field>                                        <input   matInput placeholder="{{\'desctruction-date\' | translate}}"                                        [readonly] = "true"                                        (click)="dateFrom.open()"                                        formControlName="desctructionDate"                                        [ngxMatDatetimePicker]="dateFrom">                                        <mat-datepicker-toggle matSuffix   [for]="dateFrom"  ></mat-datepicker-toggle>                                        <ngx-mat-datetime-picker  [hideTime]="true" #dateFrom [calendarHeaderComponent]="dpheader"></ngx-mat-datetime-picker>                                    </mat-form-field>                                    <mat-form-field class="mb-2">                                        <input   matInput placeholder="{{\'irb-closed-date\' | translate}}"                                        [readonly] = "true"                                        [disabled] ="true"                                        (click)="dateTo.open()"                                        formControlName="irbdate"                                        [ngxMatDatetimePicker]="dateTo">                                        <mat-datepicker-toggle matSuffix   [for]="dateTo"  ></mat-datepicker-toggle>                                        <ngx-mat-datetime-picker  [hideTime]="true" #dateTo [calendarHeaderComponent]="dpheader"></ngx-mat-datetime-picker>                                        <mat-hint>                                            {{\'irb-closed-date-hint\' | translate}}                                        </mat-hint>                                    </mat-form-field>                                              <mat-form-field>                                        <input matInput #namedom2  type="text"  placeholder="{{\'terms\'|translate}}" formControlName="terms" >                                    </mat-form-field>                                    <mat-form-field>                                        <input matInput #namedom3  type="text" placeholder="{{\'contact\'|translate}}" formControlName="contact" >                                    </mat-form-field>                                    <div>                                        <button class="btn btn-info btn-sm float-right" *ngIf="!archiveloading" (click)="updateStudyArchiveDetails()">{{\'make-changes\'|translate}}</button>                                           <button type="button" class="btn  float-right btn-info btn-sm " *ngIf="archiveloading"><app-loading-indicator [size]="\'2vh\'"></app-loading-indicator></button>                                    </div>                                </form>                                <form autocomplete="off" [formGroup]="noteForm" >                                    <mat-form-field>                                        <textarea  matInput  placeholder="{{\'note\' | translate}}" formControlName="note"  ></textarea>                                    </mat-form-field>                                        <div class="row">                                        <div class="col-lg-4 col-md-4  col-sm-4" >                                                                                               </div>                                               <div class="col-lg-3 col-md-3 col-sm-3 ">                                                                                </div>                                        <div class="col-lg-5 col-md-5 col-sm-5">                                            <button type="button" class="btn  float-right btn-outline-info btn-sm mt-2 "  *ngIf="!loading" (click)="sendNote(noteForm)">{{\'add-note\' | translate}}</button>                                            <button type="button" class="btn  float-right btn-outline-info btn-sm mt-2 " *ngIf="loading"><app-loading-indicator [size]="\'2vh\'"></app-loading-indicator></button>                                        </div>                                    </div>                                    </form>                                <hr>                                <div class="feed-activity-list tableFixHead" *ngIf="!notesloading" style="max-height: 38vh;">                                    <div class="feed-element p-0" *ngFor="let note of notes" >                                        <div class="media-body "  style="text-overflow: ellipsis;                                        white-space: normal; word-break: break-all;">                                            <strong>{{note.createdDate | date: \'MM/dd/yyyy hh:mm a\'}} <span class="text-success">{{note.createdByFullName ==\'Import Import\' ? \'Imported\' : note.createdByFullName}}</span> :</strong>  {{note.note}}                                        </div>                                    </div>                                    <div class="no-results" *ngIf="!notes?.length && !notesloading">                                        <div>{{\'inquiry.no-notes\' | translate}}</div>                                      </div>                                </div>                                <div class="no-results"  *ngIf="notesloading">                                    <app-loading-indicator class="text-info" [size]="\'5vh\'"></app-loading-indicator>                                </div>                            </div>                            <div class="col-lg-7 col-sm-7 col-md-7">                                <div class="row">                                    <div class="col-lg-4 col-md-4  col-sm-4" >                                                                                           </div>                                                                              <div class="col-lg-8 col-md-8 col-sm-8">                                                                   </div>                                </div>                                <div class="feed-activity-list tableFixHead" *ngIf="!auditloading" style="max-height: 38vh;">                                    <div class="feed-element p-0" *ngFor="let note of audits" >                                        <div class="media-body "  style="text-overflow: ellipsis;                                        white-space: normal; word-break: break-all;">                                        <span class="font-weight-bold">{{note.action | withoutUnderscore | titlecase}} @ {{note.updatedDate | date:\'MM/dd/yyyy hh:mm a\'}}</span><br>                                        <span>{{note.message}}</span>                                        </div>                                    </div>                                    <div class="no-results" *ngIf="!audits?.length && !auditloading">                                        <div>{{\'no-results\' | translate}}</div>                                      </div>                                </div>                                <div class="no-results"  *ngIf="auditloading">                                    <app-loading-indicator class="text-info" [size]="\'5vh\'"></app-loading-indicator>                                </div>                            </div>                        </div>                </div>            </div>        </div>       </div></div></div>'
+    var COMPONENTS = [{'name': 'AccrualsComponent', 'selector': 'app-accruals'},{'name': 'AdApprovalsComponent', 'selector': 'app-ad-approvals'},{'name': 'AdCalendarComponent', 'selector': 'app-ad-calendar'},{'name': 'AdCategoriesComponent', 'selector': 'app-ad-categories'},{'name': 'AddCategoryDialogComponent', 'selector': 'app-add-category-dialog'},{'name': 'AddDailyScheduleResourceDialogComponent', 'selector': 'app-add-daily-schedule-resource-dialog'},{'name': 'AddDocumentDialogComponent', 'selector': 'app-add-document-dialog'},{'name': 'AddFindingsComponent', 'selector': 'app-add-findings'},{'name': 'AddFollowUpDialogComponent', 'selector': 'app-add-follow-up-dialog'},{'name': 'AddHolidayDialogComponent', 'selector': 'app-add-holiday-dialog'},{'name': 'AddIndicationDialogComponent', 'selector': 'app-add-indication-dialog'},{'name': 'AddIrbDialogComponent', 'selector': 'app-add-irb-dialog'},{'name': 'AddLabsDialogComponent', 'selector': 'app-add-labs-dialog'},{'name': 'AddMediaEventDialogComponent', 'selector': 'app-add-media-event-dialog'},{'name': 'AddMiscAppointmentComponent', 'selector': 'app-add-misc-appointment'},{'name': 'AddMiscInvoiceDialogComponent', 'selector': 'app-add-misc-invoice-dialog'},{'name': 'AddNewLeadDialogComponent', 'selector': 'app-add-new-lead-dialog'},{'name': 'AddNewTrackDialogComponent', 'selector': 'app-add-new-track-dialog'},{'name': 'AddPatientDialogComponent', 'selector': 'app-add-patient-dialog'},{'name': 'AddPatientTimerDialogComponent', 'selector': 'app-add-patient-timer-dialog'},{'name': 'AddPatientToStudyDialogComponent', 'selector': 'app-add-patient-to-study-dialog'},{'name': 'AddPatientToStudyFinalStepDialogComponent', 'selector': 'app-add-patient-to-study-final-step-dialog'},{'name': 'AddPatientToStudyFinalStepSelectedDialogComponent', 'selector': 'app-add-patient-to-study-final-step-selected-dialog'},{'name': 'AddRemitLocationDialogComponent', 'selector': 'app-add-remit-location-dialog'},{'name': 'AddRoleDialogComponent', 'selector': 'app-add-role-dialog'},{'name': 'AddSelectedPatientDialogComponent', 'selector': 'app-add-selected-patient-dialog'},{'name': 'AddStudyToCalendarDialogComponent', 'selector': 'app-add-study-to-calendar-dialog'},{'name': 'AddStudyToStudyStartDialogComponent', 'selector': 'app-add-study-to-study-start-dialog'},{'name': 'AddTaskRoleDialogComponent', 'selector': 'app-add-task-role-dialog'},{'name': 'AddTraineeDialogComponent', 'selector': 'app-add-trainee-dialog'},{'name': 'AddTrialToRegManagerDialogComponent', 'selector': 'app-add-trial-to-reg-manager-dialog'},{'name': 'AddVendorDialogComponent', 'selector': 'app-add-vendor-dialog'},{'name': 'AddVersionDialogComponent', 'selector': 'app-add-version-dialog'},{'name': 'AddWaitlistDialogComponent', 'selector': 'app-add-waitlist-dialog'},{'name': 'AdQueryComponent', 'selector': 'app-ad-query'},{'name': 'AdVendorsComponent', 'selector': 'app-ad-vendors'},{'name': 'AdvertisingReportComponent', 'selector': 'app-advertising-report'},{'name': 'AllowEsignDialogComponent', 'selector': 'app-allow-esign-dialog'},{'name': 'AnonymousCallDialogComponent', 'selector': 'app-anonymous-call-dialog'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AppointmentTrackingDialogComponent', 'selector': 'app-appointment-tracking-dialog'},{'name': 'ApprovalEditDialogComponent', 'selector': 'app-approval-edit-dialog'},{'name': 'ArchiveBoxDetailsDialogComponent', 'selector': 'app-archive-box-details-dialog'},{'name': 'ArchivesComponent', 'selector': 'app-archives'},{'name': 'AuditViewComponent', 'selector': 'app-audit-view'},{'name': 'AuditViewTableComponent', 'selector': 'app-audit-view-table'},{'name': 'BillableProceduresComponent', 'selector': 'app-billable-procedures'},{'name': 'BillingSetupDialogComponent', 'selector': 'app-billing-setup-dialog'},{'name': 'BillSponsorComponent', 'selector': 'app-bill-sponsor'},{'name': 'BoxContentsDialogComponent', 'selector': 'app-box-contents-dialog'},{'name': 'BuildStudyComponent', 'selector': 'app-build-study'},{'name': 'BulkApproveDialogComponent', 'selector': 'app-bulk-approve-dialog'},{'name': 'BulkReassignFollowUpDialogComponent', 'selector': 'app-bulk-reassign-follow-up-dialog'},{'name': 'BulkSmsDialogComponent', 'selector': 'app-bulk-sms-dialog'},{'name': 'BusinessHoursHolidaysDialogComponent', 'selector': 'app-business-hours-holidays-dialog'},{'name': 'CalendarCategoryDialogComponent', 'selector': 'app-calendar-category-dialog'},{'name': 'CalendarFooterComponent', 'selector': 'app-calendar-footer'},{'name': 'CallSchedulingDialogComponent', 'selector': 'app-call-scheduling-dialog'},{'name': 'CancelAppointmentDialogComponent', 'selector': 'app-cancel-appointment-dialog'},{'name': 'CategoryStudyBudgetDialogComponent', 'selector': 'app-category-study-budget-dialog'},{'name': 'ChangeCommitmentDialogComponent', 'selector': 'app-change-commitment-dialog'},{'name': 'ChangePasswordComponent', 'selector': 'app-change-password'},{'name': 'ChangeStudyStatusDialogComponent', 'selector': 'app-change-study-status-dialog'},{'name': 'ClosedStudiesComponent', 'selector': 'app-closed-studies'},{'name': 'CompaniesComponent', 'selector': 'app-companies'},{'name': 'CompanyDialogComponent', 'selector': 'app-company-dialog'},{'name': 'CompanySitesDialogComponent', 'selector': 'app-company-sites-dialog'},{'name': 'CompletePrescreenFormDialogComponent', 'selector': 'app-complete-prescreen-form-dialog'},{'name': 'CompleteScreeningFormDialogComponent', 'selector': 'app-complete-screening-form-dialog'},{'name': 'ConfirmationDialogComponent', 'selector': 'app-confirmation-dialog'},{'name': 'ContactAddForLeadComponent', 'selector': 'app-contact-add-for-lead'},{'name': 'ContactAddForStudyComponent', 'selector': 'app-contact-add-for-study'},{'name': 'ContactDetailsDialogComponent', 'selector': 'app-contact-details-dialog'},{'name': 'ContactDialogComponent', 'selector': 'app-contact-dialog'},{'name': 'ContactNotesComponent', 'selector': 'app-contact-notes'},{'name': 'ContactsComponent', 'selector': 'app-contacts'},{'name': 'ContactSearchResultsForLeadsComponent', 'selector': 'app-contact-search-results-for-leads'},{'name': 'ContactSearchResultsForStudiesComponent', 'selector': 'app-contact-search-results-for-studies'},{'name': 'CopiedMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'CopyStudyBuildDialogComponent', 'selector': 'app-copy-study-build-dialog'},{'name': 'CopyToAnotherSiteDialogComponent', 'selector': 'app-copy-to-another-site-dialog'},{'name': 'CountdownComponent', 'selector': 'app-countdown'},{'name': 'CreateAdDialogComponent', 'selector': 'app-create-ad-dialog'},{'name': 'CreateBillRequestDialogComponent', 'selector': 'app-create-bill-request-dialog'},{'name': 'CreateBinderDialogComponent', 'selector': 'app-create-binder-dialog'},{'name': 'CreateBoxLabelDialogComponent', 'selector': 'app-create-box-label-dialog'},{'name': 'CreateBudgetDialogComponent', 'selector': 'app-create-budget-dialog'},{'name': 'CreateFindingCategoryDialogComponent', 'selector': 'app-create-finding-category-dialog'},{'name': 'CreatePermissionTemplateComponent', 'selector': 'app-create-permission-template'},{'name': 'CreateTaskDialogComponent', 'selector': 'app-create-task-dialog'},{'name': 'CreateWorkingListDialogComponent', 'selector': 'app-create-working-list-dialog'},{'name': 'CreateWorkingListFromCheckboxesDialogComponent', 'selector': 'app-create-working-list-from-checkboxes-dialog'},{'name': 'CsvpreviewDialogComponent', 'selector': 'app-csvpreview-dialog'},{'name': 'DailyFollowUpsComponent', 'selector': 'app-daily-follow-ups'},{'name': 'DailyScheduleComponent', 'selector': 'app-daily-schedule'},{'name': 'DailySchedulePatientEventDetailsDialogComponent', 'selector': 'app-daily-schedule-patient-event-details-dialog'},{'name': 'DailySchedulePatientMisceallaneousDetailsDialogComponent', 'selector': 'app-daily-schedule-patient-misceallaneous-details-dialog'},{'name': 'DailySchedulePatientScreenDetailsDialogComponent', 'selector': 'app-daily-schedule-patient-screen-details-dialog'},{'name': 'DailySchedulePatientVisitDetatilsDialogComponent', 'selector': 'app-daily-schedule-patient-visit-detatils-dialog'},{'name': 'DailyScheduleResourceComponent', 'selector': 'app-daily-schedule-resource'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DataMergersComponent', 'selector': 'app-data-mergers'},{'name': 'DatepickerHeaderComponent', 'selector': 'datepicker-header'},{'name': 'DatepickerMonthHeaderComponent', 'selector': 'app-datepicker-month-header'},{'name': 'DateSelectComponent', 'selector': 'app-date-select'},{'name': 'DateSelectSimpleComponent', 'selector': 'app-date-select-simple'},{'name': 'DebugDialogComponent', 'selector': 'app-debug-dialog'},{'name': 'DeletePatientPhoneNumberDialogComponent', 'selector': 'app-delete-patient-phone-number-dialog'},{'name': 'DiscrepanciesComponent', 'selector': 'app-discrepancies'},{'name': 'DownloadsComponent', 'selector': 'app-downloads'},{'name': 'EditAdditionalProceduresDialogComponent', 'selector': 'app-edit-additional-procedures-dialog'},{'name': 'EditBinderComponent', 'selector': 'app-edit-binder'},{'name': 'EditBusinessHoursDialogComponent', 'selector': 'app-edit-business-hours-dialog'},{'name': 'EditEventDialogComponent', 'selector': 'app-edit-event-dialog'},{'name': 'EditFindingDetailsDialogComponent', 'selector': 'app-edit-finding-details-dialog'},{'name': 'EditHolidayDialogComponent', 'selector': 'app-edit-holiday-dialog'},{'name': 'EditMiscPaymentDialogComponent', 'selector': 'app-edit-misc-payment-dialog'},{'name': 'EditPermissionTemplateComponent', 'selector': 'app-edit-permission-template'},{'name': 'EditProcedureDialogComponent', 'selector': 'app-edit-procedure-dialog'},{'name': 'EditProcedureNameDialogComponent', 'selector': 'app-edit-procedure-name-dialog'},{'name': 'EditReportPaymentComponent', 'selector': 'app-edit-report-payment'},{'name': 'EditScoreboardDialogComponent', 'selector': 'app-edit-scoreboard-dialog'},{'name': 'EditStudyBuildComponent', 'selector': 'app-edit-study-build'},{'name': 'EditStudyFileDialogComponent', 'selector': 'app-edit-study-file-dialog'},{'name': 'EditStudyPathDialogComponent', 'selector': 'app-edit-study-path-dialog'},{'name': 'EditStudyProcedureGroupsDialogComponent', 'selector': 'app-edit-study-procedure-groups-dialog'},{'name': 'EditStudyVisitsDialogComponent', 'selector': 'app-edit-study-visits-dialog'},{'name': 'EditStudyVisitsRuleDialogComponent', 'selector': 'app-edit-study-visits-rule-dialog'},{'name': 'EditTrainingDialogComponent', 'selector': 'app-edit-training-dialog'},{'name': 'EditVisitDialogComponent', 'selector': 'app-edit-visit-dialog'},{'name': 'EditWorkingListDialogComponent', 'selector': 'app-edit-working-list-dialog'},{'name': 'EsignatureDialogComponent', 'selector': 'app-esignature-dialog'},{'name': 'ESignDialogComponent', 'selector': 'app-e-sign-dialog'},{'name': 'ExpiringDocsComponent', 'selector': 'app-expiring-docs'},{'name': 'ExternalDialogComponent', 'selector': 'app-external-dialog'},{'name': 'FeedBackDialogComponent', 'selector': 'app-feed-back-dialog'},{'name': 'FileCorrespondenceDialogComponent', 'selector': 'app-file-correspondence-dialog'},{'name': 'FileDialogComponent', 'selector': 'app-file-dialog'},{'name': 'FileResponseMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'FilterFooterComponent', 'selector': 'app-filter-footer'},{'name': 'FinalAdsApprovalDialogComponent', 'selector': 'app-final-ads-approval-dialog'},{'name': 'FinanceAdCalendarComponent', 'selector': 'app-ad-calendar'},{'name': 'FindingCategoryComponent', 'selector': 'app-finding-category'},{'name': 'FindInvoicesComponent', 'selector': 'app-find-invoices'},{'name': 'FolderDragMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'FollowUpPatientDialogComponent', 'selector': 'app-follow-up-patient-dialog'},{'name': 'FollowUpsComponent', 'selector': 'app-follow-ups'},{'name': 'ForgotPasswordComponent', 'selector': 'app-forgot-password'},{'name': 'GenericWarningDialogComponent', 'selector': 'app-generic-warning-dialog'},{'name': 'ImagePreviewDialogComponent', 'selector': 'app-image-preview-dialog'},{'name': 'ImportCsvRecruitingDialogComponent', 'selector': 'app-import-csv-recruiting-dialog'},{'name': 'IndicationsComponent', 'selector': 'app-indications'},{'name': 'InfoPopupComponent', 'selector': 'app-info-popup'},{'name': 'InputDialogComponent', 'selector': 'app-input-dialog'},{'name': 'InquiryCallDialogComponent', 'selector': 'app-inquiry-call-dialog'},{'name': 'InternalDialogComponent', 'selector': 'app-internal-dialog'},{'name': 'InviteUserDialogComponent', 'selector': 'app-invite-user-dialog'},{'name': 'InvoicesComponent', 'selector': 'app-invoices'},{'name': 'IrbComponent', 'selector': 'app-irb'},{'name': 'LabComponent', 'selector': 'app-lab'},{'name': 'LabelGeneratorComponent', 'selector': 'app-label-generator'},{'name': 'LeadDetailsDialogComponent', 'selector': 'app-lead-details-dialog'},{'name': 'LeadsComponent', 'selector': 'app-leads'},{'name': 'LedgerComponent', 'selector': 'app-ledger'},{'name': 'LinkStudyDialogComponent', 'selector': 'app-link-study-dialog'},{'name': 'LinkStudyStartDialogComponent', 'selector': 'app-link-study-start-dialog'},{'name': 'LoadingIndicatorComponent', 'selector': 'app-loading-indicator'},{'name': 'LockScreenComponent', 'selector': 'app-lock-screen'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'LongLoadingIndicatorComponent', 'selector': 'app-long-loading-indicator'},{'name': 'ManageCalendarCategoriesDialogComponent', 'selector': 'app-manage-calendar-categories-dialog'},{'name': 'ManageCompanyComponent', 'selector': 'app-manage-company'},{'name': 'ManageFindingsComponent', 'selector': 'app-manage-findings'},{'name': 'ManagePatientInterestDialogComponent', 'selector': 'app-manage-patient-interest-dialog'},{'name': 'ManageSelectedFindingsDialogComponent', 'selector': 'app-manage-selected-findings-dialog'},{'name': 'ManageUserComponent', 'selector': 'app-manage-user'},{'name': 'ManifestShipmentComponent', 'selector': 'app-manifest-shipment'},{'name': 'MargePatientDialogComponent', 'selector': 'app-marge-patient-dialog'},{'name': 'MasterFilesComponent', 'selector': 'app-master-files'},{'name': 'MergeLeadDialogComponent', 'selector': 'app-merge-lead-dialog'},{'name': 'MessageDetailDialogComponent', 'selector': 'app-message-detail-dialog'},{'name': 'MiscChargesComponent', 'selector': 'app-misc-charges'},{'name': 'MoveFileDialogComponent', 'selector': 'app-move-file-dialog'},{'name': 'MyDashboardComponent', 'selector': 'app-my-dashboard'},{'name': 'MyQaFindingsComponent', 'selector': 'app-my-qa-findings'},{'name': 'MyTasksComponent', 'selector': 'app-my-tasks'},{'name': 'NameInputDialogComponent', 'selector': 'app-name-input-dialog'},{'name': 'NameUpdateDialogComponent', 'selector': 'app-name-update-dialog'},{'name': 'NavigationComponent', 'selector': 'navigation'},{'name': 'NewFolderDialogComponent', 'selector': 'app-new-folder-dialog'},{'name': 'NotAllowedMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'NotFoundComponent', 'selector': 'app-not-found'},{'name': 'OtherReportComponent', 'selector': 'app-other-report'},{'name': 'OverlapDialogComponent', 'selector': 'app-overlap-dialog'},{'name': 'PatientAppointmentMiniViewDialogComponent', 'selector': 'app-patient-appointment-mini-view-dialog'},{'name': 'PatientMiniViewDialogComponent', 'selector': 'app-patient-mini-view-dialog'},{'name': 'PatientProfileComponent', 'selector': 'app-patient-profile'},{'name': 'PatientProfileSmsDialogComponent', 'selector': 'app-patient-profile-sms-dialog'},{'name': 'PatientSearchComponent', 'selector': 'app-patient-search'},{'name': 'PatientTrackingComponent', 'selector': 'app-patient-tracking'},{'name': 'PatientTrackingLoadComponent', 'selector': 'app-patient-tracking-load'},{'name': 'PaymentTrackerComponent', 'selector': 'app-payment-tracker'},{'name': 'PdfPreviewDialogComponent', 'selector': 'app-pdf-preview-dialog'},{'name': 'PendingEsignaturesComponent', 'selector': 'app-pending-esignatures'},{'name': 'PermanentErrorDialogComponent', 'selector': 'app-permanent-error-dialog'},{'name': 'PermissionsTemplatesComponent', 'selector': 'app-permissions-templates'},{'name': 'PipelineViewComponent', 'selector': 'app-pipeline-view'},{'name': 'PlaceholderDragMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'PmScoreCardComponent', 'selector': 'app-pm-score-card'},{'name': 'PrescreenSchedulingDialogComponent', 'selector': 'app-prescreen-scheduling-dialog'},{'name': 'PreviousPreviewComponent', 'selector': 'app-previous-preview'},{'name': 'PrintHelperComponent', 'selector': 'app-print-helper'},{'name': 'ProcedureGroupsDialogComponent', 'selector': 'app-procedure-groups-dialog'},{'name': 'ProceduresComponent', 'selector': 'app-procedures'},{'name': 'ProfileChangeDetailsDialogComponent', 'selector': 'app-profile-change-details-dialog'},{'name': 'ProfileUpdatePasswordDialogComponent', 'selector': 'app-update-password-dialog'},{'name': 'ProfileViewComponent', 'selector': 'app-profile-view'},{'name': 'ProjectManagementNotesDialogComponent', 'selector': 'app-project-management-notes-dialog'},{'name': 'PublishStudyDialogComponent', 'selector': 'app-publish-study-dialog'},{'name': 'QualityPlanComponent', 'selector': 'app-quality-plan'},{'name': 'QueryComponent', 'selector': 'app-query'},{'name': 'QueryStudiesComponent', 'selector': 'app-query-studies'},{'name': 'ReasonCategoryComponent', 'selector': 'app-reason-category'},{'name': 'ReasonInputDialogComponent', 'selector': 'app-reason-input-dialog'},{'name': 'ReceptionComponent', 'selector': 'app-reception'},{'name': 'RecordPaymentAddInvoiceDialogComponent', 'selector': 'app-record-payment-add-invoice-dialog'},{'name': 'RecordPaymentComponent', 'selector': 'app-record-payment'},{'name': 'ReferralPartnerAddDialogComponent', 'selector': 'app-referral-partner-add-dialog'},{'name': 'ReferralPartnerDetailsDialogComponent', 'selector': 'app-referral-partner-details-dialog'},{'name': 'ReferralPartnerNotesComponent', 'selector': 'app-referral-partner-notes'},{'name': 'ReferralPartnersComponent', 'selector': 'app-referral-partners'},{'name': 'ReferralPartnersSearchFooterComponent', 'selector': 'app-referral-partners-search-footer'},{'name': 'RegManagerComponent', 'selector': 'app-reg-manager'},{'name': 'RegManagerDialogComponent', 'selector': 'app-reg-manager-dialog'},{'name': 'ReimbursableAdvertisingComponent', 'selector': 'app-reimbursable-advertising'},{'name': 'RejectDocumentDialogComponent', 'selector': 'app-reject-document-dialog'},{'name': 'RemitLocationComponent', 'selector': 'app-remit-location'},{'name': 'ReportsComponent', 'selector': 'app-reports'},{'name': 'ReportTableDialogComponent', 'selector': 'app-report-table-dialog'},{'name': 'RequestEsignDialogComponent', 'selector': 'app-request-esign-dialog'},{'name': 'RerunQueryComponent', 'selector': 'app-rerun-query'},{'name': 'RescheduleAppointmentDialogComponent', 'selector': 'app-reschedule-appointment-dialog'},{'name': 'ScanBoxDialogComponent', 'selector': 'app-scan-box-dialog'},{'name': 'ScheduleMiscellaneousDialogComponent', 'selector': 'app-schedule-miscellaneous-dialog'},{'name': 'ScheduleNextVisitDialogComponent', 'selector': 'app-schedule-next-visit-dialog'},{'name': 'ScheduleVisitPatientTrackingComponent', 'selector': 'app-schedule-visit-patient-tracking'},{'name': 'ScoreCardComponent', 'selector': 'app-score-card'},{'name': 'ScoreCardSetupDialogComponent', 'selector': 'app-score-card-setup-dialog'},{'name': 'ScreenSchedulingDialogComponent', 'selector': 'app-screen-scheduling-dialog'},{'name': 'SearchComponent', 'selector': 'app-search'},{'name': 'SearchFooterComponent', 'selector': 'app-search-footer'},{'name': 'SearchLeadDialogComponent', 'selector': 'app-search-lead-dialog'},{'name': 'SelectDateDialogComponent', 'selector': 'app-select-date-dialog'},{'name': 'SelectDialogComponent', 'selector': 'app-select-dialog'},{'name': 'SelectLanguageComponent', 'selector': 'app-select-language'},{'name': 'SelectMessageLogStudyDialogComponent', 'selector': 'app-select-message-log-study-dialog'},{'name': 'SendToStudyStartDialogComponent', 'selector': 'app-send-to-study-start-dialog'},{'name': 'ShowCalendarDialogComponent', 'selector': 'app-show-calendar-dialog'},{'name': 'ShowDocumentAuditDialogComponent', 'selector': 'app-show-document-audit-dialog'},{'name': 'SimpleNameImputDialogComponent', 'selector': 'app-simple-name-imput-dialog'},{'name': 'SiteDialogComponent', 'selector': 'app-site-dialog'},{'name': 'SitesManageComponent', 'selector': 'app-sites-manage'},{'name': 'SkinConfigComponent', 'selector': 'app-skin-config'},{'name': 'SmsMessageDialogComponent', 'selector': 'app-sms-message-dialog'},{'name': 'SmsTemplateComponent', 'selector': 'app-sms-template'},{'name': 'SoftLockDialogComponent', 'selector': 'app-soft-lock-dialog'},{'name': 'SpecialAccessReportComponent', 'selector': 'app-special-access-report'},{'name': 'StudiesComponent', 'selector': 'app-studies'},{'name': 'StudyAssignmentsComponent', 'selector': 'app-study-assignments'},{'name': 'StudyBudgetMaintenanceDialogComponent', 'selector': 'app-study-budget-maintenance-dialog'},{'name': 'StudyBudgetsComponent', 'selector': 'app-study-budgets'},{'name': 'StudyBudgetViewComponent', 'selector': 'app-study-budget-view'},{'name': 'StudyComponent', 'selector': 'app-study'},{'name': 'StudyDialogComponent', 'selector': 'app-new-study-dialog'},{'name': 'StudyKnowledgebaseDialogComponent', 'selector': 'app-study-knowledgebase-dialog'},{'name': 'StudyReportFooterComponent', 'selector': 'app-study-report-footer'},{'name': 'StudyStartsComponent', 'selector': 'app-study-starts'},{'name': 'SuccessMessageComponent', 'selector': 'snack-bar-component-example-snack'},{'name': 'TaskManagerComponent', 'selector': 'app-task-manager'},{'name': 'TaskMessagesDialogComponent', 'selector': 'app-task-messages-dialog'},{'name': 'ToBeFiledComponent', 'selector': 'app-to-be-filed'},{'name': 'TooltipComponent', 'selector': 'app-tooltip'},{'name': 'TopNavbarComponent', 'selector': 'topnavbar'},{'name': 'TrainingComponent', 'selector': 'app-training'},{'name': 'TriageVisitsReportComponent', 'selector': 'app-triage-visits-report'},{'name': 'UnassignedPaymentDialogComponent', 'selector': 'app-unassigned-payment-dialog'},{'name': 'UpdateFileDialogComponent', 'selector': 'app-update-file-dialog'},{'name': 'UpdateFinCalendarWeekDatesDialogComponent', 'selector': 'app-update-fin-calendar-week-dates-dialog'},{'name': 'UploadFileDialogComponent', 'selector': 'app-upload-file-dialog'},{'name': 'UrlPreviewComponent', 'selector': 'app-url-preview'},{'name': 'UserAccessMedicalRecordsDialogComponent', 'selector': 'app-user-access-medical-records-dialog'},{'name': 'UserInviteComponent', 'selector': 'app-user-invite'},{'name': 'UserMedicalRecordsViewComponent', 'selector': 'app-user-medical-records-view'},{'name': 'UserPermissionViewComponent', 'selector': 'app-user-permission-view'},{'name': 'UserPermissionViewDialogComponent', 'selector': 'app-user-permission-view-dialog'},{'name': 'UserRegenerateAccessMedicalRecordsDialogComponent', 'selector': 'app-user-regenerate-access-medical-records-dialog'},{'name': 'UserRolesComponent', 'selector': 'app-user-roles'},{'name': 'UsersComponent', 'selector': 'app-users'},{'name': 'VersionsComponent', 'selector': 'app-versions'},{'name': 'ViewDailyOpsReportDialogComponent', 'selector': 'app-view-daily-ops-report-dialog'},{'name': 'ViewDocumentWithPinDialogComponent', 'selector': 'app-view-document-with-pin-dialog'},{'name': 'ViewEditStudyDetailsComponent', 'selector': 'app-view-edit-study-details'},{'name': 'ViewEventDialogComponent', 'selector': 'app-view-event-dialog'},{'name': 'ViewStudyStartsDialogComponent', 'selector': 'app-view-study-starts-dialog'},{'name': 'ViewTrackedProceduresComponent', 'selector': 'app-view-tracked-procedures'},{'name': 'ViewTrackedVisitsComponent', 'selector': 'app-view-tracked-visits'},{'name': 'ViewTrackedVisitsLoadComponent', 'selector': 'app-view-tracked-visits-load'},{'name': 'VisitConditionDialogComponent', 'selector': 'app-visit-condition-dialog'},{'name': 'WarningStudyDialogComponent', 'selector': 'app-warning-study-dialog'},{'name': 'WorkingListComponent', 'selector': 'app-working-list'},{'name': 'WorkingListSchedulePreescreenComponent', 'selector': 'app-working-list-schedule-preescreen'},{'name': 'WorkingListScheduleScreenDialogComponent', 'selector': 'app-working-list-schedule-screen-dialog'},{'name': 'WorkingListSmsDialogComponent', 'selector': 'app-working-list-sms-dialog'}];
+    var DIRECTIVES = [{'name': 'MorrisChartDirective', 'selector': '[mk-morris-js]'},{'name': 'NgxMatSelectDirective', 'selector': 'mat-select[ngxMatSelect]'},{'name': 'NgxMatSelectMediaTracker', 'selector': ''},{'name': 'TimeRangeValidatorDirective', 'selector': '[appTimeRangeValidator]'}];
+    var ACTUAL_COMPONENT = {'name': 'ArchivesComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'ArchivesComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
