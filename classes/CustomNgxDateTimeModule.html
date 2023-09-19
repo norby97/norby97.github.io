@@ -452,7 +452,6 @@ import { NGX_MAT_SELECT_CONFIGS, NgxMatSelectConfigs } from &#x27;./directives/n
 import { NgxMatSelectInitializer } from &#x27;./directives/ngx-mat-select/ngx-mat-select-initializer&#x27;;
 import { NgxMatSelectModule } from &#x27;./directives/ngx-mat-select/ngx-mat-select.module&#x27;;
 import { LabelGeneratorComponent } from &#x27;./components/regulatory/label-generator/label-generator.component&#x27;;
-import { WindowService } from &#x27;./services/utils/window.service&#x27;;
 import { ArchivesComponent } from &#x27;./components/regulatory/archives/archives.component&#x27;;
 import { ScanBoxDialogComponent } from &#x27;./components/common/dialogs/regulatory/scan-box-dialog/scan-box-dialog.component&#x27;;
 import { ImportCsvRecruitingDialogComponent } from &#x27;./components/common/dialogs/ctms/import-csv-recruiting-dialog/import-csv-recruiting-dialog.component&#x27;;
@@ -483,6 +482,11 @@ import { BusinessHoursHolidaysDialogComponent } from &#x27;./components/common/d
 import { StudyKnowledgebaseDialogComponent } from &#x27;./components/common/dialogs/utils/study-knowledgebase-dialog/study-knowledgebase-dialog.component&#x27;;
 import { FinanceAdCalendarComponent } from &#x27;./components/finance/finance-ad-calendar/finance-ad-calendar.component&#x27;;
 import { PatientTrackingLoadComponent } from &#x27;./components/ctms/patient-tracking-load/patient-tracking-load.component&#x27;;
+import { CopiedMessageComponent } from &#x27;./services/messages/copied-message.component&#x27;;
+import { FileResponseMessageComponent } from &#x27;./services/messages/file-response-message.component&#x27;;
+import { FolderDragMessageComponent } from &#x27;./services/messages/folder-drag-message.component&#x27;;
+import { NotAllowedMessageComponent } from &#x27;./services/messages/not-allowed-message.component&#x27;;
+import { PlaceholderDragMessageComponent } from &#x27;./services/messages/placeholder-drag-message.component&#x27;;
 
 
 
@@ -850,7 +854,12 @@ export class CustomNgxDateTimeModule { }
         BusinessHoursHolidaysDialogComponent,
         StudyKnowledgebaseDialogComponent,
         FinanceAdCalendarComponent,
-        PatientTrackingLoadComponent
+        PatientTrackingLoadComponent,
+        CopiedMessageComponent,
+        FileResponseMessageComponent,
+        FolderDragMessageComponent,
+        NotAllowedMessageComponent,
+        PlaceholderDragMessageComponent,
     ],
     imports: [
         ToastrModule.forRoot({
@@ -924,7 +933,7 @@ export class CustomNgxDateTimeModule { }
         MatTreeModule,
         MatCheckboxModule
     ],
-    providers: [BnNgIdleService,AuthenticationService,DatePipe,NgxMatCalendarHeader,WindowService,CheckboxListService,
+    providers: [BnNgIdleService,DatePipe,NgxMatCalendarHeader,
         { provide: HTTP_INTERCEPTORS, useClass: HttpRequestInterceptor, multi: true},
         { provide: MAT_DIALOG_DATA, useValue: {} },
         { provide: DateAdapter, useClass: MomentDateAdapter, deps: [MAT_DATE_LOCALE] },
@@ -933,13 +942,8 @@ export class CustomNgxDateTimeModule { }
         { provide: NgxMatDateAdapter,useClass: CustomNgxDatetimeAdapter,deps: [MAT_DATE_LOCALE, MAT_MOMENT_DATE_ADAPTER_OPTIONS]},
         { provide: APP_INITIALIZER, useFactory: init_app, deps: [AppLoadService], multi: true },
         { provide: &#x27;externalUrlRedirectResolver&#x27;, useValue: (route: ActivatedRouteSnapshot, state: RouterStateSnapshot) &#x3D;&gt; { window.location.href &#x3D; (route.data as any).externalUrl;}},
-        {provide: NGX_MAT_SELECT_CONFIGS, useValue: NgxMatSelectConfigs},
-        NgxMatSelectInitializer,
-        {
-          provide: MAT_DIALOG_SCROLL_STRATEGY,
-          useFactory: (scrollStrategyOptions: ScrollStrategyOptions) &#x3D;&gt; scrollStrategyOptions.noop,
-          deps: [ScrollStrategyOptions]
-        },
+        { provide: NGX_MAT_SELECT_CONFIGS, useValue: NgxMatSelectConfigs},
+        { provide: MAT_DIALOG_SCROLL_STRATEGY,useFactory: (scrollStrategyOptions: ScrollStrategyOptions) &#x3D;&gt; scrollStrategyOptions.noop,deps: [ScrollStrategyOptions]},
         { provide: APP_INITIALIZER, deps: [NgxMatSelectInitializer],useFactory: nInit,multi: true }
     ],
     bootstrap: [AppComponent],
